@@ -123,7 +123,7 @@ def make(reel):
         layer = f"tmp/{name}_{i}.png"; logo_layer(sc.get("cap", "")).save(layer)
         out = f"tmp/{name}_{i}.mp4"
         extra = FADE if i < len(reel["scenes"]) + 1 else 0
-        if sc.get("card"): card_scene(sc["card"], d + extra, layer, out)
+        if sc.get("card"): card_scene(sc["card"], d + extra, layer, out, crop=tuple(sc["crop"]) if sc.get("crop") else None)
         else: broll_scene(fetch_clip(sc["clips"], zlib.crc32(f'{name}{i}'.encode()), used), d + extra, layer, out)
         scenes.append((out, d, a))
     # end card: Beautilook bottles

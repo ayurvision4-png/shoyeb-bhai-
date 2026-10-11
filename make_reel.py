@@ -160,6 +160,12 @@ def make(reel):
         out = f"tmp/{name}_{i}.mp4"
         extra = FADE if i < len(reel["scenes"]) + 1 else 0
         if sc.get("card"): card_scene(sc["card"], d + extra, layer, out, crop=tuple(sc["crop"]) if sc.get("crop") else None)
+        elif sc.get("multi"):
+            n = len(sc["multi"]); each = (d + extra) / n; parts = []
+            for j, pats in enumerate(sc["multi"]):
+                pj = f"tmp/{name}_{i}_{j}.mp4"; broll_scene(fetch_clip(pats, zlib.crc32(f'{name}{i}{j}'.encode()), used), each + 0.05, layer, pj); parts.append(pj)
+            open(f"tmp/{name}_{i}.txt", "w").write("".join(f"file '{os.path.abspath(p)}'\n" for p in parts))
+            run(["ffmpeg","-y","-f","concat","-safe","0","-i",f"tmp/{name}_{i}.txt","-c","copy",out])
         else: broll_scene(fetch_clip(sc["clips"], zlib.crc32(f'{name}{i}'.encode()), used), d + extra, layer, out)
         scenes.append((out, d, a))
     # end card: Beautilook bottles

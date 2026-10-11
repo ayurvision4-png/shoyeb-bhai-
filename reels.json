@@ -380,5 +380,79 @@
   ],
   "end_say": "Poora combo jaanne ke liye DM mein COMBO likho, ya WhatsApp karo.",
   "end_cap": "DM: COMBO"
+ },
+ {
+  "name": "beautilook_script1",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   614,
+   871,
+   188
+  ],
+  "scenes": [
+   {
+    "say": "Want to feel more confident, healthy, and comfortable in your own skin?",
+    "cap": "Feel confident. Feel healthy.",
+    "multi": [
+     [
+      "adult-woman-looking-in-the-mirror"
+     ],
+     [
+      "portrait-of-a-happy-smiling-woman",
+      "close-up-of-a-smiling-womans-face"
+     ]
+    ]
+   },
+   {
+    "say": "Discover TeamEx Beautilook. Your partner on your wellness journey!",
+    "cap": "TEAMEX BEAUTILOOK",
+    "card": [
+     "cutouts/1000153679.png"
+    ]
+   },
+   {
+    "say": "Combine your wellness routine with balanced nutrition, regular activity, and healthy habits.",
+    "cap": "Balanced nutrition. Active life.",
+    "multi": [
+     [
+      "girl-eating-healthy",
+      "eating-salad-with-a-fork",
+      "preparing-a-bowl-with-yogurt-and-fruit"
+     ],
+     [
+      "slowly-walking-down-a-path-in-a-park",
+      "backlit-woman-walking-at-sunset",
+      "walking-of-a-person-on-the-path-of-a-forest"
+     ],
+     [
+      "woman-doing-yoga-outdoors",
+      "woman-running-happily-on-the-beach"
+     ]
+    ]
+   },
+   {
+    "say": "Your wellness journey starts with you! Choose TeamEx Beautilook, and take your next step toward a healthier lifestyle.",
+    "cap": "Your wellness journey starts with you!",
+    "multi": [
+     [
+      "portrait-of-a-woman-smiling-happily-at-the-camera",
+      "young-enterprising-woman-smiling-confident"
+     ],
+     [
+      "woman-meditating-in-nature",
+      "the-silhouette-of-a-woman-at-sunrise"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "TeamEx Beautilook. Feel good. Live well. Love yourself!",
+  "end_cap": "Feel good. Live well. Love yourself!"
  }
 ]

@@ -293,5 +293,92 @@
   ],
   "end_say": "पूरा कॉम्बो जानने के लिए DM में COMBO लिखिए, या WhatsApp कीजिए।",
   "end_cap": "DM में लिखें: COMBO"
+ },
+ {
+  "name": "beautilook_combo3",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+4%",
+  "theme": "light",
+  "capsize": 72,
+  "fade": 0.3,
+  "music": [
+   614,
+   871,
+   188
+  ],
+  "scenes": [
+   {
+    "say": "Subah uthte hi thakaan? Bhaari pet?",
+    "cap": "Thakaan? Bhaari pet?",
+    "clips": [
+     "honey-dipper",
+     "woman-stretching-in-the-morning",
+     "woman-turning-off-her-alarm"
+    ]
+   },
+   {
+    "say": "Bas ek cheez se kaam nahi chalta.",
+    "cap": "Sirf ek cheez kaafi nahi",
+    "clips": [
+     "slow-motion-water-splash-on-leaves",
+     "adult-woman-looking-in-the-mirror",
+     "orange-slices-splashing-in-water"
+    ]
+   },
+   {
+    "say": "Teamex Beautilook. Teen step ka, ninety din ka herbal program.",
+    "cap": "BEAUTILOOK 3-Step Program",
+    "card": [
+     "cutouts/1000153679.png"
+    ]
+   },
+   {
+    "say": "Subah, shaam aur raat. Garam paani ke saath.",
+    "cap": "Subah | Shaam | Raat",
+    "clips": [
+     "the-silhouette-of-a-woman-at-sunrise",
+     "girl-meditating-in-yoga-pose-at-sunset",
+     "woman-doing-yoga-by-the-sea-at-sunset"
+    ]
+   },
+   {
+    "say": "CMD Mineral Drops. Paani mein milao, minerals ke saath hydration ko support karo.",
+    "cap": "CMD Mineral Drops",
+    "card": [
+     "cutouts/1000153686.png"
+    ]
+   },
+   {
+    "say": "Slim Tea. Chhe jadi-bootiyon wali chai.",
+    "cap": "Slim Tea - 6 Herbs",
+    "card": [
+     "cutouts/1000153684.png"
+    ]
+   },
+   {
+    "say": "Tulsi Drops. Roz ki immunity ko support.",
+    "cap": "Tulsi Drops",
+    "card": [
+     "cutouts/1000153688.png"
+    ]
+   },
+   {
+    "say": "Ayurveda ka poora routine.",
+    "cap": "Ayurveda ka poora routine",
+    "clips": [
+     "woman-running-happily-on-the-beach",
+     "happy-woman-running-thru-a-camomile-field",
+     "excited-woman-running-towards-the-sunset"
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png",
+   "cutouts/1000153686.png",
+   "cutouts/1000153684.png",
+   "cutouts/1000153688.png"
+  ],
+  "end_say": "Poora combo jaanne ke liye DM mein COMBO likho, ya WhatsApp karo.",
+  "end_cap": "DM: COMBO"
  }
 ]

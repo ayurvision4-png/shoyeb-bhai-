@@ -35,11 +35,15 @@ def fetch_clip(patterns, seed, used):
         except Exception: continue
     raise RuntimeError(f"download failed {cid}")
 
+CAPSIZE = 62
+LIGHT = False
+RATE = "-4%"
 def tts(text, voice, out):
     import edge_tts
-    asyncio.run(edge_tts.Communicate(text, voice, rate="-4%").save(out))
+    asyncio.run(edge_tts.Communicate(text, voice, rate=RATE).save(out))
 
 def draw_mixed(d, cx, y, text, size, fill, shadow=True):
+    shadow = shadow and fill == 'white'
     fd, fl = ImageFont.truetype(DEVA, size), ImageFont.truetype(LATIN, int(size*0.86))
     runs, cur, kind = [], "", None
     for ch in text:
@@ -55,14 +59,15 @@ def draw_mixed(d, cx, y, text, size, fill, shadow=True):
         if shadow: d.text((x+2, y+2), t, font=f, fill=(0,0,0,170))
         d.text((x, y), t, font=f, fill=fill); x += d.textlength(t, font=f)
 
-def logo_layer(caption, big=False):
+def logo_layer(caption, light=False):
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-    for yy in range(420): d.line((0, yy, W, yy), fill=(0, 0, 0, int(120*(1-yy/420))))
-    for yy in range(650): d.line((0, H-650+yy, W, H-650+yy), fill=(0, 0, 0, int(150*yy/650)))
+    ink = (70, 45, 20) if light else "white"
+    for yy in range(0 if light else 420): d.line((0, yy, W, yy), fill=(0, 0, 0, int(120*(1-yy/420))))
+    for yy in range(0 if light else 650): d.line((0, H-650+yy, W, H-650+yy), fill=(0, 0, 0, int(150*yy/650)))
     f = ImageFont.truetype(LATIN, 64)
     t = "TEAMEX"; w = d.textlength(t, font=f)
-    d.text(((W-w)/2+3, 123), t, font=f, fill=(0,0,0,110)); d.text(((W-w)/2, 120), t, font=f, fill="white")
-    d.text(((W+w)/2+4, 118), "®", font=ImageFont.truetype(LATIN, 24), fill="white")
+    d.text(((W-w)/2, 120), t, font=f, fill=ink)
+    d.text(((W+w)/2+4, 118), "®", font=ImageFont.truetype(LATIN, 24), fill=ink)
     if caption:
         fc = ImageFont.truetype(DEVA, 62)
         lines, cur = [], ""
@@ -71,9 +76,9 @@ def logo_layer(caption, big=False):
             else: cur = (cur+" "+wd).strip()
         lines.append(cur)
         y = 1560 - 40*(len(lines)-1)
-        for ln in lines: draw_mixed(d, W/2, y, ln, 62, "white"); y += 84
+        for ln in lines: draw_mixed(d, W/2, y, ln, CAPSIZE, ink); y += 84
     fw = ImageFont.truetype(LATIN, 40); w = d.textlength(WATERMARK, font=fw)
-    d.text(((W-w)/2, H/2-20), WATERMARK, font=fw, fill=(255,255,255,95))
+    d.text(((W-w)/2, H/2-20), WATERMARK, font=fw, fill=(70,45,20,120) if light else (255,255,255,95))
     return im
 
 def broll_scene(clip, secs, layer_png, out):
@@ -98,6 +103,9 @@ def combo_image():
     bg.save("tmp/combo_full.png"); return "tmp/combo_full.png"
 
 def dark_bg():
+    if LIGHT:
+        bg = Image.new("RGB", (W, H), (247, 240, 227)); gl = Image.new("RGB", (W, H), (255, 255, 255)); ImageDraw.Draw(gl).ellipse((60, 420, 1020, 1480), fill=(214, 232, 190))
+        return Image.blend(bg, gl.filter(ImageFilter.GaussianBlur(200)), 0.7)
     bg = Image.new("RGB", (W, H), (14, 11, 8))
     glow = Image.new("RGB", (W, H), (0, 0, 0)); g = ImageDraw.Draw(glow); g.ellipse((60, 520, 1020, 1480), fill=(150, 100, 30))
     return Image.blend(bg, glow.filter(ImageFilter.GaussianBlur(230)), 0.85)
@@ -142,11 +150,13 @@ def card_scene(photo, secs, layer_png, out, dark=True, crop=None):
          "-c:v","libx264","-preset","veryfast","-crf","20",out])
 
 def make(reel):
-    name, voice = reel["name"], (MALE if reel.get("voice") == "male" else FEMALE)
+    global RATE, CAPSIZE, LIGHT, FADE
+    name, voice = reel["name"], reel.get("voice_name") or (MALE if reel.get("voice") == "male" else FEMALE)
+    RATE, CAPSIZE, LIGHT, FADE = reel.get("rate", "-4%"), reel.get("capsize", 62), reel.get("theme") == "light", reel.get("fade", 0.5)
     used, scenes, t0 = set(), [], 0.0
     for i, sc in enumerate(reel["scenes"]):
         a = f"tmp/{name}_{i}.mp3"; tts(sc["say"], voice, a); d = dur(a) + 0.15
-        layer = f"tmp/{name}_{i}.png"; logo_layer(sc.get("cap", "")).save(layer)
+        layer = f"tmp/{name}_{i}.png"; logo_layer(sc.get("cap", ""), light=LIGHT and "card" in sc).save(layer)
         out = f"tmp/{name}_{i}.mp4"
         extra = FADE if i < len(reel["scenes"]) + 1 else 0
         if sc.get("card"): card_scene(sc["card"], d + extra, layer, out, crop=tuple(sc["crop"]) if sc.get("crop") else None)
@@ -154,7 +164,7 @@ def make(reel):
         scenes.append((out, d, a))
     # end card: Beautilook bottles
     ea = f"tmp/{name}_end.mp3"; tts(reel["end_say"], voice, ea); ed = dur(ea) + 0.8
-    elayer = f"tmp/{name}_end.png"; logo_layer(reel.get("end_cap", "")).save(elayer)
+    elayer = f"tmp/{name}_end.png"; logo_layer(reel.get("end_cap", ""), light=LIGHT).save(elayer)
     card_scene(reel.get("end_cut") or "1000153679.jpg", ed, elayer, f"tmp/{name}_end.mp4", crop=None if reel.get("end_cut") else (90, 40, 1090, 530))
     scenes.append((f"tmp/{name}_end.mp4", ed, ea))
     # video: xfade chain

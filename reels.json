@@ -68,5 +68,62 @@
   ],
   "end_say": "ज़्यादा जानने के लिए DM में CURCUMIN लिखिए, या WhatsApp कीजिए।",
   "end_cap": "DM में लिखें: CURCUMIN"
+ },
+ {
+  "name": "combo_beautilook",
+  "voice": "female",
+  "scenes": [
+   {
+    "say": "फिट रहने का सफ़र सिर्फ़ एक चीज़ से नहीं बनता।",
+    "cap": "सिर्फ़ एक चीज़ काफ़ी नहीं",
+    "clips": [
+     "woman-stretching-in-the-morning",
+     "woman-turning-off-her-alarm"
+    ]
+   },
+   {
+    "say": "सुबह की शुरुआत स्लिम टी से। हिबिस्कस, सौंफ, दालचीनी और अदरक के साथ।",
+    "cap": "सुबह: Slim Tea",
+    "clips": [
+     "drinking-tea-on-a-cool-morning",
+     "cheerful-woman-drinking",
+     "woman-dancing-and-drinking-coffee"
+    ]
+   },
+   {
+    "say": "दिन भर पानी में सीएमडी मिनरल ड्रॉप्स, अल्कलाइन और मिनरल युक्त पानी के लिए।",
+    "cap": "दिनभर: CMD Mineral Drops",
+    "clips": [
+     "slim-woman-sips-water",
+     "woman-hydrating",
+     "woman-drinks-from-water-bottle"
+    ]
+   },
+   {
+    "say": "रोज़ की इम्युनिटी के लिए तुलसी ड्रॉप्स, पाँच तरह की तुलसी के साथ।",
+    "cap": "इम्युनिटी: Tulsi Drops",
+    "clips": [
+     "green-herbs-with-small-purple",
+     "detailed-view-of-the-dry-herbs",
+     "small-pink-flowers"
+    ]
+   },
+   {
+    "say": "और इन सबके साथ टीमेक्स ब्यूटीलुक का तीन स्टेप रूटीन। सुबह, शाम और रात।",
+    "cap": "Beautilook: सुबह · शाम · रात",
+    "clips": [
+     "silhouette-of-a-woman-doing-yoga-at-sunset",
+     "the-silhouette-of-a-woman-at-sunrise",
+     "woman-meditating-in-nature"
+    ]
+   },
+   {
+    "say": "ब्यूटीलुक के साथ स्लिम टी, सीएमडी और तुलसी। आयुर्वेद का पूरा वेलनेस रूटीन।",
+    "cap": "आयुर्वेद का पूरा रूटीन",
+    "card": "COMBO"
+   }
+  ],
+  "end_say": "अपना रूटीन जानने के लिए DM में COMBO लिखिए, या WhatsApp कीजिए।",
+  "end_cap": "DM में लिखें: COMBO"
  }
 ]

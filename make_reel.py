@@ -1,7 +1,7 @@
 """Reference-style Teamex reels: stock b-roll (Mixkit, free license) + short captions + TEAMEX logo
 + Hindi voice (edge-tts) + soft music + product card + Beautilook end card. No prices.
 Usage: python make_reel.py <reel_name> [...]   (reels defined in reels.json)"""
-import zlib, os, sys, json, re, subprocess, asyncio, urllib.request, hashlib, random
+import shutil, zlib, os, sys, json, re, subprocess, asyncio, urllib.request, hashlib, random
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 
 W, H, FPS, FADE = 1080, 1920, 30, 0.5
@@ -83,7 +83,25 @@ def broll_scene(clip, secs, layer_png, out):
     run(["ffmpeg","-y","-stream_loop","-1","-i",clip,"-i",layer_png,"-t",f"{secs:.2f}","-filter_complex",vf,"-map","[o]","-an",
          "-c:v","libx264","-preset","veryfast","-crf","20",out])
 
+def combo_image():
+    bg = Image.new("RGB", (W, H), (18, 14, 10))
+    glow = Image.new("RGB", (W, H), (0, 0, 0)); ImageDraw.Draw(glow).ellipse((100, 650, 980, 1500), fill=(120, 80, 20))
+    bg = Image.blend(bg, glow.filter(ImageFilter.GaussianBlur(220)), 0.8)
+    def tile(path, crop, w, h):
+        im = Image.open(path).convert("RGB").crop(crop); s = min((w-20)/im.width, (h-20)/im.height)
+        im = im.resize((int(im.width*s), int(im.height*s)))
+        t = Image.new("RGB", (w, h), (244, 242, 238)); t.paste(im, ((w-im.width)//2, (h-im.height)//2))
+        m = Image.new("L", (w, h), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, w, h), 36, fill=255); return t, m
+    t, m = tile("1000153679.jpg", (90, 40, 1090, 530), 960, 470); bg.paste(t, (60, 330), m)
+    for k, (p, c) in enumerate([("1000153684.jpg", (20, 130, 556, 970)), ("1000153686.jpg", (60, 200, 470, 970)), ("1000153688.jpg", (110, 330, 440, 830))]):
+        t, m = tile(p, c, 300, 560); bg.paste(t, (60 + k*330, 830), m)
+    bg.save("tmp/combo_full.png"); return "tmp/combo_full.png"
+
 def card_scene(photo, secs, layer_png, out, dark=True, crop=None):
+    if photo == "COMBO":
+        combo_image(); shutil.copy("tmp/combo_full.png", "tmp/card.png")
+        vf = (f"[0:v]scale={W*1.1:.0f}:-2,zoompan=z='1+0.0008*on':d={int(secs*FPS)}:s={W}x{H}:fps={FPS}[b];[b][1:v]overlay,format=yuv420p[o]")
+        run(["ffmpeg","-y","-loop","1","-i","tmp/card.png","-i",layer_png,"-t",f"{secs:.2f}","-filter_complex",vf,"-map","[o]","-an","-c:v","libx264","-preset","veryfast","-crf","20",out]); return
     im = Image.open(photo).convert("RGB")
     if crop: im = im.crop(crop)
     bg = Image.new("RGB", (W, H), (18, 14, 10))

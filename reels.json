@@ -454,5 +454,79 @@
   ],
   "end_say": "TeamEx Beautilook. Feel good. Live well. Love yourself!",
   "end_cap": "Feel good. Live well. Love yourself!"
+ },
+ {
+  "name": "beautilook_script2",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   614,
+   871,
+   188
+  ],
+  "scenes": [
+   {
+    "say": "Khud ko fit, confident aur healthy feel karna chahte ho? Toh apni wellness journey ki shuruaat aaj hi karo!",
+    "cap": "Fit. Confident. Healthy.",
+    "multi": [
+     [
+      "adult-woman-looking-in-the-mirror"
+     ],
+     [
+      "portrait-of-a-happy-smiling-woman",
+      "close-up-of-a-smiling-womans-face"
+     ]
+    ]
+   },
+   {
+    "say": "Introducing TeamEx Beautilook. Aapki wellness journey ka ek naya saathi!",
+    "cap": "TEAMEX BEAUTILOOK",
+    "card": [
+     "cutouts/1000153679.png"
+    ]
+   },
+   {
+    "say": "Balanced diet, regular activity aur healthy habits ke saath, apni wellness routine ko banayein aur bhi behtar!",
+    "cap": "Balanced diet. Healthy habits.",
+    "multi": [
+     [
+      "girl-eating-healthy",
+      "eating-salad-with-a-fork",
+      "preparing-a-bowl-with-yogurt-and-fruit"
+     ],
+     [
+      "slowly-walking-down-a-path-in-a-park",
+      "backlit-woman-walking-at-sunset",
+      "walking-of-a-person-on-the-path-of-a-forest"
+     ],
+     [
+      "woman-doing-yoga-outdoors",
+      "woman-running-happily-on-the-beach"
+     ]
+    ]
+   },
+   {
+    "say": "Toh intezaar kis baat ka? Apni wellness journey ko dein ek nayi shuruaat. TeamEx Beautilook ke saath!",
+    "cap": "Ek nayi shuruaat",
+    "multi": [
+     [
+      "portrait-of-a-woman-smiling-happily-at-the-camera",
+      "young-enterprising-woman-smiling-confident"
+     ],
+     [
+      "woman-meditating-in-nature",
+      "the-silhouette-of-a-woman-at-sunrise"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "TeamEx Beautilook. Feel Good, Look Good, Live Better!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

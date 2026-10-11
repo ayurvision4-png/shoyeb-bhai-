@@ -21,33 +21,44 @@ def get(url, binary=False):
     d = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
     return d if binary else d.decode("utf8", "ignore")
 
-_cache = {}
-def mixkit_ids(slug):
-    if slug not in _cache:
-        try: html = get(f"https://mixkit.co/free-stock-video/{slug}/")
-        except Exception: html = ""
-        _cache[slug] = list(dict.fromkeys(re.findall(r"assets\.mixkit\.co/videos/(\d+)/\d+-360\.mp4", html)))
-    return _cache[slug]
-
-def fetch_clip(slugs, seed, used):
-    rnd = random.Random(seed)
-    for slug in slugs:
-        ids = [i for i in mixkit_ids(slug) if i not in used]
-        if not ids: continue
-        cid = rnd.choice(ids[:12]); used.add(cid)
-        for q in ("1080", "720", "360"):
-            path = f"tmp/clips/{cid}.mp4"
-            try:
-                open(path, "wb").write(get(f"https://assets.mixkit.co/videos/{cid}/{cid}-{q}.mp4", True)); return path
-            except Exception: continue
-    raise RuntimeError(f"no clip for {slugs}")
+SCOUT = [l.split("\t") for l in open("scout.txt").read().splitlines() if "\t" in l and not l.startswith("#")]
+def fetch_clip(patterns, seed, used):
+    rx = re.compile("|".join(patterns))
+    cands = [i for i, n in SCOUT if rx.search(n) and i not in used]
+    cands = list(dict.fromkeys(cands))
+    if not cands: raise RuntimeError(f"no clip for {patterns}")
+    cid = cands[seed % len(cands)]; used.add(cid)
+    for q in ("1080", "720", "360"):
+        path = f"tmp/clips/{cid}.mp4"
+        try:
+            open(path, "wb").write(get(f"https://assets.mixkit.co/videos/{cid}/{cid}-{q}.mp4", True)); return path
+        except Exception: continue
+    raise RuntimeError(f"download failed {cid}")
 
 def tts(text, voice, out):
     import edge_tts
     asyncio.run(edge_tts.Communicate(text, voice, rate="-4%").save(out))
 
+def draw_mixed(d, cx, y, text, size, fill, shadow=True):
+    fd, fl = ImageFont.truetype(DEVA, size), ImageFont.truetype(LATIN, int(size*0.86))
+    runs, cur, kind = [], "", None
+    for ch in text:
+        k = ch.isascii() and not ch.isspace()
+        if ch.isspace(): k = kind if kind is not None else False
+        if kind is None or k == kind: cur += ch
+        else: runs.append((cur, kind)); cur = ch
+        kind = k
+    runs.append((cur, kind))
+    tw = sum(d.textlength(t, font=fl if k else fd) for t, k in runs); x = cx - tw/2
+    for t, k in runs:
+        f = fl if k else fd
+        if shadow: d.text((x+2, y+2), t, font=f, fill=(0,0,0,170))
+        d.text((x, y), t, font=f, fill=fill); x += d.textlength(t, font=f)
+
 def logo_layer(caption, big=False):
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    for yy in range(420): d.line((0, yy, W, yy), fill=(0, 0, 0, int(120*(1-yy/420))))
+    for yy in range(650): d.line((0, H-650+yy, W, H-650+yy), fill=(0, 0, 0, int(150*yy/650)))
     f = ImageFont.truetype(LATIN, 64)
     t = "TEAMEX"; w = d.textlength(t, font=f)
     d.text(((W-w)/2+3, 123), t, font=f, fill=(0,0,0,110)); d.text(((W-w)/2, 120), t, font=f, fill="white")
@@ -60,9 +71,7 @@ def logo_layer(caption, big=False):
             else: cur = (cur+" "+wd).strip()
         lines.append(cur)
         y = 1560 - 40*(len(lines)-1)
-        for ln in lines:
-            w = d.textlength(ln, font=fc)
-            d.text(((W-w)/2+2, y+2), ln, font=fc, fill=(0,0,0,170)); d.text(((W-w)/2, y), ln, font=fc, fill="white"); y += 84
+        for ln in lines: draw_mixed(d, W/2, y, ln, 62, "white"); y += 84
     fw = ImageFont.truetype(LATIN, 40); w = d.textlength(WATERMARK, font=fw)
     d.text(((W-w)/2, H/2-20), WATERMARK, font=fw, fill=(255,255,255,95))
     return im
@@ -80,10 +89,10 @@ def card_scene(photo, secs, layer_png, out, dark=True, crop=None):
     bg = Image.new("RGB", (W, H), (18, 14, 10))
     glow = Image.new("RGB", (W, H), (0, 0, 0)); g = ImageDraw.Draw(glow); g.ellipse((100, 650, 980, 1500), fill=(120, 80, 20))
     bg = Image.blend(bg, glow.filter(ImageFilter.GaussianBlur(220)), 0.8)
-    s = min(860/im.width, 1050/im.height); im = im.resize((int(im.width*s), int(im.height*s)))
+    s = min(980/im.width, 1150/im.height); im = im.resize((int(im.width*s), int(im.height*s)))
     # soften photo background edges with a rounded mask
     m = Image.new("L", im.size, 0); ImageDraw.Draw(m).rounded_rectangle((0,0,im.width,im.height), 40, fill=255)
-    bg.paste(im, ((W-im.width)//2, 430), m); bg.save("tmp/card.png")
+    bg.paste(im, ((W-im.width)//2, 380), m); bg.save("tmp/card.png")
     vf = (f"[0:v]scale={W*1.1:.0f}:-2,zoompan=z='1+0.0008*on':d={int(secs*FPS)}:s={W}x{H}:fps={FPS}[b];[b][1:v]overlay,format=yuv420p[o]")
     run(["ffmpeg","-y","-loop","1","-i","tmp/card.png","-i",layer_png,"-t",f"{secs:.2f}","-filter_complex",vf,"-map","[o]","-an",
          "-c:v","libx264","-preset","veryfast","-crf","20",out])

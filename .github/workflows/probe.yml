@@ -1,0 +1,18 @@
+name: probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p probe
+          for u in https://mixkit.co/free-stock-video/herbs/ https://mixkit.co/free-stock-video/nature/ https://www.pexels.com/search/videos/ayurveda/ https://commons.wikimedia.org/w/api.php https://pixabay.com/videos/search/herbs/ https://www.coverr.co/s/nature; do
+            echo "$u $(curl -sL -m 20 -A 'Mozilla/5.0' -o /tmp/o.html -w '%{http_code} %{size_download}' $u)" >> probe/result.txt
+          done
+          curl -sL -A 'Mozilla/5.0' https://mixkit.co/free-stock-video/herbs/ | grep -o 'https://assets.mixkit.co/[^"]*\.mp4' | sort -u | head -10 >> probe/result.txt
+          git config user.name github-actions && git config user.email actions@github.com
+          git add probe && git commit -m probe && git push

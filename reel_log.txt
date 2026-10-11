@@ -1,1 +1,1 @@
-done beautilook_combo2 42.7 s
+done beautilook_combo3 44.0 s

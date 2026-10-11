@@ -1,0 +1,13 @@
+[
+ {"name": "sample_nano_curcumin", "voice": "female",
+  "scenes": [
+   {"say": "हल्दी। सदियों से भारत की सबसे भरोसेमंद आयुर्वेदिक जड़ी-बूटी।", "cap": "सदियों पुराना भरोसा", "clips": ["turmeric", "spices", "herbs"]},
+   {"say": "लेकिन साधारण हल्दी शरीर में पूरी तरह घुल नहीं पाती।", "cap": "अवशोषण भी मायने रखता है", "clips": ["molecule", "science", "chemistry", "laboratory"]},
+   {"say": "नैनो टेक्नोलॉजी इसे बहुत छोटे कणों में बदल देती है।", "cap": "नैनो टेक्नोलॉजी", "clips": ["laboratory", "science", "chemistry"]},
+   {"say": "ताकि शरीर इसे बेहतर तरीके से सोख सके।", "cap": "बेहतर अवशोषण", "clips": ["woman-drinking-water", "drinking-water", "water"]},
+   {"say": "रोज़ की सेहत और जोड़ों की मज़बूती को सपोर्ट करने में मदद करता है।", "cap": "जोड़ों की सेहत को सपोर्ट", "clips": ["yoga", "stretching", "running"]},
+   {"say": "आयुर्वेद की परंपरा, आज के विज्ञान के साथ।", "cap": "परंपरागत वेलनेस", "clips": ["yoga", "meditation", "nature"]},
+   {"say": "Teamex नैनो करक्यूमिन।", "cap": "Teamex नैनो करक्यूमिन", "card": "nano_curcumin.png"}
+  ],
+  "end_say": "ज़्यादा जानने के लिए DM में CURCUMIN लिखिए, या WhatsApp कीजिए।", "end_cap": "DM में लिखें: CURCUMIN"}
+]

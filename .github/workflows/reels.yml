@@ -1,0 +1,19 @@
+name: make-reels
+on:
+  workflow_dispatch:
+  push:
+    paths: ['reel_request.txt', 'reels.json', 'make_reel.py']
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core fonts-noto-core && pip install -q edge-tts pillow
+      - run: python make_reel.py $(cat reel_request.txt) 2>&1 | tee reel_log.txt
+      - if: always()
+        run: |
+          mkdir -p reels2 && cp videos/*.mp4 reels2/ 2>/dev/null || true
+          git config user.name github-actions && git config user.email actions@github.com
+          git add reels2 reel_log.txt && git commit -m "Rendered reels" && git pull --rebase -q && git push

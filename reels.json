@@ -220,5 +220,78 @@
   ],
   "end_say": "पूरा कॉम्बो जानने के लिए DM में COMBO लिखिए, या WhatsApp कीजिए।",
   "end_cap": "DM में लिखें: COMBO"
+ },
+ {
+  "name": "beautilook_combo2",
+  "voice": "male",
+  "music": [
+   127,
+   292,
+   184
+  ],
+  "scenes": [
+   {
+    "say": "वज़न की चिंता? सिर्फ़ एक चीज़ से बात नहीं बनती।",
+    "cap": "सिर्फ़ एक चीज़ काफ़ी नहीं",
+    "clips": [
+     "adult-woman-looking-in-the-mirror",
+     "woman-stretching-in-the-morning"
+    ]
+   },
+   {
+    "say": "टीमेक्स ब्यूटीलुक। तीन स्टेप का नब्बे दिन का हर्बल प्रोग्राम।",
+    "cap": "ब्यूटीलुक: 3 स्टेप प्रोग्राम",
+    "card": [
+     "cutouts/1000153679.png"
+    ]
+   },
+   {
+    "say": "सुबह, शाम और रात। गर्म पानी के साथ।",
+    "cap": "सुबह – शाम – रात",
+    "clips": [
+     "woman-doing-yoga-outdoors",
+     "upward-and-downward",
+     "woman-doing-yoga-in-a-park"
+    ]
+   },
+   {
+    "say": "सीएमडी ड्रॉप्स। पानी में मिलाइए, मिनरल्स के साथ।",
+    "cap": "CMD मिनरल ड्रॉप्स",
+    "card": [
+     "cutouts/1000153686.png"
+    ]
+   },
+   {
+    "say": "स्लिम टी। छह जड़ी-बूटियों की चाय।",
+    "cap": "स्लिम टी – 6 जड़ी-बूटियाँ",
+    "card": [
+     "cutouts/1000153684.png"
+    ]
+   },
+   {
+    "say": "तुलसी ड्रॉप्स। रोज़ की इम्यूनिटी को सपोर्ट।",
+    "cap": "तुलसी ड्रॉप्स",
+    "card": [
+     "cutouts/1000153688.png"
+    ]
+   },
+   {
+    "say": "आयुर्वेद का पूरा रूटीन।",
+    "cap": "आयुर्वेद का साथ",
+    "clips": [
+     "woman-running-happily-on-the-beach",
+     "happy-woman-running-thru-a-camomile-field",
+     "excited-woman-running-towards-the-sunset"
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png",
+   "cutouts/1000153686.png",
+   "cutouts/1000153684.png",
+   "cutouts/1000153688.png"
+  ],
+  "end_say": "पूरा कॉम्बो जानने के लिए DM में COMBO लिखिए, या WhatsApp कीजिए।",
+  "end_cap": "DM में लिखें: COMBO"
  }
 ]

@@ -97,7 +97,33 @@ def combo_image():
         t, m = tile(p, c, 300, 560); bg.paste(t, (60 + k*330, 830), m)
     bg.save("tmp/combo_full.png"); return "tmp/combo_full.png"
 
+def dark_bg():
+    bg = Image.new("RGB", (W, H), (14, 11, 8))
+    glow = Image.new("RGB", (W, H), (0, 0, 0)); g = ImageDraw.Draw(glow); g.ellipse((60, 520, 1020, 1480), fill=(150, 100, 30))
+    return Image.blend(bg, glow.filter(ImageFilter.GaussianBlur(230)), 0.85)
+
+def paste_cut(bg, f, box_w, box_h, cx, top):
+    im = Image.open(f).convert("RGBA"); im = im.crop(im.getbbox())
+    sc = min(box_w/im.width, box_h/im.height); im = im.resize((int(im.width*sc), int(im.height*sc)), Image.LANCZOS)
+    x, y = int(cx - im.width/2), top
+    sh = Image.new("RGBA", bg.size, (0,0,0,0)); ImageDraw.Draw(sh).ellipse((x, y+im.height-25, x+im.width, y+im.height+35), fill=(0,0,0,170))
+    bg.paste(Image.alpha_composite(bg.convert("RGBA"), sh.filter(ImageFilter.GaussianBlur(18))).convert("RGB"))
+    bg.paste(im, (x, y), im)
+
+def card_cut(files, out_png):
+    bg = dark_bg()
+    if len(files) == 1: paste_cut(bg, files[0], 880, 1000, W/2, 340)
+    else:
+        paste_cut(bg, files[0], 940, 420, W/2, 300)
+        n = len(files)-1; slot = W/(n)
+        for k, f in enumerate(files[1:]): paste_cut(bg, f, slot-60, 560, slot*k+slot/2, 800)
+    bg.save(out_png)
+
 def card_scene(photo, secs, layer_png, out, dark=True, crop=None):
+    if isinstance(photo, list):
+        card_cut(photo, "tmp/card.png")
+        vf = (f"[0:v]scale={W*1.1:.0f}:-2,zoompan=z='1+0.0008*on':d={int(secs*FPS)}:s={W}x{H}:fps={FPS}[b];[b][1:v]overlay,format=yuv420p[o]")
+        run(["ffmpeg","-y","-loop","1","-i","tmp/card.png","-i",layer_png,"-t",f"{secs:.2f}","-filter_complex",vf,"-map","[o]","-an","-c:v","libx264","-preset","veryfast","-crf","20",out]); return
     if photo == "COMBO":
         combo_image(); shutil.copy("tmp/combo_full.png", "tmp/card.png")
         vf = (f"[0:v]scale={W*1.1:.0f}:-2,zoompan=z='1+0.0008*on':d={int(secs*FPS)}:s={W}x{H}:fps={FPS}[b];[b][1:v]overlay,format=yuv420p[o]")
@@ -119,7 +145,7 @@ def make(reel):
     name, voice = reel["name"], (MALE if reel.get("voice") == "male" else FEMALE)
     used, scenes, t0 = set(), [], 0.0
     for i, sc in enumerate(reel["scenes"]):
-        a = f"tmp/{name}_{i}.mp3"; tts(sc["say"], voice, a); d = dur(a) + 0.35
+        a = f"tmp/{name}_{i}.mp3"; tts(sc["say"], voice, a); d = dur(a) + 0.15
         layer = f"tmp/{name}_{i}.png"; logo_layer(sc.get("cap", "")).save(layer)
         out = f"tmp/{name}_{i}.mp4"
         extra = FADE if i < len(reel["scenes"]) + 1 else 0
@@ -129,7 +155,7 @@ def make(reel):
     # end card: Beautilook bottles
     ea = f"tmp/{name}_end.mp3"; tts(reel["end_say"], voice, ea); ed = dur(ea) + 0.8
     elayer = f"tmp/{name}_end.png"; logo_layer(reel.get("end_cap", "")).save(elayer)
-    card_scene("1000153679.jpg", ed, elayer, f"tmp/{name}_end.mp4", crop=(90, 40, 1090, 530))
+    card_scene(reel.get("end_cut") or "1000153679.jpg", ed, elayer, f"tmp/{name}_end.mp4", crop=None if reel.get("end_cut") else (90, 40, 1090, 530))
     scenes.append((f"tmp/{name}_end.mp4", ed, ea))
     # video: xfade chain
     inputs, fc, off, prev = [], [], 0.0, "0:v"
@@ -143,11 +169,17 @@ def make(reel):
     ains, af, start = [], [], 0.0
     for k, (p, d, a) in enumerate(scenes):
         ains += ["-i", a]; af.append(f"[{k}:a]adelay={int(start*1000)}|{int(start*1000)},volume=1.6[v{k}]"); start += d
-    mus = f"tmp/{name}_mus.m4a"
-    run(["ffmpeg","-y","-f","lavfi","-i",f"sine=f=110:d={total+1}","-f","lavfi","-i",f"sine=f=165:d={total+1}","-f","lavfi","-i",f"sine=f=220:d={total+1}",
-         "-filter_complex","[0:a][1:a][2:a]amix=inputs=3,tremolo=f=0.2:d=0.6,lowpass=f=700,volume=0.35,afade=t=in:d=2,afade=t=out:st=%.1f:d=2[m]"%(total-2),"-map","[m]",mus])
+    mus = f"tmp/{name}_mus.mp3"; ok = False
+    for mid in reel.get("music", [127, 292, 184]):
+        try: open(mus, "wb").write(get(f"https://assets.mixkit.co/music/{mid}/{mid}.mp3", True)); ok = True; break
+        except Exception: continue
+    if not ok:
+        run(["ffmpeg","-y","-f","lavfi","-i",f"sine=f=110:d={total+1}","-f","lavfi","-i",f"sine=f=165:d={total+1}","-filter_complex","[0:a][1:a]amix=inputs=2,lowpass=f=700,volume=0.4[m]","-map","[m]",mus])
     mix = "".join(f"[v{k}]" for k in range(len(scenes)))
-    run(["ffmpeg","-y",*ains,"-i",mus,"-filter_complex",";".join(af)+f";{mix}amix=inputs={len(scenes)}:normalize=0[vo];[vo][{len(scenes)}:a]amix=inputs=2:normalize=0:weights=1 0.35[a]",
+    run(["ffmpeg","-y",*ains,"-stream_loop","-1","-i",mus,"-filter_complex",";".join(af)+
+         f";{mix}amix=inputs={len(scenes)}:normalize=0,highpass=f=90,acompressor=threshold=-18dB:ratio=3,asplit=2[vo][sc];"
+         f"[{len(scenes)}:a]volume=0.5,afade=t=in:d=1.5[m];[m][sc]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=400[md];"
+         f"[vo][md]amix=inputs=2:normalize=0,afade=t=out:st={total-1.5:.1f}:d=1.5[a]",
          "-map","[a]","-t",f"{total:.2f}","-c:a","aac","-b:a","160k",f"tmp/{name}_a.m4a"])
     run(["ffmpeg","-y","-i",f"tmp/{name}_v.mp4","-i",f"tmp/{name}_a.m4a","-c:v","copy","-c:a","copy","-shortest","-movflags","+faststart",f"videos/{name}.mp4"])
     print("done", name, round(total, 1), "s")

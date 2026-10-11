@@ -1,0 +1,11 @@
+name: prep
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q "rembg[cpu]" onnxruntime pillow && python prep.py
+      - run: git config user.name gh && git config user.email a@b.c && git add music.txt cutouts && git commit -m prep && git pull --rebase -q && git push

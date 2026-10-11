@@ -1,0 +1,10 @@
+name: scout
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scout.py && git config user.name gh && git config user.email a@b.c && git add scout.txt && git commit -m scout && git pull --rebase -q && git push

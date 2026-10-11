@@ -97,6 +97,12 @@ PRODUCTS = [
          text='दिन भर की ताज़गी के लिए। टीमेक्स शिलाजीत गमी, खाने के बाद एक गमी, दिन में दो बार, जैसा पैक पर लिखा है। तीस गमी का पैक छह सौ निन्यानवे रुपये का। ऑर्डर के लिए व्हाट्सऐप करें।'),
 ]
 
+# --- no prices anywhere: strip price sentences from voiceover and "Rs ..." from on-screen text ---
+import re
+for _p in PRODUCTS:
+    _p["text"] = "".join(x + "।" for x in _p["text"].split("।") if x.strip() and "रुपये" not in x)
+    _p["cta"] = re.sub(r"\s*\|?\s*Rs\s*\d+", "", _p["cta"]).strip(" |")
+
 os.makedirs("videos", exist_ok=True); os.makedirs("tmp", exist_ok=True)
 
 def run(cmd): subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)

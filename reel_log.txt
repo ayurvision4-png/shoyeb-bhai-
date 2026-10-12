@@ -7,47 +7,44 @@ using gTTS backup
 using gTTS backup
 using gTTS backup
 using gTTS backup
-done p_noni_toothpaste 24.1 s
+done p_biotin_gummy 21.7 s
 using gTTS backup
 using gTTS backup
 using gTTS backup
 using gTTS backup
-done p_shewell_pad 23.0 s
+done p_boswellia 24.4 s
 using gTTS backup
 using gTTS backup
 using gTTS backup
 using gTTS backup
-done p_noni_drink 28.2 s
+done p_calcium_chewable 19.6 s
 using gTTS backup
 using gTTS backup
 using gTTS backup
 using gTTS backup
-done p_sea_buckthorn 25.7 s
+done p_nano_curcumin 23.2 s
 using gTTS backup
 using gTTS backup
 using gTTS backup
 using gTTS backup
-done p_red_aloevera 26.4 s
+done p_spirulina 21.8 s
 using gTTS backup
 using gTTS backup
 using gTTS backup
 using gTTS backup
-done p_livofit 27.2 s
+done p_detox_tablet 20.0 s
 using gTTS backup
 using gTTS backup
 using gTTS backup
 using gTTS backup
-done p_berry_drink 23.0 s
+done p_deep_sleep_gummy 19.4 s
 using gTTS backup
 using gTTS backup
 using gTTS backup
-Traceback (most recent call last):
-  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 218, in <module>
-    for n in sys.argv[1:]: make(reels[n])
-                           ^^^^^^^^^^^^^^
-  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 179, in make
-    pj = f"tmp/{name}_{i}_{j}.mp4"; broll_scene(fetch_clip(pats, zlib.crc32(f'{name}{i}{j}'.encode()), used), each + 0.05, layer, pj); parts.append(pj)
-                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 40, in fetch_clip
-    raise RuntimeError(f"download failed {patterns}")
-RuntimeError: download failed ['curly-hair|woman-with-curly-hair']
+using gTTS backup
+done p_multivitamin_gummy 21.3 s
+using gTTS backup
+using gTTS backup
+using gTTS backup
+using gTTS backup
+done p_shilajit_gummy 21.0 s

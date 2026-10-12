@@ -1,1 +1,1 @@
-beautilook_script1 beautilook_script2
+p_hand_wash p_noni_toothpaste p_shewell_pad p_noni_drink p_sea_buckthorn p_red_aloevera p_livofit p_berry_drink p_biotin_gummy p_boswellia p_calcium_chewable p_nano_curcumin p_spirulina p_detox_tablet p_deep_sleep_gummy p_multivitamin_gummy p_shilajit_gummy

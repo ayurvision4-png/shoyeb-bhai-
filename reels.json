@@ -528,5 +528,872 @@
   ],
   "end_say": "TeamEx Beautilook. Feel Good, Look Good, Live Better!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "p_hand_wash",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   614,
+   871,
+   188
+  ],
+  "scenes": [
+   {
+    "say": "Din mein kitni baar haath dhote ho?",
+    "cap": "Din mein kitni baar?",
+    "multi": [
+     [
+      "washing-hands|hands-in-the-bedroom|washing-their-hands"
+     ],
+     [
+      "woman-smiling|portrait-of-a-happy-smiling-woman"
+     ]
+    ]
+   },
+   {
+    "say": "Introducing TeamEx Hand Wash. Foaming formula, jo haathon ko saaf aur mulayam rakhta hai.",
+    "cap": "TEAMEX HAND WASH",
+    "card": [
+     "cutouts/handwash.png"
+    ]
+   },
+   {
+    "say": "Har tarah ki skin ke liye. Roz ki safai, ek aasaan aadat.",
+    "cap": "Clean hands. Soft skin.",
+    "multi": [
+     [
+      "child-washing-their-hands|doctor-washing-their-hands"
+     ],
+     [
+      "happy-woman|dancing"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/handwash.png"
+  ],
+  "end_say": "TeamEx Hand Wash. Clean hands, happy life! Order ke liye DM mein HANDWASH likho, ya WhatsApp karo.",
+  "end_cap": "Clean hands, happy life!"
+ },
+ {
+  "name": "p_noni_toothpaste",
+  "voice_name": "en-IN-PrabhatNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   127,
+   292,
+   184
+  ],
+  "scenes": [
+   {
+    "say": "Subah ki shuruaat herbal taazgi se!",
+    "cap": "Herbal taazgi",
+    "multi": [
+     [
+      "brushing-teeth|applying-toothpaste"
+     ],
+     [
+      "couple-brushing|kid-brushing"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Noni Toothpaste. Noni aur Aloe Vera ke saath.",
+    "cap": "TEAMEX NONI TOOTHPASTE",
+    "card": [
+     "cutouts/toothpaste.png"
+    ]
+   },
+   {
+    "say": "Roz ki daanton aur masoodon ki dekhbhaal, ek herbal andaaz mein.",
+    "cap": "Daanton ki daily care",
+    "multi": [
+     [
+      "brushing-teeth|couple-brushing"
+     ],
+     [
+      "smiling-woman|portrait-of-a-happy-smiling-woman"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/toothpaste.png"
+  ],
+  "end_say": "TeamEx Noni Toothpaste. Fresh smile, herbal care! Order ke liye DM mein TOOTHPASTE likho, ya WhatsApp karo.",
+  "end_cap": "Fresh smile, herbal care!"
+ },
+ {
+  "name": "p_shewell_pad",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   139,
+   749,
+   588
+  ],
+  "scenes": [
+   {
+    "say": "Un dinon mein aaram aur bharosa.",
+    "cap": "Aaram aur bharosa",
+    "multi": [
+     [
+      "woman-stretching-in-the-morning|young-woman-meditating"
+     ],
+     [
+      "happy-woman|smiling-woman"
+     ]
+    ]
+   },
+   {
+    "say": "Introducing Shewell Sanitary Pad. Cotton jaisa naram ehsaas.",
+    "cap": "SHEWELL SANITARY PAD",
+    "card": [
+     "cutouts/sanitarypad.png"
+    ]
+   },
+   {
+    "say": "Extra long aur wide back. Comfort, har din.",
+    "cap": "Comfort. Confidence.",
+    "multi": [
+     [
+      "woman-doing-yoga|woman-walking|backlit-woman-walking"
+     ],
+     [
+      "woman-running-happily-on-the-beach|happy-woman"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/sanitarypad.png"
+  ],
+  "end_say": "Shewell Sanitary Pad. Comfort. Confidence. Care. Order ke liye DM mein PAD likho, ya WhatsApp karo.",
+  "end_cap": "Comfort. Confidence. Care."
+ },
+ {
+  "name": "p_noni_drink",
+  "voice_name": "en-IN-PrabhatNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   138,
+   441,
+   571
+  ],
+  "scenes": [
+   {
+    "say": "Subah ki shuruaat, ek chhoti si aadat se.",
+    "cap": "Ek chhoti si aadat",
+    "multi": [
+     [
+      "sunrise|morning"
+     ],
+     [
+      "woman-stretching-in-the-morning"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Noni Wellness Drink. Noni, Aloe Vera, Amla, Ashwagandha, Brahmi aur Tulsi ke saath.",
+    "cap": "TEAMEX NONI DRINK",
+    "card": [
+     "cutouts/noni_drink.png"
+    ]
+   },
+   {
+    "say": "Subah khaali pet. Immunity aur digestion ko support karta hai.",
+    "cap": "Immunity. Digestion.",
+    "multi": [
+     [
+      "drinks-from-water-bottle|hydrating|sips-water"
+     ],
+     [
+      "woman-doing-yoga-outdoors|young-woman-meditating"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/noni_drink.png"
+  ],
+  "end_say": "TeamEx Noni Wellness Drink. Sip well, live well! Order ke liye DM mein NONI likho, ya WhatsApp karo.",
+  "end_cap": "Sip well, live well!"
+ },
+ {
+  "name": "p_sea_buckthorn",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   614,
+   871,
+   188
+  ],
+  "scenes": [
+   {
+    "say": "Roz ki energy ke liye, subah ka ek chhota step.",
+    "cap": "Roz ki energy",
+    "multi": [
+     [
+      "sunrise"
+     ],
+     [
+      "woman-running-happily|happy-woman-running"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Sea Buckthorn Wellness Drink. Antioxidants se bharpoor.",
+    "cap": "TEAMEX SEA BUCKTHORN",
+    "card": [
+     "cutouts/sea_buckthorn.png"
+    ]
+   },
+   {
+    "say": "Gunguna paani ke saath, roz ki wellness routine.",
+    "cap": "Antioxidants se bharpoor",
+    "multi": [
+     [
+      "orange|fruit"
+     ],
+     [
+      "woman-doing-yoga-outdoors|woman-meditating-in-nature"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/sea_buckthorn.png"
+  ],
+  "end_say": "TeamEx Sea Buckthorn Wellness Drink. Naturally energised! Order ke liye DM mein SEABUCK likho, ya WhatsApp karo.",
+  "end_cap": "Naturally energised!"
+ },
+ {
+  "name": "p_red_aloevera",
+  "voice_name": "en-IN-PrabhatNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   127,
+   292,
+   184
+  ],
+  "scenes": [
+   {
+    "say": "Khane se pehle, ek chhoti si aadat.",
+    "cap": "Khane se pehle",
+    "multi": [
+     [
+      "healthy-salad|healthy|preparing"
+     ],
+     [
+      "woman-hydrating|slim-woman-sips-water"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Red Aloe Vera Drink. Digestion ko support karne wala herbal drink.",
+    "cap": "TEAMEX RED ALOE VERA",
+    "card": [
+     "cutouts/red_aloevera.png"
+    ]
+   },
+   {
+    "say": "Khane se pehle, din mein do baar, jaisa pack par likha hai.",
+    "cap": "Digestion ka saathi",
+    "multi": [
+     [
+      "eating-salad|girl-eating-healthy"
+     ],
+     [
+      "woman-stretching|woman-walking"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/red_aloevera.png"
+  ],
+  "end_say": "TeamEx Red Aloe Vera Drink. Gut feeling? Feel good! Order ke liye DM mein ALOE likho, ya WhatsApp karo.",
+  "end_cap": "Gut feeling? Feel good!"
+ },
+ {
+  "name": "p_livofit",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   139,
+   749,
+   588
+  ],
+  "scenes": [
+   {
+    "say": "Bhaari khana, kam neend, bahar ka khana?",
+    "cap": "Jigar ko aaram do",
+    "multi": [
+     [
+      "pasta|girl-eating|woman-eating"
+     ],
+     [
+      "girl-checking-her-cell-phone|woman-turning-off-her-alarm"
+     ]
+    ]
+   },
+   {
+    "say": "Introducing TeamEx Livo-Fit Wellness Drink.",
+    "cap": "TEAMEX LIVO-FIT",
+    "card": [
+     "cutouts/livofit.png"
+    ]
+   },
+   {
+    "say": "Liver wellness ko support karta hai. Roz 30 ml, jaisa pack par likha hai.",
+    "cap": "Liver wellness support",
+    "multi": [
+     [
+      "woman-doing-yoga-outdoors|woman-meditating-in-nature"
+     ],
+     [
+      "sunrise|woman-running-happily"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/livofit.png"
+  ],
+  "end_say": "TeamEx Livo-Fit Wellness Drink. Care for your liver, live better! Order ke liye DM mein LIVOFIT likho, ya WhatsApp karo.",
+  "end_cap": "Care for your liver, live better!"
+ },
+ {
+  "name": "p_berry_drink",
+  "voice_name": "en-IN-PrabhatNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   138,
+   441,
+   571
+  ],
+  "scenes": [
+   {
+    "say": "Berries ke swaad mein, roz ki wellness.",
+    "cap": "Berries ka swaad",
+    "multi": [
+     [
+      "strawberr|berries|fruit"
+     ],
+     [
+      "happy-woman|smiling-woman"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Berry Wellness Drink. Antioxidants se bharpoor.",
+    "cap": "TEAMEX BERRY DRINK",
+    "card": [
+     "cutouts/berry_drink.png"
+    ]
+   },
+   {
+    "say": "Roz 30 ml, behtar nateejon ke liye din mein do baar.",
+    "cap": "Antioxidants se bharpoor",
+    "multi": [
+     [
+      "woman-hydrating|drinks-from-water-bottle"
+     ],
+     [
+      "woman-running-happily|happy-woman-running"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/berry_drink.png"
+  ],
+  "end_say": "TeamEx Berry Wellness Drink. Berry good for you! Order ke liye DM mein BERRY likho, ya WhatsApp karo.",
+  "end_cap": "Berry good for you!"
+ },
+ {
+  "name": "p_biotin_gummy",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   614,
+   871,
+   188
+  ],
+  "scenes": [
+   {
+    "say": "Baal aur nakhun ke liye, roz ki ek chhoti aadat.",
+    "cap": "Baal aur nakhun",
+    "multi": [
+     [
+      "brunette-woman-washing-hair|curly-hair"
+     ],
+     [
+      "smiling-woman|portrait-of-a-happy-smiling-woman"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Biotin Gummy. Swaad mein bhi badhiya.",
+    "cap": "TEAMEX BIOTIN GUMMY",
+    "card": [
+     "cutouts/biotin_gummy.png"
+    ]
+   },
+   {
+    "say": "Roz ek se do gummy, jaisa pack par likha hai.",
+    "cap": "Roz ek se do gummy",
+    "multi": [
+     [
+      "curly-hair|woman-with-curly-hair"
+     ],
+     [
+      "happy-woman|dancing"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/biotin_gummy.png"
+  ],
+  "end_say": "TeamEx Biotin Gummy. Shine from within! Order ke liye DM mein BIOTIN likho, ya WhatsApp karo.",
+  "end_cap": "Shine from within!"
+ },
+ {
+  "name": "p_boswellia",
+  "voice_name": "en-IN-PrabhatNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   127,
+   292,
+   184
+  ],
+  "scenes": [
+   {
+    "say": "Seedhiyan chadhte waqt ghutnon ki fikar?",
+    "cap": "Ghutnon ki fikar?",
+    "multi": [
+     [
+      "going-upstairs|stairs|climbing"
+     ],
+     [
+      "young-couple-hiking|hiking"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Boswellia Capsules. Jodon ki sehat ko support karta hai.",
+    "cap": "TEAMEX BOSWELLIA",
+    "card": [
+     "cutouts/boswellia.png"
+    ]
+   },
+   {
+    "say": "Ek capsule khane se pehle, jaisa pack par likha hai.",
+    "cap": "Jodon ki sehat",
+    "multi": [
+     [
+      "woman-doing-yoga-outdoors|upward-and-downward"
+     ],
+     [
+      "walking-of-a-person|slowly-walking"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/boswellia.png"
+  ],
+  "end_say": "TeamEx Boswellia Capsules. Move freely, live fully! Order ke liye DM mein BOSWELLIA likho, ya WhatsApp karo.",
+  "end_cap": "Move freely, live fully!"
+ },
+ {
+  "name": "p_calcium_chewable",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   139,
+   749,
+   588
+  ],
+  "scenes": [
+   {
+    "say": "Haddiyon ki roz ki khuraak.",
+    "cap": "Haddiyon ki khuraak",
+    "multi": [
+     [
+      "milk-poured|stream-of-pristine-white-milk"
+     ],
+     [
+      "woman-stretching|woman-doing-yoga"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Calcium Chewable Tablets.",
+    "cap": "TEAMEX CALCIUM CHEWABLE",
+    "card": [
+     "cutouts/calcium_chewable.png"
+    ]
+   },
+   {
+    "say": "Roz do tablet, jaisa pack par likha hai.",
+    "cap": "Roz do tablet",
+    "multi": [
+     [
+      "woman-running|happy-woman-running"
+     ],
+     [
+      "young-couple-hiking|hiking"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/calcium_chewable.png"
+  ],
+  "end_say": "TeamEx Calcium Chewable Tablets. Strong from within! Order ke liye DM mein CALCIUM likho, ya WhatsApp karo.",
+  "end_cap": "Strong from within!"
+ },
+ {
+  "name": "p_nano_curcumin",
+  "voice_name": "en-IN-PrabhatNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   138,
+   441,
+   571
+  ],
+  "scenes": [
+   {
+    "say": "Haldi ka naya roop.",
+    "cap": "Haldi ka naya roop",
+    "multi": [
+     [
+      "different-spices|spices"
+     ],
+     [
+      "scientist-observing|water-dropper"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Nano Curcumin Capsules. Roz ki wellness routine ke liye.",
+    "cap": "TEAMEX NANO CURCUMIN",
+    "card": [
+     "cutouts/nano_curcumin.png"
+    ]
+   },
+   {
+    "say": "Ayurveda ki parampara, aaj ke vigyaan ke saath.",
+    "cap": "Ancient wisdom. Modern science.",
+    "multi": [
+     [
+      "woman-doing-yoga-outdoors"
+     ],
+     [
+      "woman-meditating-in-nature"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/nano_curcumin.png"
+  ],
+  "end_say": "TeamEx Nano Curcumin Capsules. Ancient wisdom, modern science! Order ke liye DM mein CURCUMIN likho, ya WhatsApp karo.",
+  "end_cap": "Ancient wisdom, modern science!"
+ },
+ {
+  "name": "p_spirulina",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   614,
+   871,
+   188
+  ],
+  "scenes": [
+   {
+    "say": "Superfood ki aadat daliye.",
+    "cap": "Superfood ki aadat",
+    "multi": [
+     [
+      "healthy-salad|lettuce|vegetables"
+     ],
+     [
+      "blending-a-fruit-smoothie|green"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Spirulina Tablets. Roz ki nutrition ke liye.",
+    "cap": "TEAMEX SPIRULINA",
+    "card": [
+     "cutouts/spirulina.png"
+    ]
+   },
+   {
+    "say": "Natural superfood, antioxidants ke saath.",
+    "cap": "Natural superfood",
+    "multi": [
+     [
+      "woman-doing-yoga-outdoors|woman-running"
+     ],
+     [
+      "happy-woman|smiling-woman"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/spirulina.png"
+  ],
+  "end_say": "TeamEx Spirulina Tablets. Green goodness, every day! Order ke liye DM mein SPIRULINA likho, ya WhatsApp karo.",
+  "end_cap": "Green goodness, every day!"
+ },
+ {
+  "name": "p_detox_tablet",
+  "voice_name": "en-IN-PrabhatNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   127,
+   292,
+   184
+  ],
+  "scenes": [
+   {
+    "say": "Raat ki ek chhoti si aadat.",
+    "cap": "Raat ki aadat",
+    "multi": [
+     [
+      "night|dark-starry|full-moon"
+     ],
+     [
+      "woman-meditating|young-woman-meditating"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Detox Tablet.",
+    "cap": "TEAMEX DETOX TABLET",
+    "card": [
+     "cutouts/detox_tablet.png"
+    ]
+   },
+   {
+    "say": "Raat ko ek tablet, jaisa pack par likha hai.",
+    "cap": "Raat ko ek tablet",
+    "multi": [
+     [
+      "sunrise|morning"
+     ],
+     [
+      "woman-stretching-in-the-morning"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/detox_tablet.png"
+  ],
+  "end_say": "TeamEx Detox Tablet. Reset. Refresh. Repeat! Order ke liye DM mein DETOX likho, ya WhatsApp karo.",
+  "end_cap": "Reset. Refresh. Repeat!"
+ },
+ {
+  "name": "p_deep_sleep_gummy",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   139,
+   749,
+   588
+  ],
+  "scenes": [
+   {
+    "say": "Raat ko sukoon se sone ki taiyari.",
+    "cap": "Sukoon bhari neend",
+    "multi": [
+     [
+      "night-sky-with-stars|dark-starry|milky-way"
+     ],
+     [
+      "loving-couple-sleeping|girl-asleep"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Deep Sleep Gummy.",
+    "cap": "TEAMEX DEEP SLEEP GUMMY",
+    "card": [
+     "cutouts/deep_sleep_gummy.png"
+    ]
+   },
+   {
+    "say": "Roz ek se do gummy, jaisa pack par likha hai.",
+    "cap": "Roz ek se do gummy",
+    "multi": [
+     [
+      "a-young-man-slowly-wakes-up|girl-checking-her-cell-phone"
+     ],
+     [
+      "sunrise|woman-stretching-in-the-morning"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/deep_sleep_gummy.png"
+  ],
+  "end_say": "TeamEx Deep Sleep Gummy. Sleep well, wake well! Order ke liye DM mein SLEEP likho, ya WhatsApp karo.",
+  "end_cap": "Sleep well, wake well!"
+ },
+ {
+  "name": "p_multivitamin_gummy",
+  "voice_name": "en-IN-PrabhatNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   138,
+   441,
+   571
+  ],
+  "scenes": [
+   {
+    "say": "Roz ka multivitamin, ab gummy andaaz mein.",
+    "cap": "Gummy andaaz mein",
+    "multi": [
+     [
+      "fruit|orange|strawberr"
+     ],
+     [
+      "happy-woman|smiling-woman"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Multivitamin Gummy.",
+    "cap": "TEAMEX MULTIVITAMIN GUMMY",
+    "card": [
+     "cutouts/multivitamin_gummy.png"
+    ]
+   },
+   {
+    "say": "Roz ek se do gummy, jaisa pack par likha hai.",
+    "cap": "Roz ek se do gummy",
+    "multi": [
+     [
+      "woman-running-happily|happy-woman-running"
+     ],
+     [
+      "woman-doing-yoga-outdoors"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/multivitamin_gummy.png"
+  ],
+  "end_say": "TeamEx Multivitamin Gummy. Daily goodness, in every bite! Order ke liye DM mein MULTI likho, ya WhatsApp karo.",
+  "end_cap": "Daily goodness, in every bite!"
+ },
+ {
+  "name": "p_shilajit_gummy",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   614,
+   871,
+   188
+  ],
+  "scenes": [
+   {
+    "say": "Din bhar ki taazgi ke liye.",
+    "cap": "Din bhar ki taazgi",
+    "multi": [
+     [
+      "sunrise|morning"
+     ],
+     [
+      "man-runs|man-jogging|runner"
+     ]
+    ]
+   },
+   {
+    "say": "TeamEx Shilajit Gummy.",
+    "cap": "TEAMEX SHILAJIT GUMMY",
+    "card": [
+     "cutouts/shilajit_gummy.png"
+    ]
+   },
+   {
+    "say": "Khane ke baad ek gummy, din mein do baar, jaisa pack par likha hai.",
+    "cap": "Din mein do baar",
+    "multi": [
+     [
+      "man-jogging|runner-training|man-running"
+     ],
+     [
+      "woman-doing-yoga-outdoors|woman-running"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/shilajit_gummy.png"
+  ],
+  "end_say": "TeamEx Shilajit Gummy. Power up, naturally! Order ke liye DM mein SHILAJIT likho, ya WhatsApp karo.",
+  "end_cap": "Power up, naturally!"
  }
 ]

@@ -21,11 +21,14 @@ def get(url, binary=False):
     d = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
     return d if binary else d.decode("utf8", "ignore")
 
-SCOUT = [l.split("\t") for l in open("scout.txt").read().splitlines() if "\t" in l and not l.startswith("#")]
+SCOUT = [l.split("\t") for f in ("scout.txt", "scout2.txt") if os.path.exists(f) for l in open(f).read().splitlines() if "\t" in l and not l.startswith("#")]
 def fetch_clip(patterns, seed, used):
     rx = re.compile("|".join(patterns))
     cands = [i for i, n in SCOUT if rx.search(n) and i not in used]
     cands = list(dict.fromkeys(cands))
+    if not cands:
+        rx = re.compile("woman-meditating-in-nature|sunrise|forest|happy-woman-running|woman-doing-yoga|smiling-woman")
+        cands = list(dict.fromkeys(i for i, n in SCOUT if rx.search(n) and i not in used))
     if not cands: raise RuntimeError(f"no clip for {patterns}")
     cid = cands[seed % len(cands)]; used.add(cid)
     for q in ("1080", "720", "360"):

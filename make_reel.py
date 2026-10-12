@@ -30,17 +30,15 @@ def fetch_clip(patterns, seed, used):
         rx = re.compile("woman-meditating-in-nature|sunrise|forest|happy-woman-running|woman-doing-yoga|smiling-woman")
         cands = list(dict.fromkeys(i for i, n in SCOUT if rx.search(n) and i not in used))
     if not cands: raise RuntimeError(f"no clip for {patterns}")
-    cid = cands[seed % len(cands)]; used.add(cid)
-    for q in ("1080", "720", "360"):
-        path = f"tmp/clips/{cid}.mp4"
-        try:
-            open(path, "wb").write(get(f"https://assets.mixkit.co/videos/{cid}/{cid}-{q}.mp4", True)); return path
-        except Exception: continue
-    raise RuntimeError(f"download failed {cid}")
+    order = cands[seed % len(cands):] + cands[:seed % len(cands)]
+    for cid in order:
+        for q in ("1080", "720", "360"):
+            path = f"tmp/clips/{cid}.mp4"
+            try:
+                open(path, "wb").write(get(f"https://assets.mixkit.co/videos/{cid}/{cid}-{q}.mp4", True)); used.add(cid); return path
+            except Exception: continue
+    raise RuntimeError(f"download failed {patterns}")
 
-CAPSIZE = 62
-LIGHT = False
-RATE = "-4%"
 def tts(text, voice, out):
     import edge_tts, time
     last = None

@@ -4,50 +4,50 @@ edge-tts retry 2 403, message='Invalid response status', url='wss://speech.platf
 edge-tts retry 3 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
 edge-tts retry 4 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
 using gTTS backup
-edge-tts retry 0 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 1 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 2 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 3 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 4 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
 using gTTS backup
-edge-tts retry 0 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 1 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 2 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 3 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 4 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
 using gTTS backup
-edge-tts retry 0 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 1 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 2 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 3 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 4 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
 using gTTS backup
-done p_hand_wash 27.7 s
-edge-tts retry 0 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 1 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 2 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 3 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 4 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+done p_noni_toothpaste 24.1 s
 using gTTS backup
-edge-tts retry 0 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 1 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 2 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 3 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 4 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
 using gTTS backup
-edge-tts retry 0 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 1 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 2 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 3 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 4 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+using gTTS backup
+using gTTS backup
+done p_shewell_pad 23.0 s
+using gTTS backup
+using gTTS backup
+using gTTS backup
+using gTTS backup
+done p_noni_drink 28.2 s
+using gTTS backup
+using gTTS backup
+using gTTS backup
+using gTTS backup
+done p_sea_buckthorn 25.7 s
+using gTTS backup
+using gTTS backup
+using gTTS backup
+using gTTS backup
+done p_red_aloevera 26.4 s
+using gTTS backup
+using gTTS backup
+using gTTS backup
+using gTTS backup
+done p_livofit 27.2 s
+using gTTS backup
+using gTTS backup
+using gTTS backup
+using gTTS backup
+done p_berry_drink 23.0 s
+using gTTS backup
+using gTTS backup
 using gTTS backup
 Traceback (most recent call last):
-  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 217, in <module>
+  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 218, in <module>
     for n in sys.argv[1:]: make(reels[n])
                            ^^^^^^^^^^^^^^
-  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 178, in make
+  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 179, in make
     pj = f"tmp/{name}_{i}_{j}.mp4"; broll_scene(fetch_clip(pats, zlib.crc32(f'{name}{i}{j}'.encode()), used), each + 0.05, layer, pj); parts.append(pj)
                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 39, in fetch_clip
-    raise RuntimeError(f"download failed {cid}")
-RuntimeError: download failed 100053
+  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 40, in fetch_clip
+    raise RuntimeError(f"download failed {patterns}")
+RuntimeError: download failed ['curly-hair|woman-with-curly-hair']

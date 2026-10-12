@@ -22,7 +22,7 @@ def get(url, binary=False):
     return d if binary else d.decode("utf8", "ignore")
 
 SCOUT = [l.split("\t") for f in ("scout.txt", "scout2.txt") if os.path.exists(f) for l in open(f).read().splitlines() if "\t" in l and not l.startswith("#")]
-def fetch_clip(patterns, seed, used):
+def fetch_clip(patterns, seed, used, fallback=False):
     rx = re.compile("|".join(patterns))
     cands = [i for i, n in SCOUT if rx.search(n) and i not in used]
     cands = list(dict.fromkeys(cands))
@@ -37,6 +37,8 @@ def fetch_clip(patterns, seed, used):
             try:
                 open(path, "wb").write(get(f"https://assets.mixkit.co/videos/{cid}/{cid}-{q}.mp4", True)); used.add(cid); return path
             except Exception: continue
+    if not fallback:
+        return fetch_clip(["woman-meditating-in-nature|sunrise|forest|happy-woman-running|woman-doing-yoga|smiling-woman|walking"], seed + 7, used, True)
     raise RuntimeError(f"download failed {patterns}")
 
 EDGE_OK = True

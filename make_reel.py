@@ -42,8 +42,17 @@ CAPSIZE = 62
 LIGHT = False
 RATE = "-4%"
 def tts(text, voice, out):
-    import edge_tts
-    asyncio.run(edge_tts.Communicate(text, voice, rate=RATE).save(out))
+    import edge_tts, time
+    last = None
+    for k in range(5):
+        try:
+            asyncio.run(edge_tts.Communicate(text, voice, rate=RATE).save(out))
+            if os.path.getsize(out) > 1000: return
+        except Exception as e:
+            last = e; print("edge-tts retry", k, str(e)[:80]); time.sleep(3 + 4 * k)
+    from gtts import gTTS  # backup voice
+    print("using gTTS backup")
+    gTTS(text, lang="en", tld="co.in").save(out)
 
 def draw_mixed(d, cx, y, text, size, fill, shadow=True):
     shadow = shadow and fill == 'white'

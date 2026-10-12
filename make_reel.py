@@ -39,15 +39,18 @@ def fetch_clip(patterns, seed, used):
             except Exception: continue
     raise RuntimeError(f"download failed {patterns}")
 
+EDGE_OK = True
 def tts(text, voice, out):
+    global EDGE_OK
     import edge_tts, time
     last = None
-    for k in range(5):
+    for k in range(5 if EDGE_OK else 0):
         try:
             asyncio.run(edge_tts.Communicate(text, voice, rate=RATE).save(out))
             if os.path.getsize(out) > 1000: return
         except Exception as e:
             last = e; print("edge-tts retry", k, str(e)[:80]); time.sleep(3 + 4 * k)
+    EDGE_OK = False
     from gtts import gTTS  # backup voice
     print("using gTTS backup")
     gTTS(text, lang="en", tld="co.in").save(out)

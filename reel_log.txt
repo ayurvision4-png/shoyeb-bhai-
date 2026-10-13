@@ -7,44 +7,6 @@ using gTTS backup
 using gTTS backup
 using gTTS backup
 using gTTS backup
-done p_biotin_gummy 21.7 s
 using gTTS backup
 using gTTS backup
-using gTTS backup
-using gTTS backup
-done p_boswellia 24.4 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done p_calcium_chewable 19.6 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done p_nano_curcumin 23.2 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done p_spirulina 21.8 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done p_detox_tablet 20.0 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done p_deep_sleep_gummy 19.4 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done p_multivitamin_gummy 21.3 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done p_shilajit_gummy 21.0 s
+done weight_wellness 44.9 s

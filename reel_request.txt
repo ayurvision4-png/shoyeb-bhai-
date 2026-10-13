@@ -1,1 +1,1 @@
-p_biotin_gummy p_boswellia p_calcium_chewable p_nano_curcumin p_spirulina p_detox_tablet p_deep_sleep_gummy p_multivitamin_gummy p_shilajit_gummy
+weight_wellness

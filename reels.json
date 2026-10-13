@@ -1395,5 +1395,88 @@
   ],
   "end_say": "TeamEx Shilajit Gummy. Power up, naturally! Order ke liye DM mein SHILAJIT likho, ya WhatsApp karo.",
   "end_cap": "Power up, naturally!"
+ },
+ {
+  "name": "weight_wellness",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "theme": "light",
+  "capsize": 66,
+  "fade": 0.4,
+  "music": [
+   127,
+   292,
+   184
+  ],
+  "scenes": [
+   {
+    "say": "Weight ko lekar pareshan ho? Sirf crash diet nahi, ek balanced routine chahiye!",
+    "cap": "Weight management, sahi tareeke se",
+    "multi": [
+     [
+      "adult-woman-looking-in-the-mirror"
+     ],
+     [
+      "portrait-of-a-happy-smiling-woman",
+      "close-up-of-a-smiling-womans-face"
+     ]
+    ]
+   },
+   {
+    "say": "Beautilook 1, 2 aur 3. Subah, shaam aur raat ka ek simple routine, jo aapki wellness journey ko support karta hai.",
+    "cap": "Beautilook 1, 2, 3",
+    "card": [
+     "cutouts/1000153679.png"
+    ]
+   },
+   {
+    "say": "Saath mein Berry, Tulsi aur CMD jaise Ayurvedic products, aapke daily routine ko aur support karte hain.",
+    "cap": "Berry. Tulsi. CMD.",
+    "card": [
+     "cutouts/berry_drink.png",
+     "cutouts/1000153688.png",
+     "cutouts/1000153686.png"
+    ]
+   },
+   {
+    "say": "Balanced diet, thodi walk aur healthy habits. Yehi hai fit rehne ka asli mantra!",
+    "cap": "Diet. Walk. Habits.",
+    "multi": [
+     [
+      "girl-eating-healthy",
+      "eating-salad-with-a-fork",
+      "preparing-a-bowl-with-yogurt-and-fruit"
+     ],
+     [
+      "slowly-walking-down-a-path-in-a-park",
+      "backlit-woman-walking-at-sunset",
+      "walking-of-a-person-on-the-path-of-a-forest"
+     ],
+     [
+      "woman-doing-yoga-outdoors",
+      "woman-running-happily-on-the-beach"
+     ]
+    ]
+   },
+   {
+    "say": "Apni wellness journey aaj hi shuru karo. Comment ya DM mein WEIGHT likho!",
+    "cap": "DM karo: WEIGHT",
+    "multi": [
+     [
+      "portrait-of-a-woman-smiling-happily-at-the-camera",
+      "young-enterprising-woman-smiling-confident"
+     ],
+     [
+      "woman-meditating-in-nature",
+      "the-silhouette-of-a-woman-at-sunrise"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "TeamEx Beautilook. Feel Good, Look Good, Live Better!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

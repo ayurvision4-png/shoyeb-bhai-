@@ -1478,5 +1478,99 @@
   ],
   "end_say": "TeamEx Beautilook. Feel Good, Look Good, Live Better!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "ugc_beautilook_reasons",
+  "voice_name": "en-IN-NeerjaNeural",
+  "rate": "+4%",
+  "theme": "light",
+  "capsize": 64,
+  "fade": 0.4,
+  "music": [
+   139,
+   749,
+   588
+  ],
+  "scenes": [
+   {
+    "say": "Rukiye! Weight kam kyun nahi hota? Sirf kam khana reason nahi hai. Ye paanch cheezein ho sakti hain.",
+    "cap": "Weight kyun nahi utarta?",
+    "multi": [
+     [
+      "adult-woman-looking-in-the-mirror"
+     ],
+     [
+      "portrait-of-a-happy-smiling-woman",
+      "close-up-of-a-smiling-womans-face"
+     ]
+    ]
+   },
+   {
+    "say": "Ek, weak metabolism. Do, stress aur anxiety. Teen, baithe rehne wali lifestyle aur overeating.",
+    "cap": "Metabolism. Stress. Lifestyle.",
+    "multi": [
+     [
+      "girl-eating-healthy",
+      "eating-salad-with-a-fork",
+      "preparing-a-bowl-with-yogurt-and-fruit"
+     ],
+     [
+      "slowly-walking-down-a-path-in-a-park",
+      "backlit-woman-walking-at-sunset",
+      "walking-of-a-person-on-the-path-of-a-forest"
+     ],
+     [
+      "woman-doing-yoga-outdoors",
+      "woman-running-happily-on-the-beach"
+     ]
+    ]
+   },
+   {
+    "say": "Chaar, vitamins aur nutrition ki kami. Paanch, hormonal imbalance. Ayurveda mein isey Agni, yaani digestive fire se jodkar dekha jaata hai.",
+    "cap": "Nutrition. Hormones. Agni.",
+    "multi": [
+     [
+      "portrait-of-a-woman-smiling-happily-at-the-camera",
+      "young-enterprising-woman-smiling-confident"
+     ],
+     [
+      "woman-meditating-in-nature",
+      "the-silhouette-of-a-woman-at-sunrise"
+     ]
+    ]
+   },
+   {
+    "say": "Beautilook 1 subah khali pet, Beautilook 2 shaam ko jab bhookh lage, aur Beautilook 3 raat ko sone se pehle. Gungune paani ke saath, jo metabolism aur digestion ko support karta hai.",
+    "cap": "Subah. Shaam. Raat.",
+    "card": [
+     "cutouts/1000153679.png"
+    ]
+   },
+   {
+    "say": "Saath mein balanced diet aur thodi walk. Details chahiye? Comment ya DM mein BEAUTI likho!",
+    "cap": "DM karo: BEAUTI",
+    "multi": [
+     [
+      "girl-eating-healthy",
+      "eating-salad-with-a-fork",
+      "preparing-a-bowl-with-yogurt-and-fruit"
+     ],
+     [
+      "slowly-walking-down-a-path-in-a-park",
+      "backlit-woman-walking-at-sunset",
+      "walking-of-a-person-on-the-path-of-a-forest"
+     ],
+     [
+      "woman-doing-yoga-outdoors",
+      "woman-running-happily-on-the-beach"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "TeamEx Beautilook. Feel Good, Look Good, Live Better!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

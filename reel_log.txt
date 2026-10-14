@@ -1,12 +1,1 @@
-edge-tts retry 0 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 1 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 2 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 3 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-edge-tts retry 4 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done weight_wellness 44.9 s
+done ugc_beautilook_reasons 60.3 s

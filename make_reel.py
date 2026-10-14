@@ -44,6 +44,9 @@ def fetch_clip(patterns, seed, used, fallback=False):
 EDGE_OK = True
 def tts(text, voice, out):
     global EDGE_OK
+    pre = f"audio/{zlib.crc32(text.encode()):08x}.mp3"
+    if os.path.exists(pre) and os.path.getsize(pre) > 1000:
+        import shutil; shutil.copy(pre, out); print('using ElevenLabs', pre); return
     import edge_tts, time
     last = None
     for k in range(5 if EDGE_OK else 0):

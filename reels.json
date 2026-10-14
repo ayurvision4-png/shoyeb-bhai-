@@ -1572,5 +1572,77 @@
   ],
   "end_say": "TeamEx Beautilook. Feel Good, Look Good, Live Better!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "beautilook_routine",
+  "capsize": 64,
+  "fade": 0.4,
+  "music": [
+   148,
+   140,
+   607
+  ],
+  "scenes": [
+   {
+    "say": "सुबह उठते ही सबसे पहले क्या करते हो? आज से एक छोटी सी आदत बदलकर देखो।",
+    "cap": "Subah ki ek chhoti aadat",
+    "multi": [
+     [
+      "a-young-man-stretches-his-arms-on-the-balcony"
+     ],
+     [
+      "bright-orange-sky-at-sunrise"
+     ]
+    ]
+   },
+   {
+    "say": "सुबह खाली पेट, गुनगुने पानी के साथ ब्यूटीलुक वन की दो टैबलेट। ये आपके पाचन और मेटाबॉलिज़्म को सपोर्ट करता है।",
+    "cap": "Subah: Beautilook 1",
+    "card": [
+     "cutouts/1000153679.png"
+    ]
+   },
+   {
+    "say": "शाम को जब भूख लगे, ब्यूटीलुक टू। साथ में थोड़ी वॉक, हल्का खाना और भरपूर पानी।",
+    "cap": "Shaam: Beautilook 2",
+    "multi": [
+     [
+      "man-and-woman-jogging-through-a-park-in-the-city"
+     ],
+     [
+      "athlete-woman-drinking-water-and-resting"
+     ]
+    ]
+   },
+   {
+    "say": "और रात को सोने से पहले, ब्यूटीलुक थ्री की एक टैबलेट, गुनगुने पानी के साथ।",
+    "cap": "Raat: Beautilook 3",
+    "multi": [
+     [
+      "dark-starry-night"
+     ],
+     [
+      "loving-couple-sleeping-together-at-night"
+     ]
+    ]
+   },
+   {
+    "say": "पूरा रूटीन जानना है? कमेंट या डीएम में BEAUTI लिखो।",
+    "cap": "DM karo: BEAUTI",
+    "multi": [
+     [
+      "happy-woman-running-thru-a-camomile-field"
+     ],
+     [
+      "cheerful-woman-drinking-a-cup-of-coffee"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

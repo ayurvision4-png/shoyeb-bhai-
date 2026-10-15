@@ -1644,5 +1644,62 @@
   ],
   "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "wc_weight_control",
+  "capsize": 64,
+  "fade": 0.4,
+  "music": [
+   127,
+   292,
+   184
+  ],
+  "scenes": [
+   {
+    "say": "वज़न संभालना है? ब्यूटीलुक की तीन खुराकें, सुबह, शाम और रात, आपके मेटाबॉलिज़्म को सपोर्ट करती हैं।",
+    "cap": "Vazan sambhalna hai?",
+    "multi": [
+     [
+      "woman-doing-yoga-on-a-deck"
+     ],
+     [
+      "man-and-woman-jogging-through-a-park-in-the-city"
+     ]
+    ]
+   },
+   {
+    "say": "सीएमडी वॉटर ड्रॉप्स और मेटाबॉलिज़्म बूस्टर हर्बल टी, दिनभर की सेहतमंद आदत को आसान बनाते हैं।",
+    "cap": "CMD Drops + Slim Tea",
+    "card": [
+     "cutouts/1000153686.png",
+     "cutouts/1000153684.png"
+    ]
+   },
+   {
+    "say": "बेरी वेलनेस ड्रिंक और तुलसी ड्रॉप्स, अंदर से ताज़गी और इम्यूनिटी को सपोर्ट करते हैं।",
+    "cap": "Berry Drink + Tulsi Drops",
+    "card": [
+     "cutouts/berry_drink.png",
+     "cutouts/1000153688.png"
+    ]
+   },
+   {
+    "say": "अपने लिए सही किट जानना है? डीएम में वेट लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: WEIGHT",
+    "multi": [
+     [
+      "happy-woman-running-thru-a-camomile-field"
+     ],
+     [
+      "cheerful-woman-drinking-a-cup-of-coffee"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

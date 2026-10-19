@@ -1854,5 +1854,56 @@
   ],
   "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "p_boswellia",
+  "capsize": 64,
+  "fade": 0.4,
+  "music": [
+   138,
+   441,
+   571
+  ],
+  "scenes": [
+   {
+    "say": "सीढ़ियाँ चढ़ते वक़्त घुटनों में आवाज़? जोड़ों को चाहिए नैचुरल सपोर्ट।",
+    "cap": "Jodon ko chahiye support",
+    "multi": [
+     [
+      "man-and-woman-jogging-through-a-park-in-the-city"
+     ],
+     [
+      "nature-walk-as-a-couple"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स बोसवेलिया कैप्सूल, इंडियन फ्रैंकिनसेंस से बना, जोड़ों की सेहत के लिए।",
+    "cap": "Boswellia Capsules",
+    "photo": "products/boswellia/02.jpg"
+   },
+   {
+    "say": "जोड़ों के आराम और रोज़मर्रा की मोबिलिटी को सपोर्ट करता है।",
+    "cap": "Joint comfort & mobility",
+    "photo": "products/boswellia/03.jpg"
+   },
+   {
+    "say": "रोज़ एक कैप्सूल, खाने से पहले। डीएम में जॉइंट लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: JOINT",
+    "multi": [
+     [
+      "woman-doing-yoga-outdoors"
+     ],
+     [
+      "silhouette-of-a-woman-doing-yoga-at-sunset"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

@@ -1,6 +1,6 @@
-using ElevenLabs audio/00f492c7.mp3
-using ElevenLabs audio/c98f0ed5.mp3
-using ElevenLabs audio/c0010b42.mp3
-using ElevenLabs audio/2b977290.mp3
+using ElevenLabs audio/c968f234.mp3
+using ElevenLabs audio/beedcfbe.mp3
+using ElevenLabs audio/73bde5a8.mp3
+using ElevenLabs audio/c772622d.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done wc_weight_control 28.5 s
+done p_alkomax 23.0 s

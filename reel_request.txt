@@ -1,1 +1,1 @@
-p_boswellia
+p_cmd

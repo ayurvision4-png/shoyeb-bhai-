@@ -1905,5 +1905,56 @@
   ],
   "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "p_cmd",
+  "capsize": 64,
+  "fade": 0.4,
+  "music": [
+   114,
+   614,
+   871
+  ],
+  "scenes": [
+   {
+    "say": "आपका पानी सिर्फ़ पानी है, या उसमें मिनरल्स भी हैं?",
+    "cap": "Sirf paani ya minerals bhi?",
+    "multi": [
+     [
+      "drops-falling-into-the-water-of-a-pond"
+     ],
+     [
+      "athlete-woman-drinking-water-and-resting"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स सीएमडी, कंसंट्रेटेड मिनरल ड्रॉप्स। बस तीन बूँद, एक गिलास पानी में।",
+    "cap": "CMD Mineral Drops",
+    "photo": "products/cmd/02.jpg"
+   },
+   {
+    "say": "पोटैशियम, कैल्शियम, मैग्नीशियम और ज़िंक जैसे मिनरल्स, हाइड्रेशन और पीएच बैलेंस को सपोर्ट करते हैं।",
+    "cap": "Hydration & pH Balance",
+    "photo": "products/cmd/04.jpg"
+   },
+   {
+    "say": "रोज़ सुबह खाली पेट से शुरू कीजिए। डीएम में सीएमडी लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: CMD",
+    "multi": [
+     [
+      "woman-doing-yoga-on-a-deck"
+     ],
+     [
+      "bright-orange-sky-at-sunrise"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

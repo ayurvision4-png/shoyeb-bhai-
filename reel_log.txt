@@ -1,6 +1,6 @@
-using ElevenLabs audio/47e88b14.mp3
-using ElevenLabs audio/8c0e9151.mp3
-using ElevenLabs audio/285f9f57.mp3
-using ElevenLabs audio/db7dbf23.mp3
+using ElevenLabs audio/30eba43a.mp3
+using ElevenLabs audio/6a5277ad.mp3
+using ElevenLabs audio/29e216d1.mp3
+using ElevenLabs audio/1605ea14.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done p_alkomax 24.5 s
+done p_berry 26.8 s

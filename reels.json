@@ -1803,5 +1803,56 @@
   ],
   "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "p_berry",
+  "capsize": 64,
+  "fade": 0.4,
+  "music": [
+   127,
+   292,
+   184
+  ],
+  "scenes": [
+   {
+    "say": "मीठा भी, सेहतमंद भी। चौदह सुपर बेरीज़ का नैचुरल ब्लेंड।",
+    "cap": "Meetha bhi, sehatmand bhi",
+    "multi": [
+     [
+      "cheerful-woman-drinking-a-cup-of-coffee"
+     ],
+     [
+      "happy-woman-running-thru-a-camomile-field"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स बेरी, एक वेलनेस ड्रिंक, एंटीऑक्सीडेंट्स और फाइबर से भरपूर।",
+    "cap": "Berry Wellness Drink",
+    "photo": "products/berry/01.jpg"
+   },
+   {
+    "say": "ब्लैकबेरी, ब्लूबेरी, क्रैनबेरी, गोजी बेरी और भी बहुत कुछ, इम्यूनिटी और हार्ट हेल्थ को सपोर्ट करते हैं।",
+    "cap": "14 Super Berries",
+    "photo": "products/berry/07.jpg"
+   },
+   {
+    "say": "रोज़ तीस एमएल, गुनगुने पानी के साथ। डीएम में बेरी लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: BERRY",
+    "multi": [
+     [
+      "woman-cutting-herbs-in-the-kitchen-table"
+     ],
+     [
+      "athlete-woman-drinking-water-and-resting"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

@@ -167,6 +167,18 @@ def card_scene(photo, secs, layer_png, out, dark=True, crop=None):
     run(["ffmpeg","-y","-loop","1","-i","tmp/card.png","-i",layer_png,"-t",f"{secs:.2f}","-filter_complex",vf,"-map","[o]","-an",
          "-c:v","libx264","-preset","veryfast","-crf","20",out])
 
+def photo_scene(path, secs, layer_png, out):
+    # full original product photo: blurred cover background + sharp fitted photo, slow push-in
+    im = Image.open(path).convert("RGB")
+    bg = im.copy(); sc = max(W/bg.width, H/bg.height); bg = bg.resize((int(bg.width*sc)+1, int(bg.height*sc)+1))
+    bg = bg.crop(((bg.width-W)//2, (bg.height-H)//2, (bg.width-W)//2+W, (bg.height-H)//2+H)).filter(ImageFilter.GaussianBlur(40))
+    bg = Image.blend(bg, Image.new("RGB", (W, H), (10, 10, 12)), 0.45)
+    s2 = min(1000/im.width, 1150/im.height); im = im.resize((int(im.width*s2), int(im.height*s2)))
+    m = Image.new("L", im.size, 0); ImageDraw.Draw(m).rounded_rectangle((0,0,im.width,im.height), 36, fill=255)
+    bg.paste(im, ((W-im.width)//2, (H-im.height)//2 + 40), m); bg.save("tmp/photo.png")
+    vf = (f"[0:v]scale={W*1.1:.0f}:-2,zoompan=z='1+0.0007*on':d={int(secs*FPS)}:s={W}x{H}:fps={FPS}[b];[b][1:v]overlay,format=yuv420p[o]")
+    run(["ffmpeg","-y","-loop","1","-i","tmp/photo.png","-i",layer_png,"-t",f"{secs:.2f}","-filter_complex",vf,"-map","[o]","-an","-c:v","libx264","-preset","veryfast","-crf","20",out])
+
 def make(reel):
     global RATE, CAPSIZE, LIGHT, FADE
     name, voice = reel["name"], reel.get("voice_name") or (MALE if reel.get("voice") == "male" else FEMALE)
@@ -177,7 +189,8 @@ def make(reel):
         layer = f"tmp/{name}_{i}.png"; logo_layer(sc.get("cap", ""), light=LIGHT and "card" in sc).save(layer)
         out = f"tmp/{name}_{i}.mp4"
         extra = FADE if i < len(reel["scenes"]) + 1 else 0
-        if sc.get("card"): card_scene(sc["card"], d + extra, layer, out, crop=tuple(sc["crop"]) if sc.get("crop") else None)
+        if sc.get("photo"): photo_scene(sc["photo"], d + extra, layer, out)
+        elif sc.get("card"): card_scene(sc["card"], d + extra, layer, out, crop=tuple(sc["crop"]) if sc.get("crop") else None)
         elif sc.get("multi"):
             n = len(sc["multi"]); each = (d + extra) / n; parts = []
             for j, pats in enumerate(sc["multi"]):

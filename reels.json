@@ -1752,5 +1752,56 @@
   ],
   "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "p_alkomax",
+  "capsize": 64,
+  "fade": 0.4,
+  "music": [
+   139,
+   749,
+   588
+  ],
+  "scenes": [
+   {
+    "say": "थकान और कमज़ोरी रोज़ की बात लगती है? शरीर को अंदर से चाहिए सपोर्ट।",
+    "cap": "Andar se support",
+    "multi": [
+     [
+      "a-young-man-stretches-his-arms-on-the-balcony"
+     ],
+     [
+      "bright-orange-sky-at-sunrise"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स एल्कोमैक्स कैप्सूल, एक प्रीमियम अल्कलाइन फ़ूड सप्लीमेंट।",
+    "cap": "Alkomax Capsule",
+    "photo": "products/alkomax/02.jpg"
+   },
+   {
+    "say": "पच्चीस से ज़्यादा विटामिन और मिनरल्स, इम्यूनिटी, एनर्जी और स्किन-हेयर को सपोर्ट करते हैं।",
+    "cap": "25+ Vitamins & Minerals",
+    "photo": "products/alkomax/03.jpg"
+   },
+   {
+    "say": "रोज़ एक कैप्सूल, खाने के बाद। डीएम में एल्को लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: ALKO",
+    "multi": [
+     [
+      "happy-woman-running-thru-a-camomile-field"
+     ],
+     [
+      "cheerful-woman-drinking-a-cup-of-coffee"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

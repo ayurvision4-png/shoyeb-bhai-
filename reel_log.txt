@@ -1,6 +1,6 @@
-using ElevenLabs audio/a6a41b9e.mp3
-using ElevenLabs audio/b8620dc0.mp3
-using ElevenLabs audio/2865f0fb.mp3
-using ElevenLabs audio/5c105958.mp3
+using ElevenLabs audio/2716047e.mp3
+using ElevenLabs audio/c79a1626.mp3
+using ElevenLabs audio/1dace1b3.mp3
+using ElevenLabs audio/62d3b5d7.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done p_boswellia 23.5 s
+done p_cmd 25.8 s

@@ -1701,5 +1701,56 @@
   ],
   "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "p_alkomax",
+  "capsize": 64,
+  "fade": 0.4,
+  "music": [
+   139,
+   749,
+   588
+  ],
+  "scenes": [
+   {
+    "say": "शरीर का बैलेंस बिगड़ा-बिगड़ा लगता है? अल्कोमैक्स अल्कलाइन बैलेंस को सपोर्ट करता है।",
+    "cap": "Body balance ka sahara",
+    "multi": [
+     [
+      "a-young-man-stretches-his-arms-on-the-balcony"
+     ],
+     [
+      "bright-orange-sky-at-sunrise"
+     ]
+    ]
+   },
+   {
+    "say": "पच्चीस से ज़्यादा विटामिन और मिनरल्स, रोज़ एक कैप्सूल, खाने के बाद।",
+    "cap": "Alkomax Capsule",
+    "photo": "products/alkomax/02.jpg"
+   },
+   {
+    "say": "इम्यूनिटी, एनर्जी और थकान में सपोर्ट, अंदर से पोषण।",
+    "cap": "Why Alkomax?",
+    "photo": "products/alkomax/06.jpg"
+   },
+   {
+    "say": "अपने लिए सही किट जानना है? डीएम में अल्को लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: ALKO",
+    "multi": [
+     [
+      "happy-woman-running-thru-a-camomile-field"
+     ],
+     [
+      "cheerful-woman-drinking-a-cup-of-coffee"
+     ]
+    ]
+   }
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

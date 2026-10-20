@@ -2007,5 +2007,56 @@
     ]
    }
   ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "name": "p_detox",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "scenes": [
+   {
+    "say": "रात का खाना भारी हो गया? अब पेट को थोड़ा आराम दीजिए।",
+    "cap": "Bhaari khana? Pet ko aaram",
+    "multi": [
+     [
+      "detailed-view-of-a-healthy-salad-40531"
+     ],
+     [
+      "vegetables-into-the-pan-in-slow-motion-49231"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स डिटॉक्स टैबलेट। सोनामुखी, गुलाब पत्ती और निशोथ जैसी जड़ी-बूटियों से बनी।",
+    "cap": "Teamex Detox Tablet",
+    "photo": "products/detox/02.jpg"
+   },
+   {
+    "say": "रात को सोने से पहले एक टैबलेट, पाचन को सपोर्ट करती है।",
+    "cap": "Raat ko 1 tablet",
+    "photo": "products/detox/07.jpg"
+   },
+   {
+    "say": "डीएम में डिटॉक्स लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: DETOX",
+    "multi": [
+     [
+      "green-herbs-with-small-purple-flowers-36241"
+     ],
+     [
+      "two-people-walking-slowly-among-herbs-32620"
+     ]
+    ]
+   }
+  ]
  }
 ]

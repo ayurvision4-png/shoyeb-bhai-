@@ -2109,5 +2109,56 @@
     ]
    }
   ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "name": "p_do_long",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "scenes": [
+   {
+    "say": "दिन भर की भागदौड़ के बाद, थकान और कमज़ोरी महसूस होती है?",
+    "cap": "Din bhar ki thakaan?",
+    "multi": [
+     [
+      "nature-walk-as-a-couple-41579"
+     ],
+     [
+      "bright-orange-sky-at-sunrise"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स डू लॉन्ग। अश्वगंधा, शिलाजीत और केसर जैसी आयुर्वेदिक जड़ी-बूटियों से बनी।",
+    "cap": "Teamex Do Long | Sirf adults ke liye",
+    "photo": "products/do_long/03.jpg"
+   },
+   {
+    "say": "सुबह और शाम खाने के बाद दो टैबलेट, दूध के साथ, पैक पर बताए अनुसार।",
+    "cap": "Subah-shaam 2 tablet, doodh ke saath",
+    "photo": "products/do_long/06.jpg"
+   },
+   {
+    "say": "रोज़ की ताक़त और स्टैमिना को सपोर्ट करता है। डीएम में डूलॉन्ग लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: DOLONG",
+    "multi": [
+     [
+      "green-herbs-with-small-purple-flowers-36241"
+     ],
+     [
+      "woman-doing-yoga-on-a-deck"
+     ]
+    ]
+   }
+  ]
  }
 ]

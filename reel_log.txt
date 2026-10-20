@@ -1,6 +1,6 @@
-using ElevenLabs audio/7996b9ec.mp3
-using ElevenLabs audio/d1e9c12e.mp3
-using ElevenLabs audio/d32e4409.mp3
-using ElevenLabs audio/1b58e3ae.mp3
+using ElevenLabs audio/490d4ba0.mp3
+using ElevenLabs audio/6d7286a3.mp3
+using ElevenLabs audio/52159ba9.mp3
+using ElevenLabs audio/3aa16190.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done p_detox 20.3 s
+done p_do_long 25.7 s

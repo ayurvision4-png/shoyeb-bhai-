@@ -2058,5 +2058,56 @@
     ]
    }
   ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "name": "p_livofit_new",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "scenes": [
+   {
+    "say": "तला-भुना खाना, देर रात तक जागना। आपका जिगर भी तो रोज़ काम करता है।",
+    "cap": "Aapka jigar bhi kaam karta hai",
+    "multi": [
+     [
+      "vegetables-into-the-pan-in-slow-motion-49231"
+     ],
+     [
+      "detailed-view-of-a-healthy-salad-40531"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स लिवो-फिट वेलनेस ड्रिंक। मिल्क थिसल, भूमि आंवला, हल्दी और नीम जैसी जड़ी-बूटियाँ।",
+    "cap": "Livo-Fit Wellness Drink",
+    "photo": "products/livofit/02.jpg"
+   },
+   {
+    "say": "रोज़ तीस मिली, पैक पर बताए तरीके से। लिवर वेलनेस को सपोर्ट करता है।",
+    "cap": "Roz 30 ml, pack ke hisaab se",
+    "photo": "products/livofit/07.jpg"
+   },
+   {
+    "say": "यह औषधीय उपयोग के लिए नहीं है। डीएम में लिवो लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "Not for medicinal use | DM karo: LIVO",
+    "multi": [
+     [
+      "woman-cutting-herbs-in-the-kitchen-table-24112"
+     ],
+     [
+      "bright-orange-sky-at-sunrise"
+     ]
+    ]
+   }
+  ]
  }
 ]

@@ -1,6 +1,6 @@
-using ElevenLabs audio/ff8b8163.mp3
-using ElevenLabs audio/9989b463.mp3
-using ElevenLabs audio/d22f4742.mp3
-using ElevenLabs audio/f837ff7d.mp3
+using ElevenLabs audio/f5f7bb8f.mp3
+using ElevenLabs audio/4a428089.mp3
+using ElevenLabs audio/83abbe2a.mp3
+using ElevenLabs audio/78577e8e.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done p_noni 19.8 s
+done p_livofit_new 25.6 s

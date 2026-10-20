@@ -1,6 +1,6 @@
-using ElevenLabs audio/2716047e.mp3
-using ElevenLabs audio/c79a1626.mp3
-using ElevenLabs audio/1dace1b3.mp3
-using ElevenLabs audio/62d3b5d7.mp3
+using ElevenLabs audio/ff8b8163.mp3
+using ElevenLabs audio/9989b463.mp3
+using ElevenLabs audio/d22f4742.mp3
+using ElevenLabs audio/f837ff7d.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done p_cmd 25.8 s
+done p_noni 19.8 s

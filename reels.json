@@ -1956,5 +1956,56 @@
   ],
   "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "name": "p_noni",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "scenes": [
+   {
+    "say": "सुबह की शुरुआत, कुछ ख़ास से कीजिए।",
+    "cap": "Subah ki shuruaat",
+    "multi": [
+     [
+      "bright-orange-sky-at-sunrise"
+     ],
+     [
+      "serving-juice-in-a-glass-with-some-oranges-on-a-10428"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स नोनी वेलनेस ड्रिंक। नोनी, एलोवेरा और आंवला का मेल।",
+    "cap": "Noni Wellness Drink",
+    "photo": "products/noni/02.jpg"
+   },
+   {
+    "say": "रोज़ सुबह तीस मिली, इम्युनिटी और पाचन को सपोर्ट करता है।",
+    "cap": "Roz subah 30 ml",
+    "photo": "products/noni/06.jpg"
+   },
+   {
+    "say": "आज ही शुरू कीजिए। डीएम में नोनी लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: NONI",
+    "multi": [
+     [
+      "woman-doing-yoga-on-a-deck"
+     ],
+     [
+      "fresh-sliced-fruit-placed-on-a-table-10419"
+     ]
+    ]
+   }
+  ]
  }
 ]

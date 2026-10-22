@@ -1,6 +1,12 @@
-using ElevenLabs audio/d9fd5f70.mp3
-using ElevenLabs audio/25bc57c4.mp3
-using ElevenLabs audio/1bd544e8.mp3
-using ElevenLabs audio/79e9c3f0.mp3
+using ElevenLabs audio/3de2f5f2.mp3
+using ElevenLabs audio/492a218a.mp3
+using ElevenLabs audio/a5959fdc.mp3
+using ElevenLabs audio/f83f3e56.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done d_tulsi_drops 19.8 s
+done k_thyroid 22.2 s
+using ElevenLabs audio/173b2b1d.mp3
+using ElevenLabs audio/77f54223.mp3
+using ElevenLabs audio/c3df2693.mp3
+using ElevenLabs audio/8a3f4c05.mp3
+using ElevenLabs audio/7ad2718f.mp3
+done k_kidney 23.1 s

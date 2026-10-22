@@ -1,13 +1,6 @@
-using ElevenLabs audio/7ef9733c.mp3
-using ElevenLabs audio/26944106.mp3
-using ElevenLabs audio/566e9bd9.mp3
-using ElevenLabs audio/89a60149.mp3
+using ElevenLabs audio/d9fd5f70.mp3
+using ElevenLabs audio/25bc57c4.mp3
+using ElevenLabs audio/1bd544e8.mp3
+using ElevenLabs audio/79e9c3f0.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done d_beautilook 22.9 s
-using ElevenLabs audio/b399b78f.mp3
-using ElevenLabs audio/966eb0b2.mp3
-using ElevenLabs audio/ff2a3813.mp3
-using ElevenLabs audio/7a95c4e7.mp3
-using ElevenLabs audio/ad27eeb1.mp3
-using ElevenLabs audio/7ad2718f.mp3
-done d_slim_tea 27.1 s
+done d_tulsi_drops 19.8 s

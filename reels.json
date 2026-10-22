@@ -2195,7 +2195,7 @@
    },
    {
     "say": "ब्यूटीलुक वन, सुबह दो टैबलेट। टू, शाम को दो। थ्री, रात को एक।",
-    "cap": "1 • 2 • 3 Routine",
+    "cap": "1 - 2 - 3 Routine",
     "photo": "products_ds/beautilook/01.jpg"
    },
    {
@@ -2302,7 +2302,7 @@
    },
    {
     "say": "बच्चों के लिए दो बूंद, बड़ों के लिए चार बूंद, दिन में दो बार।",
-    "cap": "Bachhe 2 • Bade 4 boond",
+    "cap": "Bachhe 2, Bade 4 boond",
     "photo": "products_ds/tulsi_drops/02.jpg"
    },
    {

@@ -2160,5 +2160,316 @@
     ]
    }
   ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "name": "d_beautilook",
+  "scenes": [
+   {
+    "say": "सुबह, शाम और रात। बस तीन आसान कदम।",
+    "cap": "Subah, Shaam, Raat",
+    "multi": [
+     [
+      "red-sun-rising-in-the-warm-morning-6850"
+     ],
+     [
+      "woman-hydrating-after-exercising-33271"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स ब्यूटीलुक। नब्बे दिन का हर्बल प्रोग्राम, वज़न संतुलन में सपोर्ट के लिए।",
+    "cap": "Beautilook 90-Day Program",
+    "photo": "products_ds/beautilook/07.jpg"
+   },
+   {
+    "say": "ब्यूटीलुक वन, सुबह दो टैबलेट। टू, शाम को दो। थ्री, रात को एक।",
+    "cap": "1 • 2 • 3 Routine",
+    "photo": "products_ds/beautilook/01.jpg"
+   },
+   {
+    "say": "आज ही शुरू कीजिए। डीएम में ब्यूटीलुक लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: BEAUTILOOK",
+    "multi": [
+     [
+      "woman-doing-yoga-outdoors-4878"
+     ],
+     [
+      "backlit-woman-walking-at-sunset-4629"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "name": "d_slim_tea",
+  "scenes": [
+   {
+    "say": "चाय के बिना दिन अधूरा लगता है? तो चाय को बनाइए हेल्दी।",
+    "cap": "Chai, but healthy",
+    "multi": [
+     [
+      "woman-dancing-and-drinking-coffee-in-the-morning-43375"
+     ],
+     [
+      "young-woman-laying-on-a-white-soft-bed-slowly-wakes-42896"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स स्लिम टी। छह चुनी हुई आयुर्वेदिक जड़ी-बूटियों का स्वाद।",
+    "cap": "Teamex Slim Tea",
+    "photo": "products_ds/slim_tea/01.jpg"
+   },
+   {
+    "say": "दालचीनी, अदरक, सौंफ, हल्दी, मुलेठी और हिबिस्कस। कैफीन-फ्री।",
+    "cap": "6 Ayurvedic Herbs",
+    "photo": "products_ds/slim_tea/05.jpg"
+   },
+   {
+    "say": "एक चम्मच गर्म पानी में डालिए, छानिए और चुस्की लीजिए।",
+    "cap": "Chusti lo, simple hai",
+    "photo": "products_ds/slim_tea/04.jpg"
+   },
+   {
+    "say": "आज ही शुरू कीजिए। डीएम में स्लिम लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: SLIM",
+    "multi": [
+     [
+      "woman-meditating-at-the-coast-15017"
+     ],
+     [
+      "countryside-meadow-4075"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "name": "d_tulsi_drops",
+  "scenes": [
+   {
+    "say": "मौसम बदलते ही सेहत का ख़्याल रखना ज़रूरी हो जाता है।",
+    "cap": "Mausam badle, tulsi lo",
+    "multi": [
+     [
+      "lush-green-mountains-under-cloudy-skies-100415"
+     ],
+     [
+      "waterfall-in-forest-2213"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स तुलसी ड्रॉप्स। पांच तरह की तुलसी का मेल।",
+    "cap": "Teamex Tulsi Drops",
+    "photo": "products_ds/tulsi_drops/05.jpg"
+   },
+   {
+    "say": "बच्चों के लिए दो बूंद, बड़ों के लिए चार बूंद, दिन में दो बार।",
+    "cap": "Bachhe 2 • Bade 4 boond",
+    "photo": "products_ds/tulsi_drops/02.jpg"
+   },
+   {
+    "say": "रोज़ की रूटीन में तुलसी। डीएम में तुलसी लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: TULSI",
+    "multi": [
+     [
+      "woman-meditating-with-her-dog-in-the-sunset-4800"
+     ],
+     [
+      "countryside-meadow-4075"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "name": "k_thyroid",
+  "scenes": [
+   {
+    "say": "थायरॉइड वेलनेस का ख़्याल रखना है? तो जानिए ये ख़ास किट।",
+    "cap": "Thyroid Wellness Kit",
+    "multi": [
+     [
+      "woman-meditating-at-the-coast-15017"
+     ],
+     [
+      "the-silhouette-of-a-woman-at-sunrise-4397"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स थायरोकेयर बैलेंस ड्रिंक। रोज़ तीस मिली, गुनगुने पानी के साथ।",
+    "cap": "Thyrocare Balance Drink",
+    "photo": "products_ds/thyrocare_balance_drink/06.jpg"
+   },
+   {
+    "say": "और आयुरलैंड कंचनार गुग्गुलु। दो टैबलेट, दिन में दो बार।",
+    "cap": "Kanchnar Guggulu",
+    "photo": "products_ds/kanchnar_guggulu/03.jpg"
+   },
+   {
+    "say": "दोनों साथ, थायरॉइड वेलनेस को सपोर्ट। डीएम में थायरॉइड लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: THYROID",
+    "multi": [
+     [
+      "backlit-woman-walking-at-sunset-4629"
+     ],
+     [
+      "woman-doing-yoga-outdoors-4878"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "name": "k_kidney",
+  "scenes": [
+   {
+    "say": "किडनी की सेहत, यानी पूरे शरीर की सेहत।",
+    "cap": "Healthy Kidney, Healthy You",
+    "multi": [
+     [
+      "woman-drinks-water-from-her-glass-during-her-meal-26097"
+     ],
+     [
+      "countryside-meadow-4075"
+     ]
+    ]
+   },
+   {
+    "say": "आयुरलैंड चंद्रप्रभा वटी। दो टैबलेट, दिन में दो बार, पानी के साथ।",
+    "cap": "Chandraprabha Vati",
+    "photo": "products_ds/chandraprabha_vati/02.jpg"
+   },
+   {
+    "say": "साथ में टीमएक्स नैनो करक्यूमिन कैप्सूल। रोज़ एक कैप्सूल, खाने के बाद।",
+    "cap": "Nano Curcumin Capsules",
+    "photo": "products_ds/nano_curcumin/05.jpg"
+   },
+   {
+    "say": "किडनी वेलनेस के लिए ये किट। डीएम में किडनी लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: KIDNEY",
+    "multi": [
+     [
+      "woman-hydrating-after-exercising-33271"
+     ],
+     [
+      "lush-green-mountains-under-cloudy-skies-100415"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "name": "k_women",
+  "scenes": [
+   {
+    "say": "हर महिला की सेहत के लिए, एक ख़ास केयर।",
+    "cap": "Women's Wellness Kit",
+    "multi": [
+     [
+      "young-woman-dancing-while-watering-her-plants-43378"
+     ],
+     [
+      "portrait-of-a-happy-smiling-woman-4859"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स शीवेल केयर ड्रिंक। रोज़ तीस मिली, गुनगुने पानी के साथ।",
+    "cap": "Shewell Care Drink",
+    "photo": "products_ds/shewell_drink/06.jpg"
+   },
+   {
+    "say": "और शीवेल टैबलेट। हर्बल सपोर्ट, दो टैबलेट, दिन में दो बार।",
+    "cap": "She Well Tablet",
+    "photo": "products_ds/she_well/03.jpg"
+   },
+   {
+    "say": "दोनों साथ, महिलाओं के वेलनेस के लिए। डीएम में शीवेल लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: SHEWELL",
+    "multi": [
+     [
+      "backlit-woman-walking-at-sunset-4629"
+     ],
+     [
+      "woman-doing-yoga-outdoors-4878"
+     ]
+    ]
+   }
+  ]
  }
 ]

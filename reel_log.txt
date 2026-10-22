@@ -1,6 +1,6 @@
-using ElevenLabs audio/490d4ba0.mp3
-using ElevenLabs audio/6d7286a3.mp3
-using ElevenLabs audio/52159ba9.mp3
-using ElevenLabs audio/3aa16190.mp3
+using ElevenLabs audio/7ef9733c.mp3
+using ElevenLabs audio/26944106.mp3
+using ElevenLabs audio/566e9bd9.mp3
+using ElevenLabs audio/89a60149.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done p_do_long 25.7 s
+done d_beautilook 22.9 s

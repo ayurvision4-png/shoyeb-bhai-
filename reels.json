@@ -2471,5 +2471,107 @@
     ]
    }
   ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "name": "k_liver",
+  "scenes": [
+   {
+    "say": "लिवर की देखभाल के लिए, एक आसान किट।",
+    "cap": "Liver Wellness Kit",
+    "multi": [
+     [
+      "farmers-market-display-of-fresh-herbs-994"
+     ],
+     [
+      "green-herbs-with-small-purple-flowers-36241"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स लिवो-फिट ड्रिंक। रोज़ तीस मिली, गुनगुने पानी के साथ।",
+    "cap": "Livo-Fit Drink",
+    "photo": "products/livofit/07.jpg"
+   },
+   {
+    "say": "और आयुरलैंड लिवपैट टैबलेट। दो टैबलेट, दिन में दो बार।",
+    "cap": "Livepat Tablet",
+    "photo": "products_ds/livepat/03.jpg"
+   },
+   {
+    "say": "दोनों साथ, लिवर वेलनेस के लिए। डीएम में लिवर लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: LIVER",
+    "multi": [
+     [
+      "woman-out-for-a-run-7587"
+     ],
+     [
+      "silhouette-of-man-drinking-water-597"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "capsize": 64,
+  "fade": 0.4,
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "name": "k_immunity",
+  "scenes": [
+   {
+    "say": "रोज़मर्रा की इम्यूनिटी के लिए, एक आसान किट।",
+    "cap": "Immunity Wellness Kit",
+    "multi": [
+     [
+      "woman-practicing-yoga-in-the-middle-of-nature-43797"
+     ],
+     [
+      "man-jogging-on-a-running-track-on-a-sunny-day-32799"
+     ]
+    ]
+   },
+   {
+    "say": "टीमएक्स सी बकथॉर्न ड्रिंक। तीस मिली, तीस मिली गुनगुने पानी में।",
+    "cap": "Sea Buckthorn Drink",
+    "photo": "products_ds/sea_buckthorn/02.jpg"
+   },
+   {
+    "say": "और टीमएक्स तुलसी ड्रॉप्स। बड़ों के लिए चार बूँद, बच्चों के लिए दो।",
+    "cap": "Tulsi Drops",
+    "photo": "products_ds/tulsi_drops/02.jpg"
+   },
+   {
+    "say": "दोनों साथ, रोज़ की इम्यूनिटी रूटीन के लिए। डीएम में इम्यूनिटी लिखिए, या व्हाट्सऐप कीजिए।",
+    "cap": "DM karo: IMMUNITY",
+    "multi": [
+     [
+      "nature-walk-as-a-couple-41579"
+     ],
+     [
+      "sunlight-dancing-on-water-101491"
+     ]
+    ]
+   }
+  ]
  }
 ]

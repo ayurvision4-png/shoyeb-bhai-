@@ -1,4 +1,8 @@
-using ElevenLabs audio/679a3b53.mp3
-using ElevenLabs audio/83a39b5e.mp3
+using ElevenLabs audio/e874b624.mp3
+using ElevenLabs audio/83265524.mp3
+using ElevenLabs audio/fe33b19d.mp3
+using ElevenLabs audio/467b3ee1.mp3
 using ElevenLabs audio/7ad2718f.mp3
-done k_women 26.8 s
+done k_liver 20.9 s
+using ElevenLabs audio/7ad2718f.mp3
+done k_immunity 33.5 s

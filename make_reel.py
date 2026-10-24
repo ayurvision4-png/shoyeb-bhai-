@@ -185,7 +185,7 @@ def make(reel):
     RATE, CAPSIZE, LIGHT, FADE = reel.get("rate", "-4%"), reel.get("capsize", 62), reel.get("theme") == "light", reel.get("fade", 0.5)
     used, scenes, t0 = set(), [], 0.0
     for i, sc in enumerate(reel["scenes"]):
-        a = f"tmp/{name}_{i}.mp3"; tts(sc["say"], voice, a); d = dur(a) + 0.15
+        a = f"tmp/{name}_{i}.mp3"; tts(sc["say"], ((MALE if i % 2 == 0 else FEMALE) if reel.get("alt") else voice), a); d = dur(a) + 0.15
         layer = f"tmp/{name}_{i}.png"; logo_layer(sc.get("cap", ""), light=LIGHT and "card" in sc).save(layer)
         out = f"tmp/{name}_{i}.mp4"
         extra = FADE if i < len(reel["scenes"]) + 1 else 0

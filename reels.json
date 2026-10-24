@@ -2575,5 +2575,121 @@
    }
   ],
   "alt": true
+ },
+ {
+  "name": "v_thyroid",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "थायरॉइड वालों! रोज़ की ये तीन आदतें, क्या आप अपनाते हैं?",
+    "txt": "*Thyroid wale! Roz ki ye *3 aadatein, aap apnate ho?",
+    "big": [
+     "THYROID WALE?",
+     "*3 AADATEIN",
+     "ROZ KI"
+    ],
+    "big_y": 380,
+    "shots": [
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset-4629"
+      ]
+     },
+     {
+      "clip": [
+       "woman-doing-yoga-in-nature-43783"
+      ],
+      "punch": 0.2
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "एक। सुबह खाली पेट, थायरोकेयर बैलेंस ड्रिंक। तीस मिली, गुनगुने पानी के साथ।",
+    "txt": "*Ek. Subah khali pet, Thyrocare Balance Drink. *30 ml, gunguna paani",
+    "badge": "Aadat 1",
+    "label": "Thyrocare Balance Drink",
+    "shots": [
+     {
+      "clip": [
+       "silhouette-of-man-drinking-water-597"
+      ]
+     },
+     {
+      "photo": "products_ds/thyrocare_balance_drink/06.jpg"
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "दो। कांचनार गुग्गुलु। दो टैबलेट, दिन में दो बार।",
+    "txt": "*Do. Kanchnar Guggulu. *2 tablet, din mein *2 baar",
+    "badge": "Aadat 2",
+    "label": "Kanchnar Guggulu",
+    "shots": [
+     {
+      "photo": "products_ds/kanchnar_guggulu/03.jpg"
+     },
+     {
+      "clip": [
+       "woman-out-for-a-run-7587"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "तीन। रोज़ बीस मिनट टहलना या योग। बस इतना सा।",
+    "txt": "*Teen. Roz *20 minute walk ya yoga. Bas itna sa!",
+    "badge": "Aadat 3",
+    "shots": [
+     {
+      "clip": [
+       "woman-practicing-yoga-in-the-middle-of-nature-43797"
+      ]
+     },
+     {
+      "clip": [
+       "nature-walk-as-a-couple-41579"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "ये रूटीन चाहिए? कमेंट या डीएम में थायरॉइड लिखिए, या व्हाट्सऐप कीजिए!",
+    "txt": "Routine chahiye? Comment ya DM mein *THYROID likho, ya WhatsApp karo!",
+    "big": [
+     "COMMENT / DM",
+     "*THYROID"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
+    "shots": [
+     {
+      "clip": [
+       "sunlight-dancing-on-water-101491"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-in-nature-43786"
+      ]
+     }
+    ]
+   }
+  ]
  }
 ]

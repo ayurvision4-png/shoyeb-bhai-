@@ -180,6 +180,8 @@ def photo_scene(path, secs, layer_png, out):
     run(["ffmpeg","-y","-loop","1","-i","tmp/photo.png","-i",layer_png,"-t",f"{secs:.2f}","-filter_complex",vf,"-map","[o]","-an","-c:v","libx264","-preset","veryfast","-crf","20",out])
 
 def make(reel):
+    if reel.get("style") == "viral":
+        import viral; return viral.make(reel)
     global RATE, CAPSIZE, LIGHT, FADE
     name, voice = reel["name"], reel.get("voice_name") or (MALE if reel.get("voice") == "male" else FEMALE)
     RATE, CAPSIZE, LIGHT, FADE = reel.get("rate", "-4%"), reel.get("capsize", 62), reel.get("theme") == "light", reel.get("fade", 0.5)

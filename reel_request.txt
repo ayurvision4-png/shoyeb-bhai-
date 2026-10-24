@@ -1,1 +1,1 @@
-k_liver k_immunity
+v_thyroid

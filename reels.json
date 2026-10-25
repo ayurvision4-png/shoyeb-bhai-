@@ -3861,5 +3861,471 @@
     ]
    }
   ]
+ },
+ {
+  "name": "v_joints",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "घुटनों और हड्डियों की देखभाल? रोज़ की ये तीन आदतें अपनाइए!",
+    "txt": "*Ghutne aur haddi ki care? Roz ki ye *3 aadatein!",
+    "big": [
+     "JOINTS KI",
+     "*CARE?",
+     "3 AADATEIN"
+    ],
+    "big_y": 380,
+    "shots": [
+     {
+      "clip": [
+       "nature-walk-as-a-couple-41579"
+      ]
+     },
+     {
+      "clip": [
+       "man-jogging-on-a-running-track-on-a-sunny-day-32799"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "एक। ऑर्थो टैबलेट। दो टैबलेट, दिन में तीन बार।",
+    "txt": "*Ek. Ortho Tablet. *2 tablet, din mein *3 baar",
+    "badge": "Aadat 1",
+    "shots": [
+     {
+      "photo": "products_ds/ortho_tablet/02.jpg"
+     },
+     {
+      "clip": [
+       "woman-out-for-a-run-7587"
+      ]
+     }
+    ],
+    "label": "Ortho Tablet"
+   },
+   {
+    "v": "f",
+    "say": "दो। कैल्शियम चेवेबल टैबलेट। रोज़ दो टैबलेट, डेली बोन सपोर्ट।",
+    "txt": "*Do. Calcium Chewable. Roz *2 tablet, daily bone support",
+    "badge": "Aadat 2",
+    "shots": [
+     {
+      "photo": "products_ds/calcium_chewable/02.jpg"
+     },
+     {
+      "clip": [
+       "woman-doing-yoga-outdoors-4878"
+      ]
+     }
+    ],
+    "label": "Calcium Chewable"
+   },
+   {
+    "v": "m",
+    "say": "तीन। रोज़ थोड़ी धूप और हल्की स्ट्रेचिंग।",
+    "txt": "*Teen. Roz thodi *dhoop aur halki *stretching",
+    "badge": "Aadat 3",
+    "shots": [
+     {
+      "clip": [
+       "red-sun-rising-in-the-warm-morning-6850"
+      ]
+     },
+     {
+      "clip": [
+       "woman-doing-yoga-in-nature-43783"
+      ]
+     },
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset-4629"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "ये किट चाहिए? कमेंट या डीएम में जॉइंट लिखिए, या व्हाट्सऐप कीजिए!",
+    "txt": "Kit chahiye? Comment ya DM mein *JOINT likho, ya WhatsApp karo!",
+    "big": [
+     "COMMENT / DM",
+     "*JOINT"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
+    "shots": [
+     {
+      "clip": [
+       "waterfall-in-forest-2213"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-in-nature-43786"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v_skin",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "चमकती त्वचा चाहिए? अंदर से देखभाल की तीन आदतें!",
+    "txt": "*Chamakti skin chahiye? Andar se care ki *3 aadatein!",
+    "big": [
+     "SKIN GLOW?",
+     "*3 AADATEIN",
+     "ANDAR SE"
+    ],
+    "big_y": 380,
+    "shots": [
+     {
+      "clip": [
+       "portrait-of-a-happy-smiling-woman-4859"
+      ]
+     },
+     {
+      "clip": [
+       "young-woman-dancing-while-watering-her-plants-43378"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "एक। टीमएक्स बेरी ड्रिंक। तीस मिली, गुनगुने पानी के साथ।",
+    "txt": "*Ek. Berry Drink. *30 ml, gunguna paani",
+    "badge": "Aadat 1",
+    "shots": [
+     {
+      "photo": "products/berry/01.jpg"
+     },
+     {
+      "clip": [
+       "woman-dancing-and-drinking-coffee-in-the-morning-43375"
+      ]
+     }
+    ],
+    "label": "Berry Drink"
+   },
+   {
+    "v": "m",
+    "say": "दो। आंवला टैबलेट। दो टैबलेट, दिन में दो बार, खाने के बाद।",
+    "txt": "*Do. Amla Tablet. *2 tablet, din mein *2 baar, khane ke baad",
+    "badge": "Aadat 2",
+    "shots": [
+     {
+      "photo": "products_ds/amla_tablet/02.jpg"
+     },
+     {
+      "clip": [
+       "farmers-market-display-of-fresh-herbs-994"
+      ]
+     }
+    ],
+    "label": "Amla Tablet"
+   },
+   {
+    "v": "f",
+    "say": "तीन। खूब पानी और भरपूर नींद।",
+    "txt": "*Teen. Khoob *paani aur bharpoor *neend",
+    "badge": "Aadat 3",
+    "shots": [
+     {
+      "clip": [
+       "woman-drinks-water-from-her-glass-during-her-meal-26097"
+      ]
+     },
+     {
+      "clip": [
+       "young-woman-laying-on-a-white-soft-bed-slowly-wakes-42896"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "ये किट चाहिए? कमेंट या डीएम में स्किन लिखिए, या व्हाट्सऐप कीजिए!",
+    "txt": "Kit chahiye? Comment ya DM mein *SKIN likho, ya WhatsApp karo!",
+    "big": [
+     "COMMENT / DM",
+     "*SKIN"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
+    "shots": [
+     {
+      "clip": [
+       "countryside-meadow-4075"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-at-the-coast-15017"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v_digestion",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "गैस और भारीपन से परेशान? पाचन के लिए ये तीन बातें!",
+    "txt": "*Gas aur bhaaripan? Pachan ke liye ye *3 baatein!",
+    "big": [
+     "PACHAN KE",
+     "*LIYE",
+     "3 BAATEIN"
+    ],
+    "big_y": 380,
+    "shots": [
+     {
+      "clip": [
+       "detailed-view-of-a-healthy-salad-40531"
+      ]
+     },
+     {
+      "clip": [
+       "vegetables-into-the-pan-in-slow-motion-49231"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "एक। कामदुधा रस। दो टैबलेट, दिन में दो बार, खाने से पहले।",
+    "txt": "*Ek. Kamdudha Ras. *2 tablet, din mein *2 baar, khane se pehle",
+    "badge": "Baat 1",
+    "shots": [
+     {
+      "photo": "products_ds/kamdudha_ras/02.jpg"
+     },
+     {
+      "clip": [
+       "green-herbs-with-small-purple-flowers-36241"
+      ]
+     }
+    ],
+    "label": "Kamdudha Ras"
+   },
+   {
+    "v": "f",
+    "say": "दो। त्रिफला टैबलेट। दो टैबलेट, नाश्ते से पहले और रात को सोने से पहले।",
+    "txt": "*Do. Trifala Tablet. *2 tablet, naashte se pehle aur raat ko",
+    "badge": "Baat 2",
+    "shots": [
+     {
+      "photo": "products_ds/trifala/02.jpg"
+     },
+     {
+      "clip": [
+       "two-people-walking-slowly-among-herbs-32620"
+      ]
+     }
+    ],
+    "label": "Trifala Tablet"
+   },
+   {
+    "v": "m",
+    "say": "तीन। हल्का खाना, और खाने के बाद थोड़ा टहलना।",
+    "txt": "*Teen. *Halka khana, khane ke baad thoda *tehalna",
+    "badge": "Baat 3",
+    "shots": [
+     {
+      "clip": [
+       "nature-walk-as-a-couple-41579"
+      ]
+     },
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset-4629"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "ये रूटीन चाहिए? कमेंट या डीएम में पाचन लिखिए, या व्हाट्सऐप कीजिए!",
+    "txt": "Routine chahiye? Comment ya DM mein *PACHAN likho, ya WhatsApp karo!",
+    "big": [
+     "COMMENT / DM",
+     "*PACHAN"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
+    "shots": [
+     {
+      "clip": [
+       "waterfall-in-forest-2213"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-in-nature-43786"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v_ashwagandha",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "स्ट्रेस और थकान रोज़ की बात? ये तीन आदतें आज़माइए!",
+    "txt": "*Stress aur thakaan? Ye *3 aadatein aazmaiye!",
+    "big": [
+     "STRESS?",
+     "*3 AADATEIN",
+     "ROZ KI"
+    ],
+    "big_y": 380,
+    "shots": [
+     {
+      "clip": [
+       "man-jogging-on-a-running-track-on-a-sunny-day-32799"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-at-the-coast-15017"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "एक। अश्वगंधा टैबलेट। दो टैबलेट, दिन में दो बार, खाने के बाद।",
+    "txt": "*Ek. Ashwagandha Tablet. *2 tablet, din mein *2 baar, khane ke baad",
+    "badge": "Aadat 1",
+    "shots": [
+     {
+      "photo": "products_ds/ashwagandha_tablet/02.jpg"
+     },
+     {
+      "clip": [
+       "farmers-market-display-of-fresh-herbs-994"
+      ]
+     }
+    ],
+    "label": "Ashwagandha Tablet"
+   },
+   {
+    "v": "m",
+    "say": "दो। रोज़ दस मिनट गहरी साँसें और योग।",
+    "txt": "*Do. Roz *10 minute gehri saansein aur *yoga",
+    "badge": "Aadat 2",
+    "shots": [
+     {
+      "clip": [
+       "woman-doing-yoga-in-nature-43783"
+      ]
+     },
+     {
+      "clip": [
+       "woman-practicing-yoga-in-the-middle-of-nature-43797"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "तीन। समय पर सोइए, भरपूर नींद लीजिए।",
+    "txt": "*Teen. Samay par soiye, bharpoor *neend",
+    "badge": "Aadat 3",
+    "shots": [
+     {
+      "clip": [
+       "young-woman-laying-on-a-white-soft-bed-slowly-wakes-42896"
+      ]
+     },
+     {
+      "clip": [
+       "red-sun-rising-in-the-warm-morning-6850"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "अश्वगंधा चाहिए? कमेंट या डीएम में अश्वगंधा लिखिए, या व्हाट्सऐप कीजिए!",
+    "txt": "Ashwagandha chahiye? Comment ya DM mein *ASHWAGANDHA likho, ya WhatsApp karo!",
+    "big": [
+     "COMMENT / DM",
+     "*ASHWAGANDHA"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
+    "shots": [
+     {
+      "clip": [
+       "waterfall-in-forest-2213"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-in-nature-43786"
+      ]
+     }
+    ]
+   }
+  ]
  }
 ]

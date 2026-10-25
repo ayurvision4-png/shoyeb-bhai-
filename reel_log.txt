@@ -1,10 +1,3 @@
-Traceback (most recent call last):
-  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 238, in <module>
-    for n in sys.argv[1:]: make(reels[n])
-                           ^^^^^^^^^^^^^^
-  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py", line 184, in make
-    import viral; return viral.make(reel)
-    ^^^^^^^^^^^^
-  File "/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/viral.py", line 6, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
+viral font: /usr/share/fonts/opentype/montserrat/Montserrat-ExtraBold.otf
+using ElevenLabs audio/7ad2718f.mp3
+done v_thyroid 31.1 s

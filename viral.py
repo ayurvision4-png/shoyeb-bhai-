@@ -224,7 +224,7 @@ def make(reel):
            ";".join(af) + f";{vmix}amix=inputs={nv}:normalize=0,highpass=f=90,acompressor=threshold=-18dB:ratio=3,asplit=2[vo][sc];"
            + "".join(sfx_in) + f"amix=inputs={len(cuts)}:normalize=0[sfx];"
            f"[{mi}:a]volume=0.55,afade=t=in:d=1.0[m];[m][sc]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=350[md];"
-           f"[vo][md][sfx]amix=inputs=3:normalize=0,alimiter=limit=0.85,afade=t=out:st={total-1.2:.1f}:d=1.2[a]",
+           f"[vo][md][sfx]amix=inputs=3:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=7,alimiter=limit=0.89,afade=t=out:st={total-1.2:.1f}:d=1.2[a]",
            "-map", "[a]", "-t", f"{total:.2f}", "-c:a", "aac", "-b:a", "160k", f"tmp/v/{name}_a.m4a"])
     M.run(["ffmpeg", "-y", "-i", vid, "-i", f"tmp/v/{name}_a.m4a", "-c:v", "copy", "-c:a", "copy", "-shortest", "-movflags", "+faststart", f"videos/{name}.mp4"])
     print("done", name, round(total, 1), "s")

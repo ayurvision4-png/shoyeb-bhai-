@@ -134,7 +134,12 @@ def get_clip(patterns, seed, used):
     if TEST:
         _test_n[0] += 1; p = f"tmp/clips/test_{_test_n[0]}.mp4"
         M.run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"testsrc2=s=1920x1080:r=30:d=6", "-c:v", "libx264", "-pix_fmt", "yuv420p", p]); return p
-    return M.fetch_clip(patterns, seed, used)
+    import re as _re
+    want = {i for i, n in M.SCOUT if _re.search("|".join(patterns), n)}
+    p = M.fetch_clip(patterns, seed, used)
+    got = os.path.basename(p).split(".")[0]
+    print(("CLIP OK " if got in want else "CLIP FALLBACK ") + f"{patterns} -> {got}", flush=True)
+    return p
 
 def probe_wh(p):
     r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", p], capture_output=True, text=True).stdout.strip().split(",")

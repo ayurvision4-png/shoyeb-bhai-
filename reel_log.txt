@@ -1,3 +1,17 @@
 viral font: /usr/share/fonts/opentype/montserrat/Montserrat-ExtraBold.otf
 using ElevenLabs audio/7ad2718f.mp3
 done v_thyroid 31.1 s
+using ElevenLabs audio/7ad2718f.mp3
+done v_kidney 33.3 s
+using ElevenLabs audio/7ad2718f.mp3
+done v_women 31.4 s
+using ElevenLabs audio/7ad2718f.mp3
+done v_liver 29.5 s
+using ElevenLabs audio/7ad2718f.mp3
+done v_immunity 31.0 s
+using ElevenLabs audio/7ad2718f.mp3
+done v_beautilook 29.0 s
+using ElevenLabs audio/7ad2718f.mp3
+done v_slim_tea 32.1 s
+using ElevenLabs audio/7ad2718f.mp3
+done v_tulsi 27.4 s

@@ -3514,5 +3514,352 @@
     ]
    }
   ]
+ },
+ {
+  "name": "v_alkomax",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "रोज़ थकान और सुस्ती? शरीर को अंदर से सपोर्ट देने की तीन बातें!",
+    "txt": "*Roz thakaan? Andar se support ki *3 baatein!",
+    "big": [
+     "ROZ THAKAAN?",
+     "*3 BAATEIN",
+     "ANDAR SE"
+    ],
+    "big_y": 380,
+    "shots": [
+     {
+      "clip": [
+       "man-jogging-on-a-running-track-on-a-sunny-day-32799"
+      ]
+     },
+     {
+      "clip": [
+       "woman-dancing-and-drinking-coffee-in-the-morning-43375"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "एक। टीमएक्स एल्कोमैक्स कैप्सूल। रोज़ एक, खाने के बाद।",
+    "txt": "*Ek. Alkomax capsule. Roz *1, khane ke baad",
+    "badge": "Baat 1",
+    "shots": [
+     {
+      "photo": "products/alkomax/02.jpg"
+     },
+     {
+      "clip": [
+       "red-sun-rising-in-the-warm-morning-6850"
+      ]
+     }
+    ],
+    "label": "Alkomax Capsule"
+   },
+   {
+    "v": "f",
+    "say": "दो। पच्चीस से ज़्यादा विटामिन और मिनरल्स का सपोर्ट।",
+    "txt": "*Do. *25+ vitamins aur minerals ka support",
+    "badge": "Baat 2",
+    "shots": [
+     {
+      "photo": "products/alkomax/06.jpg"
+     },
+     {
+      "clip": [
+       "woman-doing-yoga-outdoors-4878"
+      ]
+     }
+    ],
+    "label": "Alkomax Capsule"
+   },
+   {
+    "v": "m",
+    "say": "तीन। सीएमडी ड्रॉप्स। तीन बूँद, एक गिलास पानी में।",
+    "txt": "*Teen. CMD drops. *3 boond, ek glass paani mein",
+    "badge": "Baat 3",
+    "shots": [
+     {
+      "photo": "products/cmd/02.jpg"
+     },
+     {
+      "clip": [
+       "woman-hydrating-after-exercising-33271"
+      ]
+     }
+    ],
+    "label": "CMD Mineral Drops"
+   },
+   {
+    "v": "f",
+    "say": "ये रूटीन चाहिए? कमेंट या डीएम में अल्को लिखिए, या व्हाट्सऐप कीजिए!",
+    "txt": "Routine chahiye? Comment ya DM mein *ALKO likho, ya WhatsApp karo!",
+    "big": [
+     "COMMENT / DM",
+     "*ALKO"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
+    "shots": [
+     {
+      "clip": [
+       "sunlight-dancing-on-water-101491"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-in-nature-43786"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v_detox",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "भारी खाना खा लिया? पेट के लिए ये तीन बातें याद रखिए!",
+    "txt": "*Bhaari khana khaya? Pet ke liye ye *3 baatein!",
+    "big": [
+     "BHAARI KHANA?",
+     "*3 BAATEIN",
+     "PET KE LIYE"
+    ],
+    "big_y": 380,
+    "shots": [
+     {
+      "clip": [
+       "detailed-view-of-a-healthy-salad-40531"
+      ]
+     },
+     {
+      "clip": [
+       "vegetables-into-the-pan-in-slow-motion-49231"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "एक। खाने के बाद दस मिनट टहलिए।",
+    "txt": "*Ek. Khane ke baad *10 minute tehliye",
+    "badge": "Baat 1",
+    "shots": [
+     {
+      "clip": [
+       "nature-walk-as-a-couple-41579"
+      ]
+     },
+     {
+      "clip": [
+       "two-people-walking-slowly-among-herbs-32620"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "दो। टीमएक्स डिटॉक्स टैबलेट। रात को सोने से पहले, एक टैबलेट।",
+    "txt": "*Do. Detox Tablet. Raat ko sone se pehle *1 tablet",
+    "badge": "Baat 2",
+    "shots": [
+     {
+      "photo": "products/detox/07.jpg"
+     },
+     {
+      "clip": [
+       "green-herbs-with-small-purple-flowers-36241"
+      ]
+     }
+    ],
+    "label": "Detox Tablet"
+   },
+   {
+    "v": "f",
+    "say": "तीन। अगले दिन गुनगुना पानी और हल्का खाना।",
+    "txt": "*Teen. Agle din *gunguna paani aur halka khana",
+    "badge": "Baat 3",
+    "shots": [
+     {
+      "clip": [
+       "woman-drinks-water-from-her-glass-during-her-meal-26097"
+      ]
+     },
+     {
+      "clip": [
+       "farmers-market-display-of-fresh-herbs-994"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "डिटॉक्स टैबलेट चाहिए? कमेंट या डीएम में डिटॉक्स लिखिए, या व्हाट्सऐप कीजिए!",
+    "txt": "Detox Tablet chahiye? Comment ya DM mein *DETOX likho, ya WhatsApp karo!",
+    "big": [
+     "COMMENT / DM",
+     "*DETOX"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
+    "shots": [
+     {
+      "clip": [
+       "sunlight-dancing-on-water-101491"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-in-nature-43786"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v_do_long",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "दिन भर की थकान? बड़ों के लिए, तीन बातें!",
+    "txt": "*Din bhar ki thakaan? Bado ke liye *3 baatein!",
+    "big": [
+     "DIN BHAR KI",
+     "*THAKAAN?",
+     "3 BAATEIN"
+    ],
+    "big_y": 380,
+    "shots": [
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset-4629"
+      ]
+     },
+     {
+      "clip": [
+       "man-jogging-on-a-running-track-on-a-sunny-day-32799"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "एक। टीमएक्स डू लॉन्ग। अश्वगंधा, शिलाजीत और केसर जैसी जड़ी-बूटियों से बनी।",
+    "txt": "*Ek. Teamex Do Long. Ashwagandha, Shilajit, Kesar",
+    "badge": "Baat 1",
+    "shots": [
+     {
+      "photo": "products/do_long/03.jpg"
+     },
+     {
+      "clip": [
+       "red-sun-rising-in-the-warm-morning-6850"
+      ]
+     }
+    ],
+    "label": "Teamex Do Long",
+    "small": "Sirf adults ke liye."
+   },
+   {
+    "v": "m",
+    "say": "दो। सुबह और शाम खाने के बाद, दो टैबलेट, दूध के साथ।",
+    "txt": "*Do. Subah-shaam khane ke baad *2 tablet, doodh ke saath",
+    "badge": "Baat 2",
+    "shots": [
+     {
+      "photo": "products/do_long/06.jpg"
+     },
+     {
+      "clip": [
+       "nature-walk-as-a-couple-41579"
+      ]
+     }
+    ],
+    "label": "Teamex Do Long",
+    "small": "Sirf adults ke liye."
+   },
+   {
+    "v": "f",
+    "say": "तीन। रोज़ थोड़ी वॉक या योग, और भरपूर नींद।",
+    "txt": "*Teen. Roz thodi *walk ya yoga, aur bharpoor *neend",
+    "badge": "Baat 3",
+    "shots": [
+     {
+      "clip": [
+       "woman-doing-yoga-in-nature-43783"
+      ]
+     },
+     {
+      "clip": [
+       "young-woman-laying-on-a-white-soft-bed-slowly-wakes-42896"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "डू लॉन्ग चाहिए? कमेंट या डीएम में डूलॉन्ग लिखिए, या व्हाट्सऐप कीजिए!",
+    "txt": "Do Long chahiye? Comment ya DM mein *DOLONG likho, ya WhatsApp karo!",
+    "big": [
+     "COMMENT / DM",
+     "*DOLONG"
+    ],
+    "big_y": 420,
+    "small": "Sirf adults ke liye. Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
+    "shots": [
+     {
+      "clip": [
+       "sunlight-dancing-on-water-101491"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-in-nature-43786"
+      ]
+     }
+    ]
+   }
+  ]
  }
 ]

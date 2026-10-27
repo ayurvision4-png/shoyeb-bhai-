@@ -4334,5 +4334,1052 @@
     ]
    }
   ]
+ },
+ {
+  "name": "s7_d1",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "सात दिन, सात आदतें। आज डे वन: उठते ही मोबाइल नहीं!",
+    "txt": "*7 din, *7 aadatein. Aaj *Day 1: uthte hi mobile nahi!",
+    "shots": [
+     {
+      "clip": [
+       "a-man-lying-on-the-bed-scrolling-on-his-phone-13168"
+      ]
+     },
+     {
+      "clip": [
+       "girl-checking-her-cell-phone-in-her-bed-upon-waking-31406"
+      ]
+     }
+    ],
+    "big": [
+     "DAY 1/7",
+     "*UTHTE HI",
+     "MOBILE NAHI"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "m",
+    "say": "पहले एक गिलास गुनगुना पानी, आराम से बैठकर।",
+    "txt": "*Pehle ek glass *gunguna paani, aaram se baithkar",
+    "shots": [
+     {
+      "clip": [
+       "athlete-woman-drinking-water-and-resting-21396"
+      ]
+     },
+     {
+      "clip": [
+       "old-woman-drinking-water-from-a-bottle-33404"
+      ]
+     }
+    ],
+    "badge": "Day 1/7"
+   },
+   {
+    "v": "f",
+    "say": "फिर पाँच मिनट गहरी साँसें या हल्की स्ट्रेचिंग।",
+    "txt": "*Phir *5 minute gehri saansein ya halki stretching",
+    "shots": [
+     {
+      "clip": [
+       "a-young-man-stretches-his-arms-on-the-balcony-50759"
+      ]
+     },
+     {
+      "clip": [
+       "golden-sunrise-in-the-autumn-21168"
+      ]
+     }
+    ],
+    "badge": "Day 1/7"
+   },
+   {
+    "v": "m",
+    "say": "कल डे टू आएगा। फ़ॉलो कीजिए, मिस मत कीजिए!",
+    "txt": "Kal *Day 2 aayega. *Follow kijiye, miss mat kijiye!",
+    "shots": [
+     {
+      "clip": [
+       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+      ]
+     },
+     {
+      "clip": [
+       "bright-orange-sky-at-sunrise-20425"
+      ]
+     }
+    ],
+    "big": [
+     "*KAL DAY 2",
+     "FOLLOW KARO"
+    ],
+    "big_y": 420
+   }
+  ]
+ },
+ {
+  "name": "s7_d2",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "डे टू: खाने के बाद सीधे सोफ़े पर?",
+    "txt": "*Day 2: Khane ke baad seedha *sofa par?",
+    "shots": [
+     {
+      "clip": [
+       "a-young-smiling-woman-sitting-on-a-comfy-couch-using-100053"
+      ]
+     },
+     {
+      "clip": [
+       "girl-asleep-on-a-sofa-33455"
+      ]
+     }
+    ],
+    "big": [
+     "DAY 2/7",
+     "*KHANE KE",
+     "BAAD SOFA?"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "m",
+    "say": "खाने के बाद दस मिनट धीरे-धीरे टहलिए।",
+    "txt": "Khane ke baad *10 minute dheere-dheere *tehliye",
+    "shots": [
+     {
+      "clip": [
+       "couple-silhouette-walking-through-a-neighborhood-939"
+      ]
+     },
+     {
+      "clip": [
+       "girl-from-the-front-walking-through-a-park-4825"
+      ]
+     }
+    ],
+    "badge": "Day 2/7"
+   },
+   {
+    "v": "f",
+    "say": "घर के अंदर टहलना भी चलेगा, बस बैठिए मत!",
+    "txt": "Ghar ke andar bhi chalega, bas *baithiye mat!",
+    "shots": [
+     {
+      "clip": [
+       "couple-walking-hand-in-hand-4661"
+      ]
+     },
+     {
+      "clip": [
+       "family-walking-together-in-nature-39767"
+      ]
+     }
+    ],
+    "badge": "Day 2/7"
+   },
+   {
+    "v": "m",
+    "say": "कल डे थ्री आएगा। फ़ॉलो कीजिए, मिस मत कीजिए!",
+    "txt": "Kal *Day 3 aayega. *Follow kijiye, miss mat kijiye!",
+    "shots": [
+     {
+      "clip": [
+       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+      ]
+     },
+     {
+      "clip": [
+       "bright-orange-sky-at-sunrise-20425"
+      ]
+     }
+    ],
+    "big": [
+     "*KAL DAY 3",
+     "FOLLOW KARO"
+    ],
+    "big_y": 420
+   }
+  ]
+ },
+ {
+  "name": "s7_d3",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "डे थ्री: रात का खाना इतनी देर से?",
+    "txt": "*Day 3: Raat ka khana itni *der se?",
+    "shots": [
+     {
+      "clip": [
+       "girl-using-her-cell-phone-at-night-43385"
+      ]
+     },
+     {
+      "clip": [
+       "man-setting-his-alarm-clock-before-going-to-sleep-31410"
+      ]
+     }
+    ],
+    "big": [
+     "DAY 3/7",
+     "*RAAT KA",
+     "KHANA DER?"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "f",
+    "say": "सोने से दो घंटे पहले खाना खा लीजिए।",
+    "txt": "Sone se *2 ghante pehle khana kha lijiye",
+    "shots": [
+     {
+      "clip": [
+       "detailed-view-of-a-healthy-salad-40531"
+      ]
+     },
+     {
+      "clip": [
+       "girl-eating-healthy-26095"
+      ]
+     }
+    ],
+    "badge": "Day 3/7"
+   },
+   {
+    "v": "m",
+    "say": "दाल, सब्ज़ी और सलाद, हल्की थाली रखिए।",
+    "txt": "Dal, sabzi aur salad, *halki thali rakhiye",
+    "shots": [
+     {
+      "clip": [
+       "fresh-vegetables-on-a-wooden-board-close-up-view-10420"
+      ]
+     },
+     {
+      "clip": [
+       "people-taking-green-vegetables-and-fruits-21341"
+      ]
+     }
+    ],
+    "badge": "Day 3/7"
+   },
+   {
+    "v": "f",
+    "say": "कल डे फ़ोर आएगा। फ़ॉलो कीजिए, मिस मत कीजिए!",
+    "txt": "Kal *Day 4 aayega. *Follow kijiye, miss mat kijiye!",
+    "shots": [
+     {
+      "clip": [
+       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+      ]
+     },
+     {
+      "clip": [
+       "bright-orange-sky-at-sunrise-20425"
+      ]
+     }
+    ],
+    "big": [
+     "*KAL DAY 4",
+     "FOLLOW KARO"
+    ],
+    "big_y": 420
+   }
+  ]
+ },
+ {
+  "name": "s7_d4",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "डे फ़ोर: चाय छोड़नी नहीं है, बस बदलनी है!",
+    "txt": "*Day 4: Chai chhodni nahi, bas *badalni hai!",
+    "shots": [
+     {
+      "clip": [
+       "drinking-tea-on-a-cool-morning-25377"
+      ]
+     },
+     {
+      "clip": [
+       "people-pouring-a-warm-drink-around-a-campfire-513"
+      ]
+     }
+    ],
+    "big": [
+     "DAY 4/7",
+     "*CHAI NAHI",
+     "CHHODNI?"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "m",
+    "say": "चाय में चीनी थोड़ी कम कीजिए, धीरे-धीरे।",
+    "txt": "Chai mein *chini thodi kam kijiye, dheere-dheere",
+    "shots": [
+     {
+      "clip": [
+       "coffee-is-served-in-a-cup-3573"
+      ]
+     },
+     {
+      "clip": [
+       "milk-being-poured-into-a-coffee-cup-4993"
+      ]
+     }
+    ],
+    "badge": "Day 4/7"
+   },
+   {
+    "v": "f",
+    "say": "दिन में एक बार हर्बल स्लिम टी आज़माइए।",
+    "txt": "Din mein ek baar *herbal Slim Tea aazmaiye",
+    "shots": [
+     {
+      "photo": "products_ds/slim_tea/05.jpg"
+     },
+     {
+      "clip": [
+       "drinking-tea-on-a-cool-morning-25377"
+      ]
+     }
+    ],
+    "badge": "Day 4/7",
+    "label": "Teamex Slim Tea"
+   },
+   {
+    "v": "m",
+    "say": "कल डे फ़ाइव आएगा। फ़ॉलो कीजिए, मिस मत कीजिए!",
+    "txt": "Kal *Day 5 aayega. *Follow kijiye, miss mat kijiye!",
+    "shots": [
+     {
+      "clip": [
+       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+      ]
+     },
+     {
+      "clip": [
+       "bright-orange-sky-at-sunrise-20425"
+      ]
+     }
+    ],
+    "big": [
+     "*KAL DAY 5",
+     "FOLLOW KARO"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
+   }
+  ]
+ },
+ {
+  "name": "s7_d5",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "डे फ़ाइव: नींद पूरी नहीं होती?",
+    "txt": "*Day 5: *Neend poori nahi hoti?",
+    "shots": [
+     {
+      "clip": [
+       "girl-lying-down-chatting-on-her-cell-phone-before-sleeping-39789"
+      ]
+     },
+     {
+      "clip": [
+       "male-office-worker-yawning-portrait-33743"
+      ]
+     }
+    ],
+    "big": [
+     "DAY 5/7",
+     "*NEEND POORI",
+     "NAHI HOTI?"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "f",
+    "say": "सोने से पहले मोबाइल दूर रख दीजिए।",
+    "txt": "Sone se pehle *mobile door rakh dijiye",
+    "shots": [
+     {
+      "clip": [
+       "boy-puts-his-cell-phone-aside-so-he-can-go-31412"
+      ]
+     },
+     {
+      "clip": [
+       "man-setting-his-alarm-clock-before-going-to-sleep-31410"
+      ]
+     }
+    ],
+    "badge": "Day 5/7"
+   },
+   {
+    "v": "m",
+    "say": "रोज़ एक ही समय पर सोइए और उठिए।",
+    "txt": "Roz *ek hi samay par soiye aur uthiye",
+    "shots": [
+     {
+      "clip": [
+       "night-sky-with-stars-at-a-calm-lake-time-lapse-1704"
+      ]
+     },
+     {
+      "clip": [
+       "a-young-man-wakes-up-and-turns-the-alarm-clock-50752"
+      ]
+     }
+    ],
+    "badge": "Day 5/7"
+   },
+   {
+    "v": "f",
+    "say": "कल डे सिक्स आएगा। फ़ॉलो कीजिए, मिस मत कीजिए!",
+    "txt": "Kal *Day 6 aayega. *Follow kijiye, miss mat kijiye!",
+    "shots": [
+     {
+      "clip": [
+       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+      ]
+     },
+     {
+      "clip": [
+       "bright-orange-sky-at-sunrise-20425"
+      ]
+     }
+    ],
+    "big": [
+     "*KAL DAY 6",
+     "FOLLOW KARO"
+    ],
+    "big_y": 420
+   }
+  ]
+ },
+ {
+  "name": "s7_d6",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "डे सिक्स: सुबह की धूप, सबसे आसान आदत!",
+    "txt": "*Day 6: Subah ki *dhoop, sabse aasan aadat!",
+    "shots": [
+     {
+      "clip": [
+       "red-sun-rising-in-the-warm-morning-6850"
+      ]
+     },
+     {
+      "clip": [
+       "golden-sunrise-in-the-autumn-21168"
+      ]
+     }
+    ],
+    "big": [
+     "DAY 6/7",
+     "*SUBAH KI",
+     "DHOOP"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "m",
+    "say": "पंद्रह मिनट हल्की धूप में बैठिए या टहलिए।",
+    "txt": "*15 minute halki *dhoop mein baithiye ya tehliye",
+    "shots": [
+     {
+      "clip": [
+       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+      ]
+     },
+     {
+      "clip": [
+       "older-woman-doing-yoga-6238"
+      ]
+     }
+    ],
+    "badge": "Day 6/7"
+   },
+   {
+    "v": "f",
+    "say": "साथ में तुलसी वाली चाय या गुनगुना पानी।",
+    "txt": "Saath mein *tulsi wali chai ya *gunguna paani",
+    "shots": [
+     {
+      "photo": "products_ds/tulsi_drops/05.jpg"
+     },
+     {
+      "clip": [
+       "drinking-tea-on-a-cool-morning-25377"
+      ]
+     }
+    ],
+    "badge": "Day 6/7",
+    "label": "Teamex Tulsi Drops"
+   },
+   {
+    "v": "m",
+    "say": "कल डे सेवन आएगा। फ़ॉलो कीजिए, मिस मत कीजिए!",
+    "txt": "Kal *Day 7 aayega. *Follow kijiye, miss mat kijiye!",
+    "shots": [
+     {
+      "clip": [
+       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+      ]
+     },
+     {
+      "clip": [
+       "bright-orange-sky-at-sunrise-20425"
+      ]
+     }
+    ],
+    "big": [
+     "*KAL DAY 7",
+     "FOLLOW KARO"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
+   }
+  ]
+ },
+ {
+  "name": "s7_d7",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "डे सेवन: सातों आदतें एक साथ, चार्ट में!",
+    "txt": "*Day 7: Saaton *aadatein ek saath, *chart mein!",
+    "shots": [
+     {
+      "clip": [
+       "a-young-man-slowly-wakes-up-in-bed-50754"
+      ]
+     },
+     {
+      "clip": [
+       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+      ]
+     }
+    ],
+    "big": [
+     "DAY 7/7",
+     "*SAATON",
+     "AADATEIN"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "f",
+    "say": "पानी, वॉक, हल्का खाना, चाय, नींद, धूप और गहरी साँसें!",
+    "txt": "*Paani, walk, halka khana, chai, neend, dhoop aur *gehri saansein!",
+    "shots": [
+     {
+      "clip": [
+       "athlete-woman-drinking-water-and-resting-21396"
+      ]
+     },
+     {
+      "clip": [
+       "girl-from-the-front-walking-through-a-park-4825"
+      ]
+     },
+     {
+      "clip": [
+       "detailed-view-of-a-healthy-salad-40531"
+      ]
+     }
+    ],
+    "badge": "Day 7/7"
+   },
+   {
+    "v": "m",
+    "say": "इनका पूरा चार्ट सेव कीजिए, रोज़ टिक कीजिए।",
+    "txt": "Inka poora *chart save kijiye, roz *tick kijiye",
+    "shots": [
+     {
+      "clip": [
+       "a-young-man-stretches-his-arms-on-the-balcony-50759"
+      ]
+     },
+     {
+      "clip": [
+       "golden-sunrise-in-the-autumn-21168"
+      ]
+     }
+    ],
+    "badge": "Day 7/7"
+   },
+   {
+    "v": "f",
+    "say": "चार्ट चाहिए? डीएम में चार्ट लिखिए, या व्हाट्सऐप कीजिए!",
+    "txt": "*Chart chahiye? DM mein *CHART likho, ya WhatsApp karo!",
+    "shots": [
+     {
+      "clip": [
+       "woman-doing-yoga-in-nature-43783"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-in-nature-43786"
+      ]
+     }
+    ],
+    "big": [
+     "DM KARO",
+     "*CHART"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
+   }
+  ]
+ },
+ {
+  "name": "myth_weight",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "वज़न के तीन बड़े मिथ। आप कौन सा मानते हैं?",
+    "txt": "*Weight ke *3 bade myths. Aap *kaun sa* maante ho?",
+    "shots": [
+     {
+      "clip": [
+       "adult-woman-looking-in-the-mirror-4573"
+      ]
+     },
+     {
+      "clip": [
+       "a-young-woman-standing-in-front-of-the-bathroom-mirror-51178"
+      ]
+     }
+    ],
+    "big": [
+     "WEIGHT KE",
+     "*3 MYTHS",
+     "SACH-JHOOTH?"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "m",
+    "say": "मिथ एक: पसीना बहाया तो चर्बी जली। सच: पसीना सिर्फ़ पानी है!",
+    "txt": "*Myth 1: Paseena bahaya toh charbi jali. *Sach: paseena sirf *paani hai!",
+    "shots": [
+     {
+      "clip": [
+       "man-and-woman-jogging-through-a-park-in-the-city-40754"
+      ]
+     },
+     {
+      "clip": [
+       "athlete-man-drinking-water-in-his-training-21635"
+      ]
+     }
+    ],
+    "badge": "Myth 1"
+   },
+   {
+    "v": "f",
+    "say": "मिथ दो: सिर्फ़ पेट की एक्सरसाइज़ से पेट घटेगा। सच: एक जगह की चर्बी अलग से नहीं घटती!",
+    "txt": "*Myth 2: Sirf pet ki exercise se pet ghatega. *Sach: ek jagah ki charbi *alag se nahi ghatti!",
+    "shots": [
+     {
+      "clip": [
+       "man-exercising-with-a-kettlebell-4506"
+      ]
+     },
+     {
+      "clip": [
+       "man-rolling-yoga-mat-894"
+      ]
+     }
+    ],
+    "badge": "Myth 2"
+   },
+   {
+    "v": "m",
+    "say": "मिथ तीन: भूखे रहने से वज़न जल्दी घटेगा। सच: क्रैश डाइट के बाद वज़न अक्सर लौट आता है!",
+    "txt": "*Myth 3: Bhooke rehne se weight jaldi ghatega. *Sach: crash diet ke baad weight *aksar laut aata hai!",
+    "shots": [
+     {
+      "clip": [
+       "girl-eating-healthy-26095"
+      ]
+     },
+     {
+      "clip": [
+       "ingredients-for-a-healthy-breakfast-3795"
+      ]
+     }
+    ],
+    "badge": "Myth 3"
+   },
+   {
+    "v": "f",
+    "say": "आप कौन सा मिथ मानते थे? कमेंट में एक, दो या तीन लिखिए!",
+    "txt": "*Aap kaun sa myth maante the? Comment mein *1, 2 ya 3 likho!",
+    "shots": [
+     {
+      "clip": [
+       "a-young-smiling-woman-sitting-on-a-comfy-couch-using-100053"
+      ]
+     },
+     {
+      "clip": [
+       "portrait-of-a-very-surprised-happy-woman-43831"
+      ]
+     }
+    ],
+    "big": [
+     "KAUN SA",
+     "*MYTH THA?",
+     "LIKHO 1/2/3"
+    ],
+    "big_y": 420,
+    "small": "Yeh general jaankari hai. Doctor ki salah zaroor lein."
+   }
+  ]
+ },
+ {
+  "name": "meet_ayurvision",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "नमस्ते! हम हैं आयुर्विज़न। रोज़ एक आसान, देसी आदत!",
+    "txt": "*Namaste! Hum hain *Ayurvision. Roz ek *aasan, desi aadat!",
+    "shots": [
+     {
+      "clip": [
+       "golden-sunrise-in-the-autumn-21168"
+      ]
+     },
+     {
+      "clip": [
+       "woman-meditating-at-the-coast-15017"
+      ]
+     }
+    ],
+    "big": [
+     "NAMASTE!",
+     "*AYURVISION",
+     "ROZ EK AADAT"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "m",
+    "say": "यहाँ मिलेंगी रोज़ की आसान, देसी आदतें।",
+    "txt": "Yahan milengi roz ki *aasan, *desi aadatein",
+    "shots": [
+     {
+      "clip": [
+       "drinking-tea-on-a-cool-morning-25377"
+      ]
+     },
+     {
+      "clip": [
+       "a-young-man-stretches-his-arms-on-the-balcony-50759"
+      ]
+     }
+    ],
+    "badge": "Hum kya karte hain"
+   },
+   {
+    "v": "f",
+    "say": "साथ में टीमएक्स के वेलनेस प्रोडक्ट्स की जानकारी भी।",
+    "txt": "Saath mein *Teamex ke *wellness products ki jaankari bhi",
+    "shots": [
+     {
+      "photo": "products_ds/tulsi_drops/05.jpg"
+     },
+     {
+      "photo": "products_ds/slim_tea/05.jpg"
+     }
+    ],
+    "badge": "Aur kya",
+    "label": "Teamex Wellness"
+   },
+   {
+    "v": "m",
+    "say": "हर हफ़्ते नई सीरीज़। अभी चल रही है, सात दिन सात आदतें!",
+    "txt": "Har hafte nayi series. Abhi chal rahi hai, *7 din *7 aadatein!",
+    "shots": [
+     {
+      "clip": [
+       "a-young-man-slowly-wakes-up-in-bed-50754"
+      ]
+     },
+     {
+      "clip": [
+       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+      ]
+     }
+    ],
+    "badge": "Series"
+   },
+   {
+    "v": "f",
+    "say": "फ़ॉलो कीजिए, और जानकारी के लिए व्हाट्सऐप कीजिए!",
+    "txt": "*Follow kijiye, aur jaankari ke liye *WhatsApp kijiye!",
+    "shots": [
+     {
+      "clip": [
+       "woman-doing-yoga-in-nature-43783"
+      ]
+     },
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset-4629"
+      ]
+     }
+    ],
+    "big": [
+     "*FOLLOW",
+     "KARO"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
+   }
+  ]
+ },
+ {
+  "name": "diwali_pov",
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "पीओवी: मिठाई के बाद तराज़ू पर चढ़े!",
+    "txt": "*POV: *Mithai ke baad *tarazu par chadhe!",
+    "shots": [
+     {
+      "clip": [
+       "fireworks-at-night-sky-4064"
+      ]
+     },
+     {
+      "clip": [
+       "girl-eating-a-glazed-donut-with-a-milkshake-40831"
+      ]
+     },
+     {
+      "clip": [
+       "adult-woman-looking-in-the-mirror-4573"
+      ]
+     }
+    ],
+    "big": [
+     "POV:",
+     "*MITHAI KE",
+     "BAAD TARAZU"
+    ],
+    "big_y": 380
+   },
+   {
+    "v": "f",
+    "say": "एक। मिठाई थोड़ी, और धीरे-धीरे खाइए।",
+    "txt": "*Ek. Mithai *thodi, aur *dheere-dheere khaiye",
+    "shots": [
+     {
+      "clip": [
+       "ice-cream-with-chocolate-syrup-composition-10371"
+      ]
+     },
+     {
+      "clip": [
+       "fresh-sliced-fruit-placed-on-a-table-10419"
+      ]
+     }
+    ],
+    "badge": "Baat 1"
+   },
+   {
+    "v": "m",
+    "say": "दो। मिठाई के बाद दस मिनट टहलिए।",
+    "txt": "*Do. Mithai ke baad *10 minute *tehliye",
+    "shots": [
+     {
+      "clip": [
+       "couple-silhouette-walking-through-a-neighborhood-939"
+      ]
+     },
+     {
+      "clip": [
+       "family-walking-together-in-nature-39767"
+      ]
+     }
+    ],
+    "badge": "Baat 2"
+   },
+   {
+    "v": "f",
+    "say": "तीन। अगले दिन गुनगुना पानी और हल्का खाना।",
+    "txt": "*Teen. Agle din *gunguna paani aur *halka khana",
+    "shots": [
+     {
+      "clip": [
+       "athlete-woman-drinking-water-and-resting-21396"
+      ]
+     },
+     {
+      "clip": [
+       "detailed-view-of-a-healthy-salad-40531"
+      ]
+     }
+    ],
+    "badge": "Baat 3"
+   },
+   {
+    "v": "m",
+    "say": "किसी मिठाई के शौकीन को भेजिए, और सेव कर लीजिए!",
+    "txt": "Kisi *mithai ke shaukeen ko *bhejiye, aur *save kar lijiye!",
+    "shots": [
+     {
+      "clip": [
+       "a-young-smiling-woman-enjoys-the-colorful-confetti-rain-over-100005"
+      ]
+     },
+     {
+      "clip": [
+       "candle-flame-on-black-background-closeup-48919"
+      ]
+     }
+    ],
+    "big": [
+     "BHEJO USKO",
+     "*JO MITHAI",
+     "KA SHAUKEEN"
+    ],
+    "big_y": 420,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
+   }
+  ]
  }
 ]

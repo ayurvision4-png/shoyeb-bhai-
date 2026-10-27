@@ -4455,7 +4455,7 @@
     "shots": [
      {
       "clip": [
-       "a-young-smiling-woman-sitting-on-a-comfy-couch-using-100053"
+       "a-man-lying-on-the-bed-scrolling-on-his-phone-13168"
       ]
      },
      {
@@ -4651,7 +4651,7 @@
     "shots": [
      {
       "clip": [
-       "drinking-tea-on-a-cool-morning-25377"
+       "people-pouring-a-warm-drink-around-a-campfire-513"
       ]
      },
      {
@@ -4695,7 +4695,7 @@
      },
      {
       "clip": [
-       "drinking-tea-on-a-cool-morning-25377"
+       "people-pouring-a-warm-drink-around-a-campfire-513"
       ]
      }
     ],
@@ -4870,7 +4870,7 @@
     "shots": [
      {
       "clip": [
-       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+       "man-doing-yoga-887"
       ]
      },
      {
@@ -4905,7 +4905,7 @@
     "shots": [
      {
       "clip": [
-       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+       "man-doing-yoga-887"
       ]
      },
      {
@@ -5044,8 +5044,8 @@
   "scenes": [
    {
     "v": "f",
-    "say": "वज़न के तीन बड़े मिथ। आप कौन सा मानते हैं?",
-    "txt": "*Weight ke *3 bade myths. Aap *kaun sa* maante ho?",
+    "say": "वज़न के तीन मिथ। आप कौन सा मानते हैं?",
+    "txt": "*Weight ke *3 myths. Aap *kaun sa* maante ho?",
     "shots": [
      {
       "clip": [
@@ -5067,8 +5067,8 @@
    },
    {
     "v": "m",
-    "say": "मिथ एक: पसीना बहाया तो चर्बी जली। सच: पसीना सिर्फ़ पानी है!",
-    "txt": "*Myth 1: Paseena bahaya toh charbi jali. *Sach: paseena sirf *paani hai!",
+    "say": "मिथ एक: पसीना यानी चर्बी। सच: पसीना सिर्फ़ पानी है!",
+    "txt": "*Myth 1: Paseena yaani charbi. *Sach: paseena sirf *paani hai!",
     "shots": [
      {
       "clip": [
@@ -5085,8 +5085,8 @@
    },
    {
     "v": "f",
-    "say": "मिथ दो: सिर्फ़ पेट की एक्सरसाइज़ से पेट घटेगा। सच: एक जगह की चर्बी अलग से नहीं घटती!",
-    "txt": "*Myth 2: Sirf pet ki exercise se pet ghatega. *Sach: ek jagah ki charbi *alag se nahi ghatti!",
+    "say": "मिथ दो: सिर्फ़ पेट की कसरत से पेट घटेगा। सच: चर्बी एक जगह से नहीं घटती!",
+    "txt": "*Myth 2: Sirf pet ki kasrat se pet ghatega. *Sach: charbi *ek jagah se nahi ghatti!",
     "shots": [
      {
       "clip": [
@@ -5103,8 +5103,8 @@
    },
    {
     "v": "m",
-    "say": "मिथ तीन: भूखे रहने से वज़न जल्दी घटेगा। सच: क्रैश डाइट के बाद वज़न अक्सर लौट आता है!",
-    "txt": "*Myth 3: Bhooke rehne se weight jaldi ghatega. *Sach: crash diet ke baad weight *aksar laut aata hai!",
+    "say": "मिथ तीन: भूखे रहो, वज़न जल्दी घटेगा। सच: क्रैश डाइट के बाद वज़न अक्सर लौटता है!",
+    "txt": "*Myth 3: Bhooke raho, weight jaldi ghatega. *Sach: crash diet ke baad weight *aksar lautta hai!",
     "shots": [
      {
       "clip": [
@@ -5121,12 +5121,12 @@
    },
    {
     "v": "f",
-    "say": "आप कौन सा मिथ मानते थे? कमेंट में एक, दो या तीन लिखिए!",
-    "txt": "*Aap kaun sa myth maante the? Comment mein *1, 2 ya 3 likho!",
+    "say": "कौन सा मिथ मानते थे? कमेंट में एक, दो या तीन!",
+    "txt": "*Kaun sa myth maante the? Comment mein *1, 2 ya 3!",
     "shots": [
      {
       "clip": [
-       "a-young-smiling-woman-sitting-on-a-comfy-couch-using-100053"
+       "a-girls-face-in-detail-while-smiling-4883"
       ]
      },
      {
@@ -5363,7 +5363,7 @@
     "shots": [
      {
       "clip": [
-       "a-young-smiling-woman-enjoys-the-colorful-confetti-rain-over-100005"
+       "fireworks-illuminating-the-beach-sky-4157"
       ]
      },
      {

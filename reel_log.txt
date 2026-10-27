@@ -1,11 +1,95 @@
 viral font: /usr/share/fonts/opentype/montserrat/Montserrat-ExtraBold.otf
-CLIP OK ['woman-meditating-at-the-coast-15017'] -> 15017
-CLIP OK ['waterfall-in-forest-2213'] -> 2213
-CLIP OK ['green-herbs-with-small-purple-flowers-36241'] -> 36241
-CLIP OK ['woman-meditating-with-her-dog-in-the-sunset-4800'] -> 4800
-CLIP OK ['countryside-meadow-4075'] -> 4075
+CLIP OK ['a-man-lying-on-the-bed-scrolling-on-his-phone-13168'] -> 13168
+CLIP OK ['girl-checking-her-cell-phone-in-her-bed-upon-waking-31406'] -> 31406
+CLIP OK ['athlete-woman-drinking-water-and-resting-21396'] -> 21396
+CLIP OK ['old-woman-drinking-water-from-a-bottle-33404'] -> 33404
+CLIP OK ['a-young-man-stretches-his-arms-on-the-balcony-50759'] -> 50759
+CLIP OK ['golden-sunrise-in-the-autumn-21168'] -> 21168
+CLIP OK ['man-walks-on-the-rooftop-with-sunrise-view-26923'] -> 26923
+CLIP OK ['bright-orange-sky-at-sunrise-20425'] -> 20425
+done s7_d1 17.7 s
+CLIP FALLBACK ['a-young-smiling-woman-sitting-on-a-comfy-couch-using-100053'] -> 1310
+CLIP OK ['girl-asleep-on-a-sofa-33455'] -> 33455
+CLIP OK ['couple-silhouette-walking-through-a-neighborhood-939'] -> 939
+CLIP OK ['girl-from-the-front-walking-through-a-park-4825'] -> 4825
+CLIP OK ['couple-walking-hand-in-hand-4661'] -> 4661
+CLIP OK ['family-walking-together-in-nature-39767'] -> 39767
+CLIP OK ['man-walks-on-the-rooftop-with-sunrise-view-26923'] -> 26923
+CLIP OK ['bright-orange-sky-at-sunrise-20425'] -> 20425
+done s7_d2 15.0 s
+CLIP OK ['girl-using-her-cell-phone-at-night-43385'] -> 43385
+CLIP OK ['man-setting-his-alarm-clock-before-going-to-sleep-31410'] -> 31410
+CLIP OK ['detailed-view-of-a-healthy-salad-40531'] -> 40531
+CLIP OK ['girl-eating-healthy-26095'] -> 26095
+CLIP OK ['fresh-vegetables-on-a-wooden-board-close-up-view-10420'] -> 10420
+CLIP OK ['people-taking-green-vegetables-and-fruits-21341'] -> 21341
+CLIP OK ['man-walks-on-the-rooftop-with-sunrise-view-26923'] -> 26923
+CLIP OK ['bright-orange-sky-at-sunrise-20425'] -> 20425
+done s7_d3 14.5 s
+CLIP OK ['drinking-tea-on-a-cool-morning-25377'] -> 25377
+CLIP OK ['people-pouring-a-warm-drink-around-a-campfire-513'] -> 513
+CLIP OK ['coffee-is-served-in-a-cup-3573'] -> 3573
+CLIP OK ['milk-being-poured-into-a-coffee-cup-4993'] -> 4993
+CLIP FALLBACK ['drinking-tea-on-a-cool-morning-25377'] -> 86
+CLIP OK ['man-walks-on-the-rooftop-with-sunrise-view-26923'] -> 26923
+CLIP OK ['bright-orange-sky-at-sunrise-20425'] -> 20425
+done s7_d4 15.4 s
+CLIP OK ['girl-lying-down-chatting-on-her-cell-phone-before-sleeping-39789'] -> 39789
+CLIP OK ['male-office-worker-yawning-portrait-33743'] -> 33743
+edge-tts retry 0 No audio was received. Please verify that your parameters are correct.
+CLIP OK ['boy-puts-his-cell-phone-aside-so-he-can-go-31412'] -> 31412
+CLIP OK ['man-setting-his-alarm-clock-before-going-to-sleep-31410'] -> 31410
+CLIP OK ['night-sky-with-stars-at-a-calm-lake-time-lapse-1704'] -> 1704
+CLIP OK ['a-young-man-wakes-up-and-turns-the-alarm-clock-50752'] -> 50752
+CLIP OK ['man-walks-on-the-rooftop-with-sunrise-view-26923'] -> 26923
+CLIP OK ['bright-orange-sky-at-sunrise-20425'] -> 20425
+done s7_d5 13.6 s
 CLIP OK ['red-sun-rising-in-the-warm-morning-6850'] -> 6850
+CLIP OK ['golden-sunrise-in-the-autumn-21168'] -> 21168
+CLIP OK ['man-walks-on-the-rooftop-with-sunrise-view-26923'] -> 26923
+CLIP OK ['older-woman-doing-yoga-6238'] -> 6238
+CLIP OK ['drinking-tea-on-a-cool-morning-25377'] -> 25377
+CLIP FALLBACK ['man-walks-on-the-rooftop-with-sunrise-view-26923'] -> 51168
+CLIP OK ['bright-orange-sky-at-sunrise-20425'] -> 20425
+done s7_d6 15.6 s
+CLIP OK ['a-young-man-slowly-wakes-up-in-bed-50754'] -> 50754
+CLIP OK ['man-walks-on-the-rooftop-with-sunrise-view-26923'] -> 26923
+CLIP OK ['athlete-woman-drinking-water-and-resting-21396'] -> 21396
+CLIP OK ['girl-from-the-front-walking-through-a-park-4825'] -> 4825
+CLIP OK ['detailed-view-of-a-healthy-salad-40531'] -> 40531
+CLIP OK ['a-young-man-stretches-his-arms-on-the-balcony-50759'] -> 50759
+CLIP OK ['golden-sunrise-in-the-autumn-21168'] -> 21168
 CLIP OK ['woman-doing-yoga-in-nature-43783'] -> 43783
 CLIP OK ['woman-meditating-in-nature-43786'] -> 43786
+done s7_d7 18.2 s
+CLIP OK ['adult-woman-looking-in-the-mirror-4573'] -> 4573
+CLIP OK ['a-young-woman-standing-in-front-of-the-bathroom-mirror-51178'] -> 51178
+CLIP OK ['man-and-woman-jogging-through-a-park-in-the-city-40754'] -> 40754
+CLIP OK ['athlete-man-drinking-water-in-his-training-21635'] -> 21635
+CLIP OK ['man-exercising-with-a-kettlebell-4506'] -> 4506
+CLIP OK ['man-rolling-yoga-mat-894'] -> 894
+CLIP OK ['girl-eating-healthy-26095'] -> 26095
+CLIP OK ['ingredients-for-a-healthy-breakfast-3795'] -> 3795
+CLIP FALLBACK ['a-young-smiling-woman-sitting-on-a-comfy-couch-using-100053'] -> 33066
+CLIP OK ['portrait-of-a-very-surprised-happy-woman-43831'] -> 43831
+done myth_weight 30.0 s
+CLIP OK ['golden-sunrise-in-the-autumn-21168'] -> 21168
+CLIP OK ['woman-meditating-at-the-coast-15017'] -> 15017
+CLIP OK ['drinking-tea-on-a-cool-morning-25377'] -> 25377
+CLIP OK ['a-young-man-stretches-his-arms-on-the-balcony-50759'] -> 50759
+CLIP OK ['a-young-man-slowly-wakes-up-in-bed-50754'] -> 50754
+CLIP OK ['man-walks-on-the-rooftop-with-sunrise-view-26923'] -> 26923
+CLIP OK ['woman-doing-yoga-in-nature-43783'] -> 43783
 CLIP OK ['backlit-woman-walking-at-sunset-4629'] -> 4629
-done v_tulsi 23.3 s
+done meet_ayurvision 22.4 s
+CLIP OK ['fireworks-at-night-sky-4064'] -> 4064
+CLIP OK ['girl-eating-a-glazed-donut-with-a-milkshake-40831'] -> 40831
+CLIP OK ['ice-cream-with-chocolate-syrup-composition-10371'] -> 10371
+CLIP OK ['fresh-sliced-fruit-placed-on-a-table-10419'] -> 10419
+CLIP OK ['couple-silhouette-walking-through-a-neighborhood-939'] -> 939
+CLIP OK ['family-walking-together-in-nature-39767'] -> 39767
+CLIP OK ['athlete-woman-drinking-water-and-resting-21396'] -> 21396
+CLIP OK ['detailed-view-of-a-healthy-salad-40531'] -> 40531
+CLIP FALLBACK ['a-young-smiling-woman-enjoys-the-colorful-confetti-rain-over-100005'] -> 51260
+CLIP OK ['candle-flame-on-black-background-closeup-48919'] -> 48919
+done diwali_pov 19.0 s

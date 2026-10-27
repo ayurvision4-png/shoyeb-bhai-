@@ -1,4 +1,64 @@
 viral font: /usr/share/fonts/opentype/montserrat/Montserrat-ExtraBold.otf
+CLIP OK ['woman-meditating-at-the-coast-15017'] -> 15017
+CLIP OK ['waterfall-in-forest-2213'] -> 2213
+CLIP OK ['green-herbs-with-small-purple-flowers-36241'] -> 36241
+CLIP OK ['woman-meditating-with-her-dog-in-the-sunset-4800'] -> 4800
+CLIP OK ['countryside-meadow-4075'] -> 4075
+CLIP OK ['red-sun-rising-in-the-warm-morning-6850'] -> 6850
+CLIP OK ['woman-doing-yoga-in-nature-43783'] -> 43783
+CLIP OK ['woman-meditating-in-nature-43786'] -> 43786
+CLIP OK ['backlit-woman-walking-at-sunset-4629'] -> 4629
+done v_tulsi 23.3 s
+CLIP OK ['woman-practicing-yoga-in-the-middle-of-nature-43797'] -> 43797
+CLIP OK ['man-jogging-on-a-running-track-on-a-sunny-day-32799'] -> 32799
+CLIP OK ['red-sun-rising-in-the-warm-morning-6850'] -> 6850
+CLIP OK ['waterfall-in-forest-2213'] -> 2213
+CLIP OK ['nature-walk-as-a-couple-41579'] -> 41579
+CLIP OK ['backlit-woman-walking-at-sunset-4629'] -> 4629
+CLIP OK ['young-woman-laying-on-a-white-soft-bed-slowly-wakes-42896'] -> 42896
+CLIP OK ['countryside-meadow-4075'] -> 4075
+CLIP OK ['woman-meditating-with-her-dog-in-the-sunset-4800'] -> 4800
+done v_immunity 21.8 s
+edge-tts retry 0 No audio was received. Please verify that your parameters are correct.
+CLIP OK ['woman-drinks-water-from-her-glass-during-her-meal-26097'] -> 26097
+CLIP OK ['countryside-meadow-4075'] -> 4075
+CLIP OK ['woman-hydrating-after-exercising-33271'] -> 33271
+CLIP OK ['silhouette-of-man-drinking-water-597'] -> 597
+CLIP OK ['waterfall-in-forest-2213'] -> 2213
+CLIP OK ['woman-doing-yoga-outdoors-4878'] -> 4878
+CLIP OK ['woman-meditating-at-the-coast-15017'] -> 15017
+CLIP OK ['woman-meditating-in-nature-43786'] -> 43786
+done v_kidney 24.8 s
+CLIP OK ['man-jogging-on-a-running-track-on-a-sunny-day-32799'] -> 32799
+CLIP OK ['woman-dancing-and-drinking-coffee-in-the-morning-43375'] -> 43375
+CLIP OK ['red-sun-rising-in-the-warm-morning-6850'] -> 6850
+CLIP OK ['woman-doing-yoga-outdoors-4878'] -> 4878
+edge-tts retry 0 No audio was received. Please verify that your parameters are correct.
+edge-tts retry 1 No audio was received. Please verify that your parameters are correct.
+edge-tts retry 2 No audio was received. Please verify that your parameters are correct.
+CLIP OK ['woman-hydrating-after-exercising-33271'] -> 33271
+CLIP OK ['waterfall-in-forest-2213'] -> 2213
+CLIP OK ['woman-meditating-in-nature-43786'] -> 43786
+done v_alkomax 24.2 s
+CLIP OK ['detailed-view-of-a-healthy-salad-40531'] -> 40531
+CLIP OK ['vegetables-into-the-pan-in-slow-motion-49231'] -> 49231
+CLIP OK ['nature-walk-as-a-couple-41579'] -> 41579
+CLIP OK ['two-people-walking-slowly-among-herbs-32620'] -> 32620
+CLIP OK ['green-herbs-with-small-purple-flowers-36241'] -> 36241
+CLIP OK ['woman-drinks-water-from-her-glass-during-her-meal-26097'] -> 26097
+CLIP OK ['farmers-market-display-of-fresh-herbs-994'] -> 994
+CLIP OK ['waterfall-in-forest-2213'] -> 2213
+CLIP OK ['woman-meditating-in-nature-43786'] -> 43786
+done v_detox 21.6 s
+CLIP OK ['backlit-woman-walking-at-sunset-4629'] -> 4629
+CLIP OK ['man-jogging-on-a-running-track-on-a-sunny-day-32799'] -> 32799
+CLIP OK ['red-sun-rising-in-the-warm-morning-6850'] -> 6850
+CLIP OK ['nature-walk-as-a-couple-41579'] -> 41579
+CLIP OK ['woman-doing-yoga-in-nature-43783'] -> 43783
+CLIP OK ['young-woman-laying-on-a-white-soft-bed-slowly-wakes-42896'] -> 42896
+CLIP OK ['waterfall-in-forest-2213'] -> 2213
+CLIP OK ['woman-meditating-in-nature-43786'] -> 43786
+done v_do_long 23.1 s
 CLIP OK ['nature-walk-as-a-couple-41579'] -> 41579
 CLIP OK ['man-jogging-on-a-running-track-on-a-sunny-day-32799'] -> 32799
 CLIP OK ['woman-out-for-a-run-7587'] -> 7587
@@ -8,8 +68,7 @@ CLIP OK ['woman-doing-yoga-in-nature-43783'] -> 43783
 CLIP OK ['backlit-woman-walking-at-sunset-4629'] -> 4629
 CLIP OK ['waterfall-in-forest-2213'] -> 2213
 CLIP OK ['woman-meditating-in-nature-43786'] -> 43786
-using ElevenLabs audio/7ad2718f.mp3
-done v_joints 28.3 s
+done v_joints 22.0 s
 CLIP OK ['portrait-of-a-happy-smiling-woman-4859'] -> 4859
 CLIP OK ['young-woman-dancing-while-watering-her-plants-43378'] -> 43378
 CLIP OK ['woman-dancing-and-drinking-coffee-in-the-morning-43375'] -> 43375
@@ -18,8 +77,7 @@ CLIP OK ['woman-drinks-water-from-her-glass-during-her-meal-26097'] -> 26097
 CLIP OK ['young-woman-laying-on-a-white-soft-bed-slowly-wakes-42896'] -> 42896
 CLIP OK ['countryside-meadow-4075'] -> 4075
 CLIP OK ['woman-meditating-at-the-coast-15017'] -> 15017
-using ElevenLabs audio/7ad2718f.mp3
-done v_skin 27.7 s
+done v_skin 23.1 s
 CLIP OK ['detailed-view-of-a-healthy-salad-40531'] -> 40531
 CLIP OK ['vegetables-into-the-pan-in-slow-motion-49231'] -> 49231
 CLIP OK ['green-herbs-with-small-purple-flowers-36241'] -> 36241
@@ -28,8 +86,7 @@ CLIP OK ['nature-walk-as-a-couple-41579'] -> 41579
 CLIP OK ['backlit-woman-walking-at-sunset-4629'] -> 4629
 CLIP OK ['waterfall-in-forest-2213'] -> 2213
 CLIP OK ['woman-meditating-in-nature-43786'] -> 43786
-using ElevenLabs audio/7ad2718f.mp3
-done v_digestion 30.4 s
+done v_digestion 24.3 s
 CLIP OK ['man-jogging-on-a-running-track-on-a-sunny-day-32799'] -> 32799
 CLIP OK ['woman-meditating-at-the-coast-15017'] -> 15017
 CLIP OK ['farmers-market-display-of-fresh-herbs-994'] -> 994
@@ -39,5 +96,4 @@ CLIP OK ['young-woman-laying-on-a-white-soft-bed-slowly-wakes-42896'] -> 42896
 CLIP OK ['red-sun-rising-in-the-warm-morning-6850'] -> 6850
 CLIP OK ['waterfall-in-forest-2213'] -> 2213
 CLIP OK ['woman-meditating-in-nature-43786'] -> 43786
-using ElevenLabs audio/7ad2718f.mp3
-done v_ashwagandha 28.0 s
+done v_ashwagandha 23.3 s

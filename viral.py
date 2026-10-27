@@ -196,7 +196,7 @@ def make(reel):
         M.run(["ffmpeg", "-y", *ins, "-filter_complex", ";".join(fc), "-map", f"[{prev}]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", scene])
         parts.append(scene); voices.append((wav, t0)); t0 += d
     # brand end card
-    ew = f"tmp/v/{name}_end.wav"; ed = voice(reel["end_say"], M.FEMALE, ew) + 0.9
+    ew = f"tmp/v/{name}_end.wav"; ed = voice(reel["end_say"], M.FEMALE, ew) + 0.5
     M.card_scene(reel.get("end_cut") or "1000153679.jpg", ed, (lambda p: (M.logo_layer(reel.get("end_cap", "")).save(p), p)[1])(f"tmp/v/{name}_end.png"),
                  f"tmp/v/{name}_endv.mp4", crop=None if reel.get("end_cut") else (90, 40, 1090, 530))
     parts.append(f"tmp/v/{name}_endv.mp4"); voices.append((ew, t0)); cuts.append(t0); total = t0 + ed

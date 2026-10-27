@@ -2704,17 +2704,17 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "m",
-    "say": "किडनी की केयर? बस ये तीन आदतें, और तीसरी सबसे आसान है!",
-    "txt": "*Kidney ki care? Bas ye *3 aadatein, teesri sabse aasan!",
+    "say": "पानी कम पीते हैं? किडनी की देखभाल की ये तीन आदतें!",
+    "txt": "*Paani kam peete ho? Kidney care ki ye *3 aadatein!",
     "big": [
-     "KIDNEY CARE?",
-     "*3 AADATEIN",
-     "ROZ KI"
+     "PAANI KAM",
+     "*PEETE HO?",
+     "3 AADATEIN"
     ],
     "big_y": 380,
     "shots": [
@@ -2732,7 +2732,7 @@
    },
    {
     "v": "f",
-    "say": "एक। दिन भर पानी पीते रहिए, अपने डॉक्टर की सलाह के हिसाब से।",
+    "say": "एक। दिन भर पानी पीते रहिए, डॉक्टर की सलाह से।",
     "txt": "*Ek. Din bhar *paani peete raho, doctor ki salah se",
     "badge": "Aadat 1",
     "shots": [
@@ -2750,8 +2750,8 @@
    },
    {
     "v": "m",
-    "say": "दो। आयुरलैंड चंद्रप्रभा वटी। दो टैबलेट, दिन में दो बार, पानी के साथ।",
-    "txt": "*Do. Chandraprabha Vati. *2 tablet, din mein *2 baar",
+    "say": "दो। चंद्रप्रभा वटी, दो टैबलेट, दिन में दो बार।",
+    "txt": "*Do. Chandraprabha Vati, *2 tablet, din mein *2 baar",
     "badge": "Aadat 2",
     "shots": [
      {
@@ -2767,8 +2767,8 @@
    },
    {
     "v": "f",
-    "say": "तीन। नैनो करक्यूमिन कैप्सूल। रोज़ एक, खाने के बाद। बस इतना सा!",
-    "txt": "*Teen. Nano Curcumin capsule. Roz *1, khane ke baad",
+    "say": "तीन। नैनो करक्यूमिन कैप्सूल, रोज़ एक, खाने के बाद।",
+    "txt": "*Teen. Nano Curcumin capsule, roz *1, khane ke baad",
     "badge": "Aadat 3",
     "shots": [
      {
@@ -2784,11 +2784,12 @@
    },
    {
     "v": "m",
-    "say": "ये किट चाहिए? कमेंट या डीएम में किडनी लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Kit chahiye? Comment ya DM mein *KIDNEY likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*KIDNEY"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
@@ -3061,17 +3062,17 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "f",
-    "say": "मौसम बदलता है तो क्या करें? रोज़ की ये तीन आदतें अपनाइए!",
-    "txt": "*Mausam badle toh? Roz ki ye *3 aadatein!",
+    "say": "बदलते मौसम में ये तीन आदतें, तीसरी सबसे आसान!",
+    "txt": "*Badalte mausam mein ye *3 aadatein, teesri *sabse aasan!",
     "big": [
-     "IMMUNITY?",
-     "*3 AADATEIN",
-     "ROZ KI"
+     "MAUSAM",
+     "*BADLE TOH?",
+     "TEESRI DEKHO"
     ],
     "big_y": 380,
     "shots": [
@@ -3089,8 +3090,8 @@
    },
    {
     "v": "m",
-    "say": "एक। टीमएक्स सी बकथॉर्न ड्रिंक। तीस मिली, गुनगुने पानी में।",
-    "txt": "*Ek. Sea Buckthorn Drink. *30 ml, gunguna paani",
+    "say": "एक। सी बकथॉर्न ड्रिंक, तीस मिली, गुनगुने पानी में।",
+    "txt": "*Ek. Sea Buckthorn Drink, *30 ml gunguna paani mein",
     "badge": "Aadat 1",
     "shots": [
      {
@@ -3106,8 +3107,8 @@
    },
    {
     "v": "f",
-    "say": "दो। टीमएक्स तुलसी ड्रॉप्स। बड़ों के लिए चार बूँद, बच्चों के लिए दो, दिन में दो बार।",
-    "txt": "*Do. Tulsi Drops. Bade *4 boond, bachhe *2 boond, din mein *2 baar",
+    "say": "दो। तुलसी ड्रॉप्स, दिन में दो बार।",
+    "txt": "*Do. Tulsi Drops, din mein *2 baar",
     "badge": "Aadat 2",
     "shots": [
      {
@@ -3123,8 +3124,8 @@
    },
    {
     "v": "m",
-    "say": "तीन। रोज़ थोड़ी धूप, थोड़ी वॉक और भरपूर नींद।",
-    "txt": "*Teen. Roz thodi *dhoop, walk aur bharpoor *neend",
+    "say": "तीन। रोज़ थोड़ी धूप और भरपूर नींद।",
+    "txt": "*Teen. Roz thodi *dhoop aur bharpoor *neend",
     "badge": "Aadat 3",
     "shots": [
      {
@@ -3146,11 +3147,12 @@
    },
    {
     "v": "f",
-    "say": "ये किट चाहिए? कमेंट या डीएम में इम्यूनिटी लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Kit chahiye? Comment ya DM mein *IMMUNITY likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*IMMUNITY"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
@@ -3408,17 +3410,17 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "f",
-    "say": "मौसम बदल रहा है! तुलसी ड्रॉप्स की ये तीन बातें जान लीजिए!",
-    "txt": "*Mausam badal raha hai! Tulsi Drops ki ye *3 baatein!",
+    "say": "मौसम बदला? तुलसी की ये तीन बातें, तीसरी मत भूलिए!",
+    "txt": "*Mausam badla? Tulsi ki ye *3 baatein, teesri *mat bhoolna!",
     "big": [
      "MAUSAM",
      "*BADLA?",
-     "3 BAATEIN"
+     "TEESRI DEKHO"
     ],
     "big_y": 380,
     "shots": [
@@ -3436,8 +3438,8 @@
    },
    {
     "v": "m",
-    "say": "एक। पाँच तरह की तुलसी का मेल, बस कुछ बूँदों में।",
-    "txt": "*Ek. *5 tarah ki tulsi ka mel, bas kuch boondon mein",
+    "say": "एक। पाँच तरह की तुलसी, बस कुछ बूँदों में।",
+    "txt": "*Ek. *5 tarah ki tulsi, bas kuch boondon mein",
     "badge": "Baat 1",
     "shots": [
      {
@@ -3453,8 +3455,8 @@
    },
    {
     "v": "f",
-    "say": "दो। बच्चों के लिए दो बूँद, बड़ों के लिए चार बूँद।",
-    "txt": "*Do. Bachhon ke liye *2 boond, bado ke liye *4 boond",
+    "say": "दो। बड़ों के लिए चार बूँद, बच्चों के लिए दो।",
+    "txt": "*Do. Bado ke liye *4 boond, bachhon ke liye *2",
     "badge": "Baat 2",
     "shots": [
      {
@@ -3469,8 +3471,8 @@
    },
    {
     "v": "m",
-    "say": "तीन। दिन में दो बार। रोज़ की रूटीन में तुलसी।",
-    "txt": "*Teen. Din mein *2 baar. Roz ki routine mein tulsi",
+    "say": "तीन। दिन में दो बार, रोज़ की आदत बनाइए।",
+    "txt": "*Teen. Din mein *2 baar, roz ki *aadat banao",
     "badge": "Baat 3",
     "shots": [
      {
@@ -3492,11 +3494,12 @@
    },
    {
     "v": "f",
-    "say": "तुलसी ड्रॉप्स चाहिए? कमेंट या डीएम में तुलसी लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Tulsi Drops chahiye? Comment ya DM mein *TULSI likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*TULSI"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
@@ -3527,17 +3530,17 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "f",
-    "say": "रोज़ थकान और सुस्ती? शरीर को अंदर से सपोर्ट देने की तीन बातें!",
-    "txt": "*Roz thakaan? Andar se support ki *3 baatein!",
+    "say": "दोपहर तक थक जाते हैं? ये तीन बातें, तीसरी मत भूलिए!",
+    "txt": "*Dopahar tak thak jaate ho? Ye *3 baatein, teesri *mat bhoolna!",
     "big": [
-     "ROZ THAKAAN?",
-     "*3 BAATEIN",
-     "ANDAR SE"
+     "THAK JAATE?",
+     "*DOPAHAR TAK",
+     "3 BAATEIN"
     ],
     "big_y": 380,
     "shots": [
@@ -3555,8 +3558,8 @@
    },
    {
     "v": "m",
-    "say": "एक। टीमएक्स एल्कोमैक्स कैप्सूल। रोज़ एक, खाने के बाद।",
-    "txt": "*Ek. Alkomax capsule. Roz *1, khane ke baad",
+    "say": "एक। एल्कोमैक्स कैप्सूल, रोज़ एक, खाने के बाद।",
+    "txt": "*Ek. Alkomax capsule, roz *1, khane ke baad",
     "badge": "Baat 1",
     "shots": [
      {
@@ -3589,8 +3592,8 @@
    },
    {
     "v": "m",
-    "say": "तीन। सीएमडी ड्रॉप्स। तीन बूँद, एक गिलास पानी में।",
-    "txt": "*Teen. CMD drops. *3 boond, ek glass paani mein",
+    "say": "तीन। सीएमडी ड्रॉप्स, तीन बूँद, एक गिलास पानी में।",
+    "txt": "*Teen. CMD drops, *3 boond, ek glass paani mein",
     "badge": "Baat 3",
     "shots": [
      {
@@ -3606,11 +3609,12 @@
    },
    {
     "v": "f",
-    "say": "ये रूटीन चाहिए? कमेंट या डीएम में अल्को लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Routine chahiye? Comment ya DM mein *ALKO likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*ALKO"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
@@ -3641,17 +3645,17 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "m",
-    "say": "भारी खाना खा लिया? पेट के लिए ये तीन बातें याद रखिए!",
-    "txt": "*Bhaari khana khaya? Pet ke liye ye *3 baatein!",
+    "say": "भारी खाना खा लिया? सोने से पहले ये तीन काम कीजिए!",
+    "txt": "*Bhaari khana khaya? Sone se pehle ye *3 kaam karo!",
     "big": [
-     "BHAARI KHANA?",
-     "*3 BAATEIN",
-     "PET KE LIYE"
+     "BHAARI",
+     "*KHANA KHAYA?",
+     "3 KAAM"
     ],
     "big_y": 380,
     "shots": [
@@ -3687,8 +3691,8 @@
    },
    {
     "v": "m",
-    "say": "दो। टीमएक्स डिटॉक्स टैबलेट। रात को सोने से पहले, एक टैबलेट।",
-    "txt": "*Do. Detox Tablet. Raat ko sone se pehle *1 tablet",
+    "say": "दो। डिटॉक्स टैबलेट, सोने से पहले एक।",
+    "txt": "*Do. Detox Tablet, sone se pehle *1",
     "badge": "Baat 2",
     "shots": [
      {
@@ -3722,11 +3726,12 @@
    },
    {
     "v": "m",
-    "say": "डिटॉक्स टैबलेट चाहिए? कमेंट या डीएम में डिटॉक्स लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Detox Tablet chahiye? Comment ya DM mein *DETOX likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*DETOX"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
@@ -3757,17 +3762,17 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "m",
-    "say": "दिन भर की थकान? बड़ों के लिए, तीन बातें!",
-    "txt": "*Din bhar ki thakaan? Bado ke liye *3 baatein!",
+    "say": "बड़ों के लिए तीन बातें, आख़िर तक देखिए!",
+    "txt": "*Bado ke liye *3 baatein, *aakhir tak dekhna!",
     "big": [
      "DIN BHAR KI",
      "*THAKAAN?",
-     "3 BAATEIN"
+     "BADO KE LIYE"
     ],
     "big_y": 380,
     "shots": [
@@ -3785,8 +3790,8 @@
    },
    {
     "v": "f",
-    "say": "एक। टीमएक्स डू लॉन्ग। अश्वगंधा, शिलाजीत और केसर जैसी जड़ी-बूटियों से बनी।",
-    "txt": "*Ek. Teamex Do Long. Ashwagandha, Shilajit, Kesar",
+    "say": "एक। डू लॉन्ग, अश्वगंधा, शिलाजीत और केसर जैसी जड़ी-बूटियों से।",
+    "txt": "*Ek. Do Long, Ashwagandha, Shilajit, Kesar jaisi jadi-bootiyon se",
     "badge": "Baat 1",
     "shots": [
      {
@@ -3803,8 +3808,8 @@
    },
    {
     "v": "m",
-    "say": "दो। सुबह और शाम खाने के बाद, दो टैबलेट, दूध के साथ।",
-    "txt": "*Do. Subah-shaam khane ke baad *2 tablet, doodh ke saath",
+    "say": "दो। खाने के बाद दो टैबलेट, दूध के साथ।",
+    "txt": "*Do. Khane ke baad *2 tablet, doodh ke saath",
     "badge": "Baat 2",
     "shots": [
      {
@@ -3821,8 +3826,8 @@
    },
    {
     "v": "f",
-    "say": "तीन। रोज़ थोड़ी वॉक या योग, और भरपूर नींद।",
-    "txt": "*Teen. Roz thodi *walk ya yoga, aur bharpoor *neend",
+    "say": "तीन। रोज़ थोड़ी वॉक या योग, भरपूर नींद।",
+    "txt": "*Teen. Roz thodi *walk ya yoga, bharpoor *neend",
     "badge": "Baat 3",
     "shots": [
      {
@@ -3839,11 +3844,12 @@
    },
    {
     "v": "m",
-    "say": "डू लॉन्ग चाहिए? कमेंट या डीएम में डूलॉन्ग लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Do Long chahiye? Comment ya DM mein *DOLONG likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*DOLONG"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Sirf adults ke liye. Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
@@ -3874,17 +3880,17 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "f",
-    "say": "घुटनों और हड्डियों की देखभाल? रोज़ की ये तीन आदतें अपनाइए!",
-    "txt": "*Ghutne aur haddi ki care? Roz ki ye *3 aadatein!",
+    "say": "सीढ़ियाँ चढ़ते वक़्त घुटनों की फ़िक्र? ये तीन आदतें!",
+    "txt": "*Seedhiyan chadhte waqt ghutno ki fikr? Ye *3 aadatein!",
     "big": [
-     "JOINTS KI",
-     "*CARE?",
-     "3 AADATEIN"
+     "SEEDHIYAN",
+     "*CHADHTE WAQT",
+     "GHUTNE?"
     ],
     "big_y": 380,
     "shots": [
@@ -3902,8 +3908,8 @@
    },
    {
     "v": "m",
-    "say": "एक। ऑर्थो टैबलेट। दो टैबलेट, दिन में तीन बार।",
-    "txt": "*Ek. Ortho Tablet. *2 tablet, din mein *3 baar",
+    "say": "एक। ऑर्थो टैबलेट, दो टैबलेट, दिन में तीन बार।",
+    "txt": "*Ek. Ortho Tablet, *2 tablet, din mein *3 baar",
     "badge": "Aadat 1",
     "shots": [
      {
@@ -3919,8 +3925,8 @@
    },
    {
     "v": "f",
-    "say": "दो। कैल्शियम चेवेबल टैबलेट। रोज़ दो टैबलेट, डेली बोन सपोर्ट।",
-    "txt": "*Do. Calcium Chewable. Roz *2 tablet, daily bone support",
+    "say": "दो। कैल्शियम चेवेबल, रोज़ दो टैबलेट।",
+    "txt": "*Do. Calcium Chewable, roz *2 tablet",
     "badge": "Aadat 2",
     "shots": [
      {
@@ -3959,11 +3965,12 @@
    },
    {
     "v": "f",
-    "say": "ये किट चाहिए? कमेंट या डीएम में जॉइंट लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Kit chahiye? Comment ya DM mein *JOINT likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*JOINT"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
@@ -3994,13 +4001,13 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "m",
-    "say": "चमकती त्वचा चाहिए? अंदर से देखभाल की तीन आदतें!",
-    "txt": "*Chamakti skin chahiye? Andar se care ki *3 aadatein!",
+    "say": "चेहरे पर चमक चाहिए? अंदर से देखभाल की ये तीन आदतें!",
+    "txt": "*Chehre par chamak chahiye? Andar se care ki *3 aadatein!",
     "big": [
      "SKIN GLOW?",
      "*3 AADATEIN",
@@ -4022,8 +4029,8 @@
    },
    {
     "v": "f",
-    "say": "एक। टीमएक्स बेरी ड्रिंक। तीस मिली, गुनगुने पानी के साथ।",
-    "txt": "*Ek. Berry Drink. *30 ml, gunguna paani",
+    "say": "एक। बेरी ड्रिंक, तीस मिली, गुनगुने पानी के साथ।",
+    "txt": "*Ek. Berry Drink, *30 ml gunguna paani ke saath",
     "badge": "Aadat 1",
     "shots": [
      {
@@ -4039,8 +4046,8 @@
    },
    {
     "v": "m",
-    "say": "दो। आंवला टैबलेट। दो टैबलेट, दिन में दो बार, खाने के बाद।",
-    "txt": "*Do. Amla Tablet. *2 tablet, din mein *2 baar, khane ke baad",
+    "say": "दो। आंवला टैबलेट, दिन में दो बार, खाने के बाद।",
+    "txt": "*Do. Amla Tablet, din mein *2 baar, khane ke baad",
     "badge": "Aadat 2",
     "shots": [
      {
@@ -4074,11 +4081,12 @@
    },
    {
     "v": "m",
-    "say": "ये किट चाहिए? कमेंट या डीएम में स्किन लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Kit chahiye? Comment ya DM mein *SKIN likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*SKIN"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
@@ -4109,17 +4117,17 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "f",
-    "say": "गैस और भारीपन से परेशान? पाचन के लिए ये तीन बातें!",
-    "txt": "*Gas aur bhaaripan? Pachan ke liye ye *3 baatein!",
+    "say": "गैस और भारीपन? पाचन की ये तीन आदतें, तीसरी मत भूलिए!",
+    "txt": "*Gas aur bhaaripan? Pachan ki ye *3 aadatein, teesri *mat bhoolna!",
     "big": [
      "PACHAN KE",
      "*LIYE",
-     "3 BAATEIN"
+     "3 AADATEIN"
     ],
     "big_y": 380,
     "shots": [
@@ -4137,8 +4145,8 @@
    },
    {
     "v": "m",
-    "say": "एक। कामदुधा रस। दो टैबलेट, दिन में दो बार, खाने से पहले।",
-    "txt": "*Ek. Kamdudha Ras. *2 tablet, din mein *2 baar, khane se pehle",
+    "say": "एक। कामदुधा रस, दो टैबलेट, खाने से पहले।",
+    "txt": "*Ek. Kamdudha Ras, *2 tablet, khane se pehle",
     "badge": "Baat 1",
     "shots": [
      {
@@ -4154,8 +4162,8 @@
    },
    {
     "v": "f",
-    "say": "दो। त्रिफला टैबलेट। दो टैबलेट, नाश्ते से पहले और रात को सोने से पहले।",
-    "txt": "*Do. Trifala Tablet. *2 tablet, naashte se pehle aur raat ko",
+    "say": "दो। त्रिफला टैबलेट, नाश्ते से पहले और रात को।",
+    "txt": "*Do. Trifala Tablet, naashte se pehle aur raat ko",
     "badge": "Baat 2",
     "shots": [
      {
@@ -4189,11 +4197,12 @@
    },
    {
     "v": "f",
-    "say": "ये रूटीन चाहिए? कमेंट या डीएम में पाचन लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Routine chahiye? Comment ya DM mein *PACHAN likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*PACHAN"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",
@@ -4224,13 +4233,13 @@
   "end_cut": [
    "cutouts/1000153679.png"
   ],
-  "end_say": "टीमएक्स ब्यूटीलुक। फील गुड, लुक गुड, लिव बेटर!",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "scenes": [
    {
     "v": "m",
-    "say": "स्ट्रेस और थकान रोज़ की बात? ये तीन आदतें आज़माइए!",
-    "txt": "*Stress aur thakaan? Ye *3 aadatein aazmaiye!",
+    "say": "स्ट्रेस रोज़ की बात? ये तीन आदतें, आख़िर तक देखिए!",
+    "txt": "*Stress roz ki baat? Ye *3 aadatein, *aakhir tak dekhna!",
     "big": [
      "STRESS?",
      "*3 AADATEIN",
@@ -4252,8 +4261,8 @@
    },
    {
     "v": "f",
-    "say": "एक। अश्वगंधा टैबलेट। दो टैबलेट, दिन में दो बार, खाने के बाद।",
-    "txt": "*Ek. Ashwagandha Tablet. *2 tablet, din mein *2 baar, khane ke baad",
+    "say": "एक। अश्वगंधा टैबलेट, दो टैबलेट, खाने के बाद।",
+    "txt": "*Ek. Ashwagandha Tablet, *2 tablet, khane ke baad",
     "badge": "Aadat 1",
     "shots": [
      {
@@ -4305,11 +4314,12 @@
    },
    {
     "v": "m",
-    "say": "अश्वगंधा चाहिए? कमेंट या डीएम में अश्वगंधा लिखिए, या व्हाट्सऐप कीजिए!",
-    "txt": "Ashwagandha chahiye? Comment ya DM mein *ASHWAGANDHA likho, ya WhatsApp karo!",
+    "say": "जिसे ये जानना ज़रूरी है, उसे भेजिए। और सेव कर लीजिए!",
+    "txt": "Jise ye jaanna zaroori hai, *usse bhejiye. Aur *save kar lijiye!",
     "big": [
-     "COMMENT / DM",
-     "*ASHWAGANDHA"
+     "*BHEJO USKO",
+     "JISE ZARURAT",
+     "*SAVE KARO"
     ],
     "big_y": 420,
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein.",

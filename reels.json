@@ -4450,8 +4450,8 @@
   "scenes": [
    {
     "v": "f",
-    "say": "डे टू: खाने के बाद सीधे सोफ़े पर?",
-    "txt": "*Day 2: Khane ke baad seedha *sofa par?",
+    "say": "खाने के बाद सीधे सोफ़े पर? रुकिए!",
+    "txt": "*Khane ke baad seedha *sofa par? *Rukiye!",
     "shots": [
      {
       "clip": [
@@ -4465,11 +4465,12 @@
      }
     ],
     "big": [
-     "DAY 2/7",
-     "*KHANE KE",
-     "BAAD SOFA?"
+     "KHANE KE",
+     "*BAAD SOFA?",
+     "ROKIYE!"
     ],
-    "big_y": 380
+    "big_y": 380,
+    "badge": "Day 2/7"
    },
    {
     "v": "m",
@@ -4548,8 +4549,8 @@
   "scenes": [
    {
     "v": "m",
-    "say": "डे थ्री: रात का खाना इतनी देर से?",
-    "txt": "*Day 3: Raat ka khana itni *der se?",
+    "say": "रात को देर से खाना खाते हैं? ये करके देखिए!",
+    "txt": "Raat ko *der se khana khate ho? Ye karke *dekhiye!",
     "shots": [
      {
       "clip": [
@@ -4563,11 +4564,12 @@
      }
     ],
     "big": [
-     "DAY 3/7",
-     "*RAAT KA",
-     "KHANA DER?"
+     "RAAT KO",
+     "*DER SE",
+     "KHANA?"
     ],
-    "big_y": 380
+    "big_y": 380,
+    "badge": "Day 3/7"
    },
    {
     "v": "f",
@@ -4646,8 +4648,8 @@
   "scenes": [
    {
     "v": "f",
-    "say": "डे फ़ोर: चाय छोड़नी नहीं है, बस बदलनी है!",
-    "txt": "*Day 4: Chai chhodni nahi, bas *badalni hai!",
+    "say": "चाय नहीं छोड़नी? तो बस बदल दीजिए!",
+    "txt": "*Chai nahi chhodni? Toh bas *badal dijiye!",
     "shots": [
      {
       "clip": [
@@ -4661,11 +4663,11 @@
      }
     ],
     "big": [
-     "DAY 4/7",
-     "*CHAI NAHI",
-     "CHHODNI?"
+     "CHAI NAHI",
+     "*CHHODNI?"
     ],
-    "big_y": 380
+    "big_y": 380,
+    "badge": "Day 4/7"
    },
    {
     "v": "m",
@@ -4695,7 +4697,7 @@
      },
      {
       "clip": [
-       "people-pouring-a-warm-drink-around-a-campfire-513"
+       "cheerful-woman-drinking-a-cup-of-coffee-43394"
       ]
      }
     ],
@@ -4709,12 +4711,12 @@
     "shots": [
      {
       "clip": [
-       "man-walks-on-the-rooftop-with-sunrise-view-26923"
+       "drinking-tea-on-a-cool-morning-25377"
       ]
      },
      {
       "clip": [
-       "bright-orange-sky-at-sunrise-20425"
+       "coffee-and-music-in-the-morning-43391"
       ]
      }
     ],
@@ -4744,8 +4746,8 @@
   "scenes": [
    {
     "v": "m",
-    "say": "डे फ़ाइव: नींद पूरी नहीं होती?",
-    "txt": "*Day 5: *Neend poori nahi hoti?",
+    "say": "नींद पूरी नहीं होती? ये एक आदत बदलिए!",
+    "txt": "*Neend poori nahi hoti? Ye *ek aadat badliye!",
     "shots": [
      {
       "clip": [
@@ -4759,11 +4761,11 @@
      }
     ],
     "big": [
-     "DAY 5/7",
-     "*NEEND POORI",
-     "NAHI HOTI?"
+     "NEEND POORI",
+     "*NAHI HOTI?"
     ],
-    "big_y": 380
+    "big_y": 380,
+    "badge": "Day 5/7"
    },
    {
     "v": "f",
@@ -4842,8 +4844,8 @@
   "scenes": [
    {
     "v": "f",
-    "say": "डे सिक्स: सुबह की धूप, सबसे आसान आदत!",
-    "txt": "*Day 6: Subah ki *dhoop, sabse aasan aadat!",
+    "say": "सबसे आसान आदत, जो हम रोज़ छोड़ देते हैं!",
+    "txt": "Sabse *aasan aadat, jo hum roz *chhod dete hain!",
     "shots": [
      {
       "clip": [
@@ -4857,11 +4859,12 @@
      }
     ],
     "big": [
-     "DAY 6/7",
-     "*SUBAH KI",
-     "DHOOP"
+     "SABSE AASAN",
+     "*AADAT",
+     "CHHOOT GAYI?"
     ],
-    "big_y": 380
+    "big_y": 380,
+    "badge": "Day 6/7"
    },
    {
     "v": "m",
@@ -4905,12 +4908,12 @@
     "shots": [
      {
       "clip": [
-       "man-doing-yoga-887"
+       "bright-orange-sky-at-sunrise-20425"
       ]
      },
      {
       "clip": [
-       "bright-orange-sky-at-sunrise-20425"
+       "backlit-woman-walking-at-sunset-4629"
       ]
      }
     ],
@@ -4940,8 +4943,8 @@
   "scenes": [
    {
     "v": "m",
-    "say": "डे सेवन: सातों आदतें एक साथ, चार्ट में!",
-    "txt": "*Day 7: Saaton *aadatein ek saath, *chart mein!",
+    "say": "सातों आदतें, एक चार्ट में! सेव कीजिए!",
+    "txt": "*Saaton aadatein, *ek chart mein! Save kijiye!",
     "shots": [
      {
       "clip": [
@@ -4955,11 +4958,12 @@
      }
     ],
     "big": [
-     "DAY 7/7",
-     "*SAATON",
-     "AADATEIN"
+     "7 AADATEIN",
+     "*EK CHART",
+     "MEIN!"
     ],
-    "big_y": 380
+    "big_y": 380,
+    "badge": "Day 7/7"
    },
    {
     "v": "f",

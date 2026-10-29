@@ -164,7 +164,7 @@ def make(reel):
     name = reel["name"]
     M.RATE, M.CAPSIZE, M.LIGHT, M.FADE = reel.get("rate", "+8%"), 64, False, 0.0
     make_sfx()
-    used, parts, voices, cuts = set(), [], [], []          # cuts: absolute times of every shot start
+    used, parts, voices, cuts, pops = set(), [], [], [], []          # cuts: absolute times of every shot start
     t0, n_scenes = 0.0, len(reel["scenes"])
     for i, sc in enumerate(reel["scenes"]):
         who = sc.get("v") or ("m" if i % 2 == 0 else "f")
@@ -175,7 +175,10 @@ def make(reel):
         raws = []
         for j, sh in enumerate(shots):
             o = f"tmp/v/{name}_{i}_{j}.mp4"
-            if sh.get("photo"): photo_shot(photo_png(sh["photo"], f"tmp/v/{name}_{i}_{j}.png"), each, o)
+            if sh.get("anim"):
+                import anim; anim.render(sh["anim"], wav, each, o, FPS, FONT)
+                pops += [t0 + j * each + ac["in"] for ac in sh["anim"].get("actors", []) if ac.get("in", 0) > 0.05 and ac.get("kind") != "label"]
+            elif sh.get("photo"): photo_shot(photo_png(sh["photo"], f"tmp/v/{name}_{i}_{j}.png"), each, o)
             else: clip_shot(get_clip(sh["clip"], zlib.crc32(f"{name}{i}{j}".encode()), used), each, o, sh.get("punch", 0.14))
             raws.append(o); cuts.append(t0 + j * each)
         lst = f"tmp/v/{name}_{i}.txt"; open(lst, "w").write("".join(f"file '{os.path.abspath(p)}'\n" for p in raws))
@@ -216,6 +219,9 @@ def make(reel):
         src, vol = ("tmp/v/hit.wav", 0.8) if k == 0 else ("tmp/v/whoosh.wav", 0.55)
         ains += ["-i", src]; idx = nv + k; ms = int(max(0, ct - 0.04) * 1000)
         af.append(f"[{idx}:a]adelay={ms}|{ms},volume={vol}[s{k}]"); sfx_in.append(f"[s{k}]")
+    for k, pt in enumerate(pops):
+        ains += ["-i", "tmp/v/pop.wav"]; idx = nv + len(cuts) + k; ms = int(max(0, pt - 0.02) * 1000)
+        af.append(f"[{idx}:a]adelay={ms}|{ms},volume=0.5[p{k}]"); sfx_in.append(f"[p{k}]")
     mus = f"tmp/v/{name}_mus.mp3"; ok = False
     if not TEST:
         for mid in reel.get("music", [148, 614, 871]):
@@ -224,10 +230,10 @@ def make(reel):
     if not ok:
         M.run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=f=110:d={total+1}", "-f", "lavfi", "-i", f"sine=f=165:d={total+1}", "-filter_complex",
                "[0:a][1:a]amix=inputs=2,lowpass=f=700,volume=0.4[m]", "-map", "[m]", mus])
-    vmix = "".join(f"[v{k}]" for k in range(nv)); mi = nv + len(cuts)
+    vmix = "".join(f"[v{k}]" for k in range(nv)); mi = nv + len(cuts) + len(pops)
     M.run(["ffmpeg", "-y", *ains, "-stream_loop", "-1", "-i", mus, "-filter_complex",
            ";".join(af) + f";{vmix}amix=inputs={nv}:normalize=0,highpass=f=90,acompressor=threshold=-18dB:ratio=3,asplit=2[vo][sc];"
-           + "".join(sfx_in) + f"amix=inputs={len(cuts)}:normalize=0[sfx];"
+           + "".join(sfx_in) + f"amix=inputs={len(cuts)+len(pops)}:normalize=0[sfx];"
            f"[{mi}:a]volume=0.55,afade=t=in:d=1.0[m];[m][sc]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=350[md];"
            f"[vo][md][sfx]amix=inputs=3:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=7,alimiter=limit=0.89,afade=t=out:st={total-1.2:.1f}:d=1.2[a]",
            "-map", "[a]", "-t", f"{total:.2f}", "-c:a", "aac", "-b:a", "160k", f"tmp/v/{name}_a.m4a"])

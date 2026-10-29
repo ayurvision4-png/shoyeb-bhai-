@@ -5385,5 +5385,1358 @@
     "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
    }
   ]
+ },
+ {
+  "name": "anim_pet",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "रात को बारह बजे भारी खाना? यार, रहम करो!",
+    "txt": "*Raat ko *12 baje *bhaari khana? Yaar, *rehem karo!",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#1a1f5a",
+        "#080b2a"
+       ],
+       "speaker": "p",
+       "actors": [
+        {
+         "kind": "stomach",
+         "x": 540,
+         "y": 860,
+         "s": 1.0,
+         "name": "PET BHAI",
+         "mood": "worried",
+         "fx": [
+          {
+           "t": 0.9,
+           "mood": "angry"
+          },
+          {
+           "t": 1.3,
+           "act": "shake",
+           "d": 0.6
+          },
+          {
+           "t": 2.0,
+           "pose": "fist"
+          }
+         ],
+         "id": "p"
+        },
+        {
+         "kind": "clock",
+         "x": 880,
+         "y": 740,
+         "s": 0.8,
+         "v": 0,
+         "in": 0.2,
+         "id": "c"
+        },
+        {
+         "kind": "burger",
+         "x": 200,
+         "y": 830,
+         "s": 0.85,
+         "enter": "left",
+         "in": 0.7,
+         "id": "b"
+        },
+        {
+         "kind": "pizza",
+         "x": 880,
+         "y": 1110,
+         "s": 0.85,
+         "enter": "right",
+         "in": 1.2,
+         "id": "z"
+        }
+       ],
+       "stars": true,
+       "cs": 1.08
+      }
+     }
+    ],
+    "big": [
+     "PET BHAI KI",
+     "*SHIKAYAT!"
+    ],
+    "big_y": 280,
+    "big_size": 108
+   },
+   {
+    "v": "f",
+    "say": "सॉरी पेट भाई! आज से खाना सोने से दो घंटे पहले।",
+    "txt": "Sorry Pet bhai! Aaj se khana *sone se 2 ghante pehle.",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#5b2a8a",
+        "#d9644a"
+       ],
+       "speaker": "r",
+       "actors": [
+        {
+         "kind": "stomach",
+         "x": 800,
+         "y": 870,
+         "s": 0.78,
+         "name": "PET BHAI",
+         "mood": "worried",
+         "fx": [
+          {
+           "t": 1.0,
+           "mood": "happy"
+          }
+         ],
+         "id": "p"
+        },
+        {
+         "kind": "human",
+         "x": 290,
+         "y": 860,
+         "s": 0.74,
+         "female": true,
+         "name": "RIYA",
+         "mood": "happy",
+         "enter": "left",
+         "fx": [
+          {
+           "t": 0.2,
+           "pose": "wave"
+          }
+         ],
+         "id": "r"
+        },
+        {
+         "kind": "clock",
+         "x": 540,
+         "y": 640,
+         "s": 0.8,
+         "v": 0,
+         "fx": [
+          {
+           "t": 0.4,
+           "d": 1.6,
+           "to": {
+            "v": 20
+           }
+          }
+         ],
+         "in": 0.1,
+         "id": "c"
+        },
+        {
+         "kind": "thali",
+         "x": 540,
+         "y": 1130,
+         "s": 0.55,
+         "in": 1.9,
+         "id": "t"
+        }
+       ],
+       "rays": true
+      }
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "और खाने के बाद दस मिनट टहलो, सोफ़े पर नहीं!",
+    "txt": "Aur khane ke baad *10 minute *tehlo, sofa par nahi!",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#1d6f6a",
+        "#0a3d44"
+       ],
+       "speaker": "p",
+       "actors": [
+        {
+         "kind": "sofa",
+         "x": 540,
+         "y": 520,
+         "s": 0.65,
+         "in": 0.3,
+         "id": "s"
+        },
+        {
+         "kind": "cross",
+         "x": 650,
+         "y": 490,
+         "s": 0.55,
+         "fx": [
+          {
+           "t": 1.0,
+           "act": "pulse",
+           "d": 0.5
+          }
+         ],
+         "in": 0.9,
+         "id": "x"
+        },
+        {
+         "kind": "stomach",
+         "x": 400,
+         "y": 840,
+         "s": 0.75,
+         "name": "PET BHAI",
+         "mood": "happy",
+         "walk": [
+          0,
+          99
+         ],
+         "id": "p"
+        },
+        {
+         "kind": "human",
+         "x": 790,
+         "y": 860,
+         "s": 0.7,
+         "female": true,
+         "name": "RIYA",
+         "mood": "happy",
+         "walk": [
+          0,
+          99
+         ],
+         "id": "r"
+        }
+       ],
+       "ground": 1060,
+       "groundc": [
+        "#1f8a74",
+        "#0b4a4a"
+       ],
+       "scroll": 260
+      }
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "बस इतना! उस दोस्त को भेजिए जो रात को भारी खाता है।",
+    "txt": "Bas itna! *Us dost ko *bhejiye jo raat ko bhaari khata hai.",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#12805a",
+        "#073d2c"
+       ],
+       "speaker": "r",
+       "actors": [
+        {
+         "kind": "stomach",
+         "x": 760,
+         "y": 890,
+         "s": 0.8,
+         "name": "PET BHAI",
+         "mood": "happy",
+         "fx": [
+          {
+           "t": 0,
+           "pose": "cheer"
+          }
+         ],
+         "id": "p"
+        },
+        {
+         "kind": "human",
+         "x": 290,
+         "y": 860,
+         "s": 0.74,
+         "female": true,
+         "name": "RIYA",
+         "mood": "happy",
+         "fx": [
+          {
+           "t": 0,
+           "pose": "wave"
+          }
+         ],
+         "id": "r"
+        },
+        {
+         "kind": "plane",
+         "x": 540,
+         "y": 740,
+         "s": 0.8,
+         "float": 1,
+         "in": 0.5,
+         "id": "pl"
+        },
+        {
+         "kind": "heart",
+         "x": 150,
+         "y": 700,
+         "s": 0.5,
+         "float": 1,
+         "in": 0.9,
+         "id": "h1"
+        },
+        {
+         "kind": "heart",
+         "x": 930,
+         "y": 700,
+         "s": 0.5,
+         "float": 1,
+         "in": 1.3,
+         "id": "h2"
+        },
+        {
+         "kind": "sparkle",
+         "x": 540,
+         "y": 1100,
+         "s": 0.6,
+         "in": 1.6,
+         "id": "sp"
+        }
+       ],
+       "rays": true,
+       "cs": 1.08
+      }
+     }
+    ],
+    "big": [
+     "DOST KO",
+     "*BHEJO!"
+    ],
+    "big_y": 280,
+    "big_size": 108
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "anim_chai",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "सुबह उठते ही पहले कौन? मैं, चाय!",
+    "txt": "Subah uthte hi *pehle kaun? Main, *chai!",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#ff9a3c",
+        "#c2410c"
+       ],
+       "speaker": "c",
+       "actors": [
+        {
+         "kind": "cup",
+         "x": 320,
+         "y": 870,
+         "s": 0.72,
+         "name": "CHAI BHAI",
+         "mood": "smug",
+         "fx": [
+          {
+           "t": 1.4,
+           "pose": "fist"
+          }
+         ],
+         "id": "c"
+        },
+        {
+         "kind": "glass",
+         "x": 770,
+         "y": 870,
+         "s": 0.72,
+         "name": "PAANI DIDI",
+         "mood": "neutral",
+         "look": [
+          -1,
+          0
+         ],
+         "id": "g"
+        },
+        {
+         "kind": "label",
+         "x": 540,
+         "y": 880,
+         "s": 1,
+         "txt": "VS",
+         "fs": 70,
+         "w": 130,
+         "in": 0.5,
+         "id": "vs"
+        }
+       ],
+       "rays": true,
+       "cs": 1.08
+      }
+     }
+    ],
+    "big": [
+     "SUBAH PEHLE",
+     "*CHAI YA PAANI?"
+    ],
+    "big_y": 280,
+    "big_size": 108
+   },
+   {
+    "v": "f",
+    "say": "रुको चाय भाई! पहले मुझे, गुनगुना पानी।",
+    "txt": "Ruko chai bhai! *Pehle mujhe, *gunguna paani.",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#ff9a3c",
+        "#c2410c"
+       ],
+       "speaker": "g",
+       "actors": [
+        {
+         "kind": "cup",
+         "x": 200,
+         "y": 890,
+         "s": 0.58,
+         "name": "CHAI BHAI",
+         "mood": "sad",
+         "fx": [
+          {
+           "t": 0.5,
+           "mood": "sad"
+          }
+         ],
+         "id": "c"
+        },
+        {
+         "kind": "glass",
+         "x": 600,
+         "y": 860,
+         "s": 0.9,
+         "name": "PAANI DIDI",
+         "mood": "happy",
+         "fx": [
+          {
+           "t": 0,
+           "pose": "wave"
+          }
+         ],
+         "id": "g"
+        },
+        {
+         "kind": "drop",
+         "x": 900,
+         "y": 700,
+         "s": 0.5,
+         "float": 1,
+         "in": 0.7,
+         "id": "d1"
+        },
+        {
+         "kind": "drop",
+         "x": 300,
+         "y": 720,
+         "s": 0.4,
+         "float": 1,
+         "in": 1.2,
+         "id": "d2"
+        },
+        {
+         "kind": "sparkle",
+         "x": 880,
+         "y": 1030,
+         "s": 0.5,
+         "in": 1.5,
+         "id": "sp"
+        }
+       ],
+       "rays": true
+      }
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "ठीक है! पहले पानी, फिर चाय, और चीनी कम।",
+    "txt": "Theek hai! *Pehle paani, phir chai, *chini kam.",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#5b2a8a",
+        "#d9644a"
+       ],
+       "speaker": "c",
+       "actors": [
+        {
+         "kind": "cup",
+         "x": 430,
+         "y": 860,
+         "s": 0.82,
+         "name": "CHAI BHAI",
+         "mood": "happy",
+         "fx": [
+          {
+           "t": 0,
+           "pose": "wave"
+          }
+         ],
+         "id": "c"
+        },
+        {
+         "kind": "glass",
+         "x": 850,
+         "y": 900,
+         "s": 0.55,
+         "name": "PAANI DIDI",
+         "mood": "happy",
+         "id": "g"
+        },
+        {
+         "kind": "sugar",
+         "x": 190,
+         "y": 680,
+         "s": 0.7,
+         "in": 0.4,
+         "id": "s1"
+        },
+        {
+         "kind": "sugar",
+         "x": 330,
+         "y": 640,
+         "s": 0.7,
+         "fx": [
+          {
+           "t": 1.5,
+           "d": 0.5,
+           "to": {
+            "o": 0,
+            "y": 560
+           }
+          }
+         ],
+         "in": 0.6,
+         "id": "s2"
+        },
+        {
+         "kind": "check",
+         "x": 640,
+         "y": 700,
+         "s": 0.55,
+         "in": 1.9,
+         "id": "ck"
+        }
+       ],
+       "rays": true
+      }
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "सेव कीजिए, और किसी चाय-प्रेमी को भेजिए!",
+    "txt": "*Save kijiye, aur kisi *chai-premi ko *bhejiye!",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#12805a",
+        "#073d2c"
+       ],
+       "speaker": "g",
+       "actors": [
+        {
+         "kind": "cup",
+         "x": 380,
+         "y": 890,
+         "s": 0.72,
+         "name": "CHAI BHAI",
+         "mood": "happy",
+         "fx": [
+          {
+           "t": 0,
+           "pose": "wave"
+          }
+         ],
+         "id": "c"
+        },
+        {
+         "kind": "glass",
+         "x": 720,
+         "y": 890,
+         "s": 0.72,
+         "name": "PAANI DIDI",
+         "mood": "happy",
+         "id": "g"
+        },
+        {
+         "kind": "heart",
+         "x": 540,
+         "y": 860,
+         "s": 0.6,
+         "float": 1,
+         "in": 0.6,
+         "id": "h1"
+        },
+        {
+         "kind": "heart",
+         "x": 160,
+         "y": 820,
+         "s": 0.4,
+         "float": 1,
+         "in": 1.0,
+         "id": "h2"
+        },
+        {
+         "kind": "heart",
+         "x": 930,
+         "y": 820,
+         "s": 0.4,
+         "float": 1,
+         "in": 1.3,
+         "id": "h3"
+        },
+        {
+         "kind": "plane",
+         "x": 540,
+         "y": 1100,
+         "s": 0.6,
+         "float": 1,
+         "in": 1.6,
+         "id": "pl"
+        }
+       ],
+       "rays": true,
+       "cs": 1.08
+      }
+     }
+    ],
+    "big": [
+     "SAVE KARO",
+     "*SEND KARO"
+    ],
+    "big_y": 280,
+    "big_size": 108
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "anim_neend",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "रात के दो बजे तक स्क्रॉल? मैं कब से जाग रही हूँ!",
+    "txt": "Raat ke *2 baje tak *scroll? Main kab se *jaag rahi hoon!",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#1a1f5a",
+        "#080b2a"
+       ],
+       "speaker": "m",
+       "actors": [
+        {
+         "kind": "moon",
+         "x": 340,
+         "y": 870,
+         "s": 0.82,
+         "name": "CHAND",
+         "mood": "angry",
+         "fx": [
+          {
+           "t": 1.2,
+           "mood": "sleepy"
+          }
+         ],
+         "id": "m"
+        },
+        {
+         "kind": "phone",
+         "x": 790,
+         "y": 860,
+         "s": 0.6,
+         "name": "MOBILE",
+         "mood": "smug",
+         "fx": [
+          {
+           "t": 0.8,
+           "act": "shake",
+           "d": 0.8
+          }
+         ],
+         "id": "ph"
+        },
+        {
+         "kind": "notif",
+         "x": 930,
+         "y": 720,
+         "s": 0.7,
+         "txt": "9+",
+         "in": 0.5,
+         "id": "n1"
+        },
+        {
+         "kind": "notif",
+         "x": 660,
+         "y": 740,
+         "s": 0.6,
+         "txt": "12",
+         "in": 0.9,
+         "id": "n2"
+        },
+        {
+         "kind": "notif",
+         "x": 950,
+         "y": 1150,
+         "s": 0.6,
+         "txt": "5",
+         "in": 1.3,
+         "id": "n3"
+        },
+        {
+         "kind": "zzz",
+         "x": 230,
+         "y": 720,
+         "s": 0.8,
+         "in": 1.8,
+         "id": "z"
+        }
+       ],
+       "stars": true,
+       "cs": 1.08
+      }
+     }
+    ],
+    "big": [
+     "RAAT 2 BAJE",
+     "*SCROLL?"
+    ],
+    "big_y": 280,
+    "big_size": 108
+   },
+   {
+    "v": "m",
+    "say": "अरे बस एक और रील... बस एक!",
+    "txt": "Arre bas *ek aur reel... bas *ek!",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#1a1f5a",
+        "#080b2a"
+       ],
+       "speaker": "ph",
+       "actors": [
+        {
+         "kind": "phone",
+         "x": 650,
+         "y": 860,
+         "s": 0.78,
+         "name": "MOBILE",
+         "mood": "smug",
+         "fx": [
+          {
+           "t": 1.2,
+           "act": "jump",
+           "d": 0.5,
+           "h": 60
+          }
+         ],
+         "id": "ph"
+        },
+        {
+         "kind": "moon",
+         "x": 230,
+         "y": 910,
+         "s": 0.55,
+         "name": "CHAND",
+         "mood": "sleepy",
+         "id": "m"
+        },
+        {
+         "kind": "clock",
+         "x": 540,
+         "y": 640,
+         "s": 0.7,
+         "v": 2,
+         "in": 0.2,
+         "id": "c"
+        },
+        {
+         "kind": "notif",
+         "x": 900,
+         "y": 780,
+         "s": 0.6,
+         "txt": "9+",
+         "in": 0.5,
+         "id": "n1"
+        },
+        {
+         "kind": "notif",
+         "x": 930,
+         "y": 1120,
+         "s": 0.6,
+         "txt": "20",
+         "in": 0.9,
+         "id": "n2"
+        }
+       ],
+       "stars": true
+      }
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "सोने से पहले मोबाइल दूर रखिए, और रोज़ एक ही समय पर सोइए।",
+    "txt": "Sone se pehle *mobile door rakhiye, aur *roz ek hi samay par soiye.",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#1a1f5a",
+        "#080b2a"
+       ],
+       "speaker": "m",
+       "actors": [
+        {
+         "kind": "moon",
+         "x": 470,
+         "y": 870,
+         "s": 0.95,
+         "name": "CHAND",
+         "mood": "happy",
+         "id": "m"
+        },
+        {
+         "kind": "phone",
+         "x": 960,
+         "y": 970,
+         "s": 0.4,
+         "rot": 18,
+         "fx": [
+          {
+           "t": 0,
+           "d": 0.7,
+           "to": {
+            "x": 980,
+            "y": 1080
+           }
+          }
+         ],
+         "name": null,
+         "id": "ph"
+        },
+        {
+         "kind": "cross",
+         "x": 930,
+         "y": 1010,
+         "s": 0.45,
+         "in": 0.9,
+         "id": "x"
+        },
+        {
+         "kind": "clock",
+         "x": 540,
+         "y": 640,
+         "s": 0.7,
+         "v": 2,
+         "fx": [
+          {
+           "t": 0.4,
+           "d": 1.4,
+           "to": {
+            "v": 22.5
+           }
+          }
+         ],
+         "in": 0.1,
+         "id": "c"
+        },
+        {
+         "kind": "zzz",
+         "x": 250,
+         "y": 760,
+         "s": 0.8,
+         "in": 1.8,
+         "id": "z"
+        },
+        {
+         "kind": "star",
+         "x": 800,
+         "y": 720,
+         "s": 0.6,
+         "float": 1,
+         "in": 1.2,
+         "id": "s1"
+        },
+        {
+         "kind": "sparkle",
+         "x": 160,
+         "y": 1000,
+         "s": 0.5,
+         "in": 1.6,
+         "id": "s2"
+        }
+       ],
+       "stars": true
+      }
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "ठीक है, कल से दस बजे बंद! उस दोस्त को भेजिए जो रात भर जागता है।",
+    "txt": "Theek hai, kal se *10 baje band! *Us dost ko *bhejiye jo raat bhar jaagta hai.",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#1a1f5a",
+        "#080b2a"
+       ],
+       "speaker": "ph",
+       "actors": [
+        {
+         "kind": "phone",
+         "x": 780,
+         "y": 890,
+         "s": 0.62,
+         "name": "MOBILE",
+         "mood": "happy",
+         "fx": [
+          {
+           "t": 0,
+           "pose": "wave"
+          }
+         ],
+         "id": "ph"
+        },
+        {
+         "kind": "moon",
+         "x": 340,
+         "y": 870,
+         "s": 0.8,
+         "name": "CHAND",
+         "mood": "happy",
+         "id": "m"
+        },
+        {
+         "kind": "plane",
+         "x": 540,
+         "y": 740,
+         "s": 0.7,
+         "float": 1,
+         "in": 0.6,
+         "id": "pl"
+        },
+        {
+         "kind": "heart",
+         "x": 160,
+         "y": 720,
+         "s": 0.45,
+         "float": 1,
+         "in": 1.0,
+         "id": "h1"
+        },
+        {
+         "kind": "heart",
+         "x": 940,
+         "y": 720,
+         "s": 0.45,
+         "float": 1,
+         "in": 1.4,
+         "id": "h2"
+        }
+       ],
+       "stars": true,
+       "cs": 1.08
+      }
+     }
+    ],
+    "big": [
+     "JAAGTE DOST",
+     "*KO BHEJO"
+    ],
+    "big_y": 280,
+    "big_size": 108
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "anim_laddu",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "दिवाली है! एक और खा लो, बस एक और!",
+    "txt": "*Diwali hai! Ek aur kha lo, *bas ek aur!",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#8a2145",
+        "#2e0a1b"
+       ],
+       "speaker": "l",
+       "actors": [
+        {
+         "kind": "laddu",
+         "x": 540,
+         "y": 860,
+         "s": 1.0,
+         "name": "LADDU",
+         "mood": "smug",
+         "fx": [
+          {
+           "t": 1.2,
+           "act": "jump",
+           "d": 0.5
+          },
+          {
+           "t": 2.0,
+           "act": "wiggle",
+           "d": 0.6
+          }
+         ],
+         "id": "l"
+        },
+        {
+         "kind": "diya",
+         "x": 150,
+         "y": 1100,
+         "s": 0.6,
+         "in": 0.3,
+         "id": "d1"
+        },
+        {
+         "kind": "diya",
+         "x": 930,
+         "y": 1100,
+         "s": 0.6,
+         "in": 0.5,
+         "id": "d2"
+        },
+        {
+         "kind": "star",
+         "x": 870,
+         "y": 720,
+         "s": 0.55,
+         "float": 1,
+         "in": 0.9,
+         "id": "s1"
+        },
+        {
+         "kind": "star",
+         "x": 210,
+         "y": 730,
+         "s": 0.45,
+         "float": 1,
+         "in": 1.3,
+         "id": "s2"
+        }
+       ],
+       "dotc": "#ffd24a",
+       "cs": 1.08
+      }
+     }
+    ],
+    "big": [
+     "DIWALI PAR",
+     "*LADDU BOLA"
+    ],
+    "big_y": 280,
+    "big_size": 108
+   },
+   {
+    "v": "f",
+    "say": "हाँ, पर पहले पानी पियो, और छोटा टुकड़ा लो।",
+    "txt": "Haan, par *pehle paani piyo, aur *chhota tukda lo.",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#8a2145",
+        "#2e0a1b"
+       ],
+       "speaker": "r",
+       "actors": [
+        {
+         "kind": "human",
+         "x": 290,
+         "y": 860,
+         "s": 0.74,
+         "female": true,
+         "name": "RIYA",
+         "mood": "happy",
+         "enter": "left",
+         "fx": [
+          {
+           "t": 0.2,
+           "pose": "wave"
+          }
+         ],
+         "id": "r"
+        },
+        {
+         "kind": "laddu",
+         "x": 790,
+         "y": 880,
+         "s": 0.72,
+         "name": "LADDU",
+         "mood": "smug",
+         "fx": [
+          {
+           "t": 1.3,
+           "d": 0.5,
+           "to": {
+            "s": 0.5,
+            "y": 1030
+           }
+          },
+          {
+           "t": 1.3,
+           "mood": "sad"
+          }
+         ],
+         "id": "l"
+        },
+        {
+         "kind": "drop",
+         "x": 540,
+         "y": 700,
+         "s": 0.55,
+         "float": 1,
+         "in": 0.6,
+         "id": "d1"
+        },
+        {
+         "kind": "drop",
+         "x": 620,
+         "y": 780,
+         "s": 0.4,
+         "float": 1,
+         "in": 1.0,
+         "id": "d2"
+        },
+        {
+         "kind": "sparkle",
+         "x": 800,
+         "y": 760,
+         "s": 0.5,
+         "in": 1.5,
+         "id": "sp"
+        }
+       ],
+       "dotc": "#ffd24a"
+      }
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "और खाने के बाद दस मिनट टहलना मत भूलना!",
+    "txt": "Aur khane ke baad *10 minute *tehalna mat bhoolna!",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#1d6f6a",
+        "#0a3d44"
+       ],
+       "speaker": "l",
+       "actors": [
+        {
+         "kind": "laddu",
+         "x": 400,
+         "y": 840,
+         "s": 0.72,
+         "name": "LADDU",
+         "mood": "happy",
+         "walk": [
+          0,
+          99
+         ],
+         "id": "l"
+        },
+        {
+         "kind": "human",
+         "x": 790,
+         "y": 860,
+         "s": 0.7,
+         "female": true,
+         "name": "RIYA",
+         "mood": "happy",
+         "walk": [
+          0,
+          99
+         ],
+         "id": "r"
+        },
+        {
+         "kind": "shoe",
+         "x": 540,
+         "y": 640,
+         "s": 0.6,
+         "in": 0.4,
+         "id": "sh"
+        },
+        {
+         "kind": "check",
+         "x": 640,
+         "y": 620,
+         "s": 0.5,
+         "in": 1.2,
+         "id": "ck"
+        }
+       ],
+       "ground": 1060,
+       "groundc": [
+        "#1f8a74",
+        "#0b4a4a"
+       ],
+       "scroll": 260
+      }
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "मिठाई भी, मज़ा भी! परिवार के ग्रुप में भेजिए।",
+    "txt": "*Mithai bhi, *mazaa bhi! *Parivaar ke group mein bhejiye.",
+    "shots": [
+     {
+      "anim": {
+       "bg": [
+        "#8a2145",
+        "#2e0a1b"
+       ],
+       "speaker": "r",
+       "actors": [
+        {
+         "kind": "laddu",
+         "x": 770,
+         "y": 890,
+         "s": 0.8,
+         "name": "LADDU",
+         "mood": "happy",
+         "fx": [
+          {
+           "t": 0,
+           "pose": "cheer"
+          }
+         ],
+         "id": "l"
+        },
+        {
+         "kind": "human",
+         "x": 290,
+         "y": 860,
+         "s": 0.74,
+         "female": true,
+         "name": "RIYA",
+         "mood": "happy",
+         "fx": [
+          {
+           "t": 0,
+           "pose": "cheer"
+          }
+         ],
+         "id": "r"
+        },
+        {
+         "kind": "diya",
+         "x": 150,
+         "y": 1110,
+         "s": 0.55,
+         "in": 0.3,
+         "id": "d1"
+        },
+        {
+         "kind": "diya",
+         "x": 930,
+         "y": 1110,
+         "s": 0.55,
+         "in": 0.5,
+         "id": "d2"
+        },
+        {
+         "kind": "heart",
+         "x": 540,
+         "y": 760,
+         "s": 0.55,
+         "float": 1,
+         "in": 0.8,
+         "id": "h1"
+        },
+        {
+         "kind": "sparkle",
+         "x": 540,
+         "y": 1100,
+         "s": 0.6,
+         "in": 1.4,
+         "id": "s1"
+        }
+       ],
+       "dotc": "#ffd24a",
+       "cs": 1.08
+      }
+     }
+    ],
+    "big": [
+     "MITHAI BHI",
+     "*MAZAA BHI"
+    ],
+    "big_y": 280,
+    "big_size": 108
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

@@ -1,0 +1,37 @@
+1 ok pollinations 61179
+pollinations fail flux <HTTPError 402: 'Payment Required'>
+pollinations fail turbo <HTTPError 402: 'Payment Required'>
+pollinations fail flux <HTTPError 402: 'Payment Required'>
+pollinations fail turbo <HTTPError 402: 'Payment Required'>
+pollinations fail flux <HTTPError 402: 'Payment Required'>
+pollinations fail turbo <HTTPError 402: 'Payment Required'>
+pollinations fail flux <HTTPError 402: 'Payment Required'>
+pollinations fail turbo <HTTPError 402: 'Payment Required'>
+pollinations fail flux <HTTPError 402: 'Payment Required'>
+pollinations fail turbo <HTTPError 402: 'Payment Required'>
+pollinations fail flux <HTTPError 402: 'Payment Required'>
+pollinations fail turbo <HTTPError 402: 'Payment Required'>
+pollinations fail flux <HTTPError 402: 'Payment Required'>
+pollinations fail turbo <HTTPError 402: 'Payment Required'>
+horde submit fail <HTTPError 403: 'Forbidden'>
+horde submit fail <HTTPError 403: 'Forbidden'>
+horde submit fail <HTTPError 403: 'Forbidden'>
+horde submit fail <HTTPError 403: 'Forbidden'>
+horde submit fail <HTTPError 403: 'Forbidden'>
+horde submit fail <HTTPError 403: 'Forbidden'>
+horde submit fail <HTTPError 403: 'Forbidden'>
+horde submit fail2 <HTTPError 403: 'Forbidden'>
+5 FAILED all
+horde submit fail2 <HTTPError 403: 'Forbidden'>
+2 FAILED all
+horde submit fail2 <HTTPError 403: 'Forbidden'>
+4 FAILED all
+horde submit fail2 <HTTPError 403: 'Forbidden'>
+8 FAILED all
+horde submit fail2 <HTTPError 403: 'Forbidden'>
+7 FAILED all
+horde submit fail2 <HTTPError 403: 'Forbidden'>
+6 FAILED all
+horde submit fail2 <HTTPError 403: 'Forbidden'>
+3 FAILED all
+done {1: 'pollinations'}

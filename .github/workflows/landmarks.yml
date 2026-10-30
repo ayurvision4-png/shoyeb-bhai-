@@ -1,0 +1,17 @@
+name: landmarks
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  lm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q mediapipe opencv-python-headless numpy
+      - run: python tools/landmarks.py
+      - run: |
+          git config user.name github-actions && git config user.email actions@github.com
+          git add anime/landmarks.json anime/dbg && git commit -m "Face landmarks" && git pull --rebase -q && git push

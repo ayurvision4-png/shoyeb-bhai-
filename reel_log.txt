@@ -1,34 +1,5 @@
-/home/runner/work/shoyeb-bhai-/shoyeb-bhai-/make_reel.py:57: RuntimeWarning: coroutine 'Communicate.save' was never awaited
-  last = e; print("edge-tts retry", k, str(e)[:80]); time.sleep(3 + 4 * k)
-RuntimeWarning: Enable tracemalloc to get the object allocation traceback
 viral font: /usr/share/fonts/opentype/montserrat/Montserrat-ExtraBold.otf
-edge-tts retry 0 asyncio.run() cannot be called from a running event loop
-edge-tts retry 1 asyncio.run() cannot be called from a running event loop
-edge-tts retry 2 asyncio.run() cannot be called from a running event loop
-edge-tts retry 3 asyncio.run() cannot be called from a running event loop
-edge-tts retry 4 asyncio.run() cannot be called from a running event loop
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done anim_pet 18.4 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done anim_chai 17.2 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done anim_neend 19.7 s
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-using gTTS backup
-done anim_laddu 17.0 s
-<sys>:0: RuntimeWarning: coroutine 'Communicate.save' was never awaited
-RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+done anime_subah 22.5 s
+done anime_chai 18.5 s
+done anime_walk 17.5 s
+done anime_nani 15.2 s

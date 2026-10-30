@@ -96,6 +96,14 @@ def photo_png(path, out):
     m = Image.new("L", im.size, 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, im.width, im.height), 36, fill=255)
     bg.paste(im, ((W - im.width) // 2, (H - im.height) // 2 + 20), m); bg.save(out); return out
 
+def img_png(path, out, zoom=1.0, fx=0.5, fy=0.5):
+    """full-bleed AI still: drop the generator's corner mark, cover-fit to WxH, optional punch-in crop around (fx, fy)"""
+    im = Image.open(path).convert("RGB"); im = im.crop((0, 0, im.width, int(im.height * 0.955)))
+    sc = max(W / im.width, H / im.height) * zoom
+    big = im.resize((int(im.width * sc) + 1, int(im.height * sc) + 1), Image.LANCZOS)
+    x0 = min(max(int(fx * big.width) - W // 2, 0), big.width - W); y0 = min(max(int(fy * big.height) - H // 2, 0), big.height - H)
+    big.crop((x0, y0, x0 + W, y0 + H)).filter(ImageFilter.UnsharpMask(radius=2, percent=70, threshold=2)).save(out); return out
+
 # ---------------------------------------------------------------- audio
 SR = 44100
 def _wav(path, x):
@@ -178,6 +186,7 @@ def make(reel):
             if sh.get("anim"):
                 import anim; anim.render(sh["anim"], wav, each, o, FPS, FONT)
                 pops += [t0 + j * each + ac["in"] for ac in sh["anim"].get("actors", []) if ac.get("in", 0) > 0.05 and ac.get("kind") != "label"]
+            elif sh.get("img"): photo_shot(img_png(sh["img"], f"tmp/v/{name}_{i}_{j}.png", sh.get("zoom", 1.0), sh.get("fx", 0.5), sh.get("fy", 0.5)), each, o)
             elif sh.get("photo"): photo_shot(photo_png(sh["photo"], f"tmp/v/{name}_{i}_{j}.png"), each, o)
             else: clip_shot(get_clip(sh["clip"], zlib.crc32(f"{name}{i}{j}".encode()), used), each, o, sh.get("punch", 0.14))
             raws.append(o); cuts.append(t0 + j * each)

@@ -1,1 +1,1 @@
-anim_pet anim_chai anim_neend anim_laddu
+anime_subah anime_chai anime_walk anime_nani

@@ -6738,5 +6738,365 @@
   ],
   "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "anime_subah",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "सुबह उठते ही रिया सबसे पहले क्या करती है? फोन नहीं, पानी!",
+    "txt": "*Subah uthte hi *Riya sabse pehle kya karti hai? *Phone nahi, *paani!",
+    "shots": [
+     {
+      "img": "anime/a1.jpg"
+     },
+     {
+      "img": "anime/a1.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ],
+    "big": [
+     "SUBAH KA",
+     "*SIMPLE RAAZ"
+    ],
+    "big_y": 170,
+    "big_size": 96
+   },
+   {
+    "v": "f",
+    "say": "एक गिलास गुनगुना पानी, धीरे-धीरे पिएँ। दिन की हल्की शुरुआत।",
+    "txt": "Ek glass *gunguna paani, dheere-dheere piyein. Din ki *halki shuruaat.",
+    "shots": [
+     {
+      "img": "anime/a2.jpg"
+     },
+     {
+      "img": "anime/a2.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "फिर पाँच मिनट गहरी साँसें, और खिड़की के पास थोड़ी धूप।",
+    "txt": "Phir *5 minute gehri saansein, aur *thodi dhoop.",
+    "shots": [
+     {
+      "img": "anime/a3.jpg"
+     },
+     {
+      "img": "anime/a3.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "छोटी आदतें, बेहतर दिन। अपना चार्ट चाहिए? व्हाट्सऐप पर चार्ट लिखिए।",
+    "txt": "Chhoti aadatein, *behtar din. Apna chart chahiye? *WhatsApp par *CHART likhiye.",
+    "shots": [
+     {
+      "img": "anime/a4.jpg"
+     },
+     {
+      "img": "anime/a4.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ],
+    "big": [
+     "WHATSAPP PAR",
+     "*CHART LIKHO"
+    ],
+    "big_y": 170,
+    "big_size": 96,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "anime_chai",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "चाय छोड़नी नहीं है, बस थोड़ा स्मार्ट बनाना है!",
+    "txt": "Chai *chhodni nahi hai, bas *smart banana hai!",
+    "shots": [
+     {
+      "img": "anime/b1.jpg"
+     },
+     {
+      "img": "anime/b1.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ],
+    "big": [
+     "CHAI",
+     "*CHHODO MAT"
+    ],
+    "big_y": 170,
+    "big_size": 96
+   },
+   {
+    "v": "m",
+    "say": "चीनी आधी करें, और उसमें डालें अदरक और तुलसी।",
+    "txt": "*Chini aadhi karein, aur daalein *adrak aur *tulsi.",
+    "shots": [
+     {
+      "img": "anime/b2.jpg"
+     },
+     {
+      "img": "anime/b2.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "खुशबू भी बढ़िया, स्वाद भी। दिन में बस एक या दो कप।",
+    "txt": "*Khushbu bhi badhiya, *swaad bhi. Din mein bas *1-2 cup.",
+    "shots": [
+     {
+      "img": "anime/b3.jpg"
+     },
+     {
+      "img": "anime/b3.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "यह वीडियो उस चायप्रेमी को भेजिए। चार्ट के लिए व्हाट्सऐप पर चार्ट लिखिए।",
+    "txt": "Yeh video us *chai premi ko *bhejiye. Chart ke liye *WhatsApp par *CHART likhiye.",
+    "shots": [
+     {
+      "img": "anime/b4.jpg"
+     },
+     {
+      "img": "anime/b4.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ],
+    "big": [
+     "WHATSAPP PAR",
+     "*CHART LIKHO"
+    ],
+    "big_y": 170,
+    "big_size": 96,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "anime_walk",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "खाना खाया और सीधे सोफ़े पर? रुकिए!",
+    "txt": "Khana khaya aur seedha *sofa par? *Ruko!",
+    "shots": [
+     {
+      "img": "anime/c1.jpg"
+     },
+     {
+      "img": "anime/c1.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ],
+    "big": [
+     "KHANE KE",
+     "*BAAD KYA?"
+    ],
+    "big_y": 170,
+    "big_size": 96
+   },
+   {
+    "v": "f",
+    "say": "खाने के बाद दस मिनट धीरे-धीरे टहलिए।",
+    "txt": "Khane ke baad *10 minute *dheere-dheere tehliye.",
+    "shots": [
+     {
+      "img": "anime/c2.jpg"
+     },
+     {
+      "img": "anime/c2.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "साथ में बात करते हुए चलिए, समय का पता भी नहीं चलेगा।",
+    "txt": "Saath mein *baatein karte hue chaliye, *time ka pata nahi chalega.",
+    "shots": [
+     {
+      "img": "anime/c3.jpg"
+     },
+     {
+      "img": "anime/c3.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.4
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "रोज़ की एक छोटी आदत। अपना चार्ट पाने के लिए व्हाट्सऐप पर चार्ट लिखिए।",
+    "txt": "Roz ki *ek chhoti aadat. Apna chart paane ke liye *WhatsApp par *CHART likhiye.",
+    "shots": [
+     {
+      "img": "anime/c4.jpg"
+     },
+     {
+      "img": "anime/c4.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ],
+    "big": [
+     "WHATSAPP PAR",
+     "*CHART LIKHO"
+    ],
+    "big_y": 170,
+    "big_size": 96,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
+ },
+ {
+  "name": "anime_nani",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "नानी हर सुबह सबसे पहले तुलसी को पानी देती थीं।",
+    "txt": "*Nani har subah sabse pehle *tulsi ko paani deti thi.",
+    "shots": [
+     {
+      "img": "anime/d1.jpg"
+     },
+     {
+      "img": "anime/d1.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.4
+     }
+    ],
+    "big": [
+     "NANI KA",
+     "*NUSKHA!"
+    ],
+    "big_y": 170,
+    "big_size": 96
+   },
+   {
+    "v": "m",
+    "say": "फिर गरम तुलसी वाली चाय, धीरे-धीरे, सुकून से।",
+    "txt": "Phir *garam tulsi wali chai, *dheere-dheere, sukoon se.",
+    "shots": [
+     {
+      "img": "anime/d2.jpg"
+     },
+     {
+      "img": "anime/d2.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "पुरानी आदतें, आज भी काम की। अपना चार्ट चाहिए तो व्हाट्सऐप पर चार्ट लिखिए।",
+    "txt": "Purani aadatein, *aaj bhi kaam ki. Apna chart chahiye to *WhatsApp par *CHART likhiye.",
+    "shots": [
+     {
+      "img": "anime/d4.jpg"
+     },
+     {
+      "img": "anime/d4.jpg",
+      "zoom": 1.3,
+      "fx": 0.5,
+      "fy": 0.3
+     }
+    ],
+    "big": [
+     "WHATSAPP PAR",
+     "*CHART LIKHO"
+    ],
+    "big_y": 170,
+    "big_size": 96,
+    "small": "Yeh dawai nahi hai. Doctor ki salah zaroor lein."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_cut": [
+   "cutouts/1000153679.png"
+  ],
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!"
  }
 ]

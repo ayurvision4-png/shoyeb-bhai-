@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install -q mediapipe opencv-python-headless numpy
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq libegl1 libgles2 libgl1 && pip install -q mediapipe opencv-python-headless numpy
       - run: python tools/landmarks.py 2>&1 | tee landmarks_log.txt; exit ${PIPESTATUS[0]}
       - if: always()
         run: |

@@ -1,0 +1,35 @@
+name: scene-images
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        k: [a1, a2, a3, a4, b1, b2, b3, b4, c1, c2, c3, c4, d1, d2, d3, d4]
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/gen_img.py ${{ matrix.k }} out
+        continue-on-error: true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: img-${{ matrix.k }}
+          path: out
+          if-no-files-found: ignore
+  collect:
+    needs: gen
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: anime
+          merge-multiple: true
+      - run: |
+          ls -la anime
+          git config user.name github-actions && git config user.email actions@github.com
+          git add anime && git commit -m "Anime scene images" && git pull --rebase -q && git push

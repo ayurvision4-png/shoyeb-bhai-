@@ -25,19 +25,33 @@ OPT = [
      A("label", "vs", 545, 540, 1, txt="VS", fs=100, w=190, col="#fff", **{"in": .8}),
      A("star", "s1", 150, 700, .6, float=1, **{"in": 1.0}), A("sparkle", "s2", 930, 1120, .6, **{"in": 1.2})])),
 ]
+OPT2 = [
+ (9, "Paper-cut layers", dict(actors=base, look="paper", speaker="c")),
+ (10, "Pixel 8-bit game", dict(actors=base, look="pixel", stars=True, speaker="c", pix=1)),
+ (11, "Watercolor", dict(actors=base, look="wc", dots=0, speaker="c")),
+ (12, "Glossy glass bubble", dict(actors=base, look="glass", dots=0, speaker="c")),
+ (13, "Felt plush stitched", dict(actors=base, look="felt", dots=0, speaker="c")),
+ (14, "Indian truck-art poster", dict(actors=base, look="truck", rays=True, rayc="#ffcf33", rayo=.16, dots=0, speaker="c")),
+ (15, "Retro VHS synthwave", dict(actors=base, look="vhs", dots=0, speaker="c")),
+ (16, "Cinematic soft-light", dict(actors=base, look="cine", dots=0, speaker="c")),
+]
+SET = 2 if sys.argv[1:] == ["2"] else 1
+if SET == 2: OPT = OPT2
 amps = [0.5 + 0.5 * math.sin(i * 0.9) for i in range(400)]
 os.makedirs("tmp/s", exist_ok=True); tiles = []
 f1 = ImageFont.truetype(FONT, 120); f2 = ImageFont.truetype(FONT, 62)
 for n, name, spec in OPT:
     pg.evaluate("([s,a,f])=>setup(s,a,f)", [spec, amps, 30]); pg.evaluate("draw(1.7)")
     p = f"tmp/s/o{n}.png"; pg.screenshot(path=p); im = Image.open(p).convert("RGBA")
+    if spec.get("pix"):
+        sm = im.convert("RGB").resize((180, 320), Image.BOX).quantize(24).convert("RGB"); im = sm.resize((1080, 1920), Image.NEAREST).convert("RGBA")
     st = viral.static_layer({} if n == 8 else {"big": ["SUBAH PEHLE", "*CHAI YA PAANI?"], "big_y": 280, "big_size": 108}, f"tmp/s/st{n}.png"); im.alpha_composite(Image.open(st))
     im.alpha_composite(Image.open(viral.chunk_png(viral.parse_words("Pehle *paani, phir *chai"), f"tmp/s/c{n}.png")), (0, 1250))
     d = ImageDraw.Draw(im); d.ellipse((40, 40, 250, 250), fill=(255, 255, 255, 255), outline=(0, 0, 0, 255), width=10)
     w = d.textlength(str(n), font=ImageFont.truetype(FONT, 150)); d.text((145 - w / 2, 62), str(n), font=ImageFont.truetype(FONT, 150), fill=(200, 30, 30, 255))
     tw = d.textlength(name, font=f2); d.rounded_rectangle(((1080 - tw) / 2 - 40, 1650, (1080 + tw) / 2 + 40, 1650 + 110), 55, fill=(0, 0, 0, 200)); d.text(((1080 - tw) / 2, 1650 + 20), name, font=f2, fill=(255, 255, 255, 255))
     tiles.append(im.convert("RGB").resize((540, 960)))
-for nm, grp in (("A", tiles[:4]), ("B", tiles[4:])):
+for nm, grp in ((("A", tiles[:4]), ("B", tiles[4:])) if SET == 1 else (("C", tiles[:4]), ("D", tiles[4:]))):
     sh = Image.new("RGB", (1080 + 12, 960 * 2 // 1 * 1), (20, 20, 20)); sh = Image.new("RGB", (1092, 1932), (20, 20, 20))
     for i, t in enumerate(grp): sh.paste(t, ((i % 2) * 552, (i // 2) * 972))
     sh.save(f"tmp/sheet{nm}.jpg", quality=90); print(f"tmp/sheet{nm}.jpg")

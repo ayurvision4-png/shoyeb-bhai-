@@ -1,0 +1,24 @@
+name: collect-samples
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        required: true
+permissions:
+  contents: write
+  actions: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: samples/anime
+          merge-multiple: true
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+      - run: |
+          ls -la samples/anime
+          git config user.name github-actions && git config user.email actions@github.com
+          git add samples && git commit -m "Collected anime samples" && git pull --rebase -q && git push

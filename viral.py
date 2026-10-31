@@ -186,6 +186,8 @@ def make(reel):
             if sh.get("anim"):
                 import anim; anim.render(sh["anim"], wav, each, o, FPS, FONT)
                 pops += [t0 + j * each + ac["in"] for ac in sh["anim"].get("actors", []) if ac.get("in", 0) > 0.05 and ac.get("kind") != "label"]
+            elif sh.get("talk"):
+                import talk; talk.render(sh["talk"], wav, each, o, FPS, W, H)
             elif sh.get("img"): photo_shot(img_png(sh["img"], f"tmp/v/{name}_{i}_{j}.png", sh.get("zoom", 1.0), sh.get("fx", 0.5), sh.get("fy", 0.5)), each, o)
             elif sh.get("photo"): photo_shot(photo_png(sh["photo"], f"tmp/v/{name}_{i}_{j}.png"), each, o)
             else: clip_shot(get_clip(sh["clip"], zlib.crc32(f"{name}{i}{j}".encode()), used), each, o, sh.get("punch", 0.14))

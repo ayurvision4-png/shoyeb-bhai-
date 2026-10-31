@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core fonts-noto-core && pip install -q -U edge-tts gtts pillow numpy playwright
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core fonts-noto-core && pip install -q -U edge-tts gtts pillow numpy opencv-python-headless playwright
       - run: python fetch_audio.py 2>&1 | tee audio_log.txt
       - run: python make_reel.py $(cat reel_request.txt) 2>&1 | tee reel_log.txt
       - if: always()

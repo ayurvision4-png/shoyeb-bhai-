@@ -6743,18 +6743,28 @@
   "name": "anime_subah",
   "scenes": [
    {
-    "v": "m",
-    "say": "सुबह उठते ही रिया सबसे पहले क्या करती है? फोन नहीं, पानी!",
-    "txt": "*Subah uthte hi *Riya sabse pehle kya karti hai? *Phone nahi, *paani!",
+    "v": "f",
+    "say": "सुबह उठते ही मैं सबसे पहले क्या करती हूँ? फोन नहीं, पानी!",
+    "txt": "*Subah uthte hi main sabse pehle kya karti hoon? *Phone nahi, *paani!",
     "shots": [
      {
-      "img": "anime/a1.jpg"
-     },
-     {
-      "img": "anime/a1.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/a1.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.0,
+         0.36
+        ],
+        [
+         0.5,
+         1.22,
+         0.34
+        ]
+       ],
+       "seed": 1
+      }
      }
     ],
     "big": [
@@ -6766,33 +6776,53 @@
    },
    {
     "v": "f",
-    "say": "एक गिलास गुनगुना पानी, धीरे-धीरे पिएँ। दिन की हल्की शुरुआत।",
-    "txt": "Ek glass *gunguna paani, dheere-dheere piyein. Din ki *halki shuruaat.",
+    "say": "एक गिलास गुनगुना पानी, धीरे-धीरे पीती हूँ। दिन की हल्की शुरुआत।",
+    "txt": "Ek glass *gunguna paani, dheere-dheere peeti hoon. Din ki *halki shuruaat.",
     "shots": [
      {
-      "img": "anime/a2.jpg"
-     },
-     {
-      "img": "anime/a2.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/a2.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.12,
+         0.36
+        ],
+        [
+         0.55,
+         1.0,
+         0.4
+        ]
+       ],
+       "seed": 2
+      }
      }
     ]
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "फिर पाँच मिनट गहरी साँसें, और खिड़की के पास थोड़ी धूप।",
     "txt": "Phir *5 minute gehri saansein, aur *thodi dhoop.",
     "shots": [
      {
-      "img": "anime/a3.jpg"
-     },
-     {
-      "img": "anime/a3.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/a3.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.0,
+         0.36
+        ],
+        [
+         0.5,
+         1.22,
+         0.34
+        ]
+       ],
+       "seed": 3
+      }
      }
     ]
    },
@@ -6802,13 +6832,23 @@
     "txt": "Chhoti aadatein, *behtar din. Apna chart chahiye? *WhatsApp par *CHART likhiye.",
     "shots": [
      {
-      "img": "anime/a4.jpg"
-     },
-     {
-      "img": "anime/a4.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/a4.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.12,
+         0.36
+        ],
+        [
+         0.55,
+         1.0,
+         0.4
+        ]
+       ],
+       "seed": 4
+      }
      }
     ],
     "big": [
@@ -6827,9 +6867,7 @@
    614,
    871
   ],
-  "end_cut": [
-   "cutouts/1000153679.png"
-  ],
+  "end_cut": "products_ds/beautilook/06.jpg",
   "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
  },
@@ -6837,18 +6875,28 @@
   "name": "anime_chai",
   "scenes": [
    {
-    "v": "f",
+    "v": "m",
     "say": "चाय छोड़नी नहीं है, बस थोड़ा स्मार्ट बनाना है!",
     "txt": "Chai *chhodni nahi hai, bas *smart banana hai!",
     "shots": [
      {
-      "img": "anime/b1.jpg"
-     },
-     {
-      "img": "anime/b1.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/b1.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.0,
+         0.36
+        ],
+        [
+         0.5,
+         1.22,
+         0.34
+        ]
+       ],
+       "seed": 5
+      }
      }
     ],
     "big": [
@@ -6860,49 +6908,79 @@
    },
    {
     "v": "m",
-    "say": "चीनी आधी करें, और उसमें डालें अदरक और तुलसी।",
-    "txt": "*Chini aadhi karein, aur daalein *adrak aur *tulsi.",
+    "say": "मैं चीनी आधी करता हूँ, और उसमें डालता हूँ अदरक और तुलसी।",
+    "txt": "Main *chini aadhi karta hoon, aur daalta hoon *adrak aur *tulsi.",
     "shots": [
      {
-      "img": "anime/b2.jpg"
-     },
-     {
-      "img": "anime/b2.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
-     }
-    ]
-   },
-   {
-    "v": "f",
-    "say": "खुशबू भी बढ़िया, स्वाद भी। दिन में बस एक या दो कप।",
-    "txt": "*Khushbu bhi badhiya, *swaad bhi. Din mein bas *1-2 cup.",
-    "shots": [
-     {
-      "img": "anime/b3.jpg"
-     },
-     {
-      "img": "anime/b3.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/b2.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.12,
+         0.36
+        ],
+        [
+         0.55,
+         1.0,
+         0.4
+        ]
+       ],
+       "seed": 6
+      }
      }
     ]
    },
    {
     "v": "m",
-    "say": "यह वीडियो उस चायप्रेमी को भेजिए। चार्ट के लिए व्हाट्सऐप पर चार्ट लिखिए।",
-    "txt": "Yeh video us *chai premi ko *bhejiye. Chart ke liye *WhatsApp par *CHART likhiye.",
+    "say": "खुशबू भी बढ़िया, स्वाद भी। दिन में बस एक या दो कप।",
+    "txt": "*Khushbu bhi badhiya, *swaad bhi. Din mein bas *1-2 cup.",
     "shots": [
      {
-      "img": "anime/b4.jpg"
-     },
+      "talk": {
+       "img": "anime/b3.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.0,
+         0.36
+        ],
+        [
+         0.5,
+         1.22,
+         0.34
+        ]
+       ],
+       "seed": 7
+      }
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "यह वीडियो अपने चायप्रेमी दोस्त को भेजिए। चार्ट के लिए व्हाट्सऐप पर चार्ट लिखिए।",
+    "txt": "Yeh video apne *chai premi dost ko *bhejiye. Chart ke liye *WhatsApp par *CHART likhiye.",
+    "shots": [
      {
-      "img": "anime/b4.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/b4.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.12,
+         0.36
+        ],
+        [
+         0.55,
+         1.0,
+         0.4
+        ]
+       ],
+       "seed": 8
+      }
      }
     ],
     "big": [
@@ -6921,9 +6999,7 @@
    614,
    871
   ],
-  "end_cut": [
-   "cutouts/1000153679.png"
-  ],
+  "end_cut": "products_ds/beautilook/06.jpg",
   "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
  },
@@ -6936,13 +7012,23 @@
     "txt": "Khana khaya aur seedha *sofa par? *Ruko!",
     "shots": [
      {
-      "img": "anime/c1.jpg"
-     },
-     {
-      "img": "anime/c1.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/c1.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.0,
+         0.36
+        ],
+        [
+         0.5,
+         1.22,
+         0.34
+        ]
+       ],
+       "seed": 9
+      }
      }
     ],
     "big": [
@@ -6953,50 +7039,80 @@
     "big_size": 96
    },
    {
-    "v": "f",
-    "say": "खाने के बाद दस मिनट धीरे-धीरे टहलिए।",
-    "txt": "Khane ke baad *10 minute *dheere-dheere tehliye.",
+    "v": "m",
+    "say": "खाने के बाद मैं दस मिनट धीरे-धीरे टहलता हूँ।",
+    "txt": "Khane ke baad main *10 minute *dheere-dheere tehalta hoon.",
     "shots": [
      {
-      "img": "anime/c2.jpg"
-     },
-     {
-      "img": "anime/c2.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/c2.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.12,
+         0.36
+        ],
+        [
+         0.55,
+         1.0,
+         0.4
+        ]
+       ],
+       "seed": 10
+      }
      }
     ]
    },
    {
     "v": "m",
-    "say": "साथ में बात करते हुए चलिए, समय का पता भी नहीं चलेगा।",
-    "txt": "Saath mein *baatein karte hue chaliye, *time ka pata nahi chalega.",
+    "say": "टहलते हुए घर वालों से बात भी हो जाती है, और समय का पता भी नहीं चलता।",
+    "txt": "Tehalte hue *ghar walon se *baat bhi ho jaati hai, *time ka pata nahi chalta.",
     "shots": [
      {
-      "img": "anime/c3.jpg"
-     },
-     {
-      "img": "anime/c3.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.4
+      "talk": {
+       "img": "anime/c3.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.0,
+         0.36
+        ],
+        [
+         0.5,
+         1.22,
+         0.34
+        ]
+       ],
+       "seed": 11
+      }
      }
     ]
    },
    {
-    "v": "f",
+    "v": "m",
     "say": "रोज़ की एक छोटी आदत। अपना चार्ट पाने के लिए व्हाट्सऐप पर चार्ट लिखिए।",
     "txt": "Roz ki *ek chhoti aadat. Apna chart paane ke liye *WhatsApp par *CHART likhiye.",
     "shots": [
      {
-      "img": "anime/c4.jpg"
-     },
-     {
-      "img": "anime/c4.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/c4.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.12,
+         0.36
+        ],
+        [
+         0.55,
+         1.0,
+         0.4
+        ]
+       ],
+       "seed": 12
+      }
      }
     ],
     "big": [
@@ -7015,9 +7131,7 @@
    614,
    871
   ],
-  "end_cut": [
-   "cutouts/1000153679.png"
-  ],
+  "end_cut": "products_ds/beautilook/06.jpg",
   "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
  },
@@ -7026,17 +7140,29 @@
   "scenes": [
    {
     "v": "f",
-    "say": "नानी हर सुबह सबसे पहले तुलसी को पानी देती थीं।",
-    "txt": "*Nani har subah sabse pehle *tulsi ko paani deti thi.",
+    "say": "मैं हर सुबह सबसे पहले तुलसी को पानी देती थी।",
+    "txt": "Main har subah sabse pehle *tulsi ko *paani deti thi.",
     "shots": [
      {
-      "img": "anime/d1.jpg"
-     },
-     {
-      "img": "anime/d1.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.4
+      "talk": {
+       "img": "anime/d1.jpg",
+       "face": null,
+       "cam": [
+        [
+         0,
+         1.0,
+         0.5,
+         0.4
+        ],
+        [
+         0.5,
+         1.25,
+         0.45,
+         0.4
+        ]
+       ],
+       "seed": 13
+      }
      }
     ],
     "big": [
@@ -7047,18 +7173,28 @@
     "big_size": 96
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "फिर गरम तुलसी वाली चाय, धीरे-धीरे, सुकून से।",
     "txt": "Phir *garam tulsi wali chai, *dheere-dheere, sukoon se.",
     "shots": [
      {
-      "img": "anime/d2.jpg"
-     },
-     {
-      "img": "anime/d2.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/d2.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.12,
+         0.36
+        ],
+        [
+         0.55,
+         1.0,
+         0.4
+        ]
+       ],
+       "seed": 14
+      }
      }
     ]
    },
@@ -7068,13 +7204,23 @@
     "txt": "Purani aadatein, *aaj bhi kaam ki. Apna chart chahiye to *WhatsApp par *CHART likhiye.",
     "shots": [
      {
-      "img": "anime/d4.jpg"
-     },
-     {
-      "img": "anime/d4.jpg",
-      "zoom": 1.3,
-      "fx": 0.5,
-      "fy": 0.3
+      "talk": {
+       "img": "anime/d4.jpg",
+       "face": 0,
+       "cam": [
+        [
+         0,
+         1.0,
+         0.36
+        ],
+        [
+         0.5,
+         1.22,
+         0.34
+        ]
+       ],
+       "seed": 15
+      }
      }
     ],
     "big": [
@@ -7093,9 +7239,7 @@
    614,
    871
   ],
-  "end_cut": [
-   "cutouts/1000153679.png"
-  ],
+  "end_cut": "products_ds/beautilook/06.jpg",
   "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!"
  }

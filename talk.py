@@ -39,7 +39,7 @@ def render(spec, wav, secs, out, fps, W, H):
     bh, bw = big.shape[:2]; base = big.copy(); work = big.copy()
     fi = spec.get("face"); face = None
     if fi is not None:
-        fl = sorted(landmarks(spec["img"]), key=lambda f: np.mean([p[0] for p in f]))
+        fl = sorted(landmarks(spec["img"]), key=lambda f: -(max(p[0] for p in f) - min(p[0] for p in f)))       # biggest face first
         if len(fl) > fi: face = np.array([[p[0] * ow * S, p[1] * oh * S] for p in fl[fi]])
     n = int(round(secs * fps)); env = envelope(wav, fps, n + 8)
     cam = spec.get("cam") or ([[0, 1.0, 0.36]] if face is not None else [[0, 1.0, 0.5, 0.4]])
@@ -76,9 +76,9 @@ def render(spec, wav, secs, out, fps, W, H):
                 m = cv2.GaussianBlur(m.astype(np.float32), (0, 0), max(0.7, 0.012 * mw))[..., None]
                 yy = ((gy - top) / np.maximum(bot - top, 1.0))[..., None]; xx = np.abs(gx - xm)[..., None] / mw
                 col = np.zeros(warped.shape, np.float32); col[:] = (32, 22, 62)                      # dark mouth interior (BGR)
-                tg = np.clip((0.30 - yy) / 0.10, 0, 1) * np.clip((0.34 - xx) / 0.08, 0, 1)           # upper teeth
+                tg = np.clip((0.24 - yy) / 0.08, 0, 1) * np.clip((0.27 - xx) / 0.08, 0, 1)           # upper teeth
                 tn = np.clip((yy - 0.55) / 0.2, 0, 1) * np.clip((0.26 - xx) / 0.08, 0, 1)            # tongue
-                col = col * (1 - tg) + np.array([215, 225, 235], np.float32) * tg
+                col = col * (1 - tg) + np.array([196, 208, 222], np.float32) * tg
                 col = col * (1 - 0.6 * tn) + np.array([85, 95, 205], np.float32) * 0.6 * tn
                 warped = (warped.astype(np.float32) * (1 - m) + col * m).astype(np.uint8)
             work[y0:y1, x0:x1] = warped

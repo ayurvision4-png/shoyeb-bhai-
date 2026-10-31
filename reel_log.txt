@@ -1,5 +1,5 @@
 viral font: /usr/share/fonts/opentype/montserrat/Montserrat-ExtraBold.otf
-done anime_subah 22.5 s
-done anime_chai 18.5 s
-done anime_walk 17.5 s
-done anime_nani 15.2 s
+done anime_subah 23.6 s
+done anime_chai 19.7 s
+done anime_walk 18.8 s
+done anime_nani 15.5 s

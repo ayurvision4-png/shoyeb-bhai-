@@ -1,8 +1,8 @@
 WARNING: Logging before InitGoogle() is written to STDERR
-W0000 00:00:1793390725.753285    2477 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1793433460.759144    2489 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
-W0000 00:00:1793390725.758294    2482 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
-W0000 00:00:1793390725.773573    2483 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1793433460.764795    2493 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1793433460.777329    2494 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
 anime/a1.jpg 1
 anime/a2.jpg 1
 anime/a3.jpg 1
@@ -12,14 +12,14 @@ anime/b2.jpg 1
 anime/b3.jpg 1
 anime/b4.jpg 1
 anime/c1.jpg 1
-anime/c2.jpg 0
-anime/c3.jpg 0
-anime/c4.jpg 0
+anime/c2.jpg 2
+anime/c3.jpg 2
+anime/c4.jpg 1
 anime/d1.jpg 0
 anime/d2.jpg 1
 anime/d3.jpg 0
 anime/d4.jpg 1
-Exception ignored in: <function FaceLandmarker.__del__ at 0x710086b8f240>
+Exception ignored in: <function FaceLandmarker.__del__ at 0x793560f7f240>
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/mediapipe/tasks/python/vision/face_landmarker.py", line 3361, in __del__
   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/mediapipe/tasks/python/vision/face_landmarker.py", line 3336, in close

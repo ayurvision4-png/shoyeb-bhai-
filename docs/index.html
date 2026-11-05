@@ -4,28 +4,42 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ayurvision | Teamex Wellness</title>
-<meta name="description" content="Roz ki aasan, desi aadatein. Free 7-din routine chart aur Teamex wellness ki jaankari, WhatsApp par.">
-<meta property="og:title" content="Ayurvision | Roz ek aasan aadat">
-<meta property="og:description" content="Free 7-din routine chart aur Teamex wellness ki jaankari, WhatsApp par.">
+<meta name="description" content="30 second mein apna routine chart banaiye. Free 7-din chart aur Teamex wellness ki jaankari, WhatsApp par.">
+<meta property="og:title" content="Ayurvision | 30 second mein apna routine chart">
+<meta property="og:description" content="Goal chuniye, apna desi routine paiye, aur free 7-din chart WhatsApp par lijiye.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0c3d2e;--bg2:#082a1f;--card:#ffffff;--ink:#0a2a20;--muted:#cfe0d6;--gold:#ffd400}
+:root{--bg:#0c3d2e;--bg2:#082a1f;--card:#ffffff;--ink:#0a2a20;--muted:#cfe0d6;--gold:#ffd400;--soft:#e9f3ed}
 *{box-sizing:border-box}
 body{margin:0;min-height:100vh;font-family:Poppins,system-ui,sans-serif;color:#fff;background:linear-gradient(180deg,var(--bg),var(--bg2));display:flex;justify-content:center}
-main{width:100%;max-width:480px;padding:36px 16px 40px;text-align:center}
+main{width:100%;max-width:480px;padding:32px 16px 40px;text-align:center}
 .logo{font-weight:700;letter-spacing:.18em;font-size:14px;color:var(--muted)}
 h1{margin:14px 0 6px;font-size:30px;line-height:1.15}
 h1 span{color:var(--gold)}
-p.sub{margin:0 0 26px;color:var(--muted);font-size:15px}
+p.sub{margin:0 0 22px;color:var(--muted);font-size:15px}
+.quiz{background:var(--card);color:var(--ink);border-radius:20px;padding:18px 16px;margin:0 0 16px;text-align:left;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.quiz h2{margin:0 0 4px;font-size:18px}
+.quiz p{margin:0 0 12px;font-size:13px;color:#4a6358}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.chip{border:2px solid #cfe0d6;background:#fff;color:var(--ink);border-radius:999px;padding:9px 14px;font:600 14px Poppins,system-ui,sans-serif;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--bg);border-color:var(--bg);color:#fff}
+.chip:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.q{font-weight:700;font-size:14px;margin:0 0 8px}
+#result{display:none;background:var(--soft);border-radius:14px;padding:14px;margin:4px 0 12px}
+#result h3{margin:0 0 8px;font-size:16px}
+#result ol{margin:0;padding-left:20px;font-size:14px;line-height:1.6}
 a.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;text-decoration:none;background:var(--card);color:var(--ink);border-radius:18px;padding:16px 18px;margin:0 0 12px;font-weight:600;font-size:16px;box-shadow:0 6px 18px rgba(0,0,0,.25);transition:transform .12s ease}
 a.btn:active{transform:scale(.98)}
 a.btn small{display:block;font-weight:400;font-size:13px;color:#4a6358;margin-top:2px}
 a.btn.main{background:var(--gold)}
 a.btn.main small{color:#3b3500}
+a.btn.go{background:var(--gold);justify-content:center;text-align:center;margin:0}
+a.btn.go[aria-disabled="true"]{opacity:.45;pointer-events:none}
 .arrow{font-size:22px}
 .note{margin-top:22px;font-size:12px;color:var(--muted);line-height:1.5}
 a.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+a.share{display:inline-block;margin:6px 0 0;color:var(--muted);font-size:13px}
 </style>
 </head>
 <body>
@@ -33,6 +47,21 @@ a.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
   <div class="logo">TEAMEX</div>
   <h1>Ayurvision<br><span>roz ek aasan aadat</span></h1>
   <p class="sub">Desi routine, simple tareeke se.</p>
+
+  <section class="quiz" aria-labelledby="qt">
+    <h2 id="qt">30 second mein apna routine</h2>
+    <p>Do sawaal, teen aasan aadatein. Free.</p>
+    <div class="q">1. Aapka goal kya hai?</div>
+    <div class="chips" id="goals" role="group" aria-label="Goal"></div>
+    <div class="q">2. Sabse badi rukawat?</div>
+    <div class="chips" id="hurdles" role="group" aria-label="Rukawat"></div>
+    <div id="result" aria-live="polite">
+      <h3 id="rt"></h3>
+      <ol id="rl"></ol>
+    </div>
+    <a id="go" class="btn go" href="#" aria-disabled="true" target="_blank" rel="noopener">Poora 7-din chart WhatsApp par lijiye &rarr;</a>
+    <a id="share" class="share" href="#" target="_blank" rel="noopener">Kisi apne ko bhejiye</a>
+  </section>
 
   <a class="btn main" href="https://wa.me/917596985205?text=CHART%20(from%20Instagram%20bio)">
     <span>Free 7-din routine chart<small>WhatsApp par CHART bhejiye</small></span><span class="arrow">&rarr;</span></a>
@@ -43,7 +72,53 @@ a.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
   <a class="btn" href="https://wa.me/917596985205?text=HELLO%20(from%20Instagram%20bio)">
     <span>Seedha baat karein<small>WhatsApp 7596985205</small></span><span class="arrow">&rarr;</span></a>
 
-  <p class="note">Yeh dawai nahi hai. Apne doctor ki salah zaroor lein. Natije har insaan mein alag hote hain.</p>
+  <p class="note">Yeh general jaankari hai, dawai nahi. Apne doctor ki salah zaroor lein. Natije har insaan mein alag hote hain.</p>
 </main>
+<script>
+(function(){
+  var G={
+    "Energy":["Subah uthte hi ek glass gunguna paani","Dopahar mein 10 minute dhoop ya halki walk","Raat 10:30 tak soiye, mobile door rakhiye"],
+    "Pachan":["Khane ke baad 10 minute dheere tehliye","Raat ka khana sone se 2 ghante pehle","Din bhar thoda thoda paani, 8 glass tak"],
+    "Neend":["Roz ek hi samay par soiye aur uthiye","Sone se 1 ghanta pehle mobile band","Shaam ke baad chai-coffee nahi, halka khana"],
+    "Weight balance":["Khane mein pehle salad ya sabzi, phir roti","Roz 30 minute walk","Meetha aur tala-bhuna kam, paani zyada"],
+    "Joint care":["Subah 15 minute halki dhoop","Roz 10 minute halki stretching","Seedhiyan dheere aur dhyaan se, zaroorat ho to doctor se milein"],
+    "Immunity":["Roz tulsi wali chai ya gunguna paani","Mausam ke hisaab se kapde aur bharpoor neend","Roz thodi dhoop aur 20 minute walk"],
+    "Skin glow":["Din mein 8 glass paani","Raat ko chehra saaf karke soiye","Mausami phal aur hari sabziyan roz"]
+  };
+  var H={
+    "Time nahi hai":"Chhota shuru karein: sirf 5 minute, phir badhaiye.",
+    "Aalas":"Aadat ko phone alarm se jodiye, aur ek dost ke saath shuru kijiye.",
+    "Bahar ka khana":"Hafte mein 2 din ghar ka halka khana pakka kijiye.",
+    "Stress":"Roz 5 minute gehri saansein, subah ya sone se pehle."
+  };
+  var goal=null,hurdle=null;
+  var gE=document.getElementById("goals"),hE=document.getElementById("hurdles");
+  function chips(el,obj,set){
+    Object.keys(obj).forEach(function(k){
+      var b=document.createElement("button");
+      b.type="button";b.className="chip";b.textContent=k;b.setAttribute("aria-pressed","false");
+      b.addEventListener("click",function(){
+        Array.prototype.forEach.call(el.children,function(c){c.setAttribute("aria-pressed","false")});
+        b.setAttribute("aria-pressed","true");set(k);render();
+      });
+      el.appendChild(b);
+    });
+  }
+  chips(gE,G,function(k){goal=k});
+  chips(hE,H,function(k){hurdle=k});
+  function render(){
+    var go=document.getElementById("go"),sh=document.getElementById("share"),r=document.getElementById("result");
+    if(!goal||!hurdle){return}
+    document.getElementById("rt").textContent="Aapka routine: "+goal;
+    var l=document.getElementById("rl");l.innerHTML="";
+    G[goal].concat([H[hurdle]]).forEach(function(t){var li=document.createElement("li");li.textContent=t;l.appendChild(li)});
+    r.style.display="block";
+    var msg="CHART | Goal: "+goal+" | Rukawat: "+hurdle+" (from Instagram bio)";
+    go.href="https://wa.me/917596985205?text="+encodeURIComponent(msg);
+    go.removeAttribute("aria-disabled");
+    sh.href="https://wa.me/?text="+encodeURIComponent("Apna routine chart banaiye, free: "+location.href.split("#")[0]);
+  }
+})();
+</script>
 </body>
 </html>

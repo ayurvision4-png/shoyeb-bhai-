@@ -38,7 +38,7 @@ def cover(t,out):
     d.rounded_rectangle([(280,930),(800,1040)],radius=55,fill=GOLD); center(d,950,"SAVE KARO",64,DEEP)
     center(d,1090,"Swipe karo  >>",40,CREAM,False); im.save(out+"_1.jpg",quality=92)
 def tips(t,n,rows,start,out):
-    im,d=base(); brand(d); center(d,170,f"Aadat {start+1} se {start+len(rows)}",70,GOLD); y=300
+    im,d=base(); brand(d); center(d,170,f"{t.get('label','Aadat')} {start+1} se {start+len(rows)}",70,GOLD); y=300
     for k,(h,b) in enumerate(rows):
         d.rounded_rectangle([(70,y),(W-70,y+256)],radius=36,fill=WHITE)
         d.ellipse([(95,y+24),(175,y+104)],fill=GOLD); num=str(start+k+1); f=font(50); d.text((135-d.textlength(num,font=f)/2,y+30),num,font=f,fill=DEEP)
@@ -47,7 +47,7 @@ def tips(t,n,rows,start,out):
         y+=272
     foot(d); im.save(out+f"_{n}.jpg",quality=92)
 def checklist(t,out):
-    im,d=base(); brand(d); center(d,150,"Cheat sheet",76,GOLD); center(d,255,"Screenshot kar lijiye",40,CREAM,False)
+    im,d=base(); brand(d); center(d,150,t.get("sheet","Cheat sheet"),76,GOLD); center(d,255,"Screenshot kar lijiye",40,CREAM,False)
     d.rounded_rectangle([(60,330),(W-60,H-230)],radius=36,fill=WHITE); y=360
     for i,(h,b) in enumerate(t["tips"]):
         d.rounded_rectangle([(100,y+6),(150,y+56)],radius=10,outline=GREEN,width=5)
@@ -55,9 +55,9 @@ def checklist(t,out):
     foot(d); im.save(out+"_4.jpg",quality=92)
 def cta(t,out):
     im,d=base(); brand(d)
-    center(d,260,"Kise bhejna hai?",100,GOLD,mw=W-100)
-    for i,l in enumerate(["Ek dost ko bhejiye","jise ye chahiye"]): center(d,440+i*85,l,62,WHITE,False)
-    for i,l in enumerate(["Poora 7 din chart chahiye?","WhatsApp par CHART likho"]): center(d,700+i*70,l,48,CREAM,False)
+    center(d,260,t.get("cta_title","Kise bhejna hai?"),100,GOLD,mw=W-100)
+    for i,l in enumerate(t.get("cta_a",["Ek dost ko bhejiye","jise ye chahiye"])): center(d,440+i*85,l,62,WHITE,False)
+    for i,l in enumerate(t.get("cta_b",["Poora 7 din chart chahiye?","WhatsApp par CHART likho"])): center(d,700+i*70,l,48,CREAM,False)
     d.rounded_rectangle([(190,930),(890,1040)],radius=55,fill=GOLD); center(d,948,"Follow @ayurvision_02",52,DEEP)
     foot(d); im.save(out+"_5.jpg",quality=92)
 if __name__=="__main__":

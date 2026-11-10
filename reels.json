@@ -8318,5 +8318,1464 @@
   "end_say": "फील गुड, लुक गुड, लिव बेटर!",
   "end_cap": "Feel Good, Look Good, Live Better!",
   "end_pad": 1.0
+ },
+ {
+  "name": "h01_wmyth",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "वज़न कंट्रोल की ये तीन बातें गलत हैं!",
+    "txt": "Weight control ki ye *3 baatein *galat hain!",
+    "shots": [
+     {
+      "clip": [
+       "people-running-on-treadmills",
+       "woman-doing-warm-up-exercises",
+       "bodybuilder"
+      ]
+     },
+     {
+      "clip": [
+       "pasta-with-cheese-and-herbs",
+       "chef-cooking-stir-fry"
+      ]
+     }
+    ],
+    "big": [
+     "WEIGHT KE BAARE MEIN",
+     "*3 GALAT BAATEIN"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "f",
+    "say": "गलत एक: भूखे रहना।",
+    "txt": "Galat *1: *bhookha rehna.",
+    "shots": [
+     {
+      "clip": [
+       "fresh-vegetables-on-a-wooden-board",
+       "chef-preparing-salad"
+      ]
+     },
+     {
+      "clip": [
+       "a-woman-choosing-fruit",
+       "blending-a-fruit-smoothie",
+       "fresh-sliced-fruit"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "गलत दो: सिर्फ़ जिम, खाना वैसा ही।",
+    "txt": "Galat *2: sirf *gym, khana *waisa hi.",
+    "shots": [
+     {
+      "clip": [
+       "woman-out-for-a-run",
+       "man-and-woman-jogging",
+       "runner-training-in-a-park"
+      ]
+     },
+     {
+      "clip": [
+       "pasta-with-cheese-and-herbs",
+       "chef-cooking-stir-fry"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "गलत तीन: रात को बिल्कुल न खाना।",
+    "txt": "Galat *3: raat ko *bilkul na khana.",
+    "shots": [
+     {
+      "clip": [
+       "dark-starry-night",
+       "full-moon"
+      ]
+     },
+     {
+      "clip": [
+       "scrolling-on-his-phone",
+       "girl-lying-down-chatting-on-her-cell-phone"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "सही तरीका: संतुलित खाना, रोज़ सैर, और बब्यूटीलुक का नब्बे दिन का रूटीन।",
+    "txt": "Sahi tareeka: *balanced khana, roz *walk, *Beautilook ka *90 din routine.",
+    "shots": [
+     {
+      "card": "end_beautilook"
+     },
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset",
+       "family-walking-together-in-nature",
+       "nature-walk-as-a-couple"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "f",
+    "say": "रोज़ एक देसी आदत के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ek *desi aadat ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*+ CHART LIKHO"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "h02_chai",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "चाय नहीं छोड़नी? तो ये तीन स्मार्ट बदलाव करो!",
+    "txt": "Chai nahi chhodni? Ye *3 *smart badlav karo!",
+    "shots": [
+     {
+      "clip": [
+       "drinking-tea-on-a-cool-morning"
+      ]
+     },
+     {
+      "clip": [
+       "morning-coffee",
+       "coffee-and-music-in-the-morning"
+      ]
+     }
+    ],
+    "big": [
+     "CHAI NAHI CHHODNI?",
+     "*3 SMART BADLAV"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "m",
+    "say": "एक: चीनी कम।",
+    "txt": "*1: *cheeni kam.",
+    "shots": [
+     {
+      "clip": [
+       "honey-dipper"
+      ]
+     },
+     {
+      "clip": [
+       "milk-being-poured",
+       "continuous-stream-of-pristine-white-milk"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "दो: तुलसी और अदरक डालिए।",
+    "txt": "*2: *tulsi aur *adrak daaliye.",
+    "shots": [
+     {
+      "clip": [
+       "woman-cutting-herbs-in-the-kitchen",
+       "farmers-market-display-of-fresh-herbs",
+       "chopping-up-herbs",
+       "adding-herbs-to-a-bowl"
+      ]
+     },
+     {
+      "clip": [
+       "different-spices-with-tags",
+       "pepper-mix-spices",
+       "oriental-spices"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "तीन: खाली पेट नहीं, कुछ खाकर पीजिए।",
+    "txt": "*3: *khaali pet nahi, kuch *khaakar.",
+    "shots": [
+     {
+      "clip": [
+       "a-woman-choosing-fruit",
+       "blending-a-fruit-smoothie",
+       "fresh-sliced-fruit"
+      ]
+     },
+     {
+      "clip": [
+       "waking-up-and-drinking-coffee",
+       "male-office-worker-yawning"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "ऊपर से, रोज़ की रूटीन में नोनी वेलनेस ड्रिंक।",
+    "txt": "Upar se, roz ki routine mein *Noni wellness drink.",
+    "shots": [
+     {
+      "card": "weak_noni"
+     },
+     {
+      "clip": [
+       "woman-drinks-water-from-her-glass",
+       "woman-drinks-from-water-bottle",
+       "silhouette-of-man-drinking-water"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "m",
+    "say": "रोज़ एक देसी आदत के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ek *desi aadat ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*+ CHART LIKHO"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "h03_khana",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "खाने के बाद ये तीन काम ज़रूर करो!",
+    "txt": "Khane ke baad ye *3 kaam *zaroor karo!",
+    "shots": [
+     {
+      "clip": [
+       "pasta-with-cheese-and-herbs",
+       "chef-cooking-stir-fry"
+      ]
+     },
+     {
+      "clip": [
+       "fresh-vegetables-on-a-wooden-board",
+       "chef-preparing-salad"
+      ]
+     }
+    ],
+    "big": [
+     "KHANE KE BAAD",
+     "*YE 3 KAAM"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "f",
+    "say": "एक: दस मिनट टहलिए।",
+    "txt": "*1: *10 minute *tehliye.",
+    "shots": [
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset",
+       "family-walking-together-in-nature",
+       "nature-walk-as-a-couple"
+      ]
+     },
+     {
+      "clip": [
+       "woman-out-for-a-run",
+       "man-and-woman-jogging",
+       "runner-training-in-a-park"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "दो: गुनगुना पानी पीजिए।",
+    "txt": "*2: *gunguna paani.",
+    "shots": [
+     {
+      "clip": [
+       "woman-drinks-water-from-her-glass",
+       "woman-drinks-from-water-bottle",
+       "silhouette-of-man-drinking-water"
+      ]
+     },
+     {
+      "clip": [
+       "drinking-tea-on-a-cool-morning"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "तीन: तुरंत लेटिए मत।",
+    "txt": "*3: *turant *letiye mat.",
+    "shots": [
+     {
+      "clip": [
+       "girl-asleep-on-a-sofa"
+      ]
+     },
+     {
+      "clip": [
+       "scrolling-on-his-phone",
+       "girl-lying-down-chatting-on-her-cell-phone"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "पाचन की रूटीन के लिए त्रिफला का सहारा।",
+    "txt": "*Pachan routine ke liye *Trifala ka sahara.",
+    "shots": [
+     {
+      "card": "dig_trifala"
+     },
+     {
+      "clip": [
+       "woman-cutting-herbs-in-the-kitchen",
+       "farmers-market-display-of-fresh-herbs",
+       "chopping-up-herbs",
+       "adding-herbs-to-a-bowl"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "f",
+    "say": "रोज़ एक देसी आदत के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ek *desi aadat ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*+ CHART LIKHO"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "h04_detox",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "वीकेंड डिटॉक्स? पहले ये समझ लो!",
+    "txt": "Weekend *detox? Pehle ye *samajh lo!",
+    "shots": [
+     {
+      "clip": [
+       "a-woman-choosing-fruit",
+       "blending-a-fruit-smoothie",
+       "fresh-sliced-fruit"
+      ]
+     },
+     {
+      "clip": [
+       "woman-cutting-herbs-in-the-kitchen",
+       "farmers-market-display-of-fresh-herbs",
+       "chopping-up-herbs",
+       "adding-herbs-to-a-bowl"
+      ]
+     }
+    ],
+    "big": [
+     "WEEKEND DETOX?",
+     "*PEHLE YE SAMAJH LO"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "m",
+    "say": "शरीर का अपना सिस्टम है, बस उसे सही आदतें चाहिए।",
+    "txt": "Body ka *apna system hai, bas *sahi aadatein chahiye.",
+    "shots": [
+     {
+      "clip": [
+       "woman-doing-yoga-on-a-deck",
+       "woman-meditating-in-nature",
+       "woman-doing-yoga-in-a-park"
+      ]
+     },
+     {
+      "clip": [
+       "woman-out-for-a-run",
+       "man-and-woman-jogging",
+       "runner-training-in-a-park"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "खूब पानी, फल-सब्ज़ियाँ और अच्छी नींद।",
+    "txt": "Khoob *paani, *fal-sabziyan aur achhi *neend.",
+    "shots": [
+     {
+      "clip": [
+       "woman-drinks-water-from-her-glass",
+       "woman-drinks-from-water-bottle",
+       "silhouette-of-man-drinking-water"
+      ]
+     },
+     {
+      "clip": [
+       "fresh-vegetables-on-a-wooden-board",
+       "chef-preparing-salad"
+      ]
+     },
+     {
+      "clip": [
+       "girl-asleep-on-a-sofa"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "एलोवेरा जूस जैसी चीज़ें रूटीन में मदद कर सकती हैं।",
+    "txt": "*Aloe vera juice jaisi cheezein routine mein *madad kar sakti hain.",
+    "shots": [
+     {
+      "card": "dig_aloe"
+     },
+     {
+      "clip": [
+       "a-woman-choosing-fruit",
+       "blending-a-fruit-smoothie",
+       "fresh-sliced-fruit"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "m",
+    "say": "रोज़ एक देसी आदत के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ek *desi aadat ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*+ CHART LIKHO"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "h05_bachpan",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "बचपन की ये तीन आदतें हम भूल गए!",
+    "txt": "Bachpan ki ye *3 aadatein hum *bhool gaye!",
+    "shots": [
+     {
+      "clip": [
+       "a-little-girl-smiles-while-riding-the-carnival",
+       "a-little-girl-in-a-dress-walking"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "BACHPAN KI",
+     "*3 AADATEIN"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "f",
+    "say": "एक: सुबह की धूप।",
+    "txt": "*1: subah ki *dhoop.",
+    "shots": [
+     {
+      "clip": [
+       "sunrise",
+       "man-walks-on-the-rooftop-with-sunrise"
+      ]
+     },
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset",
+       "family-walking-together-in-nature",
+       "nature-walk-as-a-couple"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "दो: घर का बना खाना।",
+    "txt": "*2: ghar ka bana *khana.",
+    "shots": [
+     {
+      "clip": [
+       "woman-cutting-herbs-in-the-kitchen",
+       "farmers-market-display-of-fresh-herbs",
+       "chopping-up-herbs",
+       "adding-herbs-to-a-bowl"
+      ]
+     },
+     {
+      "clip": [
+       "fresh-vegetables-on-a-wooden-board",
+       "chef-preparing-salad"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "तीन: शाम को बाहर खेलना।",
+    "txt": "*3: shaam ko *bahar khelna.",
+    "shots": [
+     {
+      "clip": [
+       "woman-out-for-a-run",
+       "man-and-woman-jogging",
+       "runner-training-in-a-park"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "रोज़ के पोषण के लिए वेज ओमेगा।",
+    "txt": "Roz ke *poshan ke liye *Veg Omega.",
+    "shots": [
+     {
+      "card": "nut_omega"
+     },
+     {
+      "clip": [
+       "a-woman-choosing-fruit",
+       "blending-a-fruit-smoothie",
+       "fresh-sliced-fruit"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "f",
+    "say": "रोज़ एक देसी आदत के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ek *desi aadat ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*+ CHART LIKHO"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "h06_office",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "ऑफिस में बैठे-बैठे अकड़न? ये तीन स्ट्रेच!",
+    "txt": "Office mein baithe-baithe *akdan? Ye *3 stretch!",
+    "shots": [
+     {
+      "clip": [
+       "waking-up-and-drinking-coffee-in-front-of-a-laptop",
+       "woman-doing-yoga-in-her-home-office",
+       "male-office-worker-yawning"
+      ]
+     },
+     {
+      "clip": [
+       "male-office-worker-yawning",
+       "man-walking-into-office-building"
+      ]
+     }
+    ],
+    "big": [
+     "OFFICE MEIN AKDAN?",
+     "*YE 3 STRETCH"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "m",
+    "say": "एक: गर्दन को धीरे से घुमाइए।",
+    "txt": "*1: *gardan ko dheere se ghumaiye.",
+    "shots": [
+     {
+      "clip": [
+       "woman-stretching-in-the-morning",
+       "silhouette-of-woman-stretching",
+       "a-young-man-stretches-his-arms"
+      ]
+     },
+     {
+      "clip": [
+       "woman-doing-yoga-on-a-deck",
+       "woman-meditating-in-nature",
+       "woman-doing-yoga-in-a-park"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "दो: हर घंटे खड़े होइए।",
+    "txt": "*2: har ghante *khade hoiye.",
+    "shots": [
+     {
+      "clip": [
+       "a-businesswoman-going-upstairs-in-a-hurry"
+      ]
+     },
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset",
+       "family-walking-together-in-nature",
+       "nature-walk-as-a-couple"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "तीन: कंधे और कमर को खोलिए।",
+    "txt": "*3: *kandhe aur *kamar kholiye.",
+    "shots": [
+     {
+      "clip": [
+       "woman-stretching-in-the-morning",
+       "silhouette-of-woman-stretching",
+       "a-young-man-stretches-his-arms"
+      ]
+     },
+     {
+      "clip": [
+       "older-woman-doing-yoga"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "हड्डियों और जोड़ों की रूटीन के लिए ऑर्थो सपोर्ट।",
+    "txt": "*Haddi aur *jodon ki routine ke liye *Ortho support.",
+    "shots": [
+     {
+      "card": "bone_ortho"
+     },
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "m",
+    "say": "रोज़ एक देसी आदत के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ek *desi aadat ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*+ CHART LIKHO"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "h07_skin",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "सर्दी में स्किन खिंचती है? ये तीन देसी तरीके!",
+    "txt": "Sardi mein *skin khichti hai? Ye *3 desi tareeke!",
+    "shots": [
+     {
+      "clip": [
+       "applying-skincare-products",
+       "a-beautiful-smiling-woman-with-curly-hair"
+      ]
+     },
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     }
+    ],
+    "big": [
+     "SARDI MEIN SKIN?",
+     "*3 DESI TAREEKE"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "f",
+    "say": "एक: खूब पानी।",
+    "txt": "*1: khoob *paani.",
+    "shots": [
+     {
+      "clip": [
+       "woman-drinks-water-from-her-glass",
+       "woman-drinks-from-water-bottle",
+       "silhouette-of-man-drinking-water"
+      ]
+     },
+     {
+      "clip": [
+       "applying-skincare-products",
+       "a-beautiful-smiling-woman-with-curly-hair"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "दो: नहाने के बाद तेल या मॉइस्चराइज़र।",
+    "txt": "*2: nahane ke baad *tel ya *moisturiser.",
+    "shots": [
+     {
+      "clip": [
+       "honey-dipper"
+      ]
+     },
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "तीन: रंग-बिरंगे फल और सब्ज़ियाँ।",
+    "txt": "*3: *rang-birange fal aur sabziyan.",
+    "shots": [
+     {
+      "clip": [
+       "a-woman-choosing-fruit",
+       "blending-a-fruit-smoothie",
+       "fresh-sliced-fruit"
+      ]
+     },
+     {
+      "clip": [
+       "fresh-vegetables-on-a-wooden-board",
+       "chef-preparing-salad"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "अंदर से केयर के लिए बेरी वेलनेस ड्रिंक।",
+    "txt": "*Andar se care ke liye *Berry wellness drink.",
+    "shots": [
+     {
+      "card": "weak_berry"
+     },
+     {
+      "clip": [
+       "applying-skincare-products",
+       "a-beautiful-smiling-woman-with-curly-hair"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "f",
+    "say": "रोज़ एक देसी आदत के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ek *desi aadat ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*+ CHART LIKHO"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "h08_challenge",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "सात दिन का चैलेंज: क्या आप कर पाओगे?",
+    "txt": "*7 din ka *challenge: kya aap kar paoge?",
+    "shots": [
+     {
+      "clip": [
+       "woman-out-for-a-run",
+       "man-and-woman-jogging",
+       "runner-training-in-a-park"
+      ]
+     },
+     {
+      "clip": [
+       "people-running-on-treadmills",
+       "woman-doing-warm-up-exercises",
+       "bodybuilder"
+      ]
+     }
+    ],
+    "big": [
+     "7 DIN CHALLENGE",
+     "*KYA AAP KAR PAOGE?"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "m",
+    "say": "रोज़ आठ गिलास पानी।",
+    "txt": "Roz *8 glass *paani.",
+    "shots": [
+     {
+      "clip": [
+       "woman-drinks-water-from-her-glass",
+       "woman-drinks-from-water-bottle",
+       "silhouette-of-man-drinking-water"
+      ]
+     },
+     {
+      "clip": [
+       "drinking-tea-on-a-cool-morning"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "रोज़ बीस मिनट की सैर।",
+    "txt": "Roz *20 minute *walk.",
+    "shots": [
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset",
+       "family-walking-together-in-nature",
+       "nature-walk-as-a-couple"
+      ]
+     },
+     {
+      "clip": [
+       "sunrise",
+       "man-walks-on-the-rooftop-with-sunrise"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "और रात को फ़ोन से दूरी।",
+    "txt": "Aur raat ko *phone se *doori.",
+    "shots": [
+     {
+      "clip": [
+       "girl-using-her-cell-phone-at-night"
+      ]
+     },
+     {
+      "clip": [
+       "girl-asleep-on-a-sofa"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "पानी की रूटीन के लिए सीएमडी ड्रॉप्स।",
+    "txt": "*Paani ki routine ke liye *CMD Drops.",
+    "shots": [
+     {
+      "card": "dig_cmd"
+     },
+     {
+      "clip": [
+       "woman-drinks-water-from-her-glass",
+       "woman-drinks-from-water-bottle",
+       "silhouette-of-man-drinking-water"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "m",
+    "say": "हिम्मत है तो कमेंट में चैलेंज लिखिए, और फ़ॉलो करिए!",
+    "txt": "*Himmat hai to comment mein *CHALLENGE likho, aur *FOLLOW karo!",
+    "shots": [
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     },
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     }
+    ],
+    "big": [
+     "COMMENT KARO",
+     "*CHALLENGE"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "h09_dosha",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "आपका बॉडी टाइप क्या है? वात, पित्त या कफ?",
+    "txt": "Aapka *body type kya hai? *Vata, *Pitta ya *Kapha?",
+    "shots": [
+     {
+      "clip": [
+       "woman-doing-yoga-on-a-deck",
+       "woman-meditating-in-nature",
+       "woman-doing-yoga-in-a-park"
+      ]
+     },
+     {
+      "clip": [
+       "woman-cutting-herbs-in-the-kitchen",
+       "farmers-market-display-of-fresh-herbs",
+       "chopping-up-herbs",
+       "adding-herbs-to-a-bowl"
+      ]
+     }
+    ],
+    "big": [
+     "VATA, PITTA",
+     "*YA KAPHA?"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "f",
+    "say": "वात: पतला शरीर, तेज़ दिमाग़।",
+    "txt": "*Vata: patla sharir, *tez dimaag.",
+    "shots": [
+     {
+      "clip": [
+       "woman-out-for-a-run",
+       "man-and-woman-jogging",
+       "runner-training-in-a-park"
+      ]
+     },
+     {
+      "clip": [
+       "woman-stretching-in-the-morning",
+       "silhouette-of-woman-stretching",
+       "a-young-man-stretches-his-arms"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "पित्त: गरम मिज़ाज, तेज़ भूख।",
+    "txt": "*Pitta: *garam mizaaj, tez bhookh.",
+    "shots": [
+     {
+      "clip": [
+       "pasta-with-cheese-and-herbs",
+       "chef-cooking-stir-fry"
+      ]
+     },
+     {
+      "clip": [
+       "different-spices-with-tags",
+       "pepper-mix-spices",
+       "oriental-spices"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "कफ: शांत स्वभाव, धीमी चाल।",
+    "txt": "*Kapha: *shaant swabhav, dheemi chaal.",
+    "shots": [
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset",
+       "family-walking-together-in-nature",
+       "nature-walk-as-a-couple"
+      ]
+     },
+     {
+      "clip": [
+       "girl-asleep-on-a-sofa"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "हर टाइप की अलग रूटीन, और अश्वगंधा जैसी जड़ी-बूटियाँ।",
+    "txt": "Har type ki *alag routine, aur *Ashwagandha jaisi jadi-bootiyan.",
+    "shots": [
+     {
+      "card": "weak_ashwa"
+     },
+     {
+      "clip": [
+       "woman-cutting-herbs-in-the-kitchen",
+       "farmers-market-display-of-fresh-herbs",
+       "chopping-up-herbs",
+       "adding-herbs-to-a-bowl"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "f",
+    "say": "अपना टाइप कमेंट में लिखिए, और फ़ॉलो करिए!",
+    "txt": "Apna *type comment mein likho, aur *FOLLOW karo!",
+    "shots": [
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "COMMENT MEIN",
+     "*APNA TYPE LIKHO"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "h10_roz1",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "रोज़ एक देसी आदत, सिर्फ़ बीस सेकंड में!",
+    "txt": "Roz ek *desi aadat, sirf *20 second mein!",
+    "shots": [
+     {
+      "clip": [
+       "sunrise",
+       "man-walks-on-the-rooftop-with-sunrise"
+      ]
+     },
+     {
+      "clip": [
+       "woman-cutting-herbs-in-the-kitchen",
+       "farmers-market-display-of-fresh-herbs",
+       "chopping-up-herbs",
+       "adding-herbs-to-a-bowl"
+      ]
+     }
+    ],
+    "big": [
+     "ROZ EK",
+     "*DESI AADAT"
+    ],
+    "big_y": 260,
+    "big_size": 108
+   },
+   {
+    "v": "m",
+    "say": "सुबह: गुनगुना पानी।",
+    "txt": "*Subah: *gunguna paani.",
+    "shots": [
+     {
+      "clip": [
+       "woman-drinks-water-from-her-glass",
+       "woman-drinks-from-water-bottle",
+       "silhouette-of-man-drinking-water"
+      ]
+     },
+     {
+      "clip": [
+       "waking-up-and-drinking-coffee",
+       "male-office-worker-yawning"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "दोपहर: खाने के बाद टहलना।",
+    "txt": "*Dopahar: khane ke baad *tehalna.",
+    "shots": [
+     {
+      "clip": [
+       "backlit-woman-walking-at-sunset",
+       "family-walking-together-in-nature",
+       "nature-walk-as-a-couple"
+      ]
+     },
+     {
+      "clip": [
+       "male-office-worker-yawning",
+       "man-walking-into-office-building"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "रात: सोने से पहले फ़ोन दूर।",
+    "txt": "*Raat: sone se pehle *phone door.",
+    "shots": [
+     {
+      "clip": [
+       "girl-using-her-cell-phone-at-night"
+      ]
+     },
+     {
+      "clip": [
+       "girl-asleep-on-a-sofa"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "m",
+    "say": "रूटीन को आसान बनाइए, तुलसी ड्रॉप के साथ।",
+    "txt": "Routine ko *aasan banaiye, *Tulsi Drop ke saath.",
+    "shots": [
+     {
+      "card": "imm_tulsi"
+     },
+     {
+      "clip": [
+       "woman-cutting-herbs-in-the-kitchen",
+       "farmers-market-display-of-fresh-herbs",
+       "chopping-up-herbs",
+       "adding-herbs-to-a-bowl"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "m",
+    "say": "रोज़ एक देसी आदत के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ek *desi aadat ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "a-well-groomed-woman-while-laughing",
+       "mature-black-woman-smiling",
+       "a-girls-face-in-detail-while-smiling"
+      ]
+     },
+     {
+      "clip": [
+       "friends-running-in-the-countryside",
+       "friends"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*ROZ 1 AADAT"
+    ],
+    "big_y": 330,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
  }
 ]

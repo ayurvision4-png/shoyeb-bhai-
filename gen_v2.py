@@ -89,6 +89,7 @@ R.append(reel("g08_protein", w, [
  card(w, "प्रोटीन पाउडर और स्पिरुलिना जैसे सप्लीमेंट मदद कर सकते हैं।", "*Protein powder aur *Spirulina jaise supplements *madad kar sakte hain.", ["@nut_protein", "@nut_spirulina"]),
  cta(w, "अपना चार्ट चाहिए? चार्ट लिखिए!", "Apna chart chahiye? *CHART likho!", ["GYM", "SMILE"])]))
 
+exec(open("gen_v2_b2.py").read())
 # validate clip patterns against scout lists
 names = [l.split("\t")[1] for f in ("scout.txt", "scout2.txt") for l in open(f).read().splitlines() if "\t" in l and not l.startswith("#")]
 bad = [(k, p) for k, v in P.items() for p in v.split("|") if not any(re.search(p, n) for n in names)]

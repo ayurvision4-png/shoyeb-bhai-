@@ -82,6 +82,11 @@ def static_layer(sc, out):
             tw = d.textlength(ln, font=f)
             stroke_text(d, (W - tw) / 2, y, ln, f, YELLOW if hi else WHITE, 12)
             y += int(f.size * 1.22)
+    if sc.get("dm"):
+        f = fit_font(d, sc["dm"].upper(), W - 260, 58, 36); t = sc["dm"].upper(); tw = d.textlength(t, font=f)
+        x0, y0 = (W - tw) / 2 - 56, 1665
+        d.rounded_rectangle((x0, y0, x0 + tw + 112, y0 + 118), 59, fill=YELLOW)
+        d.text(((W - tw) / 2, y0 + 24), t, font=f, fill=(20, 14, 6))
     if sc.get("small"):
         f = fit_font(d, sc["small"], W - 120, 38, 26); tw = d.textlength(sc["small"], font=f)
         d.text(((W - tw) / 2, H - 330), sc["small"], font=f, fill=(255, 255, 255, 230), stroke_width=3, stroke_fill=(0, 0, 0))
@@ -189,6 +194,7 @@ def make(reel):
             elif sh.get("talk"):
                 import talk; talk.render(sh["talk"], wav, each, o, FPS, W, H)
             elif sh.get("img"): photo_shot(img_png(sh["img"], f"tmp/v/{name}_{i}_{j}.png", sh.get("zoom", 1.0), sh.get("fx", 0.5), sh.get("fy", 0.5)), each, o)
+            elif sh.get("card"): photo_shot(f"cards/{sh['card']}.jpg", each, o)
             elif sh.get("photo"): photo_shot(photo_png(sh["photo"], f"tmp/v/{name}_{i}_{j}.png"), each, o)
             else: clip_shot(get_clip(sh["clip"], zlib.crc32(f"{name}{i}{j}".encode()), used), each, o, sh.get("punch", 0.14))
             raws.append(o); cuts.append(t0 + j * each)
@@ -205,13 +211,17 @@ def make(reel):
         for c, wt in zip(chunks, weights):
             span = (d - 0.05) * wt / tot; cp = chunk_png(c, f"tmp/v/{name}_{i}_c{len(ins)}.png")
             ins += ["-i", cp]; idx = len(ins) // 2 - 1
-            fc.append(f"[{prev}][{idx}:v]overlay=x=0:y=1250:enable='between(t,{tt:.2f},{tt + span:.2f})'[o{idx}]"); prev = f"o{idx}"; tt += span
+            fc.append(f"[{prev}][{idx}:v]overlay=x=0:y={sc.get('cap_y', 1250)}:enable='between(t,{tt:.2f},{tt + span:.2f})'[o{idx}]"); prev = f"o{idx}"; tt += span
         scene = f"tmp/v/{name}_{i}.mp4"
         M.run(["ffmpeg", "-y", *ins, "-filter_complex", ";".join(fc), "-map", f"[{prev}]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", scene])
         parts.append(scene); voices.append((wav, t0)); t0 += d
     # brand end card
-    ew = f"tmp/v/{name}_end.wav"; ed = voice(reel["end_say"], M.FEMALE, ew) + 0.5
-    M.card_scene(reel.get("end_cut") or "1000153679.jpg", ed, (lambda p: (M.logo_layer(reel.get("end_cap", "")).save(p), p)[1])(f"tmp/v/{name}_end.png"),
+    ew = f"tmp/v/{name}_end.wav"; ed = voice(reel["end_say"], M.FEMALE, ew) + reel.get("end_pad", 0.5)
+    if reel.get("end_card"):
+        _lay = f"tmp/v/{name}_end.png"; M.logo_layer(reel.get("end_cap", "")).save(_lay); _raw = f"tmp/v/{name}_endraw.mp4"
+        photo_shot(f"cards/{reel['end_card']}.jpg", ed, _raw)
+        M.run(["ffmpeg", "-y", "-i", _raw, "-i", _lay, "-filter_complex", "[0:v][1:v]overlay,format=yuv420p[o]", "-map", "[o]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", f"tmp/v/{name}_endv.mp4"])
+    else: M.card_scene(reel.get("end_cut") or "1000153679.jpg", ed, (lambda p: (M.logo_layer(reel.get("end_cap", "")).save(p), p)[1])(f"tmp/v/{name}_end.png"),
                  f"tmp/v/{name}_endv.mp4", crop=None if reel.get("end_cut") else (90, 40, 1090, 530))
     parts.append(f"tmp/v/{name}_endv.mp4"); voices.append((ew, t0)); cuts.append(t0); total = t0 + ed
     # assemble video + progress bar

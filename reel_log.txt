@@ -1,82 +1,111 @@
 viral font: /usr/share/fonts/opentype/montserrat/Montserrat-ExtraBold.otf
-CLIP OK ['scrolling-on-his-phone', 'girl-lying-down-chatting-on-her-cell-phone'] -> 39789
-CLIP OK ['waking-up-and-drinking-coffee', 'male-office-worker-yawning'] -> 33743
-CLIP OK ['girl-using-her-cell-phone-at-night'] -> 43385
-CLIP OK ['scrolling-on-his-phone', 'girl-lying-down-chatting-on-her-cell-phone'] -> 13168
-CLIP OK ['morning-coffee', 'coffee-and-music-in-the-morning'] -> 43391
-CLIP OK ['drinking-tea-on-a-cool-morning'] -> 25377
-CLIP OK ['sunrise', 'man-walks-on-the-rooftop-with-sunrise'] -> 19243
-CLIP OK ['woman-stretching-in-the-morning', 'silhouette-of-woman-stretching', 'a-young-man-stretches-his-arms'] -> 31407
-CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 592
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
-CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 4629
-done g01_subah3 21.9 s
-CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 22817
-CLIP OK ['different-spices-with-tags', 'pepper-mix-spices', 'oriental-spices'] -> 34634
-CLIP OK ['milk-being-poured', 'continuous-stream-of-pristine-white-milk'] -> 4993
-CLIP OK ['honey-dipper'] -> 2801
-CLIP OK ['drinking-tea-on-a-cool-morning'] -> 25377
-CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 24112
-CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 41579
-CLIP OK ['sunrise', 'man-walks-on-the-rooftop-with-sunrise'] -> 19243
-CLIP OK ['different-spices-with-tags', 'pepper-mix-spices', 'oriental-spices'] -> 32306
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-done g02_nani3 19.4 s
-CLIP OK ['male-office-worker-yawning', 'man-walking-into-office-building'] -> 25269
-CLIP OK ['a-businesswoman-going-upstairs-in-a-hurry'] -> 14615
-CLIP OK ['woman-stretching-in-the-morning', 'silhouette-of-woman-stretching', 'a-young-man-stretches-his-arms'] -> 50759
-CLIP OK ['woman-doing-yoga-on-a-deck', 'woman-meditating-in-nature', 'woman-doing-yoga-in-a-park'] -> 1053
-CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 597
-CLIP OK ['morning-coffee', 'coffee-and-music-in-the-morning'] -> 43391
-CLIP OK ['a-woman-choosing-fruit', 'blending-a-fruit-smoothie', 'fresh-sliced-fruit'] -> 43905
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-CLIP OK ['woman-out-for-a-run', 'man-and-woman-jogging', 'runner-training-in-a-park'] -> 40754
-done g03_slump 20.6 s
-CLIP OK ['girl-using-her-cell-phone-at-night'] -> 43385
+CLIP OK ['people-running-on-treadmills', 'woman-doing-warm-up-exercises', 'bodybuilder'] -> 23348
+CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 47555
+CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 10420
+CLIP OK ['woman-out-for-a-run', 'man-and-woman-jogging', 'runner-training-in-a-park'] -> 32803
+CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 11862
 CLIP OK ['dark-starry-night', 'full-moon'] -> 30605
 CLIP OK ['scrolling-on-his-phone', 'girl-lying-down-chatting-on-her-cell-phone'] -> 39789
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 47555
-CLIP OK ['girl-asleep-on-a-sofa'] -> 33455
-CLIP OK ['dark-starry-night', 'full-moon'] -> 4433
-CLIP OK ['woman-doing-yoga-on-a-deck', 'woman-meditating-in-nature', 'woman-doing-yoga-in-a-park'] -> 4828
-CLIP OK ['woman-doing-yoga-on-a-deck', 'woman-meditating-in-nature', 'woman-doing-yoga-in-a-park'] -> 1091
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
-done g04_neend3 18.2 s
-CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 22817
-CLIP OK ['different-spices-with-tags', 'pepper-mix-spices', 'oriental-spices'] -> 32306
-CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 22898
+CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 4629
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4898
+CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
+done h01_wmyth 23.6 s
 CLIP OK ['drinking-tea-on-a-cool-morning'] -> 25377
+CLIP OK ['morning-coffee', 'coffee-and-music-in-the-morning'] -> 43391
 CLIP OK ['honey-dipper'] -> 2801
-CLIP OK ['a-woman-choosing-fruit', 'blending-a-fruit-smoothie', 'fresh-sliced-fruit'] -> 43905
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
+CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 15554
+CLIP OK ['different-spices-with-tags', 'pepper-mix-spices', 'oriental-spices'] -> 32306
+CLIP OK ['a-woman-choosing-fruit', 'blending-a-fruit-smoothie', 'fresh-sliced-fruit'] -> 993
+CLIP OK ['waking-up-and-drinking-coffee', 'male-office-worker-yawning'] -> 32137
+CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 592
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
 CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-done g05_sardi5 16.5 s
-CLIP OK ['male-office-worker-yawning', 'man-walking-into-office-building'] -> 33743
-CLIP OK ['a-businesswoman-going-upstairs-in-a-hurry'] -> 14615
-CLIP FALLBACK ['a-businesswoman-going-upstairs-in-a-hurry'] -> 33066
-CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 10420
+done h02_chai 20.0 s
+CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 47555
+CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 13258
+CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 4629
+CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 26097
+CLIP OK ['drinking-tea-on-a-cool-morning'] -> 25377
+CLIP OK ['girl-asleep-on-a-sofa'] -> 33455
+CLIP OK ['scrolling-on-his-phone', 'girl-lying-down-chatting-on-her-cell-phone'] -> 39789
+CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 22898
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
+CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
+done h03_khana 18.4 s
 CLIP OK ['a-woman-choosing-fruit', 'blending-a-fruit-smoothie', 'fresh-sliced-fruit'] -> 10419
+CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 22817
+CLIP OK ['woman-doing-yoga-on-a-deck', 'woman-meditating-in-nature', 'woman-doing-yoga-in-a-park'] -> 43786
+CLIP OK ['woman-out-for-a-run', 'man-and-woman-jogging', 'runner-training-in-a-park'] -> 40770
+CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 597
+CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 13258
+CLIP OK ['a-woman-choosing-fruit', 'blending-a-fruit-smoothie', 'fresh-sliced-fruit'] -> 43905
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
+CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
+done h04_detox 20.1 s
+CLIP OK ['a-little-girl-smiles-while-riding-the-carnival', 'a-little-girl-in-a-dress-walking'] -> 18272
+CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
+CLIP OK ['sunrise', 'man-walks-on-the-rooftop-with-sunrise'] -> 30976
+CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 22898
+CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 10420
+CLIP OK ['woman-out-for-a-run', 'man-and-woman-jogging', 'runner-training-in-a-park'] -> 7587
+CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
+CLIP OK ['a-woman-choosing-fruit', 'blending-a-fruit-smoothie', 'fresh-sliced-fruit'] -> 993
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4898
+CLIP FALLBACK ['friends-running-in-the-countryside', 'friends'] -> 31607
+done h05_bachpan 17.9 s
+CLIP OK ['waking-up-and-drinking-coffee-in-front-of-a-laptop', 'woman-doing-yoga-in-her-home-office', 'male-office-worker-yawning'] -> 33743
+CLIP OK ['male-office-worker-yawning', 'man-walking-into-office-building'] -> 25269
+CLIP OK ['woman-stretching-in-the-morning', 'silhouette-of-woman-stretching', 'a-young-man-stretches-his-arms'] -> 50759
+CLIP OK ['woman-doing-yoga-on-a-deck', 'woman-meditating-in-nature', 'woman-doing-yoga-in-a-park'] -> 1053
+CLIP OK ['a-businesswoman-going-upstairs-in-a-hurry'] -> 14615
+CLIP OK ['woman-stretching-in-the-morning', 'silhouette-of-woman-stretching', 'a-young-man-stretches-his-arms'] -> 780
+CLIP OK ['older-woman-doing-yoga'] -> 6238
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
+CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
+done h06_office 19.8 s
+CLIP OK ['applying-skincare-products', 'a-beautiful-smiling-woman-with-curly-hair'] -> 50406
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
+CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 597
+CLIP OK ['honey-dipper'] -> 2801
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4898
+CLIP OK ['a-woman-choosing-fruit', 'blending-a-fruit-smoothie', 'fresh-sliced-fruit'] -> 10419
+CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 10420
+CLIP FALLBACK ['applying-skincare-products', 'a-beautiful-smiling-woman-with-curly-hair'] -> 40640
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
+CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
+done h07_skin 20.6 s
+CLIP OK ['woman-out-for-a-run', 'man-and-woman-jogging', 'runner-training-in-a-park'] -> 722
+CLIP OK ['people-running-on-treadmills', 'woman-doing-warm-up-exercises', 'bodybuilder'] -> 23348
+CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 26097
+CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 4629
+CLIP OK ['girl-using-her-cell-phone-at-night'] -> 43385
+CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 597
+CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
+done h08_challenge 15.7 s
+CLIP OK ['woman-doing-yoga-on-a-deck', 'woman-meditating-in-nature', 'woman-doing-yoga-in-a-park'] -> 1053
+CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 994
+CLIP OK ['woman-out-for-a-run', 'man-and-woman-jogging', 'runner-training-in-a-park'] -> 40754
+CLIP OK ['woman-stretching-in-the-morning', 'silhouette-of-woman-stretching', 'a-young-man-stretches-his-arms'] -> 50759
+CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 11862
+CLIP OK ['different-spices-with-tags', 'pepper-mix-spices', 'oriental-spices'] -> 34634
+CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 4629
+CLIP OK ['girl-asleep-on-a-sofa'] -> 33455
+CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 22817
+CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
+CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
+done h09_dosha 21.6 s
+edge-tts retry 0 No audio was received. Please verify that your parameters are correct.
+CLIP OK ['sunrise', 'man-walks-on-the-rooftop-with-sunrise'] -> 26532
+CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 15554
+CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 592
+edge-tts retry 0 No audio was received. Please verify that your parameters are correct.
+CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 41579
+CLIP OK ['male-office-worker-yawning', 'man-walking-into-office-building'] -> 33743
 CLIP OK ['girl-using-her-cell-phone-at-night'] -> 43385
 CLIP OK ['girl-asleep-on-a-sofa'] -> 33455
+CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 994
 CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-CLIP OK ['woman-out-for-a-run', 'man-and-woman-jogging', 'runner-training-in-a-park'] -> 7587
-done g06_tees 17.6 s
-CLIP OK ['sunrise', 'man-walks-on-the-rooftop-with-sunrise'] -> 31629
-CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 41579
-CLIP OK ['sunrise', 'man-walks-on-the-rooftop-with-sunrise'] -> 34980
-CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 4629
-CLIP OK ['woman-stretching-in-the-morning', 'silhouette-of-woman-stretching', 'a-young-man-stretches-his-arms'] -> 31407
-CLIP OK ['older-woman-doing-yoga'] -> 6238
 CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4898
-done g07_dhoop 17.7 s
-CLIP OK ['people-running-on-treadmills', 'woman-doing-warm-up-exercises', 'bodybuilder'] -> 23348
-CLIP OK ['woman-out-for-a-run', 'man-and-woman-jogging', 'runner-training-in-a-park'] -> 40770
-CLIP OK ['milk-being-poured', 'continuous-stream-of-pristine-white-milk'] -> 52203
-CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 13258
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 11862
-CLIP OK ['male-office-worker-yawning', 'man-walking-into-office-building'] -> 33743
-CLIP OK ['people-running-on-treadmills', 'woman-doing-warm-up-exercises', 'bodybuilder'] -> 583
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-done g08_protein 17.2 s
+done h10_roz1 18.8 s

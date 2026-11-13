@@ -91,6 +91,7 @@ R.append(reel("g08_protein", w, [
 
 exec(open("gen_v2_b2.py").read())
 exec(open("gen_v2_b3.py").read())
+exec(open("gen_v2_b4.py").read())
 # validate clip patterns against scout lists
 names = [l.split("\t")[1] for f in ("scout.txt", "scout2.txt") for l in open(f).read().splitlines() if "\t" in l and not l.startswith("#")]
 bad = [(k, p) for k, v in P.items() for p in v.split("|") if not any(re.search(p, n) for n in names)]

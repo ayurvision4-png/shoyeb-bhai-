@@ -1,0 +1,21 @@
+name: voicelab
+on:
+  push:
+    paths: ["voicelab_request.txt", "voicelab.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  lab:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q edge-tts piper-tts
+      - run: python voicelab.py 2>&1 | tee voicelab/log.txt
+      - if: always()
+        run: |
+          git config user.name github-actions && git config user.email actions@github.com
+          git add voicelab && git commit -m "voicelab samples" && git pull --rebase -q && git push

@@ -1,0 +1,22 @@
+name: pexels_scout
+on:
+  push:
+    paths: ["pexels_request.txt", "pexels_scout.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -q requests pillow
+      - run: python pexels_scout.py
+      - if: always()
+        run: |
+          git config user.name github-actions && git config user.email actions@github.com
+          rm -f scout_px/test_*.mp4
+          git add scout_px && git commit -m "pexels scout" && git pull --rebase -q && git push

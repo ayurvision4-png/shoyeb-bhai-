@@ -1,40 +1,38 @@
-"""Scout Pexels candidate videos: thumbnails -> contact sheets; test whether mp4 download works from CI."""
-import os, subprocess, requests
+"""Download candidate Pexels videos, grab 3 frames each, build contact sheets (one row per clip). mp4s are NOT committed."""
+import os, subprocess, json
 from PIL import Image, ImageDraw, ImageFont
-H = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
-ids = []
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
+os.makedirs("scout_px/sheets", exist_ok=True); os.makedirs("scout_px/tmp", exist_ok=True)
+done = set(open("scout_px/done.txt").read().split()) if os.path.exists("scout_px/done.txt") else set()
+req = []
 for l in open("pexels_request.txt"):
-    l = l.split("#")[0].strip()
-    if l: ids.append(l.split()[0])
-os.makedirs("scout_px/thumbs", exist_ok=True)
-log = open("scout_px/log.txt", "w")
-ok = []
-for i in ids:
-    fn = f"scout_px/thumbs/{i}.jpg"
-    if not os.path.exists(fn):
-        try:
-            r = requests.get(f"https://images.pexels.com/videos/{i}/free-video-{i}.jpg?auto=compress&cs=tinysrgb&dpr=1&w=360", headers=H, timeout=30)
-            if r.ok and len(r.content) > 2000: open(fn, "wb").write(r.content)
-            else: log.write(f"thumb {i}: HTTP {r.status_code} {len(r.content)}\n")
-        except Exception as e: log.write(f"thumb {i}: {e}\n")
-    if os.path.exists(fn): ok.append(i)
-f = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 22)
-for n in range(0, len(ok), 12):
-    chunk = ok[n:n + 12]; cw, ch = 240, 400
-    sheet = Image.new("RGB", (cw * 6, ch * 2), (20, 20, 20)); d = ImageDraw.Draw(sheet)
-    for k, i in enumerate(chunk):
-        im = Image.open(f"scout_px/thumbs/{i}.jpg").convert("RGB"); im.thumbnail((cw, ch - 30))
-        x, y = (k % 6) * cw, (k // 6) * ch
-        sheet.paste(im, (x, y + 30)); d.text((x + 6, y + 4), i, font=f, fill=(255, 220, 0))
-    sheet.save(f"scout_px/sheet_{n // 12:02d}.jpg", quality=80)
-# mp4 download test on first 3 ids
-for i in ids[:3]:
-    for url in (f"https://www.pexels.com/download/video/{i}/?fps=25.0&h=1920&w=1080", f"https://www.pexels.com/download/video/{i}/"):
-        out = f"scout_px/test_{i}.mp4"
-        r = subprocess.run(["curl", "-sSL", "-A", H["User-Agent"], "-o", out, "-w", "%{http_code} %{size_download} %{url_effective}", url], capture_output=True, text=True)
-        log.write(f"mp4 {i} {url} -> {r.stdout} {r.stderr[:200]}\n")
-        if os.path.exists(out):
-            sz = os.path.getsize(out)
-            if sz < 200000: os.remove(out)
-            else: break
-log.close(); print(open("scout_px/log.txt").read())
+    p = l.split("#")[0].split()
+    if p and p[0].isdigit() and p[0] not in done: req.append((p[0], " ".join(p[1:])))
+meta = open("scout_px/meta.tsv", "a"); font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 17)
+rows = []
+for cid, note in req:
+    f = f"scout_px/tmp/{cid}.mp4"
+    r = subprocess.run(["curl", "-sSL", "-A", UA, "--max-filesize", "90000000", "--max-time", "150", "-o", f, "https://www.pexels.com/download/video/%s/" % cid], capture_output=True, text=True)
+    if not os.path.exists(f) or os.path.getsize(f) < 100000: print("FAIL", cid, r.stderr[:100]); continue
+    pr = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height:format=duration", "-of", "json", f], capture_output=True, text=True)
+    try: j = json.loads(pr.stdout); w, h = j["streams"][0]["width"], j["streams"][0]["height"]; dur = float(j["format"]["duration"])
+    except Exception: print("probe fail", cid); os.remove(f); continue
+    frames = []
+    for k, fr in enumerate((0.12, 0.5, 0.85)):
+        o = f"scout_px/tmp/{cid}_{k}.jpg"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{dur*fr:.2f}", "-i", f, "-frames:v", "1", "-vf", "scale=-2:210", o])
+        if os.path.exists(o): frames.append(o)
+    os.remove(f)
+    if frames: rows.append((cid, w, h, dur, note, frames)); meta.write(f"{cid}\t{w}x{h}\t{dur:.1f}\t{note}\n"); meta.flush(); done.add(cid)
+    print("ok", cid, w, h, round(dur, 1), flush=True)
+per = 7; start = len(os.listdir("scout_px/sheets"))
+for n in range(0, len(rows), per):
+    chunk = rows[n:n + per]; sheet = Image.new("RGB", (1180, 232 * len(chunk)), (18, 18, 18)); d = ImageDraw.Draw(sheet)
+    for ri, (cid, w, h, dur, note, frames) in enumerate(chunk):
+        d.text((6, ri * 232 + 2), f"{cid}  {w}x{h}  {dur:.0f}s  {note[:40]}", font=font, fill=(255, 220, 0)); x = 6
+        for fp in frames:
+            im = Image.open(fp).convert("RGB"); sheet.paste(im, (x, ri * 232 + 22)); x += im.width + 6
+    sheet.save(f"scout_px/sheets/sheet_{start + n // per:03d}.jpg", quality=78)
+open("scout_px/done.txt", "w").write("\n".join(sorted(done)))
+for f in os.listdir("scout_px/tmp"): os.remove(f"scout_px/tmp/{f}")
+print("sheets:", sorted(os.listdir("scout_px/sheets")))

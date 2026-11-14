@@ -1,0 +1,62 @@
+name: voicelab2
+on:
+  push:
+    paths: ["voicelab2_request.txt", "voicelab2.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  edge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q -U edge-tts
+      - run: python voicelab2.py edge 2>&1 | tail -40
+      - if: always()
+        run: |
+          git config user.name github-actions && git config user.email actions@github.com
+          git add voicelab2 && git commit -m "voicelab2 edge" ; git pull --rebase -q; git push
+  kokoro:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng && pip install -q kokoro soundfile numpy misaki[hi] --extra-index-url https://download.pytorch.org/whl/cpu
+      - run: python voicelab2.py kokoro 2>&1 | tail -40
+      - if: always()
+        run: |
+          git config user.name github-actions && git config user.email actions@github.com
+          git add voicelab2 && git commit -m "voicelab2 kokoro" ; git pull --rebase -q; git push
+  parler:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q git+https://github.com/huggingface/parler-tts.git soundfile
+      - run: python voicelab2.py parler 2>&1 | tail -60
+      - if: always()
+        run: |
+          git config user.name github-actions && git config user.email actions@github.com
+          git add voicelab2 && git commit -m "voicelab2 parler" ; git pull --rebase -q; git push
+  asr:
+    needs: [edge, kokoro, parler]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: git pull -q && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q faster-whisper
+      - run: python voicelab2.py asr 2>&1 | tail -80
+      - if: always()
+        run: |
+          git config user.name github-actions && git config user.email actions@github.com
+          git add voicelab2 && git commit -m "voicelab2 asr" ; git pull --rebase -q; git push

@@ -1,0 +1,7 @@
+bn-IN-BashkarNeural               Male      General                Friendly, Positive
+bn-IN-TanishaaNeural              Female    General                Friendly, Positive
+en-IN-NeerjaExpressiveNeural      Female    General                Friendly, Positive
+en-IN-NeerjaNeural                Female    General                Friendly, Positive
+en-IN-PrabhatNeural               Male      General                Friendly, Positive
+hi-IN-MadhurNeural                Male      General                Friendly, Positive
+hi-IN-SwaraNeural                 Female    General                Friendly, Positive

@@ -1,0 +1,220 @@
+# -*- coding: utf-8 -*-
+"""Caption system v2. Keyword-first hook (<=125 chars), natural keyword sentence + Devanagari line (search in both scripts),
+ONE clear CTA block, short honest disclaimer, EXACTLY 5 relevant hashtags (no #viral/#reels/#explore spam).
+build(entry) -> caption text. Entries keyed by Metricool post id (old) so they can be applied or published elsewhere."""
+import json, sys
+GEN = "Yeh general jaankari hai, dawai nahi. Apne doctor ki salah zaroor lein."
+PROD = "Yeh ek wellness product hai, dawai nahi. Results alag-alag ho sakte hain. Apne doctor ki salah zaroor lein."
+FOLLOW_Q = "➕ Roz ek desi sach-jhooth ke liye follow: @ayurvision_02"
+FOLLOW_H = "➕ Roz ek nayi desi aadat ke liye follow: @ayurvision_02"
+CHART = "💬 Free 7-din routine chart: comment mein CHART likhiye ya WhatsApp 7596985205"
+
+def build(e):
+    L = [e["hook"], ""]
+    if e.get("body"): L += [e["body"], ""]
+    L += [e["kw"], e["deva"], ""]
+    L += [f"📤 {e['send']}", "🔖 Save kar lijiye", FOLLOW_Q if e.get("quiz") else FOLLOW_H, CHART, ""]
+    L += [PROD if e.get("prod") else GEN, ""]
+    tags = e["tags"]; assert len(tags) == 5, (e["id"], tags)
+    L.append(" ".join(tags)); return "\n".join(L)
+
+Q = dict(quiz=True)
+def q(id, when, hook, kw, deva, send, topic, fc="Aapka jawab? SACH ya JHOOTH, neeche likhiye 👇", extra="#weightlosstipshindi"):
+    return dict(id=id, when=when, **Q, hook=hook, kw=kw, deva=deva, send=send, fc=fc, kind="reel",
+                tags=[topic, extra, "#healthtipshindi", "#gharelunuskhe", "#ayurveda"])
+
+E = [
+ q(423818720, "11-13T13:30", "Khaali pet chai peena theek hai? SACH ya JHOOTH? ☕",
+   "Khaali pet chai ka sach: subah ki chai aur pet ke baare mein desi health tips, Hindi mein.",
+   "खाली पेट चाय: सच या झूठ? घरेलू सेहत टिप्स हिंदी में।", "Us dost ko bhejiye jo subah uthte hi chai maangta hai", "#khalipetchai", extra="#chailover"),
+ q(426643728, "11-13T19:00", "Subah nimbu paani se weight ghatta hai? SACH ya JHOOTH? 🍋",
+   "Nimbu paani aur weight loss ka sach: gunguna nimbu paani ke baare mein desi health tips.",
+   "सुबह नींबू पानी से वज़न घटता है? सच या झूठ, वज़न कम करने के घरेलू नुस्खे।", "Us dost ko bhejiye jo roz nimbu paani peeta hai", "#nimbupani"),
+ q(426643745, "11-14T19:30", "Weight ke liye naashta skip karna chahiye? SACH ya JHOOTH? 🥣",
+   "Naashta skip karne se weight kam hota hai? Weight loss aur breakfast ke baare mein desi health tips.",
+   "वज़न कम करने के लिए नाश्ता छोड़ना सही है? सच या झूठ।", "Us dost ko bhejiye jo naashta chhod deta hai", "#healthybreakfast"),
+ q(423818791, "11-15T13:00", "Mobile dekhte hue khana khane se zyada khana ho jata hai? SACH ya JHOOTH? 📱",
+   "Mobile ke saath khana: mindful eating aur weight control ke desi tips, Hindi mein.",
+   "मोबाइल देखते हुए खाना: सच या झूठ? खाने की सही आदतें।", "Us dost ko bhejiye jo khana khate waqt reels dekhta hai", "#mindfuleating"),
+ q(426643771, "11-15T18:00", "Raat ka khana bahut der se khane mein koi harj nahi? SACH ya JHOOTH? 🌙",
+   "Late night dinner aur weight: raat ka khana kab khana chahiye, desi health tips Hindi mein.",
+   "रात का खाना देर से खाना: सच या झूठ? वज़न कम करने के घरेलू उपाय।", "Us dost ko bhejiye jo raat 11 baje khana khata hai", "#latenightdinner"),
+ q(423818816, "11-16T13:00", "Sabko roz 8 glass paani zaroori hai? SACH ya JHOOTH? 💧",
+   "Roz kitna paani peena chahiye? 8 glass paani ka sach, healthy habits Hindi mein.",
+   "रोज़ 8 गिलास पानी ज़रूरी है? सच या झूठ, पानी पीने की सही आदतें।", "Us dost ko bhejiye jo din bhar paani bhoolta hai", "#drinkwater", extra="#healthyhabits"),
+ q(423818844, "11-17T13:00", "Dhoop sirf sardi mein leni chahiye? SACH ya JHOOTH? ☀️",
+   "Subah ki dhoop aur Vitamin D: roz dhoop kab aur kitni leni chahiye, desi health tips.",
+   "धूप सिर्फ़ सर्दी में लेनी चाहिए? सच या झूठ। विटामिन डी और धूप।", "Ghar ke bado ko bhejiye jo dhoop se bachte hain", "#vitamind", extra="#healthyhabits"),
+ q(426643798, "11-18T13:00", "Weight kam karna hai to roti bilkul chhod deni chahiye? SACH ya JHOOTH? 🫓",
+   "Roti aur weight loss: roti chhodni chahiye ya nahi, desi diet tips Hindi mein.",
+   "वज़न कम करना है तो रोटी छोड़ देनी चाहिए? सच या झूठ।", "Us dost ko bhejiye jo diet mein roti chhod deta hai", "#roti"),
+ q(426643816, "11-19T13:00", "Khane ke baad 10 minute tehalna achhi aadat hai? SACH ya JHOOTH? 🚶",
+   "Khane ke baad tehalna: 10 minute walk aur pachan ke baare mein desi health tips.",
+   "खाने के बाद 10 मिनट टहलना अच्छी आदत है? सच या झूठ।", "Us dost ko bhejiye jo khate hi let jaata hai", "#walkaftermeal", extra="#healthyhabits"),
+ q(426643827, "11-20T13:00", "Kam sone se bhookh zyada lagti hai? SACH ya JHOOTH? 😴",
+   "Neend aur weight: kam sone se bhookh kyun badhti hai, sleep aur diet ke desi tips Hindi mein.",
+   "कम सोने से भूख ज़्यादा लगती है? सच या झूठ। नींद और वज़न।", "Us dost ko bhejiye jo raat bhar jaagta hai", "#neend"),
+ q(426643847, "11-21T13:00", "Khane ke baad gud ya saunf, purani desi aadat hai? SACH ya JHOOTH? 🌿",
+   "Khane ke baad saunf aur gud: pachan ke purane desi nuskhe, Hindi mein.",
+   "खाने के बाद गुड़ या सौंफ़: सच या झूठ? दादी-नानी के घरेलू नुस्खे।", "Apni nani-dadi ko bhejiye", "#saunf", extra="#nanikenuskhe"),
+ q(426643859, "11-22T13:00", "Khane se pehle paani peene se kam bhookh lagti hai? SACH ya JHOOTH? 🥛",
+   "Khane se pehle paani: bhookh aur weight control ke desi tips, Hindi mein.",
+   "खाने से पहले पानी पीने से कम भूख लगती है? सच या झूठ।", "Us dost ko bhejiye jo diet shuru karne wala hai", "#waterintake"),
+]
+
+def P(id, when, hook, body, kw, deva, send, tags, fc, kind="reel", prod=True, **k):
+    return dict(id=id, when=when, hook=hook, body=body, kw=kw, deva=deva, send=send, tags=tags, fc=fc, prod=prod, kind=kind, **k)
+
+E += [
+ P(416016721, "11-16T19:00", "Bado ke liye 3 desi aadatein, aakhir tak dekhna! 🔥",
+   "1️⃣ Teamex Do Long: Ashwagandha, Shilajit, Kesar jaisi jadi-bootiyon se bani\n2️⃣ Khane ke baad 2 tablet, doodh ke saath\n3️⃣ Roz thodi walk ya yoga, aur bharpoor neend\n(Sirf adults ke liye)",
+   "Men's wellness aur stamina routine: Ayurvedic jadi-bootiyon ke saath roz ki healthy aadatein.",
+   "पुरुषों की रोज़ की वेलनेस रूटीन: अश्वगंधा, शिलाजीत और आयुर्वेदिक आदतें।", "Jise ye jaanna zaroori hai, use bhejiye",
+   ["#mensWellness", "#ashwagandha", "#shilajit", "#ayurveda", "#healthtipshindi"], "Aapki roz ki sabse achhi aadat kaunsi hai? Neeche likhiye 👇"),
+ P(416943436, "11-17T19:00", "Din bhar active rehna hai? ⚡ Daily energy routine ke 5 Teamex products",
+   "1️⃣ Rocket Energy\n2️⃣ Noni Wellness Drink\n3️⃣ Berry Wellness Drink\n4️⃣ Ashwagandha Tablet\n5️⃣ Shilajit Gummy (sirf adults ke liye)",
+   "Thakaan aur energy ke liye roz ki routine: paani, neend, walk aur wellness support.",
+   "दिन भर एक्टिव रहने के लिए रोज़ की एनर्जी रूटीन।", "Us dost ko bhejiye jo hamesha thaka rehta hai",
+   ["#energy", "#thakaan", "#healthtipshindi", "#ayurveda", "#wellnessindia"], "Free 7 din routine chart chahiye? Neeche CHART likhiye 👇"),
+ P(416946634, "11-18T19:00", "Roz ka poshan poora hai? 🌱 Protein, Spirulina, Omega aur B12 ek routine mein",
+   "1️⃣ Protein Powder\n2️⃣ Spirulina Tablet\n3️⃣ Veg Omega Capsule\n4️⃣ B12 Spray",
+   "Roz ke poshan ki routine: protein, spirulina, omega aur B12 ke baare mein jaankari, Hindi mein.",
+   "रोज़ का पोषण पूरा करने की रूटीन: प्रोटीन, स्पिरुलिना, ओमेगा और B12।", "Us dost ko bhejiye jo khane mein poshan ki parwah nahi karta",
+   ["#nutrition", "#protein", "#spirulina", "#healthtipshindi", "#ayurveda"], "Free 7 din routine chart chahiye? Neeche CHART likhiye 👇"),
+ P(416983577, "11-19T19:00", "Dopahar tak thak jaate ho? ⚡ Ye 3 baatein, teesri mat bhoolna!",
+   "1️⃣ Alkomax Capsule: roz 1, khane ke baad\n2️⃣ 25+ vitamins aur minerals ka support\n3️⃣ CMD Drops: 3 boond, ek glass paani mein",
+   "Dopahar ki thakaan aur energy dip: vitamins-minerals ke support ke saath roz ki routine.",
+   "दोपहर तक थक जाते हो? रोज़ की एनर्जी रूटीन और विटामिन-मिनरल सपोर्ट।", "Us dost ko bhejiye jo dopahar mein sust ho jaata hai",
+   ["#thakaan", "#energy", "#vitamins", "#healthtipshindi", "#ayurveda"], "Aapka energy dip kitne baje aata hai? Neeche likhiye 👇"),
+ P(419741958, "11-21T19:00", "Subah uthte hi body akdi hui lagti hai? 🥶 Sardi mein hadiyon ko extra support",
+   "1️⃣ Calcium Chewable\n2️⃣ Vitamin D3\n3️⃣ Ortho Support\n☀️ Saath mein roz ki walk aur thodi dhoop\nLabel par diye nirdesh ke anusaar lijiye.",
+   "Sardi mein jodon ki akdan aur haddiyon ka khayal: calcium, Vitamin D aur dhoop ki routine.",
+   "सर्दी में जोड़ों की अकड़न? हड्डियों के लिए कैल्शियम, विटामिन डी और धूप।", "Apne ghar ke bade ko bhejiye jinhe sardi mein akdan hoti hai",
+   ["#bonehealth", "#sardi", "#vitamind", "#healthtipshindi", "#ayurveda"], "Free 7 din routine chart chahiye? Neeche CHART likhiye 👇"),
+ P(422950341, "11-23T08:00", "Subah uthte hi ye 3 galtiyan mat karna 🌅 Morning routine tips",
+   "Gunguna paani, 10 minute dhoop aur Tulsi Drop ka saath, roz ki immunity routine ko support.",
+   "Subah ki healthy routine: gunguna paani, dhoop aur tulsi, morning routine tips Hindi mein.",
+   "सुबह उठते ही ये 3 गलतियाँ मत करना। मॉर्निंग रूटीन टिप्स।", "Us dost ko bhejiye jo roz late uthta hai",
+   ["#morningroutine", "#tulsi", "#immunity", "#healthtipshindi", "#ayurveda"], "Aap in teeno mein se kaunsi galti karte ho? 1, 2 ya 3 likhiye 👇"),
+ P(422965227, "11-24T13:00", "Weight control ki 3 galat baatein ❌ Aap kaun si maante ho?",
+   "Bhookha rehna, sirf gym aur raat ko bilkul na khana. Sahi tareeka: balanced khana, roz walk aur Beautilook ka 90 din ka routine (weight control mein madad ke liye).",
+   "Weight loss ke desi tips: crash diet kyun galat hai aur sahi tareeka kya hai, Hindi mein.",
+   "वज़न कम करने की 3 गलतफ़हमियाँ। भूखा रहना सही तरीका नहीं।", "Us dost ko bhejiye jo roz 'kal se diet' bolta hai",
+   ["#weightlosstipshindi", "#weightloss", "#healthtipshindi", "#ayurveda", "#beautilook"], "Inmein se aapne kaunsi galti ki hai? 1, 2 ya 3 likhiye 👇"),
+ P(422949766, "11-25T19:30", "Dadi-Nani ke 3 nuskhe jo aaj bhi kaam ke hain 🌿",
+   "Raat ko haldi doodh, sardi mein tulsi-adrak chai aur roz thodi dhoop. Wahi haldi ab nano form mein bhi, better absorption ke liye.",
+   "Dadi-Nani ke gharelu nuskhe: haldi doodh, tulsi-adrak chai aur sardi ki desi routine.",
+   "दादी-नानी के घरेलू नुस्खे: हल्दी दूध, तुलसी-अदरक की चाय।", "Ghar ke bado ko bhejiye",
+   ["#gharelunuskhe", "#nanikenuskhe", "#haldidoodh", "#ayurveda", "#healthtipshindi"], "Aapki nani ka sabse famous nuskha kaunsa tha? Neeche likhiye 👇"),
+ P(422965257, "11-26T13:00", "Chai nahi chhodni? Ye 3 smart badlav kijiye ☕",
+   "Cheeni kam, tulsi-adrak daaliye aur khaali pet nahi. Upar se roz ki routine mein Noni wellness drink.",
+   "Healthy chai tips: chai peete hue weight aur pachan ka dhyaan kaise rakhein, Hindi mein.",
+   "चाय नहीं छोड़नी? चीनी कम, तुलसी-अदरक डालिए। हेल्दी चाय टिप्स।", "Us dost ko bhejiye jo din mein 5 chai peeta hai",
+   ["#chailover", "#healthychai", "#healthtipshindi", "#gharelunuskhe", "#ayurveda"], "Aap din mein kitni chai peete ho? Neeche likhiye 👇"),
+ P(422949793, "11-27T13:30", "Dopahar 3 baje thakaan? ⚡ Ye 3 chhoti baatein try kijiye",
+   "Har ghante 2 minute stretch, paani peete rahiye, aur roz ka poshan (25+ vitamin-mineral ka support).",
+   "Dopahar ki thakaan door karne ke desi tips: stretch, paani aur poshan, Hindi mein.",
+   "दोपहर 3 बजे थकान? 3 छोटी आदतें आज़माइए।", "Us dost ko bhejiye jo hamesha thaka rehta hai",
+   ["#thakaan", "#energy", "#healthtipshindi", "#officelife", "#ayurveda"], "Aapka energy dip kitne baje aata hai? Neeche likhiye 👇"),
+ P(422965330, "11-28T13:00", "Khane ke baad ye 3 kaam zaroor kijiye 🍽️",
+   "10 minute tehliye, gunguna paani peejiye aur turant letiye mat. Pachan ki routine ke liye Trifala ka sahara.",
+   "Khane ke baad pachan ke liye desi tips: tehalna, gunguna paani aur Trifala, Hindi mein.",
+   "खाने के बाद ये 3 काम ज़रूर कीजिए। पाचन के घरेलू नुस्खे।", "Us dost ko bhejiye jo khana khate hi so jaata hai",
+   ["#pachan", "#digestion", "#trifala", "#gharelunuskhe", "#healthtipshindi"], "Khane ke baad aap sabse pehle kya karte ho? 👇"),
+ P(422949834, "11-29T21:00", "Raat ko neend nahi aati? 🌙 Ye 3 galtiyan check kijiye",
+   "Sone se pehle mobile, der raat bhaari khana, aur roz alag time par sona. Aaram ke liye Ashwagandha, ek puraani Ayurvedic jadi-booti.",
+   "Neend na aane ke desi upay: sleep routine aur Ashwagandha ke baare mein jaankari, Hindi mein.",
+   "रात को नींद नहीं आती? ये 3 गलतियाँ चेक कीजिए।", "Us dost ko bhejiye jo raat ko 2 baje tak mobile chalata hai",
+   ["#neend", "#sleepbetter", "#ashwagandha", "#healthtipshindi", "#ayurveda"], "Aap raat ko kitne baje sote ho? Neeche likhiye 👇"),
+ P(422965370, "11-30T13:00", "Weekend detox? Pehle ye samajh lijiye 🍋",
+   "Body ka apna system hai, bas sahi aadatein chahiye: khoob paani, fal-sabziyan aur achhi neend. Aloe vera juice routine mein madad kar sakta hai.",
+   "Detox ka sach: body ko detox kaise support karein, desi health tips Hindi mein.",
+   "वीकेंड डिटॉक्स? पहले ये समझ लीजिए। पानी, फल-सब्ज़ियाँ और नींद।", "Us dost ko bhejiye jo har Monday se detox shuru karta hai",
+   ["#detox", "#aloevera", "#healthtipshindi", "#gharelunuskhe", "#ayurveda"], "Aapka weekend wellness plan kya hai? 👇"),
+ # Dec reels
+ P(422949866, "12-01T19:00", "Sardi mein ye 5 cheezein ghar mein zaroor rakhiye ❄️",
+   "Tulsi, adrak, haldi, shahad aur Himalayan sea buckthorn, roz ki immunity routine ke liye.",
+   "Sardi mein immunity ke gharelu nuskhe: tulsi, adrak, haldi aur shahad, Hindi mein.",
+   "सर्दी में ये 5 चीज़ें घर में ज़रूर रखिए। इम्यूनिटी के घरेलू नुस्खे।", "Us dost ko bhejiye jise har sardi mein thand jaldi lagti hai",
+   ["#immunity", "#sardi", "#winterwellness", "#gharelunuskhe", "#ayurveda"], "Sardi mein aap sabse pehle kya peete ho? Chai, kadha ya haldi doodh? 👇"),
+ P(422949900, "12-03T13:00", "30 ke baad body ye 3 signals deti hai 👀",
+   "Jaldi thak jaana, khane mein poshan ki kami, aur neend-energy ka bigadta routine. B12 aur Omega jaise poshak tatvon ka support.",
+   "30 ke baad health aur poshan: thakaan, neend aur energy ke desi tips, Hindi mein.",
+   "30 के बाद शरीर ये 3 संकेत देता है। पोषण और एनर्जी।", "Us dost ko bhejiye jo 30 ke aas-paas hai",
+   ["#over30", "#nutrition", "#healthtipshindi", "#wellnessindia", "#ayurveda"], "Aap kis umar ke ho? 20s, 30s ya 40s+ likhiye 👇"),
+ P(422949945, "12-05T08:00", "Roz 10 minute dhoop, haddiyon ke liye kyun zaroori? ☀️",
+   "Dhoop se body Vitamin D banati hai, jo calcium ke saath haddiyon ko support karta hai.",
+   "Subah ki dhoop aur Vitamin D: haddiyon ki health ke desi tips, Hindi mein.",
+   "रोज़ 10 मिनट धूप हड्डियों के लिए क्यों ज़रूरी? विटामिन डी और कैल्शियम।", "Ghar ke bado ko bhejiye",
+   ["#vitamind", "#bonehealth", "#dhoop", "#healthtipshindi", "#ayurveda"], "Aap roz dhoop mein kitni der baithte ho? Neeche likhiye 👇"),
+ P(422950514, "12-07T19:00", "Protein sirf gym walon ke liye nahi hai 💪",
+   "Dal, paneer, doodh desi sources hain, aur roz ki zaroorat poori karne mein protein powder aur spirulina madad kar sakte hain.",
+   "Desi protein sources aur roz ka protein: vegetarian protein tips, Hindi mein.",
+   "प्रोटीन सिर्फ़ जिम वालों के लिए नहीं। दाल, पनीर, दूध।", "Apne gym partner ko bhejiye",
+   ["#protein", "#vegetarianprotein", "#fitindia", "#healthtipshindi", "#desifood"], "Roz kya khate ho? Dal, paneer, anda ya powder? 👇"),
+ P(422965407, "12-02T19:00", "Bachpan ki ye 3 healthy aadatein hum bhool gaye 🌞",
+   "Subah ki dhoop, ghar ka bana khana aur shaam ko bahar khelna. Roz ke poshan ke liye Veg Omega.",
+   "Bachpan ki healthy aadatein jo aaj bhi kaam aati hain: desi routine tips, Hindi mein.",
+   "बचपन की ये 3 आदतें हम भूल गए। हेल्दी देसी रूटीन।", "Us dost ko bhejiye jiske saath bachpan mein khelte the",
+   ["#bachpan", "#desiroutine", "#healthyhabits", "#healthtipshindi", "#ayurveda"], "Bachpan ka aapka sabse pasandida khel kaunsa tha? 👇"),
+ P(422965453, "12-04T19:00", "Office mein baithe-baithe akdan? Ye 3 stretch roz kijiye 🧘",
+   "Gardan dheere ghumaiye, har ghante khade hoiye, kandhe aur kamar kholiye. Haddi aur jodon ki routine ke liye Ortho support.",
+   "Office mein baithne ki akdan ke liye desk stretches: gardan, kandhe, kamar, Hindi mein.",
+   "ऑफिस में बैठे-बैठे अकड़न? ये 3 स्ट्रेच रोज़ कीजिए।", "Us colleague ko bhejiye jo 8 ghante kursi par baithta hai",
+   ["#officelife", "#stretching", "#bonehealth", "#healthtipshindi", "#ayurveda"], "Aap din mein kitne ghante baithte ho? Neeche likhiye 👇"),
+ P(422965502, "12-06T19:00", "Sardi mein skin khichti hai? 3 desi tareeke ✨",
+   "Khoob paani, nahane ke baad tel ya moisturiser, aur rang-birange fal-sabziyan. Andar se care ke liye Berry wellness drink.",
+   "Sardi mein dry skin ke gharelu nuskhe: winter skin care tips Hindi mein.",
+   "सर्दी में त्वचा खिंचती है? 3 देसी तरीके। विंटर स्किन केयर।", "Us dost ko bhejiye jiske haath-hont sardi mein sookh jaate hain",
+   ["#winterskincare", "#dryskin", "#skincare", "#gharelunuskhe", "#ayurveda"], "Sardi mein skin ka sabse bada masla kya hai? 👇"),
+ P(422965534, "12-08T19:00", "7 din ka challenge ✅ Roz 8 glass paani, 20 minute walk, raat ko phone se doori",
+   "Kar paoge? Paani ki routine ke liye CMD Drops.",
+   "7 din ka healthy habits challenge: paani, walk aur phone detox, Hindi mein.",
+   "7 दिन का हेल्दी चैलेंज: पानी, वॉक और फ़ोन से दूरी।", "Us dost ko bhejiye jo aapke saath ye challenge kare",
+   ["#7daychallenge", "#healthchallenge", "#walking", "#healthtipshindi", "#ayurveda"], "Day 1 kal se? 'Challenge accepted' likhiye 👇"),
+ P(422965574, "12-09T19:00", "Aapka body type kya hai? Vata, Pitta ya Kapha? 🌿",
+   "Comment mein apna type likhiye. Ayurveda mein har type ki routine alag hoti hai, aur Ashwagandha jaisi jadi-bootiyan roz ki routine ka hissa ban sakti hain.",
+   "Vata Pitta Kapha: apna Ayurvedic body type pehchaniye, dosha ke baare mein Hindi mein.",
+   "आपका बॉडी टाइप क्या है? वात, पित्त या कफ? आयुर्वेदिक दोष।", "Us dost ko bhejiye jo apna type jaanna chahta hai",
+   ["#ayurveda", "#dosha", "#vatapittakapha", "#healthtipshindi", "#ayurvedaindia"], "Vata, Pitta ya Kapha? Neeche likhiye 👇"),
+ P(422965615, "12-10T19:00", "Roz ek desi aadat, sirf 20 second mein 🌅",
+   "Subah gunguna paani, dopahar mein khane ke baad tehalna, raat ko sone se pehle phone door. Routine ko aasan banaiye, Tulsi Drop ke saath.",
+   "Roz ki healthy habits: subah, dopahar aur raat ki 3 chhoti desi aadatein, Hindi mein.",
+   "रोज़ एक देसी आदत, सिर्फ़ 20 सेकंड में। हेल्दी रूटीन।", "Us dost ko bhejiye jise nayi aadat shuru karni hai",
+   ["#healthyhabits", "#desiroutine", "#tulsi", "#healthtipshindi", "#ayurveda"], "Aaj se kaunsi aadat shuru karoge? 👇"),
+]
+
+# carousels (images): save-driven, no product claims
+def C(id, when, hook, kw, deva, send, tags, fc):
+    return dict(id=id, when=when, hook=hook, body=None, kw=kw, deva=deva, send=send, tags=tags, fc=fc, prod=False, kind="post")
+E += [
+ C(418632552, "11-20T19:00", "Subah ki shuruaat kaise karte ho? Ye 6 chhoti aadatein save kar lijiye ☀️",
+   "Morning routine ki 6 healthy aadatein, Hindi mein. Sabse mushkil aadat kaunsi hai? Number likhiye.",
+   "सुबह की शुरुआत कैसे करें? 6 छोटी हेल्दी आदतें।", "Us dost ko bhejiye jo roz late uthta hai",
+   ["#morningroutine", "#healthyhabits", "#gharelunuskhe", "#healthtipshindi", "#ayurveda"], "Aapki subah ki pehli aadat kya hai?"),
+ C(418632580, "11-22T19:00", "Raat ko neend jaldi nahi aati? Ye 6 aasan aadatein save kar lijiye 🌙",
+   "Achhi neend ke desi tips: sleep routine ki 6 aasan aadatein, Hindi mein.",
+   "रात को नींद जल्दी नहीं आती? 6 आसान आदतें।", "Us dost ko bhejiye jo raat ko 2 baje tak mobile chalata hai",
+   ["#neend", "#sleepbetter", "#healthyhabits", "#healthtipshindi", "#ayurveda"], "Aap raat ko kitne baje sote ho?"),
+ C(418632595, "11-24T19:00", "Office lunch smart banana hai? Ye 6 chhote niyam save kar lijiye 🍱",
+   "Office tiffin aur healthy lunch ke 6 desi tips, Hindi mein.",
+   "ऑफिस लंच स्मार्ट बनाना है? 6 छोटे नियम।", "Apne office ke dost ko bhejiye jo roz bahar se mangwata hai",
+   ["#officelife", "#healthylunch", "#tiffin", "#healthtipshindi", "#gharelunuskhe"], "Aapke tiffin mein roz kya hota hai?"),
+ C(418632617, "11-26T19:00", "Sardi mein skin khichti hai? Ye 6 desi aadatein save kar lijiye ✨",
+   "Winter skin care ke 6 gharelu tips, Hindi mein.",
+   "सर्दी में त्वचा खिंचती है? 6 देसी आदतें।", "Us dost ko bhejiye jiske haath-hont har sardi mein sookh jaate hain",
+   ["#winterskincare", "#dryskin", "#skincare", "#gharelunuskhe", "#ayurveda"], "Sardi mein aapki skin ka sabse bada masla kya hai?"),
+ C(418632633, "11-28T19:00", "Bachchon ki roz ki aadatein sudharni hain? Ye 6 aasan niyam save kar lijiye 👧",
+   "Bachchon ki healthy habits ke 6 aasan tips, parents ke liye Hindi mein.",
+   "बच्चों की आदतें सुधारनी हैं? 6 आसान नियम।", "Us parent ko bhejiye jo bachchon ke mobile se pareshan hai",
+   ["#parenting", "#kidshealth", "#healthyhabits", "#healthtipshindi", "#gharelunuskhe"], "Aapke bachche ki sabse achhi aadat kaunsi hai?"),
+ C(418632644, "11-30T19:00", "Kaam ke saath fitness bhi? Ye 6 simple aadatein save kar lijiye 💪",
+   "Busy routine mein fitness ke 6 simple tips, Hindi mein.",
+   "काम के साथ फ़िटनेस भी? 6 सिंपल आदतें।", "Us dost ko bhejiye jo kehta hai 'kal se gym'",
+   ["#fitindia", "#healthyhabits", "#fitnesstipshindi", "#healthtipshindi", "#ayurveda"], "Aapka roz ka walk kitne minute ka hota hai?"),
+]
+if __name__ == "__main__":
+    out = {str(e["id"]): dict(e, caption=build(e)) for e in E}
+    json.dump(out, open("queue/captions_v2.json", "w"), ensure_ascii=False, indent=1)
+    lens = [len(v["caption"]) for v in out.values()]
+    print(len(out), "captions; chars min/max", min(lens), max(lens)); print(); print(out["426643728"]["caption"]); print(); print(out["416983577"]["caption"])

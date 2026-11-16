@@ -18,3 +18,99 @@ CLIP OK ['IN_kitchen_woman', 'IN_kitchen_woman2', 'IN_kitchen_stove'] -> px93478
 CLIP OK ['IN_woman_present'] -> px10149028
 CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346270
 done s04_mobile 27.5 s
+CLIP OK ['IN_man_point_up'] -> px10149177
+CLIP OK ['IN_milk_man'] -> px36815704
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_woman_shrug'] -> px10271738
+CLIP OK ['IN_yoga_woman', 'IN_yoga_woman2', 'IN_yoga_man_garden', 'IN_namaste_women', 'IN_woman_namaste_smile'] -> px8811278
+CLIP FALLBACK ['IN_milk_man'] -> 51168
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px8811060
+done s05_8glass 27.1 s
+CLIP OK ['IN_man_excited'] -> px10515024
+CLIP OK ['IN_elder_face', 'IN_elder_woman_swing', 'IN_elders_bench_sunset'] -> px32576165
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_man_no'] -> px10515013
+CLIP OK ['IN_couple_walk_street', 'IN_couple_walk_hands', 'IN_woman_walk_lake', 'IN_elders_bench_sunset'] -> px8240712
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346261
+done s06_dhoop 26.2 s
+CLIP OK ['IN_man_shock'] -> px10149184
+CLIP OK ['IN_kitchen_woman', 'IN_kitchen_woman2', 'IN_kitchen_stove'] -> px9347896
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_man_no'] -> px10515013
+CLIP OK ['IN_kitchen_woman', 'IN_kitchen_woman2', 'IN_kitchen_stove'] -> px39400831
+CLIP OK ['IN_couple_walk_street', 'IN_couple_walk_hands', 'IN_woman_walk_lake', 'IN_elders_bench_sunset'] -> px35238081
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346261
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346270
+done s07_nimbu 29.4 s
+CLIP OK ['IN_man_point_up'] -> px10149177
+CLIP OK ['IN_breakfast_puri', 'IN_puri_fry'] -> px9320054
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_man_no'] -> px10515022
+CLIP OK ['IN_breakfast_puri', 'IN_puri_fry'] -> px34759503
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px40342172
+CLIP OK ['IN_milk_man'] -> px36815704
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px8811060
+done s08_naashta 27.9 s
+CLIP OK ['IN_man_ears'] -> px10149180
+CLIP OK ['IN_diya_kitchen'] -> px29635533
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_man_no'] -> px10515013
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346270
+CLIP OK ['IN_couple_walk_street', 'IN_couple_walk_hands', 'IN_woman_walk_lake', 'IN_elders_bench_sunset'] -> px35238081
+CLIP OK ['IN_milk_man'] -> px36815704
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346261
+done s09_raat 28.9 s
+CLIP OK ['IN_man_shock'] -> px10149184
+CLIP OK ['IN_roti_stove', 'IN_dough_tandoor', 'IN_puri_fry', 'IN_puri_kadai'] -> px33917007
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_man_no'] -> px10515022
+CLIP OK ['IN_roti_stove', 'IN_dough_tandoor', 'IN_puri_fry', 'IN_puri_kadai'] -> px5614342
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px8811060
+CLIP OK ['IN_spices_pour', 'IN_herb_grind'] -> px11960193
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px40342172
+done s10_roti 28.3 s
+CLIP OK ['IN_man_excited'] -> px10515024
+CLIP OK ['IN_couple_walk_street', 'IN_couple_walk_hands', 'IN_woman_walk_lake', 'IN_elders_bench_sunset'] -> px28727707
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_woman_thumbs'] -> px10149025
+CLIP OK ['IN_couple_walk_street', 'IN_couple_walk_hands', 'IN_woman_walk_lake', 'IN_elders_bench_sunset'] -> px35238081
+CLIP OK ['IN_couple_walk_street', 'IN_couple_walk_hands', 'IN_woman_walk_lake', 'IN_elders_bench_sunset'] -> px32543828
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346270
+done s11_tehelna 27.6 s
+CLIP OK ['IN_man_ears'] -> px10149180
+CLIP OK ['IN_office_woman', 'IN_office_man_think', 'IN_teen_laptop'] -> px7581227
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_woman_thumbs'] -> px10149025
+CLIP OK ['IN_yoga_woman', 'IN_yoga_woman2', 'IN_yoga_man_garden', 'IN_namaste_women', 'IN_woman_namaste_smile'] -> px7351824
+CLIP OK ['IN_yoga_woman', 'IN_yoga_woman2', 'IN_yoga_man_garden', 'IN_namaste_women', 'IN_woman_namaste_smile'] -> px8811278
+CLIP OK ['IN_elder_phone', 'IN_teen_laptop'] -> px36717013
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346261
+done s12_neend 27.8 s
+CLIP OK ['IN_man_namaste'] -> px10149186
+CLIP OK ['IN_spices_pour', 'IN_herb_grind'] -> px39548493
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_woman_thumbs'] -> px10149025
+CLIP OK ['IN_spices_pour', 'IN_herb_grind'] -> px11960193
+CLIP FALLBACK ['IN_spices_pour', 'IN_herb_grind'] -> 4420
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346270
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px40342172
+done s13_saunf 26.6 s
+CLIP OK ['IN_man_point_up'] -> px10149177
+CLIP OK ['IN_milk_man'] -> px36815704
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_woman_shrug'] -> px10271738
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346261
+CLIP FALLBACK ['IN_milk_man'] -> 30468
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px40342172
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px8811060
+done s14_paani_pehle 27.3 s

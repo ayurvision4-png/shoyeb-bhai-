@@ -10220,7 +10220,8 @@
      "*KHAALI PET CHAI?"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -10238,7 +10239,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -10261,7 +10263,8 @@
      "*PEHLE PAANI"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -10306,6 +10309,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -10347,7 +10351,8 @@
      "*MOBILE + KHANA"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -10365,7 +10370,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -10392,7 +10398,8 @@
      "*SACH!"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -10443,6 +10450,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -10483,7 +10491,8 @@
      "*8 GLASS PAANI"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -10501,7 +10510,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -10528,7 +10538,8 @@
      "*SABKI ALAG"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -10572,6 +10583,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -10614,7 +10626,8 @@
      "*DHOOP SIRF SARDI MEIN?"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -10632,7 +10645,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -10658,7 +10672,8 @@
      "*JHOOTH!"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -10700,6 +10715,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -10742,7 +10758,8 @@
      "*NIMBU PAANI = WEIGHT?"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -10760,7 +10777,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -10785,7 +10803,8 @@
      "*JHOOTH!"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -10837,6 +10856,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -10878,7 +10898,8 @@
      "*NAASHTA SKIP?"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -10896,7 +10917,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -10920,7 +10942,8 @@
      "*JHOOTH!"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -10969,6 +10992,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -11009,7 +11033,8 @@
      "*DER RAAT KA KHANA?"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -11027,7 +11052,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -11054,7 +11080,8 @@
      "*JHOOTH!"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -11102,6 +11129,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -11145,7 +11173,8 @@
      "*ROTI CHHODNI HAI?"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -11163,7 +11192,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -11189,7 +11219,8 @@
      "*JHOOTH!"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -11239,6 +11270,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -11282,7 +11314,8 @@
      "*KHANE KE BAAD TEHALNA"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -11300,7 +11333,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -11326,7 +11360,8 @@
      "*SACH!"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -11373,6 +11408,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -11415,7 +11451,8 @@
      "*KAM NEEND = ZYADA BHOOKH?"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -11433,7 +11470,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -11460,7 +11498,8 @@
      "*SACH!"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -11510,6 +11549,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -11551,7 +11591,8 @@
      "*GUD YA SAUNF?"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -11569,7 +11610,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -11593,7 +11635,8 @@
      "*SACH!"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -11643,6 +11686,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }
@@ -11683,7 +11727,8 @@
      "*KHANE SE PEHLE PAANI"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -11701,7 +11746,8 @@
      "*SACH YA JHOOTH"
     ],
     "big_y": 1000,
-    "big_size": 96
+    "big_size": 96,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -11728,7 +11774,8 @@
      "*KUCH LOGON KE LIYE SACH"
     ],
     "big_y": 1000,
-    "big_size": 100
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -11777,6 +11824,7 @@
     ],
     "big_y": 1000,
     "big_size": 100,
+    "cap_y": 1390,
     "dm": "DM NOW  •  CHART",
     "small": "Yeh general jaankari hai, dawai nahi."
    }

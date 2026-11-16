@@ -161,11 +161,13 @@ def probe_wh(p):
     r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", p], capture_output=True, text=True).stdout.strip().split(",")
     return int(r[0]), int(r[1])
 
+PX_FX = {"px10149177": 0.57, "px10149028": 0.29}      # horizontal focus (0 left .. 1 right) for presenters standing off-centre in the 16:9 frame
 def clip_shot(clip, secs, out, punch=0.14, ss=0.0):
     w0, h0 = probe_wh(clip)
+    fx = PX_FX.get(os.path.basename(clip).replace(".mp4", ""), 0.5)
     if w0 / h0 >= W / H: sc = f"scale=w=-2:h='trunc(({H}*1.04+{H}*{punch}*t/{secs:.2f})/2)*2':eval=frame"
     else:                sc = f"scale=w='trunc(({W}*1.04+{W}*{punch}*t/{secs:.2f})/2)*2':h=-2:eval=frame"
-    vf = f"[0:v]{sc},crop={W}:{H},fps={FPS},eq=saturation=1.14:contrast=1.07,setsar=1,format=yuv420p[o]"
+    vf = f"[0:v]{sc},crop={W}:{H}:x='(iw-ow)*{fx}':y='(ih-oh)/2',fps={FPS},eq=saturation=1.14:contrast=1.07,setsar=1,format=yuv420p[o]"
     M.run(["ffmpeg", "-y", "-stream_loop", "-1", "-ss", f"{ss:.2f}", "-i", clip, "-t", f"{secs:.2f}", "-filter_complex", vf, "-map", "[o]", "-an",
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", out])
 

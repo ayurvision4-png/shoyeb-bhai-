@@ -13,13 +13,14 @@ P.update(
 NEW3 = {f"s{n:02d}_{s}" for n, s in [(3, "khalipet"), (4, "mobile"), (5, "8glass"), (6, "dhoop"), (7, "nimbu"), (8, "naashta"), (9, "raat"), (10, "roti"), (11, "tehelna"), (12, "neend"), (13, "saunf"), (14, "paani_pehle")]}
 R[:] = [r for r in R if r["name"] not in NEW3]
 FB = 1000    # big text sits on the torso, never on the face (face-first shots)
+CY = 1400    # word captions sit below the big text (no overlap)
 def qz(name, w1, w2, hq, hb, hook_shots, react, ans_say, ans_txt, ans_big, ans_shot, tip_say, tip_txt, tip_shots, mid=None, think_shot="FX_THINK"):
-    qh = sc(w1, hq[0], hq[1], list(hook_shots), big=hb, big_y=FB, big_size=100)
-    th = sc(w1, "सोचिए... कमेंट में लिखिए, सच या झूठ!", "Socho... comment mein likho *SACH ya *JHOOTH!", [think_shot], big=["COMMENT KARO", "*SACH YA JHOOTH"], big_y=FB, big_size=96)
-    an = sc(w2, ans_say, ans_txt, [react, ans_shot], big=ans_big, big_y=FB, big_size=100)
+    qh = sc(w1, hq[0], hq[1], list(hook_shots), big=hb, big_y=FB, big_size=100, cap_y=CY)
+    th = sc(w1, "सोचिए... कमेंट में लिखिए, सच या झूठ!", "Socho... comment mein likho *SACH ya *JHOOTH!", [think_shot], big=["COMMENT KARO", "*SACH YA JHOOTH"], big_y=FB, big_size=96, cap_y=CY)
+    an = sc(w2, ans_say, ans_txt, [react, ans_shot], big=ans_big, big_y=FB, big_size=100, cap_y=CY)
     tip = card(w2, tip_say, tip_txt, [mid, tip_shots[0]]) if mid else sc(w2, tip_say, tip_txt, list(tip_shots))
     if tip_shots and tip_shots[0].startswith("@") and not mid: tip = card(w2, tip_say, tip_txt, list(tip_shots))
-    cta_sc = sc(w1, QS, QT, ["FX_PRES", "MEAL_IN"], big=["FOLLOW KARO", "*ROZ SACH-JHOOTH"], big_y=FB, big_size=100, dm="DM NOW  •  CHART", small="Yeh general jaankari hai, dawai nahi.")
+    cta_sc = sc(w1, QS, QT, ["FX_PRES", "MEAL_IN"], big=["FOLLOW KARO", "*ROZ SACH-JHOOTH"], big_y=FB, big_size=100, cap_y=1390, dm="DM NOW  •  CHART", small="Yeh general jaankari hai, dawai nahi.")
     return reel(name, w1, [qh, th, an, tip, cta_sc])
 SJ = "*SACH ya *JHOOTH?"
 R.append(qz("s03_khalipet", "m", "f", ("सच या झूठ? खाली पेट चाय पीना ठीक है?", SJ + " Khaali pet chai peena theek hai?"), ["SACH YA JHOOTH?", "*KHAALI PET CHAI?"], ("FX_SHOCK", "CHAI_IN"),

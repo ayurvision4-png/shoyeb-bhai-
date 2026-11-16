@@ -42,6 +42,9 @@ def fetch_clip(patterns, seed, used, fallback=False):
     rx = re.compile("|".join(patterns))
     cands = [i for i, n in SCOUT if rx.search(n) and i not in used]
     cands = list(dict.fromkeys(cands))
+    if not cands and not fallback:        # every matching clip already used in this reel: re-use a RELATED clip (never an unrelated one)
+        cands = list(dict.fromkeys(i for i, n in SCOUT if rx.search(n)))
+        if cands: print("CLIP REUSE", patterns, flush=True)
     if not cands:
         rx = re.compile("woman-meditating-in-nature|sunrise|forest|happy-woman-running|woman-doing-yoga|smiling-woman")
         cands = list(dict.fromkeys(i for i, n in SCOUT if rx.search(n) and i not in used))

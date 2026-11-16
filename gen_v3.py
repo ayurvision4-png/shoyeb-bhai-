@@ -59,3 +59,23 @@ R.append(qz("s13_saunf", "f", "m", ("सच या झूठ? खाने क�
 R.append(qz("s14_paani_pehle", "m", "f", ("सच या झूठ? खाने से पहले पानी पीने से कम भूख लगती है?", SJ + " Khane se pehle *paani peene se *kam bhookh lagti hai?"), ["SACH YA JHOOTH?", "*KHANE SE PEHLE PAANI"], ("FX_POINT", "MILK_IN"),
  "FX_SHRUG", "जवाब: कुछ लोगों के लिए सच! पेट थोड़ा भरा लगता है।", "Jawab: *kuch logon ke liye *SACH! Pet thoda bhara lagta hai.", ["JAWAB:", "*KUCH LOGON KE LIYE SACH"], "MEAL_IN",
  "एक गिलास पानी आराम से, और फिर धीरे-धीरे खाइए।", "Ek glass *paani aaraam se, phir *dheere-dheere khaiye.", ("MEAL_IN", "BREAKFAST_IN")))
+
+# ---- retrofit the scheduled g/h reels (Nov 23 - Dec 10): Indian footage instead of non-Indian stock, face-first hook, CTA text off the face
+P.update(SMILE_IN="IN_woman_present|IN_woman_thumbs|IN_woman_shrug|IN_woman_namaste_smile|IN_namaste_women", FRIENDS_IN="IN_family_table|IN_couple_walk_street|IN_namaste_women|IN_elders_bench_sunset")
+_MAP = dict(PHONE="PHONE_IN", NPHONE="PHONE_IN", WAKE="CHAI_IN", COFFEE="CHAI_IN", TEA="CHAI_IN", STRETCH="YOGA_IN", WALKSUN="WALK_IN", WATER="MILK_IN",
+            HERBS="SPICE_IN", SPICES="SPICE_IN", MILK="MILK_IN", YOGA="YOGA_IN", OLDYOGA="ELDER_IN", RUN="WALK_IN", SMILE="SMILE_IN", FRIENDS="FRIENDS_IN",
+            FRUIT="KIT_IN", VEG="KIT_IN", GYM="YOGA_IN", STAIRS="OFFICE_IN", FOOD="MEAL_IN", OFFICE="OFFICE_IN", DESK="OFFICE_IN")
+_REV = {tuple(P[k].split("|")): v for k, v in _MAP.items() if k in P}
+_FACES = ["FX_SHOCK", "FX_POINT", "FX_EXC", "FX_EARS", "FX_NAM", "FX_SHRUG"]
+_RETRO = [n for n in (f"g0{i}_" for i in range(1, 9))] + [f"h{i:02d}_" for i in range(1, 11)]
+_n = 0
+for r in R:
+    if not any(r["name"].startswith(p) for p in _RETRO): continue
+    for si, scn in enumerate(r["scenes"]):
+        for sh_ in scn["shots"]:
+            if "clip" in sh_ and tuple(sh_["clip"]) in _REV: sh_["clip"] = P[_REV[tuple(sh_["clip"])]].split("|")
+        if si == 0:      # hook: a face first, big text on the torso, captions underneath
+            scn["shots"][0] = {"clip": P[_FACES[_n % len(_FACES)]].split("|")}; _n += 1
+            scn.update(big_y=FB, big_size=100, cap_y=CY)
+        if si == len(r["scenes"]) - 1:
+            scn.update(big_y=FB, big_size=100, cap_y=1390)

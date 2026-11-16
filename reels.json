@@ -7253,14 +7253,16 @@
     "shots": [
      {
       "clip": [
-       "scrolling-on-his-phone",
-       "girl-lying-down-chatting-on-her-cell-phone"
+       "IN_man_shock"
       ]
      },
      {
       "clip": [
-       "waking-up-and-drinking-coffee",
-       "male-office-worker-yawning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ],
@@ -7268,8 +7270,9 @@
      "SUBAH UTHTE HI",
      "*3 GALTIYAN!"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -7278,13 +7281,14 @@
     "shots": [
      {
       "clip": [
-       "girl-using-her-cell-phone-at-night"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      },
      {
       "clip": [
-       "scrolling-on-his-phone",
-       "girl-lying-down-chatting-on-her-cell-phone"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      }
     ]
@@ -7296,13 +7300,20 @@
     "shots": [
      {
       "clip": [
-       "morning-coffee",
-       "coffee-and-music-in-the-morning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      },
      {
       "clip": [
-       "drinking-tea-on-a-cool-morning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ]
@@ -7320,9 +7331,11 @@
      },
      {
       "clip": [
-       "woman-stretching-in-the-morning",
-       "silhouette-of-woman-stretching",
-       "a-young-man-stretches-his-arms"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      }
     ]
@@ -7337,9 +7350,7 @@
      },
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      }
     ],
@@ -7352,16 +7363,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -7369,10 +7383,11 @@
      "FREE 7-DIN CHART",
      "*CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -7397,17 +7412,13 @@
     "shots": [
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_man_point_up"
       ]
      },
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -7415,8 +7426,9 @@
      "NANI KE",
      "*3 NUSKHE!"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -7425,8 +7437,7 @@
     "shots": [
      {
       "clip": [
-       "milk-being-poured",
-       "continuous-stream-of-pristine-white-milk"
+       "IN_milk_man"
       ]
      },
      {
@@ -7443,15 +7454,17 @@
     "shots": [
      {
       "clip": [
-       "drinking-tea-on-a-cool-morning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      },
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ]
@@ -7463,9 +7476,10 @@
     "shots": [
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      },
      {
@@ -7486,9 +7500,8 @@
      },
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -7501,15 +7514,19 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      }
     ],
@@ -7517,10 +7534,11 @@
      "FREE 7-DIN CHART",
      "*CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -7545,13 +7563,14 @@
     "shots": [
      {
       "clip": [
-       "male-office-worker-yawning",
-       "man-walking-into-office-building"
+       "IN_man_excited"
       ]
      },
      {
       "clip": [
-       "a-businesswoman-going-upstairs-in-a-hurry"
+       "IN_office_woman",
+       "IN_office_man_think",
+       "IN_teen_laptop"
       ]
      }
     ],
@@ -7559,8 +7578,9 @@
      "DOPAHAR 3 BAJE",
      "*THAKAAN?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -7569,16 +7589,20 @@
     "shots": [
      {
       "clip": [
-       "woman-stretching-in-the-morning",
-       "silhouette-of-woman-stretching",
-       "a-young-man-stretches-his-arms"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      },
      {
       "clip": [
-       "woman-doing-yoga-on-a-deck",
-       "woman-meditating-in-nature",
-       "woman-doing-yoga-in-a-park"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      }
     ]
@@ -7590,15 +7614,16 @@
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      },
      {
       "clip": [
-       "morning-coffee",
-       "coffee-and-music-in-the-morning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ]
@@ -7613,9 +7638,9 @@
      },
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ],
@@ -7628,15 +7653,18 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -7644,10 +7672,11 @@
      "FREE 7-DIN CHART",
      "*CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -7672,7 +7701,7 @@
     "shots": [
      {
       "clip": [
-       "girl-using-her-cell-phone-at-night"
+       "IN_man_ears"
       ]
      },
      {
@@ -7686,8 +7715,9 @@
      "NEEND NAHI AATI?",
      "*YE 3 GALTI CHECK KARO"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -7696,13 +7726,14 @@
     "shots": [
      {
       "clip": [
-       "scrolling-on-his-phone",
-       "girl-lying-down-chatting-on-her-cell-phone"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      },
      {
       "clip": [
-       "girl-using-her-cell-phone-at-night"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      }
     ]
@@ -7714,14 +7745,18 @@
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ]
@@ -7754,9 +7789,11 @@
      },
      {
       "clip": [
-       "woman-doing-yoga-on-a-deck",
-       "woman-meditating-in-nature",
-       "woman-doing-yoga-in-a-park"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      }
     ],
@@ -7769,16 +7806,20 @@
     "shots": [
      {
       "clip": [
-       "woman-doing-yoga-on-a-deck",
-       "woman-meditating-in-nature",
-       "woman-doing-yoga-in-a-park"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      }
     ],
@@ -7786,10 +7827,11 @@
      "FREE 7-DIN CHART",
      "*CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -7814,17 +7856,13 @@
     "shots": [
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_man_namaste"
       ]
      },
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -7832,8 +7870,9 @@
      "SARDI MEIN",
      "*YE 5 CHEEZEIN"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -7842,15 +7881,17 @@
     "shots": [
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      },
      {
       "clip": [
-       "drinking-tea-on-a-cool-morning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ]
@@ -7867,9 +7908,8 @@
      },
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ]
@@ -7884,9 +7924,9 @@
      },
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ],
@@ -7899,15 +7939,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -7915,10 +7959,11 @@
      "FREE 7-DIN CHART",
      "*CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -7943,13 +7988,14 @@
     "shots": [
      {
       "clip": [
-       "male-office-worker-yawning",
-       "man-walking-into-office-building"
+       "IN_woman_shrug"
       ]
      },
      {
       "clip": [
-       "a-businesswoman-going-upstairs-in-a-hurry"
+       "IN_office_woman",
+       "IN_office_man_think",
+       "IN_teen_laptop"
       ]
      }
     ],
@@ -7957,8 +8003,9 @@
      "30 KE BAAD",
      "*3 SIGNALS"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -7967,14 +8014,17 @@
     "shots": [
      {
       "clip": [
-       "a-businesswoman-going-upstairs-in-a-hurry"
+       "IN_office_woman",
+       "IN_office_man_think",
+       "IN_teen_laptop"
       ]
      },
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ]
@@ -7986,15 +8036,16 @@
     "shots": [
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      },
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ]
@@ -8006,7 +8057,8 @@
     "shots": [
      {
       "clip": [
-       "girl-using-her-cell-phone-at-night"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      },
      {
@@ -8037,16 +8089,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -8054,10 +8109,11 @@
      "FREE 7-DIN CHART",
      "*CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -8082,15 +8138,15 @@
     "shots": [
      {
       "clip": [
-       "sunrise",
-       "man-walks-on-the-rooftop-with-sunrise"
+       "IN_man_shock"
       ]
      },
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -8098,8 +8154,9 @@
      "ROZ 10 MINUTE",
      "*DHOOP KYUN?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -8114,9 +8171,10 @@
      },
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ]
@@ -8128,14 +8186,18 @@
     "shots": [
      {
       "clip": [
-       "woman-stretching-in-the-morning",
-       "silhouette-of-woman-stretching",
-       "a-young-man-stretches-his-arms"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      },
      {
       "clip": [
-       "older-woman-doing-yoga"
+       "IN_elder_face",
+       "IN_elder_woman_swing",
+       "IN_elders_bench_sunset"
       ]
      }
     ]
@@ -8161,15 +8223,19 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      }
     ],
@@ -8177,10 +8243,11 @@
      "FREE 7-DIN CHART",
      "*CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -8205,16 +8272,15 @@
     "shots": [
      {
       "clip": [
-       "people-running-on-treadmills",
-       "woman-doing-warm-up-exercises",
-       "bodybuilder"
+       "IN_man_point_up"
       ]
      },
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -8222,8 +8288,9 @@
      "PROTEIN SIRF",
      "*GYM WALON KE LIYE?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -8232,14 +8299,14 @@
     "shots": [
      {
       "clip": [
-       "milk-being-poured",
-       "continuous-stream-of-pristine-white-milk"
+       "IN_milk_man"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ]
@@ -8251,14 +8318,18 @@
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      },
      {
       "clip": [
-       "male-office-worker-yawning",
-       "man-walking-into-office-building"
+       "IN_office_woman",
+       "IN_office_man_think",
+       "IN_teen_laptop"
       ]
      }
     ]
@@ -8284,16 +8355,20 @@
     "shots": [
      {
       "clip": [
-       "people-running-on-treadmills",
-       "woman-doing-warm-up-exercises",
-       "bodybuilder"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      }
     ],
@@ -8301,10 +8376,11 @@
      "FREE 7-DIN CHART",
      "*CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -8329,15 +8405,16 @@
     "shots": [
      {
       "clip": [
-       "people-running-on-treadmills",
-       "woman-doing-warm-up-exercises",
-       "bodybuilder"
+       "IN_man_excited"
       ]
      },
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -8345,8 +8422,9 @@
      "WEIGHT KE BAARE MEIN",
      "*3 GALAT BAATEIN"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -8355,15 +8433,16 @@
     "shots": [
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      },
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ]
@@ -8375,15 +8454,19 @@
     "shots": [
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ]
@@ -8401,8 +8484,8 @@
      },
      {
       "clip": [
-       "scrolling-on-his-phone",
-       "girl-lying-down-chatting-on-her-cell-phone"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      }
     ]
@@ -8417,9 +8500,10 @@
      },
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -8432,15 +8516,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -8448,10 +8536,11 @@
      "FOLLOW KARO",
      "*+ CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -8476,13 +8565,16 @@
     "shots": [
      {
       "clip": [
-       "drinking-tea-on-a-cool-morning"
+       "IN_man_ears"
       ]
      },
      {
       "clip": [
-       "morning-coffee",
-       "coffee-and-music-in-the-morning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ],
@@ -8490,8 +8582,9 @@
      "CHAI NAHI CHHODNI?",
      "*3 SMART BADLAV"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -8505,8 +8598,7 @@
      },
      {
       "clip": [
-       "milk-being-poured",
-       "continuous-stream-of-pristine-white-milk"
+       "IN_milk_man"
       ]
      }
     ]
@@ -8518,17 +8610,14 @@
     "shots": [
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      },
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ]
@@ -8540,15 +8629,18 @@
     "shots": [
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      },
      {
       "clip": [
-       "waking-up-and-drinking-coffee",
-       "male-office-worker-yawning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ]
@@ -8563,9 +8655,7 @@
      },
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      }
     ],
@@ -8578,15 +8668,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -8594,10 +8688,11 @@
      "FOLLOW KARO",
      "*+ CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -8622,14 +8717,14 @@
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_man_namaste"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ],
@@ -8637,8 +8732,9 @@
      "KHANE KE BAAD",
      "*YE 3 KAAM"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -8647,16 +8743,18 @@
     "shots": [
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ]
@@ -8668,14 +8766,16 @@
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      },
      {
       "clip": [
-       "drinking-tea-on-a-cool-morning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ]
@@ -8692,8 +8792,8 @@
      },
      {
       "clip": [
-       "scrolling-on-his-phone",
-       "girl-lying-down-chatting-on-her-cell-phone"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      }
     ]
@@ -8708,10 +8808,8 @@
      },
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -8724,15 +8822,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -8740,10 +8842,11 @@
      "FOLLOW KARO",
      "*+ CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -8768,17 +8871,13 @@
     "shots": [
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_woman_shrug"
       ]
      },
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -8786,8 +8885,9 @@
      "WEEKEND DETOX?",
      "*PEHLE YE SAMAJH LO"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -8796,16 +8896,19 @@
     "shots": [
      {
       "clip": [
-       "woman-doing-yoga-on-a-deck",
-       "woman-meditating-in-nature",
-       "woman-doing-yoga-in-a-park"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      },
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ]
@@ -8817,15 +8920,14 @@
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      },
      {
@@ -8845,9 +8947,9 @@
      },
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ],
@@ -8860,15 +8962,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -8876,10 +8982,11 @@
      "FOLLOW KARO",
      "*+ CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -8904,14 +9011,15 @@
     "shots": [
      {
       "clip": [
-       "a-little-girl-smiles-while-riding-the-carnival",
-       "a-little-girl-in-a-dress-walking"
+       "IN_man_shock"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -8919,8 +9027,9 @@
      "BACHPAN KI",
      "*3 AADATEIN"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -8935,9 +9044,10 @@
      },
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ]
@@ -8949,16 +9059,15 @@
     "shots": [
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ]
@@ -8970,15 +9079,18 @@
     "shots": [
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ]
@@ -8993,9 +9105,9 @@
      },
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ],
@@ -9008,15 +9120,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -9024,10 +9140,11 @@
      "FOLLOW KARO",
      "*+ CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -9052,15 +9169,14 @@
     "shots": [
      {
       "clip": [
-       "waking-up-and-drinking-coffee-in-front-of-a-laptop",
-       "woman-doing-yoga-in-her-home-office",
-       "male-office-worker-yawning"
+       "IN_man_point_up"
       ]
      },
      {
       "clip": [
-       "male-office-worker-yawning",
-       "man-walking-into-office-building"
+       "IN_office_woman",
+       "IN_office_man_think",
+       "IN_teen_laptop"
       ]
      }
     ],
@@ -9068,8 +9184,9 @@
      "OFFICE MEIN AKDAN?",
      "*YE 3 STRETCH"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -9078,16 +9195,20 @@
     "shots": [
      {
       "clip": [
-       "woman-stretching-in-the-morning",
-       "silhouette-of-woman-stretching",
-       "a-young-man-stretches-his-arms"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      },
      {
       "clip": [
-       "woman-doing-yoga-on-a-deck",
-       "woman-meditating-in-nature",
-       "woman-doing-yoga-in-a-park"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      }
     ]
@@ -9099,14 +9220,17 @@
     "shots": [
      {
       "clip": [
-       "a-businesswoman-going-upstairs-in-a-hurry"
+       "IN_office_woman",
+       "IN_office_man_think",
+       "IN_teen_laptop"
       ]
      },
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ]
@@ -9118,14 +9242,18 @@
     "shots": [
      {
       "clip": [
-       "woman-stretching-in-the-morning",
-       "silhouette-of-woman-stretching",
-       "a-young-man-stretches-his-arms"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      },
      {
       "clip": [
-       "older-woman-doing-yoga"
+       "IN_elder_face",
+       "IN_elder_woman_swing",
+       "IN_elders_bench_sunset"
       ]
      }
     ]
@@ -9140,9 +9268,11 @@
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      }
     ],
@@ -9155,15 +9285,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -9171,10 +9305,11 @@
      "FOLLOW KARO",
      "*+ CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -9199,15 +9334,16 @@
     "shots": [
      {
       "clip": [
-       "applying-skincare-products",
-       "a-beautiful-smiling-woman-with-curly-hair"
+       "IN_man_excited"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      }
     ],
@@ -9215,8 +9351,9 @@
      "SARDI MEIN SKIN?",
      "*3 DESI TAREEKE"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -9225,9 +9362,7 @@
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      },
      {
@@ -9250,9 +9385,11 @@
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      }
     ]
@@ -9264,15 +9401,16 @@
     "shots": [
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ]
@@ -9301,15 +9439,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -9317,10 +9459,11 @@
      "FOLLOW KARO",
      "*+ CHART LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -9345,16 +9488,16 @@
     "shots": [
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_man_ears"
       ]
      },
      {
       "clip": [
-       "people-running-on-treadmills",
-       "woman-doing-warm-up-exercises",
-       "bodybuilder"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      }
     ],
@@ -9362,8 +9505,9 @@
      "7 DIN CHALLENGE",
      "*KYA AAP KAR PAOGE?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -9372,14 +9516,16 @@
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      },
      {
       "clip": [
-       "drinking-tea-on-a-cool-morning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ]
@@ -9391,9 +9537,10 @@
     "shots": [
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      },
      {
@@ -9411,7 +9558,8 @@
     "shots": [
      {
       "clip": [
-       "girl-using-her-cell-phone-at-night"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      },
      {
@@ -9431,9 +9579,7 @@
      },
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      }
     ],
@@ -9446,15 +9592,19 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      }
     ],
@@ -9462,10 +9612,11 @@
      "COMMENT KARO",
      "*CHALLENGE"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -9490,17 +9641,13 @@
     "shots": [
      {
       "clip": [
-       "woman-doing-yoga-on-a-deck",
-       "woman-meditating-in-nature",
-       "woman-doing-yoga-in-a-park"
+       "IN_man_namaste"
       ]
      },
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -9508,8 +9655,9 @@
      "VATA, PITTA",
      "*YA KAPHA?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "f",
@@ -9518,16 +9666,19 @@
     "shots": [
      {
       "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "woman-stretching-in-the-morning",
-       "silhouette-of-woman-stretching",
-       "a-young-man-stretches-his-arms"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      }
     ]
@@ -9539,15 +9690,17 @@
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      },
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ]
@@ -9559,9 +9712,10 @@
     "shots": [
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      },
      {
@@ -9581,10 +9735,8 @@
      },
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -9597,15 +9749,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -9613,10 +9769,11 @@
      "COMMENT MEIN",
      "*APNA TYPE LIKHO"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",
@@ -9641,16 +9798,13 @@
     "shots": [
      {
       "clip": [
-       "sunrise",
-       "man-walks-on-the-rooftop-with-sunrise"
+       "IN_woman_shrug"
       ]
      },
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -9658,8 +9812,9 @@
      "ROZ EK",
      "*DESI AADAT"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100,
+    "cap_y": 1400
    },
    {
     "v": "m",
@@ -9668,15 +9823,16 @@
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      },
      {
       "clip": [
-       "waking-up-and-drinking-coffee",
-       "male-office-worker-yawning"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ]
@@ -9688,15 +9844,17 @@
     "shots": [
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "male-office-worker-yawning",
-       "man-walking-into-office-building"
+       "IN_office_woman",
+       "IN_office_man_think",
+       "IN_teen_laptop"
       ]
      }
     ]
@@ -9708,7 +9866,8 @@
     "shots": [
      {
       "clip": [
-       "girl-using-her-cell-phone-at-night"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      },
      {
@@ -9728,10 +9887,8 @@
      },
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -9744,15 +9901,19 @@
     "shots": [
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_woman_present",
+       "IN_woman_thumbs",
+       "IN_woman_shrug",
+       "IN_woman_namaste_smile",
+       "IN_namaste_women"
       ]
      },
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_family_table",
+       "IN_couple_walk_street",
+       "IN_namaste_women",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -9760,10 +9921,11 @@
      "FOLLOW KARO",
      "*ROZ 1 AADAT"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain.",
+    "cap_y": 1390
    }
   ],
   "style": "viral",

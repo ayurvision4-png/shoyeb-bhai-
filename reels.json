@@ -7417,8 +7417,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -7463,8 +7464,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ]
@@ -7500,8 +7502,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -7861,8 +7864,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -7881,8 +7885,9 @@
     "shots": [
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      },
      {
@@ -7908,8 +7913,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ]
@@ -8610,14 +8616,16 @@
     "shots": [
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ]
@@ -8808,8 +8816,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -8876,8 +8885,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -9059,8 +9069,9 @@
     "shots": [
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      },
      {
@@ -9646,8 +9657,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -9699,8 +9711,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ]
@@ -9735,8 +9748,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -9803,8 +9817,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -9887,8 +9902,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -10438,8 +10454,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -11402,8 +11419,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ]
@@ -11745,8 +11763,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ],
@@ -11819,8 +11838,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_herb_grind",
+       "IN_chai_stove",
+       "IN_chai_cup_clay"
       ]
      }
     ]

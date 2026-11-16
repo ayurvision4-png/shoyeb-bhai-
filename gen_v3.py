@@ -4,7 +4,7 @@ P.update(
  FX_THINK="IN_man_think", FX_NO="IN_man_no", FX_YES="IN_woman_thumbs", FX_SHRUG="IN_woman_shrug", FX_PRES="IN_woman_present",
  FX_TALK="IN_woman_talk", FX_STARE="IN_man_stare",
  CHAI_IN="IN_chai_kolkata|IN_chai_cup_clay|IN_chai_pour_clay|IN_chai_stove|IN_chai_brass", MILK_IN="IN_milk_man",
- KIT_IN="IN_kitchen_woman|IN_kitchen_woman2|IN_kitchen_stove", SPICE_IN="IN_spices_pour|IN_herb_grind",
+ KIT_IN="IN_kitchen_woman|IN_kitchen_woman2|IN_kitchen_stove", SPICE_IN="IN_herb_grind|IN_chai_stove|IN_chai_cup_clay",
  ROTI_IN="IN_roti_stove|IN_dough_tandoor|IN_puri_fry|IN_puri_kadai", MEAL_IN="IN_family_table|IN_thali_close|IN_man_table|IN_boy_eat|IN_curry_dish",
  BREAKFAST_IN="IN_breakfast_puri|IN_puri_fry", STREET_IN="IN_street_samosa|IN_street_vadapav|IN_street_fry",
  PHONE_IN="IN_elder_phone|IN_teen_laptop", WALK_IN="IN_couple_walk_street|IN_couple_walk_hands|IN_woman_walk_lake|IN_elders_bench_sunset",

@@ -24,7 +24,6 @@ px36815704	IN_milk_man
 px9347896	IN_kitchen_woman
 px8844432	IN_kitchen_woman2
 px39400831	IN_kitchen_stove
-px39548493	IN_spices_pour
 px40342172	IN_curry_dish
 px33917007	IN_roti_stove
 px5614342	IN_dough_tandoor

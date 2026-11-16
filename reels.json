@@ -10551,7 +10551,9 @@
      },
      {
       "clip": [
-       "IN_milk_man"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ],
@@ -11625,8 +11627,9 @@
      },
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ],
@@ -11645,17 +11648,17 @@
     "shots": [
      {
       "clip": [
-       "IN_spices_pour",
-       "IN_herb_grind"
-      ]
-     },
-     {
-      "clip": [
        "IN_family_table",
        "IN_thali_close",
        "IN_man_table",
        "IN_boy_eat",
        "IN_curry_dish"
+      ]
+     },
+     {
+      "clip": [
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ]
@@ -11784,16 +11787,17 @@
     "shots": [
      {
       "clip": [
-       "IN_milk_man"
-      ]
-     },
-     {
-      "clip": [
        "IN_family_table",
        "IN_thali_close",
        "IN_man_table",
        "IN_boy_eat",
        "IN_curry_dish"
+      ]
+     },
+     {
+      "clip": [
+       "IN_breakfast_puri",
+       "IN_puri_fry"
       ]
      }
     ]

@@ -31,7 +31,7 @@ R.append(qz("s04_mobile", "f", "m", ("सच या झूठ? मोबाइ�
  "खाते समय सिर्फ़ खाना, और धीरे-धीरे चबाइए।", "Khaate samay *sirf khana, aur *dheere-dheere chabaiye.", ("MEAL_IN", "KIT_IN")))
 R.append(qz("s05_8glass", "m", "f", ("सच या झूठ? सबको रोज़ आठ गिलास पानी ज़रूरी है?", SJ + " Sabko roz *8 glass paani zaroori hai?"), ["SACH YA JHOOTH?", "*8 GLASS PAANI"], ("FX_POINT", "MILK_IN"),
  "FX_SHRUG", "जवाब: ज़रूरत सबकी अलग होती है।", "Jawab: *zaroorat *sabki alag hoti hai.", ["JAWAB:", "*SABKI ALAG"], "YOGA_IN",
- "प्यास सुनिए, थोड़ा-थोड़ा पीते रहिए। पानी की रूटीन के लिए सीएमडी ड्रॉप्स।", "*Pyaas sunie, thoda-thoda piyo. Paani ki routine ke liye *CMD Drops.", ("@dig_cmd", "MILK_IN")))
+ "प्यास सुनिए, थोड़ा-थोड़ा पीते रहिए। पानी की रूटीन के लिए सीएमडी ड्रॉप्स।", "*Pyaas sunie, thoda-thoda piyo. Paani ki routine ke liye *CMD Drops.", ("@dig_cmd", "KIT_IN")))
 R.append(qz("s06_dhoop", "f", "m", ("सच या झूठ? धूप सिर्फ़ सर्दी में लेनी चाहिए?", SJ + " Dhoop sirf *sardi mein leni chahiye?"), ["SACH YA JHOOTH?", "*DHOOP SIRF SARDI MEIN?"], ("FX_EXC", "ELDER_IN"),
  "FX_NO", "जवाब: झूठ! हर मौसम में थोड़ी धूप अच्छी है।", "Jawab: *JHOOTH! Har mausam mein *thodi dhoop achhi hai.", ["JAWAB:", "*JHOOTH!"], "WALK_IN",
  "सुबह की हल्की धूप, और कैल्शियम के साथ विटामिन डी तीन।", "Subah ki halki *dhoop, aur *Calcium ke saath *Vitamin D3.", ("@bone_d3", "@bone_calcium")))
@@ -54,8 +54,8 @@ R.append(qz("s12_neend", "m", "f", ("सच या झूठ? कम सोन�
  "FX_YES", "जवाब: सच! कई शोध में नींद और भूख का संबंध देखा गया है।", "Jawab: *SACH! Kai *shodh mein *neend aur *bhookh ka sambandh dekha gaya hai.", ["JAWAB:", "*SACH!"], "YOGA_IN",
  "रोज़ समय पर सोइए, और सोने से पहले मोबाइल दूर रखिए।", "Roz *samay par soiye, aur sone se pehle *mobile door rakhiye.", ("YOGA_IN", "PHONE_IN")))
 R.append(qz("s13_saunf", "f", "m", ("सच या झूठ? खाने के बाद थोड़ा गुड़ या सौंफ़, पुरानी देसी आदत है?", SJ + " Khane ke baad *gud ya *saunf, purani *desi aadat hai?"), ["SACH YA JHOOTH?", "*GUD YA SAUNF?"], ("FX_NAM", "SPICE_IN"),
- "FX_YES", "जवाब: सच! बस मात्रा छोटी रखिए।", "Jawab: *SACH! Bas *matra *chhoti rakhiye.", ["JAWAB:", "*SACH!"], "SPICE_IN",
- "थोड़ी सी सौंफ़ या छोटी डली गुड़, ज़रूरत भर।", "Thodi si *saunf ya chhoti dali *gud, *zaroorat bhar.", ("SPICE_IN", "MEAL_IN")))
+ "FX_YES", "जवाब: सच! बस मात्रा छोटी रखिए।", "Jawab: *SACH! Bas *matra *chhoti rakhiye.", ["JAWAB:", "*SACH!"], "KIT_IN",
+ "थोड़ी सी सौंफ़ या छोटी डली गुड़, ज़रूरत भर।", "Thodi si *saunf ya chhoti dali *gud, *zaroorat bhar.", ("MEAL_IN", "SPICE_IN")))
 R.append(qz("s14_paani_pehle", "m", "f", ("सच या झूठ? खाने से पहले पानी पीने से कम भूख लगती है?", SJ + " Khane se pehle *paani peene se *kam bhookh lagti hai?"), ["SACH YA JHOOTH?", "*KHANE SE PEHLE PAANI"], ("FX_POINT", "MILK_IN"),
  "FX_SHRUG", "जवाब: कुछ लोगों के लिए सच! पेट थोड़ा भरा लगता है।", "Jawab: *kuch logon ke liye *SACH! Pet thoda bhara lagta hai.", ["JAWAB:", "*KUCH LOGON KE LIYE SACH"], "MEAL_IN",
- "एक गिलास पानी आराम से, और फिर धीरे-धीरे खाइए।", "Ek glass *paani aaraam se, phir *dheere-dheere khaiye.", ("MILK_IN", "MEAL_IN")))
+ "एक गिलास पानी आराम से, और फिर धीरे-धीरे खाइए।", "Ek glass *paani aaraam se, phir *dheere-dheere khaiye.", ("MEAL_IN", "BREAKFAST_IN")))

@@ -17,4 +17,4 @@ jobs:
         run: |
           mkdir -p reels2 && cp videos/*.mp4 reels2/ 2>/dev/null || true
           git config user.name github-actions && git config user.email actions@github.com
-          git add audio audio_log.txt reels2 reel_log.txt && git commit -m "Rendered reels" && git pull --rebase -q && git push
+          git add audio audio_log.txt reels2 reel_log.txt && git commit -m "Rendered reels" && for i in 1 2 3; do git pull --rebase -X theirs -q && git push && break; sleep 5; done

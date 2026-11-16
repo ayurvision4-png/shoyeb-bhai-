@@ -1,0 +1,59 @@
+# Pexels (free licence) clips verified by contact-sheet review: Indian people / Indian food / Indian setting. id = px<pexels id>
+# presenters / reactions (white or plain backdrop, subject centred -> safe for 9:16 centre crop)
+px10149177	IN_man_point_up
+px10149184	IN_man_shock
+px10149186	IN_man_namaste
+px10149180	IN_man_ears
+px10515022	IN_man_no
+px10515013	IN_man_no2
+px10515024	IN_man_excited
+px16072503	IN_man_think
+px8965302	IN_man_stare
+px10271743	IN_woman_talk
+px10271738	IN_woman_shrug
+px10149025	IN_woman_thumbs
+px10149028	IN_woman_present
+# chai / drinks
+px32355849	IN_chai_kolkata
+px37452498	IN_chai_cup_clay
+px37649378	IN_chai_pour_clay
+px39336845	IN_chai_stove
+px3408135	IN_chai_brass
+px36815704	IN_milk_man
+# kitchen / cooking / food
+px9347896	IN_kitchen_woman
+px8844432	IN_kitchen_woman2
+px39400831	IN_kitchen_stove
+px39548493	IN_spices_pour
+px40342172	IN_curry_dish
+px33917007	IN_roti_stove
+px5614342	IN_dough_tandoor
+px9320054	IN_puri_fry
+px38858153	IN_puri_kadai
+px34759503	IN_breakfast_puri
+px8811060	IN_thali_close
+px8811044	IN_family_table
+px9346261	IN_boy_eat
+px9346270	IN_man_table
+px9346247	IN_mother_son_cook
+px29875902	IN_street_samosa
+px29501561	IN_street_vadapav
+px34705782	IN_street_fry
+px11960193	IN_herb_grind
+px29635533	IN_diya_kitchen
+# people / daily life
+px36717013	IN_elder_phone
+px5003408	IN_elder_face
+px32576165	IN_elder_woman_swing
+px32543828	IN_elders_bench_sunset
+px28727707	IN_couple_walk_street
+px35238081	IN_couple_walk_hands
+px8240712	IN_woman_walk_lake
+px7351629	IN_yoga_woman
+px7351824	IN_yoga_woman2
+px11331784	IN_yoga_man_garden
+px8811278	IN_namaste_women
+px8480300	IN_woman_namaste_smile
+px31003345	IN_teen_laptop
+px7581231	IN_office_woman
+px7581227	IN_office_man_think

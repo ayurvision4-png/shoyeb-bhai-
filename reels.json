@@ -10063,564 +10063,6 @@
   "end_pad": 1.0
  },
  {
-  "name": "s03_khalipet",
-  "scenes": [
-   {
-    "v": "m",
-    "say": "सच या झूठ? खाली पेट चाय पीना ठीक है?",
-    "txt": "*SACH ya *JHOOTH? Khaali pet chai peena theek hai?",
-    "shots": [
-     {
-      "clip": [
-       "drinking-tea-on-a-cool-morning"
-      ]
-     },
-     {
-      "clip": [
-       "morning-coffee",
-       "coffee-and-music-in-the-morning"
-      ]
-     }
-    ],
-    "big": [
-     "SACH YA JHOOTH?",
-     "*KHAALI PET CHAI?"
-    ],
-    "big_y": 260,
-    "big_size": 108
-   },
-   {
-    "v": "m",
-    "say": "सोचिए... कमेंट में लिखिए, सच या झूठ!",
-    "txt": "Socho... comment mein likho *SACH ya *JHOOTH!",
-    "shots": [
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
-      ]
-     },
-     {
-      "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     }
-    ],
-    "big": [
-     "COMMENT KARO",
-     "*SACH YA JHOOTH"
-    ],
-    "big_y": 330,
-    "big_size": 100
-   },
-   {
-    "v": "m",
-    "say": "जवाब: बेहतर है पहले पानी, फिर कुछ हल्का खाना।",
-    "txt": "Jawab: *behtar hai pehle *paani, phir kuch halka khana.",
-    "shots": [
-     {
-      "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
-      ]
-     },
-     {
-      "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
-      ]
-     }
-    ],
-    "big": [
-     "JAWAB:",
-     "*PEHLE PAANI"
-    ],
-    "big_y": 300,
-    "big_size": 104
-   },
-   {
-    "v": "m",
-    "say": "चाय में तुलसी-अदरक डालिए, और रूटीन में तुलसी ड्रॉप भी।",
-    "txt": "Chai mein *tulsi-adrak daaliye, aur routine mein *Tulsi Drop bhi.",
-    "shots": [
-     {
-      "card": "imm_tulsi"
-     },
-     {
-      "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
-      ]
-     }
-    ],
-    "cap_y": 1390
-   },
-   {
-    "v": "m",
-    "say": "रोज़ के सच-झूठ के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
-    "txt": "Roz ke *sach-jhooth ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
-    "shots": [
-     {
-      "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     },
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
-      ]
-     }
-    ],
-    "big": [
-     "FOLLOW KARO",
-     "*ROZ SACH-JHOOTH"
-    ],
-    "big_y": 330,
-    "big_size": 100,
-    "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
-   }
-  ],
-  "style": "viral",
-  "rate": "+8%",
-  "music": [
-   148,
-   614,
-   871
-  ],
-  "end_card": "end_beautilook",
-  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
-  "end_cap": "Feel Good, Look Good, Live Better!",
-  "end_pad": 1.0
- },
- {
-  "name": "s04_mobile",
-  "scenes": [
-   {
-    "v": "f",
-    "say": "सच या झूठ? मोबाइल देखते हुए खाना, ज़्यादा खिला देता है?",
-    "txt": "*SACH ya *JHOOTH? Mobile dekhte hue khana, *zyada khila deta hai?",
-    "shots": [
-     {
-      "clip": [
-       "scrolling-on-his-phone",
-       "girl-lying-down-chatting-on-her-cell-phone"
-      ]
-     },
-     {
-      "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
-      ]
-     }
-    ],
-    "big": [
-     "SACH YA JHOOTH?",
-     "*MOBILE + KHANA"
-    ],
-    "big_y": 260,
-    "big_size": 108
-   },
-   {
-    "v": "f",
-    "say": "सोचिए... कमेंट में लिखिए, सच या झूठ!",
-    "txt": "Socho... comment mein likho *SACH ya *JHOOTH!",
-    "shots": [
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
-      ]
-     },
-     {
-      "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     }
-    ],
-    "big": [
-     "COMMENT KARO",
-     "*SACH YA JHOOTH"
-    ],
-    "big_y": 330,
-    "big_size": 100
-   },
-   {
-    "v": "f",
-    "say": "जवाब: सच! ध्यान भटकता है, तो पेट का पता नहीं चलता।",
-    "txt": "Jawab: *SACH! Dhyan bhatakta hai, to *pet ka pata nahi chalta.",
-    "shots": [
-     {
-      "clip": [
-       "scrolling-on-his-phone",
-       "girl-lying-down-chatting-on-her-cell-phone"
-      ]
-     },
-     {
-      "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
-      ]
-     }
-    ],
-    "big": [
-     "JAWAB:",
-     "*SACH!"
-    ],
-    "big_y": 300,
-    "big_size": 104
-   },
-   {
-    "v": "f",
-    "say": "खाते समय सिर्फ़ खाना, और धीरे-धीरे चबाइए।",
-    "txt": "Khaate samay *sirf khana, aur *dheere-dheere chabaiye.",
-    "shots": [
-     {
-      "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
-      ]
-     },
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
-      ]
-     }
-    ]
-   },
-   {
-    "v": "f",
-    "say": "रोज़ के सच-झूठ के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
-    "txt": "Roz ke *sach-jhooth ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
-    "shots": [
-     {
-      "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     },
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
-      ]
-     }
-    ],
-    "big": [
-     "FOLLOW KARO",
-     "*ROZ SACH-JHOOTH"
-    ],
-    "big_y": 330,
-    "big_size": 100,
-    "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
-   }
-  ],
-  "style": "viral",
-  "rate": "+8%",
-  "music": [
-   148,
-   614,
-   871
-  ],
-  "end_card": "end_beautilook",
-  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
-  "end_cap": "Feel Good, Look Good, Live Better!",
-  "end_pad": 1.0
- },
- {
-  "name": "s05_8glass",
-  "scenes": [
-   {
-    "v": "m",
-    "say": "सच या झूठ? सबको रोज़ आठ गिलास पानी ज़रूरी है?",
-    "txt": "*SACH ya *JHOOTH? Sabko roz *8 glass paani zaroori hai?",
-    "shots": [
-     {
-      "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
-      ]
-     },
-     {
-      "clip": [
-       "woman-out-for-a-run",
-       "man-and-woman-jogging",
-       "runner-training-in-a-park"
-      ]
-     }
-    ],
-    "big": [
-     "SACH YA JHOOTH?",
-     "*8 GLASS PAANI"
-    ],
-    "big_y": 260,
-    "big_size": 108
-   },
-   {
-    "v": "m",
-    "say": "सोचिए... कमेंट में लिखिए, सच या झूठ!",
-    "txt": "Socho... comment mein likho *SACH ya *JHOOTH!",
-    "shots": [
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
-      ]
-     },
-     {
-      "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     }
-    ],
-    "big": [
-     "COMMENT KARO",
-     "*SACH YA JHOOTH"
-    ],
-    "big_y": 330,
-    "big_size": 100
-   },
-   {
-    "v": "m",
-    "say": "जवाब: ज़रूरत सबकी अलग होती है।",
-    "txt": "Jawab: *zaroorat *sabki alag hoti hai.",
-    "shots": [
-     {
-      "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
-      ]
-     },
-     {
-      "clip": [
-       "people-running-on-treadmills",
-       "woman-doing-warm-up-exercises",
-       "bodybuilder"
-      ]
-     }
-    ],
-    "big": [
-     "JAWAB:",
-     "*SABKI ALAG"
-    ],
-    "big_y": 300,
-    "big_size": 104
-   },
-   {
-    "v": "m",
-    "say": "प्यास सुनिए, थोड़ा-थोड़ा पीते रहिए। पानी की रूटीन के लिए सीएमडी ड्रॉप्स।",
-    "txt": "*Pyaas sunie, thoda-thoda piyo. Paani ki routine ke liye *CMD Drops.",
-    "shots": [
-     {
-      "card": "dig_cmd"
-     },
-     {
-      "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
-      ]
-     }
-    ],
-    "cap_y": 1390
-   },
-   {
-    "v": "m",
-    "say": "रोज़ के सच-झूठ के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
-    "txt": "Roz ke *sach-jhooth ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
-    "shots": [
-     {
-      "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     },
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
-      ]
-     }
-    ],
-    "big": [
-     "FOLLOW KARO",
-     "*ROZ SACH-JHOOTH"
-    ],
-    "big_y": 330,
-    "big_size": 100,
-    "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
-   }
-  ],
-  "style": "viral",
-  "rate": "+8%",
-  "music": [
-   148,
-   614,
-   871
-  ],
-  "end_card": "end_beautilook",
-  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
-  "end_cap": "Feel Good, Look Good, Live Better!",
-  "end_pad": 1.0
- },
- {
-  "name": "s06_dhoop",
-  "scenes": [
-   {
-    "v": "f",
-    "say": "सच या झूठ? धूप सिर्फ़ सर्दी में लेनी चाहिए?",
-    "txt": "*SACH ya *JHOOTH? Dhoop sirf *sardi mein leni chahiye?",
-    "shots": [
-     {
-      "clip": [
-       "sunrise",
-       "man-walks-on-the-rooftop-with-sunrise"
-      ]
-     },
-     {
-      "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
-      ]
-     }
-    ],
-    "big": [
-     "SACH YA JHOOTH?",
-     "*DHOOP SIRF SARDI MEIN?"
-    ],
-    "big_y": 260,
-    "big_size": 108
-   },
-   {
-    "v": "f",
-    "say": "सोचिए... कमेंट में लिखिए, सच या झूठ!",
-    "txt": "Socho... comment mein likho *SACH ya *JHOOTH!",
-    "shots": [
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
-      ]
-     },
-     {
-      "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     }
-    ],
-    "big": [
-     "COMMENT KARO",
-     "*SACH YA JHOOTH"
-    ],
-    "big_y": 330,
-    "big_size": 100
-   },
-   {
-    "v": "f",
-    "say": "जवाब: झूठ! हर मौसम में थोड़ी धूप अच्छी है।",
-    "txt": "Jawab: *JHOOTH! Har mausam mein *thodi dhoop achhi hai.",
-    "shots": [
-     {
-      "clip": [
-       "sunrise",
-       "man-walks-on-the-rooftop-with-sunrise"
-      ]
-     },
-     {
-      "clip": [
-       "woman-stretching-in-the-morning",
-       "silhouette-of-woman-stretching",
-       "a-young-man-stretches-his-arms"
-      ]
-     }
-    ],
-    "big": [
-     "JAWAB:",
-     "*JHOOTH!"
-    ],
-    "big_y": 300,
-    "big_size": 104
-   },
-   {
-    "v": "f",
-    "say": "सुबह की हल्की धूप, और कैल्शियम के साथ विटामिन डी तीन।",
-    "txt": "Subah ki halki *dhoop, aur *Calcium ke saath *Vitamin D3.",
-    "shots": [
-     {
-      "card": "bone_d3"
-     },
-     {
-      "card": "bone_calcium"
-     }
-    ],
-    "cap_y": 1390
-   },
-   {
-    "v": "f",
-    "say": "रोज़ के सच-झूठ के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
-    "txt": "Roz ke *sach-jhooth ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
-    "shots": [
-     {
-      "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     },
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
-      ]
-     }
-    ],
-    "big": [
-     "FOLLOW KARO",
-     "*ROZ SACH-JHOOTH"
-    ],
-    "big_y": 330,
-    "big_size": 100,
-    "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
-   }
-  ],
-  "style": "viral",
-  "rate": "+8%",
-  "music": [
-   148,
-   614,
-   871
-  ],
-  "end_card": "end_beautilook",
-  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
-  "end_cap": "Feel Good, Look Good, Live Better!",
-  "end_pad": 1.0
- },
- {
   "name": "gv01_giveaway",
   "scenes": [
    {
@@ -10751,33 +10193,161 @@
   "end_pad": 1.0
  },
  {
-  "name": "s07_nimbu",
+  "name": "s03_khalipet",
   "scenes": [
    {
-    "v": "f",
-    "say": "सच या झूठ? सुबह गुनगुना पानी और नींबू, वज़न घटा देता है?",
-    "txt": "*SACH ya *JHOOTH? Subah *nimbu paani se *weight ghatta hai?",
+    "v": "m",
+    "say": "सच या झूठ? खाली पेट चाय पीना ठीक है?",
+    "txt": "*SACH ya *JHOOTH? Khaali pet chai peena theek hai?",
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_man_shock"
       ]
      },
      {
       "clip": [
-       "sunrise",
-       "man-walks-on-the-rooftop-with-sunrise"
+       "IN_chai_kolkata",
+       "IN_chai_cup_clay",
+       "IN_chai_pour_clay",
+       "IN_chai_stove",
+       "IN_chai_brass"
       ]
      }
     ],
     "big": [
      "SACH YA JHOOTH?",
-     "*NIMBU PAANI = WEIGHT?"
+     "*KHAALI PET CHAI?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100
+   },
+   {
+    "v": "m",
+    "say": "सोचिए... कमेंट में लिखिए, सच या झूठ!",
+    "txt": "Socho... comment mein likho *SACH ya *JHOOTH!",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_think"
+      ]
+     }
+    ],
+    "big": [
+     "COMMENT KARO",
+     "*SACH YA JHOOTH"
+    ],
+    "big_y": 1000,
+    "big_size": 96
+   },
+   {
+    "v": "f",
+    "say": "जवाब: बेहतर है पहले पानी, फिर कुछ हल्का खाना।",
+    "txt": "Jawab: *behtar hai pehle *paani, phir kuch halka khana.",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_point_up"
+      ]
+     },
+     {
+      "clip": [
+       "IN_milk_man"
+      ]
+     }
+    ],
+    "big": [
+     "JAWAB:",
+     "*PEHLE PAANI"
+    ],
+    "big_y": 1000,
+    "big_size": 100
+   },
+   {
+    "v": "f",
+    "say": "चाय में तुलसी-अदरक डालिए, और रूटीन में तुलसी ड्रॉप भी।",
+    "txt": "Chai mein *tulsi-adrak daaliye, aur routine mein *Tulsi Drop bhi.",
+    "shots": [
+     {
+      "card": "imm_tulsi"
+     },
+     {
+      "clip": [
+       "IN_spices_pour",
+       "IN_herb_grind"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "m",
+    "say": "रोज़ के सच-झूठ के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ke *sach-jhooth ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "IN_woman_present"
+      ]
+     },
+     {
+      "clip": [
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*ROZ SACH-JHOOTH"
+    ],
+    "big_y": 1000,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh general jaankari hai, dawai nahi."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "s04_mobile",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "सच या झूठ? मोबाइल देखते हुए खाना, ज़्यादा खिला देता है?",
+    "txt": "*SACH ya *JHOOTH? Mobile dekhte hue khana, *zyada khila deta hai?",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_ears"
+      ]
+     },
+     {
+      "clip": [
+       "IN_elder_phone",
+       "IN_teen_laptop"
+      ]
+     }
+    ],
+    "big": [
+     "SACH YA JHOOTH?",
+     "*MOBILE + KHANA"
+    ],
+    "big_y": 1000,
+    "big_size": 100
    },
    {
     "v": "f",
@@ -10786,15 +10356,7 @@
     "shots": [
      {
       "clip": [
-       "scrolling-on-his-phone",
-       "girl-lying-down-chatting-on-her-cell-phone"
-      ]
-     },
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_man_think"
       ]
      }
     ],
@@ -10802,52 +10364,55 @@
      "COMMENT KARO",
      "*SACH YA JHOOTH"
     ],
-    "big_y": 330,
-    "big_size": 100
+    "big_y": 1000,
+    "big_size": 96
    },
    {
-    "v": "f",
-    "say": "जवाब: झूठ! कोई चमत्कार नहीं, पर अच्छी आदत ज़रूर है।",
-    "txt": "Jawab: *JHOOTH! Koi *chamatkar nahi, par *achhi aadat zaroor hai.",
+    "v": "m",
+    "say": "जवाब: सच! ध्यान भटकता है, तो पेट का पता नहीं चलता।",
+    "txt": "Jawab: *SACH! Dhyan bhatakta hai, to *pet ka pata nahi chalta.",
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_woman_thumbs"
       ]
      },
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
     "big": [
      "JAWAB:",
-     "*JHOOTH!"
+     "*SACH!"
     ],
-    "big_y": 300,
-    "big_size": 104
+    "big_y": 1000,
+    "big_size": 100
    },
    {
-    "v": "f",
-    "say": "असली फ़र्क़ आता है सही खाने, रोज़ की सैर और अच्छी नींद से।",
-    "txt": "Asli farq: *sahi khana, roz ki *sair, aur achhi *neend se.",
+    "v": "m",
+    "say": "खाते समय सिर्फ़ खाना, और धीरे-धीरे चबाइए।",
+    "txt": "Khaate samay *sirf khana, aur *dheere-dheere chabaiye.",
     "shots": [
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      },
      {
       "clip": [
-       "girl-asleep-on-a-sofa"
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
       ]
      }
     ]
@@ -10859,15 +10424,16 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_woman_present"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -10875,10 +10441,404 @@
      "FOLLOW KARO",
      "*ROZ SACH-JHOOTH"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh general jaankari hai, dawai nahi."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "s05_8glass",
+  "scenes": [
+   {
+    "v": "m",
+    "say": "सच या झूठ? सबको रोज़ आठ गिलास पानी ज़रूरी है?",
+    "txt": "*SACH ya *JHOOTH? Sabko roz *8 glass paani zaroori hai?",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_point_up"
+      ]
+     },
+     {
+      "clip": [
+       "IN_milk_man"
+      ]
+     }
+    ],
+    "big": [
+     "SACH YA JHOOTH?",
+     "*8 GLASS PAANI"
+    ],
+    "big_y": 1000,
+    "big_size": 100
+   },
+   {
+    "v": "m",
+    "say": "सोचिए... कमेंट में लिखिए, सच या झूठ!",
+    "txt": "Socho... comment mein likho *SACH ya *JHOOTH!",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_think"
+      ]
+     }
+    ],
+    "big": [
+     "COMMENT KARO",
+     "*SACH YA JHOOTH"
+    ],
+    "big_y": 1000,
+    "big_size": 96
+   },
+   {
+    "v": "f",
+    "say": "जवाब: ज़रूरत सबकी अलग होती है।",
+    "txt": "Jawab: *zaroorat *sabki alag hoti hai.",
+    "shots": [
+     {
+      "clip": [
+       "IN_woman_shrug"
+      ]
+     },
+     {
+      "clip": [
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
+      ]
+     }
+    ],
+    "big": [
+     "JAWAB:",
+     "*SABKI ALAG"
+    ],
+    "big_y": 1000,
+    "big_size": 100
+   },
+   {
+    "v": "f",
+    "say": "प्यास सुनिए, थोड़ा-थोड़ा पीते रहिए। पानी की रूटीन के लिए सीएमडी ड्रॉप्स।",
+    "txt": "*Pyaas sunie, thoda-thoda piyo. Paani ki routine ke liye *CMD Drops.",
+    "shots": [
+     {
+      "card": "dig_cmd"
+     },
+     {
+      "clip": [
+       "IN_milk_man"
+      ]
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "m",
+    "say": "रोज़ के सच-झूठ के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ke *sach-jhooth ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "IN_woman_present"
+      ]
+     },
+     {
+      "clip": [
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*ROZ SACH-JHOOTH"
+    ],
+    "big_y": 1000,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh general jaankari hai, dawai nahi."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "s06_dhoop",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "सच या झूठ? धूप सिर्फ़ सर्दी में लेनी चाहिए?",
+    "txt": "*SACH ya *JHOOTH? Dhoop sirf *sardi mein leni chahiye?",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_excited"
+      ]
+     },
+     {
+      "clip": [
+       "IN_elder_face",
+       "IN_elder_woman_swing",
+       "IN_elders_bench_sunset"
+      ]
+     }
+    ],
+    "big": [
+     "SACH YA JHOOTH?",
+     "*DHOOP SIRF SARDI MEIN?"
+    ],
+    "big_y": 1000,
+    "big_size": 100
+   },
+   {
+    "v": "f",
+    "say": "सोचिए... कमेंट में लिखिए, सच या झूठ!",
+    "txt": "Socho... comment mein likho *SACH ya *JHOOTH!",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_think"
+      ]
+     }
+    ],
+    "big": [
+     "COMMENT KARO",
+     "*SACH YA JHOOTH"
+    ],
+    "big_y": 1000,
+    "big_size": 96
+   },
+   {
+    "v": "m",
+    "say": "जवाब: झूठ! हर मौसम में थोड़ी धूप अच्छी है।",
+    "txt": "Jawab: *JHOOTH! Har mausam mein *thodi dhoop achhi hai.",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_no"
+      ]
+     },
+     {
+      "clip": [
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
+      ]
+     }
+    ],
+    "big": [
+     "JAWAB:",
+     "*JHOOTH!"
+    ],
+    "big_y": 1000,
+    "big_size": 100
+   },
+   {
+    "v": "m",
+    "say": "सुबह की हल्की धूप, और कैल्शियम के साथ विटामिन डी तीन।",
+    "txt": "Subah ki halki *dhoop, aur *Calcium ke saath *Vitamin D3.",
+    "shots": [
+     {
+      "card": "bone_d3"
+     },
+     {
+      "card": "bone_calcium"
+     }
+    ],
+    "cap_y": 1390
+   },
+   {
+    "v": "f",
+    "say": "रोज़ के सच-झूठ के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ke *sach-jhooth ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "IN_woman_present"
+      ]
+     },
+     {
+      "clip": [
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*ROZ SACH-JHOOTH"
+    ],
+    "big_y": 1000,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh general jaankari hai, dawai nahi."
+   }
+  ],
+  "style": "viral",
+  "rate": "+8%",
+  "music": [
+   148,
+   614,
+   871
+  ],
+  "end_card": "end_beautilook",
+  "end_say": "फील गुड, लुक गुड, लिव बेटर!",
+  "end_cap": "Feel Good, Look Good, Live Better!",
+  "end_pad": 1.0
+ },
+ {
+  "name": "s07_nimbu",
+  "scenes": [
+   {
+    "v": "f",
+    "say": "सच या झूठ? सुबह गुनगुना पानी और नींबू, वज़न घटा देता है?",
+    "txt": "*SACH ya *JHOOTH? Subah *nimbu paani se *weight ghatta hai?",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_shock"
+      ]
+     },
+     {
+      "clip": [
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
+      ]
+     }
+    ],
+    "big": [
+     "SACH YA JHOOTH?",
+     "*NIMBU PAANI = WEIGHT?"
+    ],
+    "big_y": 1000,
+    "big_size": 100
+   },
+   {
+    "v": "f",
+    "say": "सोचिए... कमेंट में लिखिए, सच या झूठ!",
+    "txt": "Socho... comment mein likho *SACH ya *JHOOTH!",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_think"
+      ]
+     }
+    ],
+    "big": [
+     "COMMENT KARO",
+     "*SACH YA JHOOTH"
+    ],
+    "big_y": 1000,
+    "big_size": 96
+   },
+   {
+    "v": "m",
+    "say": "जवाब: झूठ! कोई चमत्कार नहीं, पर अच्छी आदत ज़रूर है।",
+    "txt": "Jawab: *JHOOTH! Koi *chamatkar nahi, par *achhi aadat zaroor hai.",
+    "shots": [
+     {
+      "clip": [
+       "IN_man_no"
+      ]
+     },
+     {
+      "clip": [
+       "IN_kitchen_woman",
+       "IN_kitchen_woman2",
+       "IN_kitchen_stove"
+      ]
+     }
+    ],
+    "big": [
+     "JAWAB:",
+     "*JHOOTH!"
+    ],
+    "big_y": 1000,
+    "big_size": 100
+   },
+   {
+    "v": "m",
+    "say": "असली फ़र्क़ आता है सही खाने, रोज़ की सैर और अच्छी नींद से।",
+    "txt": "Asli farq: *sahi khana, roz ki *sair, aur achhi *neend se.",
+    "shots": [
+     {
+      "clip": [
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
+      ]
+     },
+     {
+      "clip": [
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
+      ]
+     }
+    ]
+   },
+   {
+    "v": "f",
+    "say": "रोज़ के सच-झूठ के लिए फ़ॉलो करिए, और फ्री चार्ट के लिए चार्ट लिखिए!",
+    "txt": "Roz ke *sach-jhooth ke liye *FOLLOW karo, free chart ke liye *CHART likho!",
+    "shots": [
+     {
+      "clip": [
+       "IN_woman_present"
+      ]
+     },
+     {
+      "clip": [
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
+      ]
+     }
+    ],
+    "big": [
+     "FOLLOW KARO",
+     "*ROZ SACH-JHOOTH"
+    ],
+    "big_y": 1000,
+    "big_size": 100,
+    "dm": "DM NOW  •  CHART",
+    "small": "Yeh general jaankari hai, dawai nahi."
    }
   ],
   "style": "viral",
@@ -10903,14 +10863,13 @@
     "shots": [
      {
       "clip": [
-       "waking-up-and-drinking-coffee",
-       "male-office-worker-yawning"
+       "IN_man_point_up"
       ]
      },
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_breakfast_puri",
+       "IN_puri_fry"
       ]
      }
     ],
@@ -10918,8 +10877,8 @@
      "SACH YA JHOOTH?",
      "*NAASHTA SKIP?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100
    },
    {
     "v": "m",
@@ -10928,15 +10887,7 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     },
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_man_think"
       ]
      }
     ],
@@ -10944,25 +10895,23 @@
      "COMMENT KARO",
      "*SACH YA JHOOTH"
     ],
-    "big_y": 330,
-    "big_size": 100
+    "big_y": 1000,
+    "big_size": 96
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "जवाब: झूठ! कई लोगों के लिए अच्छा नाश्ता दिन की अच्छी शुरुआत है।",
     "txt": "Jawab: *JHOOTH! Kai logon ke liye *achha naashta din ki shuruaat hai.",
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_man_no"
       ]
      },
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_breakfast_puri",
+       "IN_puri_fry"
       ]
      }
     ],
@@ -10970,24 +10919,26 @@
      "JAWAB:",
      "*JHOOTH!"
     ],
-    "big_y": 300,
-    "big_size": 104
+    "big_y": 1000,
+    "big_size": 100
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "दलिया, फल या दही जैसा हल्का नाश्ता चुनिए।",
     "txt": "*Daliya, *fal ya *dahi jaisa halka naashta chuniye.",
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      },
      {
       "clip": [
-       "milk-being-poured",
-       "continuous-stream-of-pristine-white-milk"
+       "IN_milk_man"
       ]
      }
     ]
@@ -10999,15 +10950,16 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_woman_present"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -11015,10 +10967,10 @@
      "FOLLOW KARO",
      "*ROZ SACH-JHOOTH"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh general jaankari hai, dawai nahi."
    }
   ],
   "style": "viral",
@@ -11043,14 +10995,12 @@
     "shots": [
      {
       "clip": [
-       "dark-starry-night",
-       "full-moon"
+       "IN_man_ears"
       ]
      },
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_diya_kitchen"
       ]
      }
     ],
@@ -11058,8 +11008,8 @@
      "SACH YA JHOOTH?",
      "*DER RAAT KA KHANA?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100
    },
    {
     "v": "f",
@@ -11068,14 +11018,7 @@
     "shots": [
      {
       "clip": [
-       "male-office-worker-yawning",
-       "man-walking-into-office-building"
-      ]
-     },
-     {
-      "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_man_think"
       ]
      }
     ],
@@ -11083,24 +11026,26 @@
      "COMMENT KARO",
      "*SACH YA JHOOTH"
     ],
-    "big_y": 330,
-    "big_size": 100
+    "big_y": 1000,
+    "big_size": 96
    },
    {
-    "v": "f",
+    "v": "m",
     "say": "जवाब: झूठ! सोने से दो-तीन घंटे पहले हल्का खाना बेहतर माना जाता है।",
     "txt": "Jawab: *JHOOTH! Sone se *2-3 ghante pehle *halka khana behtar maana jaata hai.",
     "shots": [
      {
       "clip": [
-       "dark-starry-night",
-       "full-moon"
+       "IN_man_no"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -11108,25 +11053,25 @@
      "JAWAB:",
      "*JHOOTH!"
     ],
-    "big_y": 300,
-    "big_size": 104
+    "big_y": 1000,
+    "big_size": 100
    },
    {
-    "v": "f",
+    "v": "m",
     "say": "रात को थोड़ा टहलिए और पानी आराम से पीजिए।",
     "txt": "Raat ko thoda *tehliye, aur *paani aaraam se piyo.",
     "shots": [
      {
       "clip": [
-       "dark-starry-night",
-       "full-moon"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      },
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      }
     ]
@@ -11138,15 +11083,16 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_woman_present"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -11154,10 +11100,10 @@
      "FOLLOW KARO",
      "*ROZ SACH-JHOOTH"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh general jaankari hai, dawai nahi."
    }
   ],
   "style": "viral",
@@ -11182,15 +11128,15 @@
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_man_shock"
       ]
      },
      {
       "clip": [
-       "people-running-on-treadmills",
-       "woman-doing-warm-up-exercises",
-       "bodybuilder"
+       "IN_roti_stove",
+       "IN_dough_tandoor",
+       "IN_puri_fry",
+       "IN_puri_kadai"
       ]
      }
     ],
@@ -11198,8 +11144,8 @@
      "SACH YA JHOOTH?",
      "*ROTI CHHODNI HAI?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100
    },
    {
     "v": "m",
@@ -11208,14 +11154,7 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
-      ]
-     },
-     {
-      "clip": [
-       "male-office-worker-yawning",
-       "man-walking-into-office-building"
+       "IN_man_think"
       ]
      }
     ],
@@ -11223,24 +11162,25 @@
      "COMMENT KARO",
      "*SACH YA JHOOTH"
     ],
-    "big_y": 330,
-    "big_size": 100
+    "big_y": 1000,
+    "big_size": 96
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "जवाब: झूठ! मात्रा और संतुलन मायने रखता है।",
     "txt": "Jawab: *JHOOTH! *Matra aur *santulan mayne rakhta hai.",
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_man_no"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_roti_stove",
+       "IN_dough_tandoor",
+       "IN_puri_fry",
+       "IN_puri_kadai"
       ]
      }
     ],
@@ -11248,24 +11188,27 @@
      "JAWAB:",
      "*JHOOTH!"
     ],
-    "big_y": 300,
-    "big_size": 104
+    "big_y": 1000,
+    "big_size": 100
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "दाल, सब्ज़ी और सलाद के साथ घर की रोटी, सही मात्रा में।",
     "txt": "*Dal, *sabzi aur *salad ke saath ghar ki roti, sahi matra mein.",
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ]
@@ -11277,15 +11220,16 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_woman_present"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -11293,10 +11237,10 @@
      "FOLLOW KARO",
      "*ROZ SACH-JHOOTH"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh general jaankari hai, dawai nahi."
    }
   ],
   "style": "viral",
@@ -11321,15 +11265,15 @@
     "shots": [
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_man_excited"
       ]
      },
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -11337,8 +11281,8 @@
      "SACH YA JHOOTH?",
      "*KHANE KE BAAD TEHALNA"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100
    },
    {
     "v": "f",
@@ -11347,15 +11291,7 @@
     "shots": [
      {
       "clip": [
-       "male-office-worker-yawning",
-       "man-walking-into-office-building"
-      ]
-     },
-     {
-      "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_man_think"
       ]
      }
     ],
@@ -11363,26 +11299,25 @@
      "COMMENT KARO",
      "*SACH YA JHOOTH"
     ],
-    "big_y": 330,
-    "big_size": 100
+    "big_y": 1000,
+    "big_size": 96
    },
    {
-    "v": "f",
+    "v": "m",
     "say": "जवाब: सच! हल्की सैर को पाचन के लिए अच्छी आदत माना जाता है।",
     "txt": "Jawab: *SACH! Halki *sair ko *pachan ke liye achhi aadat maana jaata hai.",
     "shots": [
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_woman_thumbs"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -11390,11 +11325,11 @@
      "JAWAB:",
      "*SACH!"
     ],
-    "big_y": 300,
-    "big_size": 104
+    "big_y": 1000,
+    "big_size": 100
    },
    {
-    "v": "f",
+    "v": "m",
     "say": "पाचन की रूटीन के लिए कामधेनु रस भी देखिए।",
     "txt": "*Pachan ki routine ke liye *Kamdudha Ras bhi dekhiye.",
     "shots": [
@@ -11403,9 +11338,10 @@
      },
      {
       "clip": [
-       "backlit-woman-walking-at-sunset",
-       "family-walking-together-in-nature",
-       "nature-walk-as-a-couple"
+       "IN_couple_walk_street",
+       "IN_couple_walk_hands",
+       "IN_woman_walk_lake",
+       "IN_elders_bench_sunset"
       ]
      }
     ],
@@ -11418,15 +11354,16 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_woman_present"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -11434,10 +11371,10 @@
      "FOLLOW KARO",
      "*ROZ SACH-JHOOTH"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh general jaankari hai, dawai nahi."
    }
   ],
   "style": "viral",
@@ -11462,12 +11399,14 @@
     "shots": [
      {
       "clip": [
-       "girl-asleep-on-a-sofa"
+       "IN_man_ears"
       ]
      },
      {
       "clip": [
-       "girl-using-her-cell-phone-at-night"
+       "IN_office_woman",
+       "IN_office_man_think",
+       "IN_teen_laptop"
       ]
      }
     ],
@@ -11475,8 +11414,8 @@
      "SACH YA JHOOTH?",
      "*KAM NEEND = ZYADA BHOOKH?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100
    },
    {
     "v": "m",
@@ -11485,14 +11424,7 @@
     "shots": [
      {
       "clip": [
-       "dark-starry-night",
-       "full-moon"
-      ]
-     },
-     {
-      "clip": [
-       "scrolling-on-his-phone",
-       "girl-lying-down-chatting-on-her-cell-phone"
+       "IN_man_think"
       ]
      }
     ],
@@ -11500,23 +11432,26 @@
      "COMMENT KARO",
      "*SACH YA JHOOTH"
     ],
-    "big_y": 330,
-    "big_size": 100
+    "big_y": 1000,
+    "big_size": 96
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "जवाब: सच! कई शोध में नींद और भूख का संबंध देखा गया है।",
     "txt": "Jawab: *SACH! Kai *shodh mein *neend aur *bhookh ka sambandh dekha gaya hai.",
     "shots": [
      {
       "clip": [
-       "girl-asleep-on-a-sofa"
+       "IN_woman_thumbs"
       ]
      },
      {
       "clip": [
-       "dark-starry-night",
-       "full-moon"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      }
     ],
@@ -11524,23 +11459,27 @@
      "JAWAB:",
      "*SACH!"
     ],
-    "big_y": 300,
-    "big_size": 104
+    "big_y": 1000,
+    "big_size": 100
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "रोज़ समय पर सोइए, और सोने से पहले मोबाइल दूर रखिए।",
     "txt": "Roz *samay par soiye, aur sone se pehle *mobile door rakhiye.",
     "shots": [
      {
       "clip": [
-       "girl-asleep-on-a-sofa"
+       "IN_yoga_woman",
+       "IN_yoga_woman2",
+       "IN_yoga_man_garden",
+       "IN_namaste_women",
+       "IN_woman_namaste_smile"
       ]
      },
      {
       "clip": [
-       "dark-starry-night",
-       "full-moon"
+       "IN_elder_phone",
+       "IN_teen_laptop"
       ]
      }
     ]
@@ -11552,15 +11491,16 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_woman_present"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -11568,10 +11508,10 @@
      "FOLLOW KARO",
      "*ROZ SACH-JHOOTH"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh general jaankari hai, dawai nahi."
    }
   ],
   "style": "viral",
@@ -11596,15 +11536,13 @@
     "shots": [
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
+       "IN_man_namaste"
       ]
      },
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -11612,8 +11550,8 @@
      "SACH YA JHOOTH?",
      "*GUD YA SAUNF?"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100
    },
    {
     "v": "f",
@@ -11622,14 +11560,7 @@
     "shots": [
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
-      ]
-     },
-     {
-      "clip": [
-       "honey-dipper"
+       "IN_man_think"
       ]
      }
     ],
@@ -11637,24 +11568,23 @@
      "COMMENT KARO",
      "*SACH YA JHOOTH"
     ],
-    "big_y": 330,
-    "big_size": 100
+    "big_y": 1000,
+    "big_size": 96
    },
    {
-    "v": "f",
+    "v": "m",
     "say": "जवाब: सच! बस मात्रा छोटी रखिए।",
     "txt": "Jawab: *SACH! Bas *matra *chhoti rakhiye.",
     "shots": [
      {
       "clip": [
-       "honey-dipper"
+       "IN_woman_thumbs"
       ]
      },
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      }
     ],
@@ -11662,27 +11592,27 @@
      "JAWAB:",
      "*SACH!"
     ],
-    "big_y": 300,
-    "big_size": 104
+    "big_y": 1000,
+    "big_size": 100
    },
    {
-    "v": "f",
+    "v": "m",
     "say": "थोड़ी सी सौंफ़ या छोटी डली गुड़, ज़रूरत भर।",
     "txt": "Thodi si *saunf ya chhoti dali *gud, *zaroorat bhar.",
     "shots": [
      {
       "clip": [
-       "different-spices-with-tags",
-       "pepper-mix-spices",
-       "oriental-spices"
+       "IN_spices_pour",
+       "IN_herb_grind"
       ]
      },
      {
       "clip": [
-       "woman-cutting-herbs-in-the-kitchen",
-       "farmers-market-display-of-fresh-herbs",
-       "chopping-up-herbs",
-       "adding-herbs-to-a-bowl"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ]
@@ -11694,15 +11624,16 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_woman_present"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -11710,10 +11641,10 @@
      "FOLLOW KARO",
      "*ROZ SACH-JHOOTH"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh general jaankari hai, dawai nahi."
    }
   ],
   "style": "viral",
@@ -11738,16 +11669,12 @@
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_man_point_up"
       ]
      },
      {
       "clip": [
-       "a-woman-choosing-fruit",
-       "blending-a-fruit-smoothie",
-       "fresh-sliced-fruit"
+       "IN_milk_man"
       ]
      }
     ],
@@ -11755,8 +11682,8 @@
      "SACH YA JHOOTH?",
      "*KHANE SE PEHLE PAANI"
     ],
-    "big_y": 260,
-    "big_size": 108
+    "big_y": 1000,
+    "big_size": 100
    },
    {
     "v": "m",
@@ -11765,15 +11692,7 @@
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
-      ]
-     },
-     {
-      "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_man_think"
       ]
      }
     ],
@@ -11781,25 +11700,26 @@
      "COMMENT KARO",
      "*SACH YA JHOOTH"
     ],
-    "big_y": 330,
-    "big_size": 100
+    "big_y": 1000,
+    "big_size": 96
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "जवाब: कुछ लोगों के लिए सच! पेट थोड़ा भरा लगता है।",
     "txt": "Jawab: *kuch logon ke liye *SACH! Pet thoda bhara lagta hai.",
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_woman_shrug"
       ]
      },
      {
       "clip": [
-       "fresh-vegetables-on-a-wooden-board",
-       "chef-preparing-salad"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -11807,25 +11727,26 @@
      "JAWAB:",
      "*KUCH LOGON KE LIYE SACH"
     ],
-    "big_y": 300,
-    "big_size": 104
+    "big_y": 1000,
+    "big_size": 100
    },
    {
-    "v": "m",
+    "v": "f",
     "say": "एक गिलास पानी आराम से, और फिर धीरे-धीरे खाइए।",
     "txt": "Ek glass *paani aaraam se, phir *dheere-dheere khaiye.",
     "shots": [
      {
       "clip": [
-       "woman-drinks-water-from-her-glass",
-       "woman-drinks-from-water-bottle",
-       "silhouette-of-man-drinking-water"
+       "IN_milk_man"
       ]
      },
      {
       "clip": [
-       "pasta-with-cheese-and-herbs",
-       "chef-cooking-stir-fry"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ]
@@ -11837,15 +11758,16 @@
     "shots": [
      {
       "clip": [
-       "friends-running-in-the-countryside",
-       "friends"
+       "IN_woman_present"
       ]
      },
      {
       "clip": [
-       "a-well-groomed-woman-while-laughing",
-       "mature-black-woman-smiling",
-       "a-girls-face-in-detail-while-smiling"
+       "IN_family_table",
+       "IN_thali_close",
+       "IN_man_table",
+       "IN_boy_eat",
+       "IN_curry_dish"
       ]
      }
     ],
@@ -11853,10 +11775,10 @@
      "FOLLOW KARO",
      "*ROZ SACH-JHOOTH"
     ],
-    "big_y": 330,
+    "big_y": 1000,
     "big_size": 100,
     "dm": "DM NOW  •  CHART",
-    "small": "Yeh ek wellness product hai. Results alag-alag ho sakte hain."
+    "small": "Yeh general jaankari hai, dawai nahi."
    }
   ],
   "style": "viral",

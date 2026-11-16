@@ -129,8 +129,11 @@ def make_sfx():
     # pop: short rising blip
     n = int(SR * 0.14); t = np.arange(n) / SR; _wav("tmp/v/pop.wav", np.sin(2 * np.pi * (500 + 2500 * t) * t) * np.exp(-t * 28) * 0.8)
 
+POLISH = ("highpass=f=85,equalizer=f=220:t=q:w=1:g=-2,equalizer=f=3200:t=q:w=1.1:g=2.5,"
+          "acompressor=threshold=-21dB:ratio=3:attack=6:release=90,loudnorm=I=-16:TP=-1.5:LRA=7")
 def voice(text, vname, out):
-    """tts -> trim silence both ends, +8% tempo (punchier) -> wav; returns duration"""
+    """tts -> trim silence both ends -> light de-mud / presence EQ + gentle compression + loudness match -> wav; returns duration.
+    No atempo any more: speed comes only from M.RATE (natural), the old double speed-up made the voice sound rushed."""
     raw = out.replace(".wav", "_raw.mp3")
     if TEST:
         n = max(1.4, len(text.split()) * 0.34)
@@ -138,7 +141,7 @@ def voice(text, vname, out):
     else:
         M.tts(text, vname, raw)
     sil = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03"
-    M.run(["ffmpeg", "-y", "-i", raw, "-af", f"{sil},areverse,{sil},areverse,atempo=1.08", "-ar", str(SR), "-ac", "1", out])
+    M.run(["ffmpeg", "-y", "-i", raw, "-af", f"{sil},areverse,{sil},areverse,{POLISH}", "-ar", str(SR), "-ac", "1", out])
     return M.dur(out)
 
 # ---------------------------------------------------------------- video
@@ -158,12 +161,12 @@ def probe_wh(p):
     r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", p], capture_output=True, text=True).stdout.strip().split(",")
     return int(r[0]), int(r[1])
 
-def clip_shot(clip, secs, out, punch=0.14):
+def clip_shot(clip, secs, out, punch=0.14, ss=0.0):
     w0, h0 = probe_wh(clip)
     if w0 / h0 >= W / H: sc = f"scale=w=-2:h='trunc(({H}*1.04+{H}*{punch}*t/{secs:.2f})/2)*2':eval=frame"
     else:                sc = f"scale=w='trunc(({W}*1.04+{W}*{punch}*t/{secs:.2f})/2)*2':h=-2:eval=frame"
     vf = f"[0:v]{sc},crop={W}:{H},fps={FPS},eq=saturation=1.14:contrast=1.07,setsar=1,format=yuv420p[o]"
-    M.run(["ffmpeg", "-y", "-stream_loop", "-1", "-i", clip, "-t", f"{secs:.2f}", "-filter_complex", vf, "-map", "[o]", "-an",
+    M.run(["ffmpeg", "-y", "-stream_loop", "-1", "-ss", f"{ss:.2f}", "-i", clip, "-t", f"{secs:.2f}", "-filter_complex", vf, "-map", "[o]", "-an",
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", out])
 
 def photo_shot(png, secs, out):
@@ -175,7 +178,7 @@ def photo_shot(png, secs, out):
 
 def make(reel):
     name = reel["name"]
-    M.RATE, M.CAPSIZE, M.LIGHT, M.FADE = reel.get("rate", "+8%"), 64, False, 0.0
+    M.RATE, M.CAPSIZE, M.LIGHT, M.FADE = reel.get("voice_rate", "-3%"), 64, False, 0.0
     make_sfx()
     used, parts, voices, cuts, pops = set(), [], [], [], []          # cuts: absolute times of every shot start
     t0, n_scenes = 0.0, len(reel["scenes"])
@@ -196,7 +199,12 @@ def make(reel):
             elif sh.get("img"): photo_shot(img_png(sh["img"], f"tmp/v/{name}_{i}_{j}.png", sh.get("zoom", 1.0), sh.get("fx", 0.5), sh.get("fy", 0.5)), each, o)
             elif sh.get("card"): photo_shot(f"cards/{sh['card']}.jpg", each, o)
             elif sh.get("photo"): photo_shot(photo_png(sh["photo"], f"tmp/v/{name}_{i}_{j}.png"), each, o)
-            else: clip_shot(get_clip(sh["clip"], zlib.crc32(f"{name}{i}{j}".encode()), used), each, o, sh.get("punch", 0.14))
+            else:
+                seed = zlib.crc32(f"{name}{i}{j}".encode()); cp = get_clip(sh["clip"], seed, used); ss = sh.get("ss", 0.0)
+                if not ss and not TEST and "/px" in cp.replace("\\", "/"):          # long Pexels clips: start somewhere different in every reel
+                    room = M.dur(cp) - each - 1.0
+                    if room > 1: ss = float(seed % int(room))
+                clip_shot(cp, each, o, sh.get("punch", 0.14), ss)
             raws.append(o); cuts.append(t0 + j * each)
         lst = f"tmp/v/{name}_{i}.txt"; open(lst, "w").write("".join(f"file '{os.path.abspath(p)}'\n" for p in raws))
         raw = f"tmp/v/{name}_{i}_raw.mp4"; M.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", raw])
@@ -234,7 +242,7 @@ def make(reel):
     # audio: voices + sfx on cuts + music ducked under voice
     ains, af = [], []
     for k, (p, st) in enumerate(voices):
-        ains += ["-i", p]; ms = int(st * 1000); af.append(f"[{k}:a]adelay={ms}|{ms},volume=1.7[v{k}]")
+        ains += ["-i", p]; ms = int(st * 1000); af.append(f"[{k}:a]adelay={ms}|{ms},volume=1.0[v{k}]")
     nv = len(voices); sfx_in = []
     for k, ct in enumerate(cuts):
         src, vol = ("tmp/v/hit.wav", 0.8) if k == 0 else ("tmp/v/whoosh.wav", 0.55)

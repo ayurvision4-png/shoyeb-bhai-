@@ -21,7 +21,23 @@ def get(url, binary=False):
     d = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
     return d if binary else d.decode("utf8", "ignore")
 
-SCOUT = [l.split("\t") for f in ("scout.txt", "scout2.txt") if os.path.exists(f) for l in open(f).read().splitlines() if "\t" in l and not l.startswith("#")]
+SCOUT = [l.split("\t") for f in ("scout.txt", "scout2.txt", "scout_px.txt") if os.path.exists(f) for l in open(f).read().splitlines() if "\t" in l and not l.startswith("#")]
+def fetch_px(pid):
+    """Pexels free-licence clip -> tmp/clips/px<id>.mp4, re-encoded to <=1920 px tall, <=24 s (cached). None if it fails."""
+    out = f"tmp/clips/px{pid}.mp4"
+    if os.path.exists(out) and os.path.getsize(out) > 50000: return out
+    raw = f"tmp/clips/px{pid}_raw.mp4"
+    for k in range(3):
+        try:
+            open(raw, "wb").write(get(f"https://www.pexels.com/download/video/{pid}/", True))
+            if os.path.getsize(raw) < 50000: raise RuntimeError("tiny file")
+            run(["ffmpeg", "-y", "-t", "24", "-i", raw, "-an", "-vf", "scale='if(gt(iw,ih),-2,min(1080,iw))':'if(gt(iw,ih),min(1920,ih),-2)',fps=30",
+                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p", out])
+            os.remove(raw); return out
+        except BaseException as e:
+            print("px download retry", pid, k, str(e)[:80]); import time; time.sleep(2 + 3 * k)
+    return None
+
 def fetch_clip(patterns, seed, used, fallback=False):
     rx = re.compile("|".join(patterns))
     cands = [i for i, n in SCOUT if rx.search(n) and i not in used]
@@ -32,6 +48,10 @@ def fetch_clip(patterns, seed, used, fallback=False):
     if not cands: raise RuntimeError(f"no clip for {patterns}")
     order = cands[seed % len(cands):] + cands[:seed % len(cands)]
     for cid in order:
+        if cid.startswith("px"):
+            p = fetch_px(cid[2:])
+            if p: used.add(cid); return p
+            continue
         for q in ("1080", "720", "360"):
             path = f"tmp/clips/{cid}.mp4"
             try:
@@ -42,23 +62,37 @@ def fetch_clip(patterns, seed, used, fallback=False):
     raise RuntimeError(f"download failed {patterns}")
 
 EDGE_OK = True
+RATE = "-3%"          # natural pace (the old +8% rate AND atempo 1.08 stacked to ~1.17x and sounded rushed / robotic)
+# Latin words inside Hindi lines -> Devanagari respelling, so the Hindi voice does not read them with an English accent
+SPEAKFIX = {
+    "teamex": "टीमेक्स", "whatsapp": "व्हाट्सऐप", "dm": "डी एम", "chart": "चार्ट", "combo": "कॉम्बो", "curcumin": "करक्यूमिन",
+    "beautilook": "ब्यूटीलुक", "wellness": "वेलनेस", "follow": "फ़ॉलो", "free": "फ्री", "kit": "किट", "order": "ऑर्डर", "now": "नाउ",
+    "drink": "ड्रिंक", "drinks": "ड्रिंक्स", "gummy": "गमी", "noni": "नोनी", "tulsi": "तुलसी", "drops": "ड्रॉप्स", "cmd": "सी एम डी",
+    "ayurvision": "आयुर्विज़न", "vitamin": "विटामिन", "d3": "डी थ्री", "b12": "बी बारह", "omega": "ओमेगा", "protein": "प्रोटीन",
+    "ok": "ओके", "tips": "टिप्स", "tip": "टिप", "story": "स्टोरी", "reel": "रील", "share": "शेयर", "save": "सेव", "comment": "कमेंट",
+}
+def speakfix(text):
+    def rep(m):
+        w = m.group(0); return SPEAKFIX.get(w.lower(), w)
+    return re.sub(r"[A-Za-z][A-Za-z0-9]*", rep, text)
+
 def tts(text, voice, out):
     global EDGE_OK
     pre = f"audio/{zlib.crc32(text.encode()):08x}.mp3"
     if os.path.exists(pre) and os.path.getsize(pre) > 1000:
         import shutil; shutil.copy(pre, out); print('using ElevenLabs', pre); return
     import edge_tts, time
-    last = None
-    for k in range(5 if EDGE_OK else 0):
+    last = None; spoken = speakfix(text)
+    for k in range(6 if EDGE_OK else 0):
         try:
-            asyncio.run(edge_tts.Communicate(text, voice, rate=RATE).save(out))
+            asyncio.run(edge_tts.Communicate(spoken, voice, rate=RATE).save(out))
             if os.path.getsize(out) > 1000: return
         except Exception as e:
             last = e; print("edge-tts retry", k, str(e)[:80]); time.sleep(3 + 4 * k)
     EDGE_OK = False
-    from gtts import gTTS  # backup voice
-    print("using gTTS backup")
-    gTTS(text, lang="en", tld="co.in").save(out)
+    from gtts import gTTS  # last-resort backup (Hindi, not English): logged so a bad voice never ships unnoticed
+    print("VOICE FALLBACK gTTS-hi:", text[:50]); open("voice_fallback.txt", "a", encoding="utf8").write(text[:80] + "\n")
+    gTTS(spoken, lang="hi").save(out)
 
 def draw_mixed(d, cx, y, text, size, fill, shadow=True):
     shadow = shadow and fill == 'white'

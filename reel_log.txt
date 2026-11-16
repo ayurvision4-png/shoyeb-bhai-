@@ -1,88 +1,20 @@
 viral font: /usr/share/fonts/opentype/montserrat/Montserrat-ExtraBold.otf
-CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 592
-CLIP OK ['sunrise', 'man-walks-on-the-rooftop-with-sunrise'] -> 30976
-CLIP OK ['scrolling-on-his-phone', 'girl-lying-down-chatting-on-her-cell-phone'] -> 39789
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 26097
-CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 22817
-CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 39767
-CLIP OK ['girl-asleep-on-a-sofa'] -> 33455
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4898
-done s07_nimbu 25.4 s
-CLIP OK ['waking-up-and-drinking-coffee', 'male-office-worker-yawning'] -> 33743
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 11862
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 47555
-CLIP OK ['a-woman-choosing-fruit', 'blending-a-fruit-smoothie', 'fresh-sliced-fruit'] -> 10419
-CLIP FALLBACK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 4420
-CLIP OK ['milk-being-poured', 'continuous-stream-of-pristine-white-milk'] -> 52203
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-done s08_naashta 22.8 s
-CLIP OK ['dark-starry-night', 'full-moon'] -> 30605
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 47555
-CLIP OK ['male-office-worker-yawning', 'man-walking-into-office-building'] -> 33743
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
-CLIP OK ['dark-starry-night', 'full-moon'] -> 4433
-CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 13258
-CLIP FALLBACK ['dark-starry-night', 'full-moon'] -> 4855
-CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 592
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
-done s09_raat 25.1 s
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 11862
-CLIP OK ['people-running-on-treadmills', 'woman-doing-warm-up-exercises', 'bodybuilder'] -> 23348
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-CLIP OK ['male-office-worker-yawning', 'man-walking-into-office-building'] -> 25269
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 47555
-CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 10420
-CLIP FALLBACK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 529
-CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 13258
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-done s10_roti 23.1 s
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 47555
-CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 41579
-CLIP OK ['male-office-worker-yawning', 'man-walking-into-office-building'] -> 33743
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4883
-CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 39767
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 4898
-CLIP OK ['backlit-woman-walking-at-sunset', 'family-walking-together-in-nature', 'nature-walk-as-a-couple'] -> 4629
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-done s11_tehelna 23.8 s
-CLIP OK ['girl-asleep-on-a-sofa'] -> 33455
-CLIP OK ['girl-using-her-cell-phone-at-night'] -> 43385
-CLIP OK ['dark-starry-night', 'full-moon'] -> 4433
-CLIP OK ['scrolling-on-his-phone', 'girl-lying-down-chatting-on-her-cell-phone'] -> 39789
-CLIP FALLBACK ['girl-asleep-on-a-sofa'] -> 3394
-CLIP OK ['dark-starry-night', 'full-moon'] -> 30605
-CLIP FALLBACK ['girl-asleep-on-a-sofa'] -> 51739
-CLIP FALLBACK ['dark-starry-night', 'full-moon'] -> 4617
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-done s12_neend 22.9 s
-CLIP OK ['different-spices-with-tags', 'pepper-mix-spices', 'oriental-spices'] -> 34634
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 11862
-CLIP OK ['different-spices-with-tags', 'pepper-mix-spices', 'oriental-spices'] -> 32306
-CLIP OK ['honey-dipper'] -> 2801
-CLIP FALLBACK ['honey-dipper'] -> 51741
-CLIP OK ['different-spices-with-tags', 'pepper-mix-spices', 'oriental-spices'] -> 32024
-CLIP FALLBACK ['different-spices-with-tags', 'pepper-mix-spices', 'oriental-spices'] -> 43800
-CLIP OK ['woman-cutting-herbs-in-the-kitchen', 'farmers-market-display-of-fresh-herbs', 'chopping-up-herbs', 'adding-herbs-to-a-bowl'] -> 15554
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 23582
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-done s13_saunf 23.4 s
-CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 592
-CLIP OK ['a-woman-choosing-fruit', 'blending-a-fruit-smoothie', 'fresh-sliced-fruit'] -> 10419
-CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 597
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 11862
-CLIP OK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 26097
-CLIP OK ['fresh-vegetables-on-a-wooden-board', 'chef-preparing-salad'] -> 13258
-CLIP FALLBACK ['woman-drinks-water-from-her-glass', 'woman-drinks-from-water-bottle', 'silhouette-of-man-drinking-water'] -> 30468
-CLIP OK ['pasta-with-cheese-and-herbs', 'chef-cooking-stir-fry'] -> 47555
-CLIP OK ['friends-running-in-the-countryside', 'friends'] -> 21237
-CLIP OK ['a-well-groomed-woman-while-laughing', 'mature-black-woman-smiling', 'a-girls-face-in-detail-while-smiling'] -> 52196
-done s14_paani_pehle 22.8 s
+CLIP OK ['IN_man_shock'] -> px10149184
+CLIP OK ['IN_chai_kolkata', 'IN_chai_cup_clay', 'IN_chai_pour_clay', 'IN_chai_stove', 'IN_chai_brass'] -> px32355849
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_man_point_up'] -> px10149177
+CLIP OK ['IN_milk_man'] -> px36815704
+CLIP OK ['IN_spices_pour', 'IN_herb_grind'] -> px11960193
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346270
+done s03_khalipet 25.9 s
+CLIP OK ['IN_man_ears'] -> px10149180
+CLIP OK ['IN_elder_phone', 'IN_teen_laptop'] -> px36717013
+CLIP OK ['IN_man_think'] -> px16072503
+CLIP OK ['IN_woman_thumbs'] -> px10149025
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px8811044
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px8811060
+CLIP OK ['IN_kitchen_woman', 'IN_kitchen_woman2', 'IN_kitchen_stove'] -> px9347896
+CLIP OK ['IN_woman_present'] -> px10149028
+CLIP OK ['IN_family_table', 'IN_thali_close', 'IN_man_table', 'IN_boy_eat', 'IN_curry_dish'] -> px9346270
+done s04_mobile 27.5 s
